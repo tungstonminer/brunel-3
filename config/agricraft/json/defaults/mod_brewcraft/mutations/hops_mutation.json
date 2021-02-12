@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/hops_mutation.json",
+  "enabled": true,
+  "chance": 0.1,
+  "child": "harvestcraft:hops_plant",
+  "parent1": "harvestcraft:celery_plant",
+  "parent2": "harvestcraft:artichoke_plant"
+}

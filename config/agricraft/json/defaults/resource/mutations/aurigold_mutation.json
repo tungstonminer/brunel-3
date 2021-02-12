@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/aurigold_mutation.json",
+  "enabled": true,
+  "chance": 0.1,
+  "child": "resource:aurigold_plant",
+  "parent1": "vanilla:nether_wart_plant",
+  "parent2": "vanilla:dandelion_plant"
+}

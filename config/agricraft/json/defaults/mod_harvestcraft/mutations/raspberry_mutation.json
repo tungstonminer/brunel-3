@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/raspberry_mutation.json",
+  "enabled": true,
+  "chance": 0.4,
+  "child": "harvestcraft:raspberry_plant",
+  "parent1": "harvestcraft:cactusfruit_plant",
+  "parent2": "vanilla:poppy_plant"
+}

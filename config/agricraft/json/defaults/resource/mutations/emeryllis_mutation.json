@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/emeryllis_mutation.json",
+  "enabled": true,
+  "chance": 0.05,
+  "child": "resource:emeryllis_plant",
+  "parent1": "resource:quartzanthemum_plant",
+  "parent2": "vanilla:cactus_plant"
+}

@@ -1,0 +1,197 @@
+[
+	{
+		"block": "minecraft:grass:0",
+		"distrib": "0,0.0;61,0.0;62,0.21796875;63,0.08125;64,0.0;",
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:dirt:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:pumpkin:0",
+		"distrib": "0,0.0;62,0.0;63,4.6875E-4;64,0.0;",
+		"silktouch": false,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:dirt:0",
+		"distrib": "0,0.0;54,0.0;55,0.00203125;56,0.07875;57,0.27203125;58,0.53859377;59,0.7448437;60,0.73328125;61,0.54328126;62,0.08390625;63,0.00328125;64,0.0;",
+		"silktouch": false,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:tallgrass:1",
+		"distrib": "0,0.0;62,0.0;63,0.046875;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:wheat_seeds:0",
+				"fortunes": {
+					"0": 0.1241,
+					"1": 0.2435,
+					"2": 0.3692,
+					"3": 0.5216
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:bedrock:0",
+		"distrib": "0,1.0;1,1.0;2,0.0;",
+		"silktouch": true,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "betteranimalsplus:trillium:0",
+		"distrib": "0,0.0;62,0.0;63,9.375E-4;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "betteranimalsplus:trillium:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:reeds:0",
+		"distrib": "0,0.0;62,0.0;63,0.0015625;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:reeds:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:vine:0",
+		"distrib": "0,0.0;62,0.0;63,0.01;64,0.0;",
+		"silktouch": false,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:monster_egg:0",
+		"distrib": "0,0.0;1,0.0;2,0.004375;3,0.00421875;4,0.0040625;5,0.00453125;6,0.0046875;7,0.00546875;8,0.00375;9,0.00421875;10,0.00328125;11,0.005;12,0.00296875;13,0.00515625;14,0.00484375;15,0.00421875;16,0.00484375;17,0.005625;18,0.00546875;19,0.00484375;20,0.00546875;21,0.0046875;22,0.003125;23,0.00390625;24,0.00109375;25,0.0;",
+		"silktouch": true,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:air:0",
+		"distrib": "0,0.0;6,0.0;7,0.0025;8,0.00484375;9,0.0040625;10,7.8125E-4;11,0.0;21,0.0;22,4.6875E-4;23,0.00203125;24,0.0084375;25,0.0140625;26,0.0103125;27,0.0;39,0.0;40,4.6875E-4;41,0.00359375;42,0.008125;43,0.0134375;44,0.01171875;45,0.001875;46,0.0;58,0.0;59,0.00203125;60,0.07875;61,0.27203125;62,0.5375;63,0.68359375;64,0.0;",
+		"silktouch": false,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "dynamictrees:oakbranch:0",
+		"distrib": "0,0.0;62,0.0;63,0.00203125;64,0.0;",
+		"silktouch": false,
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:stone:0",
+		"distrib": "0,0.0;1,0.0;2,0.995625;3,0.99578124;4,0.9959375;5,0.99546874;6,0.9953125;7,0.9920313;8,0.99140626;9,0.99171877;10,0.9959375;11,0.995;12,0.9970313;13,0.9948437;14,0.9951562;15,0.99578124;16,0.9951562;17,0.994375;18,0.9945313;19,0.9951562;20,0.9945313;21,0.9953125;22,0.99640626;23,0.9940625;24,0.99046874;25,0.9859375;26,0.9896875;27,1.0;39,1.0;40,0.99953127;41,0.99640626;42,0.991875;43,0.9865625;44,0.98828125;45,0.998125;46,1.0;47,1.0;48,0.84;54,0.84;55,0.83796877;56,0.76125;57,0.5679687;58,0.30140626;59,0.08453125;60,0.00328125;61,0.0;",
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:cobblestone:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:clay:0",
+		"distrib": "0,0.0;58,0.0;59,0.00859375;60,0.0246875;61,0.0246875;62,6.25E-4;63,0.0;",
+		"silktouch": true,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:clay_ball:0",
+				"fortunes": {
+					"0": 4.0,
+					"1": 4.0,
+					"2": 4.0,
+					"3": 4.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:waterlily:0",
+		"distrib": "0,0.0;62,0.0;63,0.0090625;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:waterlily:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:leaves:0",
+		"distrib": "0,0.0;62,0.0;63,4.6875E-4;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "dynamictrees:oakseed:0",
+				"fortunes": {
+					"0": 0.0519,
+					"1": 0.0654,
+					"2": 0.083,
+					"3": 0.1017
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	},
+	{
+		"block": "minecraft:brown_mushroom:0",
+		"distrib": "0,0.0;62,0.0;63,4.6875E-4;64,0.0;",
+		"silktouch": false,
+		"dropsList": [
+			{
+				"itemStack": "minecraft:brown_mushroom:0",
+				"fortunes": {
+					"0": 1.0,
+					"1": 1.0,
+					"2": 1.0,
+					"3": 1.0
+				}
+			}
+		],
+		"dim": "Dim 0: overworld"
+	}
+]

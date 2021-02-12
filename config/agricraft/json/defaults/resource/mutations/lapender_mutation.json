@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/lapender_mutation.json",
+  "enabled": true,
+  "chance": 0.05,
+  "child": "resource:lapender_plant",
+  "parent1": "resource:quartzanthemum_plant",
+  "parent2": "vanilla:orchid_plant"
+}

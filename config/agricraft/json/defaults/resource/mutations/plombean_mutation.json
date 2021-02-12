@@ -1,0 +1,8 @@
+{
+  "path": "resource/mutations/plombean_mutation.json",
+  "enabled": true,
+  "chance": 0.1,
+  "child": "resource:plombean_plant",
+  "parent1": "vanilla:nether_wart_plant",
+  "parent2": "vanilla:allium_plant"
+}

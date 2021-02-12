@@ -1,0 +1,8 @@
+{
+  "path": "mod_harvestcraft/mutations/bellpepper_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "harvestcraft:bellpepper_plant",
+  "parent1": "harvestcraft:leek_plant",
+  "parent2": "vanilla:okra_plant"
+}

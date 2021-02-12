@@ -1,0 +1,4 @@
+Seeds:
+Seed: <item.seeds:0> - 10
+Seed: <item.immersiveengineering.seed.hemp:0> - 5
+Seed: <item.hopsseeditem:0> - 1
