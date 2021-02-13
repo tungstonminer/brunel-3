@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/lettuce_mutation.json",
+  "path": "mod_harvestcraft/mutations/lentil_mutation.json",
   "enabled": true,
-  "chance": 0.8,
-  "child": "harvestcraft:lettuce_plant",
-  "parent1": "vanilla:wheat_plant",
-  "parent2": "vanilla:white_tulip_plant"
+  "chance": 0.5,
+  "child": "harvestcraft:lentil_plant",
+  "parent1": "harvestcraft:okra_plant",
+  "parent2": "harvestcraft:sesameseed_plant"
 }

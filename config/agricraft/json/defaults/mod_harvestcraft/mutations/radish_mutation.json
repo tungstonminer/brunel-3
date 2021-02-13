@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/radish_mutation.json",
   "enabled": true,
-  "chance": 0.375,
+  "chance": 0.5,
   "child": "harvestcraft:radish_plant",
-  "parent1": "harvestcraft:beet_plant",
-  "parent2": "harvestcraft:garlic_plant"
+  "parent1": "vanilla:red_tulip_plant",
+  "parent2": "harvestcraft:parsnip_plant"
 }

@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/whitemushroom_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.5,
   "child": "harvestcraft:whitemushroom_plant",
-  "parent1": "vanilla:brown_mushroom_plant",
-  "parent2": "vanilla:daisy_plant"
+  "parent1": "vanilla:white_tulip_plant",
+  "parent2": "vanilla:brown_mushroom_plant"
 }

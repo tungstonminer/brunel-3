@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/onion_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.5,
   "child": "harvestcraft:onion_plant",
-  "parent1": "vanilla:allium_plant",
-  "parent2": "vanilla:beet_root_plant"
+  "parent1": "vanilla:orange_tulip_plant",
+  "parent2": "harvestcraft:scallion_plant"
 }

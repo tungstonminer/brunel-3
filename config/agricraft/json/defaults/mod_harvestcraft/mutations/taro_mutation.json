@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/tea_mutation.json",
+  "path": "mod_harvestcraft/mutations/taro_mutation.json",
   "enabled": true,
-  "chance": 0.2,
-  "child": "harvestcraft:tea_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "harvestcraft:spiceleaf_plant"
+  "chance": 0.5,
+  "child": "harvestcraft:taro_plant",
+  "parent1": "harvestcraft:bambooshoot_plant",
+  "parent2": "vanilla:carrot_plant"
 }

@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/turnip_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.5,
   "child": "harvestcraft:turnip_plant",
   "parent1": "vanilla:potato_plant",
-  "parent2": "vanilla:pink_tulip_plant"
+  "parent2": "vanilla:carrot_plant"
 }

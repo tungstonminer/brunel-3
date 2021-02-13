@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/garlic_mutation.json",
+  "path": "mod_harvestcraft/mutations/elderberry_mutation.json",
   "enabled": true,
-  "chance": 0.8,
-  "child": "harvestcraft:garlic_plant",
-  "parent1": "vanilla:allium_plant",
-  "parent2": "vanilla:white_tulip_plant"
+  "chance": 0.5,
+  "child": "harvestcraft:elderberry_plant",
+  "parent1": "harvestcraft:cranberry_plant",
+  "parent2": "harvestcraft:sesameseed_plant"
 }

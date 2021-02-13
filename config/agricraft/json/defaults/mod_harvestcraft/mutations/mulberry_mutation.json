@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/mustard_mutation.json",
+  "path": "mod_harvestcraft/mutations/mulberry_mutation.json",
   "enabled": true,
-  "chance": 0.2,
-  "child": "harvestcraft:mustard_plant",
-  "parent1": "harvestcraft:corn_plant",
-  "parent2": "harvestcraft:spiceleaf_plant"
+  "chance": 0.5,
+  "child": "harvestcraft:mulberry_plant",
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "harvestcraft:blackberry_plant"
 }

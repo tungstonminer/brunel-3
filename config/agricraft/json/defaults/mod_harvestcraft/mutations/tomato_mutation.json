@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/tomato_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.5,
   "child": "harvestcraft:tomato_plant",
-  "parent1": "vanilla:melon_plant",
-  "parent2": "vanilla:red_tulip_plant"
+  "parent1": "harvestcraft:tomatillo_plant",
+  "parent2": "harvestcraft:cantaloupe_plant"
 }

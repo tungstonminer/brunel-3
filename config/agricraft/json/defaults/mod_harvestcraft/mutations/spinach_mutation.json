@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/spinach_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.5,
   "child": "harvestcraft:spinach_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "vanilla:cactus_plant"
+  "parent1": "harvestcraft:cabbage_plant",
+  "parent2": "vanilla:beet_root_plant"
 }

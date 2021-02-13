@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/rutabaga_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.5,
   "child": "harvestcraft:rutabaga_plant",
   "parent1": "harvestcraft:turnip_plant",
-  "parent2": "harvestcraft:radish_plant"
+  "parent2": "harvestcraft:parsnip_plant"
 }

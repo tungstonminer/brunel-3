@@ -1,8 +1,8 @@
 {
   "path": "mod_harvestcraft/mutations/waterchestnut_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.5,
   "child": "harvestcraft:waterchestnut_plant",
-  "parent1": "harvestcraft:radish_plant",
-  "parent2": "harvestcraft:leek_plant"
+  "parent1": "vanilla:wheat_plant",
+  "parent2": "vanilla:potato_plant"
 }

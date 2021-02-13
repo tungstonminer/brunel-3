@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/kiwi_mutation.json",
+  "path": "mod_harvestcraft/mutations/jute_mutation.json",
   "enabled": true,
-  "chance": 0.4,
-  "child": "harvestcraft:kiwi_plant",
-  "parent1": "harvestcraft:cucumber_plant",
-  "parent2": "harvestcraft:cactusfruit_plant"
+  "chance": 0.5,
+  "child": "harvestcraft:jute_plant",
+  "parent1": "vanilla:sugarcane_plant",
+  "parent2": "vanilla:wheat_plant"
 }
