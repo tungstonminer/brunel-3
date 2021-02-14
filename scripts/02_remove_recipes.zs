@@ -15,6 +15,11 @@ furnace.remove(<minecraft:coal:1>);
 # Chisel -- Block of Charcoal -- remove recipe which conflicts with TE
 recipes.remove(<chisel:block_charcoal>);
 
+# Enchantment Table -- Don't allow enchantments
+JEI.removeAndHide(<minecraft:brewing_stand>);
+JEI.removeAndHide(<minecraft:enchanting_table>);
+JEI.removeAndHide(<minecraft:experience_bottle>);
+
 # Fist Full of Hay
 JEI.removeAndHide(<fistful_of_hay:logo>);
 
