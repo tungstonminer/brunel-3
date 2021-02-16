@@ -1,14 +1,8 @@
 <liquid:animania_honey>
-<liquid:bio.ethanol>
-<liquid:biodiesel>
 <liquid:biomass>
 <liquid:concrete>
-<liquid:creosote>
-<liquid:diesel>
 <liquid:dist_water>
-<liquid:ethanol>
 <liquid:for.honey>
-<liquid:gasoline>
 <liquid:glass>
 <liquid:ice>
 <liquid:juice>
@@ -20,8 +14,6 @@
 <liquid:milk_holstein>
 <liquid:milk_jersey>
 <liquid:milk_sheep>
-<liquid:napalm>
-<liquid:oil>
 <liquid:plantoil>
 <liquid:potion>
 <liquid:seed.oil>
@@ -29,3 +21,24 @@
 <liquid:slop>
 <liquid:steam>
 <liquid:water>
+
+# Fuels
+
+Minecraft ID         | Mod       | Power (RF/B)
+---------------------+-----------+-------------
+<liquid:bio.ethanol> | Forestry  |
+<liquid:biodiesel>   | IE        | 512,000
+<liquid:creosote>    | Railcraft |
+<liquid:diesel>      | IE        |
+<liquid:ethanol>     | IE        |
+<liquid:gasoline>    | IP        |
+<liquid:napalm>      | IP        |
+<liquid:oil>         | IP        |
+
+
+IndustrialSqueezer(<plant> * 8 + 51.2kRF) -> 640mB plantoil + grainbait
+IndustrialFermenter(<fruit> * 8 + 51.2kRF) -> 640mB ethanol + fruitbait
+IndustrialFermenter(<starch> * 8 + 51.2kRF) -> 640mB ethanol + veggiebait
+Refinery(plantoil 50mB + bio.ethanol 50mB + 500RF) -> 100mB biodiesel
+Refinery(plantoil 50mB + ethanol 50mB + 500RF) -> 100mB biodiesel
+biodiesel -> 512,000 RF/B
