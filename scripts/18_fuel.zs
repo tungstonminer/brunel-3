@@ -35,13 +35,12 @@ Mixer.addRecipe(outputBiomass, juiceBucket, [biomassLowYieldInput * 20, biomassL
 Mixer.addRecipe(outputBiomass, waterBucket, [biomassLowYieldInput * 32, biomassHighYieldFertilizer], 4096);
 Mixer.addRecipe(outputBiomass, waterBucket, [biomassLowYieldInput * 40, biomassLowYieldFertilizer], 4096);
 
-outputBiomass = <liquid:biomass> * 7500;
-Mixer.addRecipe(outputBiomass, honeyBucket, [biomassHighYieldInput * 16, biomassHighYieldFertilizer], 4096);
-Mixer.addRecipe(outputBiomass, honeyBucket, [biomassHighYieldInput * 20, biomassLowYieldFertilizer], 4096);
-Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 16, biomassHighYieldFertilizer], 4096);
-Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 20, biomassLowYieldFertilizer], 4096);
-Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 32, biomassHighYieldFertilizer], 4096);
-Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 40, biomassLowYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, honeyBucket, [biomassHighYieldInput * 4, biomassHighYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, honeyBucket, [biomassHighYieldInput * 5, biomassLowYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 4, biomassHighYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 5, biomassLowYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 8, biomassHighYieldFertilizer], 4096);
+Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 10, biomassLowYieldFertilizer], 4096);
 
 # Fruit Juice -- Add recipes for Forestry Fruit Juice
 var fruitJuiceInput = oreDict.fruitJuiceInput;
