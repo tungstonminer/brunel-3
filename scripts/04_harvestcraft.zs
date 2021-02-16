@@ -17,6 +17,17 @@ recipes.addShaped(<harvestcraft:bakewareitem>, [
     [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
 ]);
 
+# Bait -- don't allow simple crafting of bait
+recipes.remove(<harvestcraft:fruitbaititem>);
+recipes.remove(<harvestcraft:grainbaititem>);
+recipes.remove(<harvestcraft:veggiebaititem>);
+
+# Bees -- Remove bee-related products
+JEI.removeAndHide(<harvestcraft:honey>);
+JEI.removeAndHide(<harvestcraft:honeycomb>);
+JEI.removeAndHide(<harvestcraft:honeycombitem>);
+JEI.removeAndHide(<harvestcraft:honeyitem>);
+
 # Cake -- only allow HC milk
 recipes.remove(<minecraft:cake>);
 recipes.addShaped(<minecraft:cake>, [
