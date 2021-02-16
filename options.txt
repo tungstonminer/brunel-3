@@ -93,6 +93,7 @@ key_key.davincis.align:13
 key_key.davincis.decompile:43
 key_key.davincis.shipinv:37
 key_keybind.railcraft.cart.bed:0
+key_key.plane_boost.desc:29
 key_key.toastcontrol.clear:0
 key_Strip World:211
 key_Dress World:210
