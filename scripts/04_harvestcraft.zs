@@ -36,6 +36,9 @@ recipes.addShaped(<minecraft:cake>, [
     [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
 
+# Cheese -- remove in preference for the Animania process
+JEI.removeAndHide(<harvestcraft:cheeseitem>);
+
 # Cutting Board -- replace bricks(?!) and use metals
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShaped(<harvestcraft:cuttingboarditem>, [

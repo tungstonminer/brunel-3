@@ -7,7 +7,7 @@ var ids = [] as int[];
 
 ########################################################################################################################
 
-#Charcoal -- remove recipes in favor of Forestry charcoal pile
+# Charcoal -- remove recipes in favor of Forestry charcoal pile
 recipes.remove(<minecraft:coal:1>);
 furnace.remove(<minecraft:coal:1>);
 
