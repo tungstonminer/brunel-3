@@ -331,6 +331,7 @@ for metal in all_metals() {
 
     if (!isNull(blockItem)) {
         recipes.remove(blockItem);
+        blockItem.maxStackSize = 1;
 
         if (!isNull(blockDictEntry)) {
             recipes.addShapeless(blockItem, [blockDictEntry]);
@@ -375,6 +376,8 @@ for metal in all_metals() {
     }
 
     if (!isNull(ingotItem)) {
+        ingotItem.maxStackSize = 16;
+
         if (!isNull(dustItem)) {
             furnace.addRecipe(ingotItem, dustItem);
         }
