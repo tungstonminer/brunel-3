@@ -42,6 +42,10 @@ for i in ids {
 JEI.removeAndHide(<forestry:greenhouse.window>);
 JEI.removeAndHide(<forestry:greenhouse.window_up>);
 
+# Engineer's Hammer -- don't use for crushing ores
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
+
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:bat"}}));
@@ -131,7 +135,7 @@ JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:
 JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:lantern"}}));
 JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:naga"}}));
 
-#Remove Realistic Horse Genetics Sppawn Egg
+# Remove Realistic Horse Genetics Sppawn Egg
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "horse_colors:horse_felinoid"}}));
 
 # Animania Spawn Eggs
@@ -295,4 +299,3 @@ JEI.removeAndHide(<animania:entity_egg_pig_random>);
 JEI.removeAndHide(<animania:entity_egg_chicken_random>);
 JEI.removeAndHide(<animania:entity_egg_goat_random>);
 JEI.removeAndHide(<animania:entity_egg_sheep_random>);
-
