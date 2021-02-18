@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-16T06:21:50.131099Z",
+  "lastPlayed": "2021-02-17T06:03:45.108286Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4640,6 +4640,102 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 313866,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 3033266,
+        "displayName": "engineersdecor-1.12.2-1.1.2.jar",
+        "fileName": "engineersdecor-1.12.2-1.1.2.jar",
+        "fileDate": "2020-08-15T16:24:39.037Z",
+        "fileLength": 1071467,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3033/266/engineersdecor-1.12.2-1.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 231951,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 306770,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2587819217,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 778971801,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "blusunrize",
+            "fingerprint": 3716988195,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3763449720,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2384710231,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "wile",
+            "fingerprint": 2471377168,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1514029164,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "engineersdecor-1.12.2-1.1.2.jar"
+      },
+      "dateInstalled": "2021-02-17T06:14:46.875344Z",
+      "dateUpdated": "2021-02-17T06:14:46.87968Z",
+      "dateLastUpdateAttempted": "2021-02-17T06:14:46.87968Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 284904,
@@ -9368,6 +9464,90 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 319716,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2858835,
+        "displayName": "engineerstools-1.12.2-1.0.5.jar",
+        "fileName": "engineerstools-1.12.2-1.0.5.jar",
+        "fileDate": "2020-01-12T08:55:44.63Z",
+        "fileLength": 115786,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2858/835/engineerstools-1.12.2-1.0.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 231951,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2371912990,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "wile",
+            "fingerprint": 3621413149,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 376754705,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 518486910,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2632509441,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2526719730,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "engineerstools-1.12.2-1.0.5.jar"
+      },
+      "dateInstalled": "2021-02-17T06:16:12.222042Z",
+      "dateUpdated": "2021-02-17T06:16:12.225266Z",
+      "dateLastUpdateAttempted": "2021-02-17T06:16:12.225266Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     }
   ],
   "isMigrated": false,
