@@ -46,6 +46,12 @@ JEI.removeAndHide(<forestry:greenhouse.window_up>);
 recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
 recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
 
+# Auto Stim Pack -- remove as OP for too many potion effects
+JEI.removeAndHide(<engineerstools:stimpack>);
+
+# REDIA Tool -- remove as OP for combining too many tools in one
+JEI.removeAndHide(<engineerstools:redia_tool>);
+
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:bat"}}));
