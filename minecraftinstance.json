@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-17T06:03:45.108286Z",
+  "lastPlayed": "2021-02-18T02:44:41.927215Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4735,7 +4735,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284904,
@@ -5857,6 +5857,97 @@
       "dateUpdated": "2021-01-23T16:53:34.651187Z",
       "dateLastUpdateAttempted": "2021-01-23T16:53:34.651187Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 291126,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 3023901,
+        "displayName": "engineers_doors-1.12.2-0.9.1.jar",
+        "fileName": "engineers_doors-1.12.2-0.9.1.jar",
+        "fileDate": "2020-08-05T04:03:23.687Z",
+        "fileLength": 135429,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3023/901/engineers_doors-1.12.2-0.9.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 243121,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 231951,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1976548664,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "nihiltres",
+            "fingerprint": 183484728,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4238610201,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1799942259,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1054746689,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3484625461,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "engineers_doors-1.12.2-0.9.1.jar"
+      },
+      "dateInstalled": "2021-02-17T06:16:15.554039Z",
+      "dateUpdated": "2021-02-17T06:16:15.555868Z",
+      "dateLastUpdateAttempted": "2021-02-17T06:16:15.555868Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7961,30 +8052,24 @@
       "installedTargets": null
     },
     {
-      "addonID": 231095,
+      "addonID": 314645,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2720655,
-        "displayName": "chiselsandbits-14.33.jar",
-        "fileName": "chiselsandbits-14.33.jar",
-        "fileDate": "2019-06-06T01:32:08.75Z",
-        "fileLength": 737407,
+        "id": 2951672,
+        "displayName": "Immersive Posts 0.2.1",
+        "fileName": "ImmersivePosts-0.2.1.jar",
+        "fileDate": "2020-05-08T18:12:21.32Z",
+        "fileLength": 227166,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/672/ImmersivePosts-0.2.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 239431,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
+            "addonId": 231951,
+            "type": 3,
             "fileId": 0
           }
         ],
@@ -7992,39 +8077,37 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2066040898,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mod",
-            "fingerprint": 3608985086,
+            "fingerprint": 605836686,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 321139769,
+            "fingerprint": 2090771998,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3876564513,
+            "fingerprint": 1033773290,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 2325622583,
+            "fingerprint": 4015204812,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "twistedgate",
+            "fingerprint": 1108154520,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3211462819,
+        "packageFingerprint": 3121263219,
         "gameVersion": [
-          "1.12",
-          "1.12.1",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -8036,11 +8119,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "chiselsandbits-14.33.jar"
+        "FileNameOnDisk": "ImmersivePosts-0.2.1.jar"
       },
-      "dateInstalled": "2021-01-23T15:40:03.486243Z",
-      "dateUpdated": "2021-01-23T15:40:03.488298Z",
-      "dateLastUpdateAttempted": "2021-01-23T15:40:03.488298Z",
+      "dateInstalled": "2021-01-23T15:28:23.089648Z",
+      "dateUpdated": "2021-01-23T21:56:22.519492Z",
+      "dateLastUpdateAttempted": "2021-01-23T21:56:22.519492Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -8131,24 +8214,30 @@
       "installedTargets": null
     },
     {
-      "addonID": 314645,
+      "addonID": 231095,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2951672,
-        "displayName": "Immersive Posts 0.2.1",
-        "fileName": "ImmersivePosts-0.2.1.jar",
-        "fileDate": "2020-05-08T18:12:21.32Z",
-        "fileLength": 227166,
+        "id": 2720655,
+        "displayName": "chiselsandbits-14.33.jar",
+        "fileName": "chiselsandbits-14.33.jar",
+        "fileDate": "2019-06-06T01:32:08.75Z",
+        "fileLength": 737407,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2951/672/ImmersivePosts-0.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 231951,
-            "type": 3,
+            "addonId": 239431,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
             "fileId": 0
           }
         ],
@@ -8156,37 +8245,39 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 605836686,
+            "fingerprint": 2066040898,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mod",
+            "fingerprint": 3608985086,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 2090771998,
+            "fingerprint": 321139769,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1033773290,
+            "fingerprint": 3876564513,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 4015204812,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "twistedgate",
-            "fingerprint": 1108154520,
+            "fingerprint": 2325622583,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3121263219,
+        "packageFingerprint": 3211462819,
         "gameVersion": [
+          "1.12",
+          "1.12.1",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -8198,11 +8289,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ImmersivePosts-0.2.1.jar"
+        "FileNameOnDisk": "chiselsandbits-14.33.jar"
       },
-      "dateInstalled": "2021-01-23T15:28:23.089648Z",
-      "dateUpdated": "2021-01-23T21:56:22.519492Z",
-      "dateLastUpdateAttempted": "2021-01-23T21:56:22.519492Z",
+      "dateInstalled": "2021-01-23T15:40:03.486243Z",
+      "dateUpdated": "2021-01-23T15:40:03.488298Z",
+      "dateLastUpdateAttempted": "2021-01-23T15:40:03.488298Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -8482,78 +8573,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 388180,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 2974111,
-        "displayName": "watercontrol-1.0.jar",
-        "fileName": "watercontrol-1.0.jar",
-        "fileDate": "2020-06-06T20:35:53.64Z",
-        "fileLength": 6746,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2974/111/watercontrol-1.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3072442137,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1475915188,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 133467496,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1213894411,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 254132753,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "watercontrol-1.0.jar"
-      },
-      "dateInstalled": "2021-01-25T03:25:50.197038Z",
-      "dateUpdated": "2021-01-25T03:25:50.202565Z",
-      "dateLastUpdateAttempted": "2021-01-25T03:25:50.202565Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 51195,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
@@ -8685,6 +8704,78 @@
       "dateInstalled": "2021-01-23T15:30:17.473577Z",
       "dateUpdated": "2021-01-23T15:30:17.477794Z",
       "dateLastUpdateAttempted": "2021-01-23T15:30:17.477794Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 388180,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2974111,
+        "displayName": "watercontrol-1.0.jar",
+        "fileName": "watercontrol-1.0.jar",
+        "fileDate": "2020-06-06T20:35:53.64Z",
+        "fileLength": 6746,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2974/111/watercontrol-1.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3072442137,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1475915188,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 133467496,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1213894411,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 254132753,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "watercontrol-1.0.jar"
+      },
+      "dateInstalled": "2021-01-25T03:25:50.197038Z",
+      "dateUpdated": "2021-01-25T03:25:50.202565Z",
+      "dateLastUpdateAttempted": "2021-01-25T03:25:50.202565Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9547,7 +9638,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
