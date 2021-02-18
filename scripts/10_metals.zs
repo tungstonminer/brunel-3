@@ -6,14 +6,15 @@ import mods.immersiveengineering.MetalPress;
 
 # Items ################################################################################################################
 
-var bushing = <railcraft:gear:3>;
-var clippers = <immersiveengineering:tool:1>;
-var gearMold = <immersiveengineering:mold:1>;
-var hammer = <immersiveengineering:tool:0>;
-var largePackingMold = <immersiveengineering:mold:6>;
-var plateMold = <immersiveengineering:mold:0>;
-var rodMold = <immersiveengineering:mold:2>;
-var unpackingMold = <immersiveengineering:mold:7>;
+val bushing = <railcraft:gear:3>;
+val clippers = <immersiveengineering:tool:1>;
+val crushingHammer = <engineerstools:crushing_hammer>;
+val engineeringHammer = <immersiveengineering:tool:0>;
+val gearMold = <immersiveengineering:mold:1>;
+val largePackingMold = <immersiveengineering:mold:6>;
+val plateMold = <immersiveengineering:mold:0>;
+val rodMold = <immersiveengineering:mold:2>;
+val unpackingMold = <immersiveengineering:mold:7>;
 
 # Metal Lookup Functions ###############################################################################################
 
@@ -331,6 +332,7 @@ for metal in all_metals() {
 
     if (!isNull(blockItem)) {
         recipes.remove(blockItem);
+        blockItem.maxStackSize = 1;
 
         if (!isNull(blockDictEntry)) {
             recipes.addShapeless(blockItem, [blockDictEntry]);
@@ -351,7 +353,7 @@ for metal in all_metals() {
 
         if (!isNull(oreDictEntry)) {
             Crusher.addRecipe(dustItem * 2, oreDictEntry, 2048, <minecraft:gravel>, 1.0);
-            recipes.addShapeless(dustItem, [oreDictEntry, hammer.transformDamage()]);
+            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.transformDamage()]);
         }
 
         if (!isNull(gearItem)) {
@@ -375,6 +377,8 @@ for metal in all_metals() {
     }
 
     if (!isNull(ingotItem)) {
+        ingotItem.maxStackSize = 16;
+
         if (!isNull(dustItem)) {
             furnace.addRecipe(ingotItem, dustItem);
         }
@@ -412,7 +416,7 @@ for metal in all_metals() {
 
         if (!isNull(ingotDictEntry)) {
             MetalPress.addRecipe(plateItem, ingotDictEntry, plateMold, 1024);
-            recipes.addShapeless(plateItem, [ingotDictEntry, hammer.transformDamage()]);
+            recipes.addShapeless(plateItem, [ingotDictEntry, engineeringHammer.transformDamage()]);
         }
     }
 
@@ -425,7 +429,7 @@ for metal in all_metals() {
         }
 
         if (!isNull(plateItem)) {
-            recipes.addShapeless(rodItem * 2, [plateItem, hammer.transformDamage()]);
+            recipes.addShapeless(rodItem * 2, [plateItem, engineeringHammer.transformDamage()]);
         }
     }
 }

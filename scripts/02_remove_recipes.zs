@@ -7,7 +7,7 @@ var ids = [] as int[];
 
 ########################################################################################################################
 
-#Charcoal -- remove recipes in favor of Forestry charcoal pile
+# Charcoal -- remove recipes in favor of Forestry charcoal pile
 recipes.remove(<minecraft:coal:1>);
 furnace.remove(<minecraft:coal:1>);
 
@@ -41,6 +41,16 @@ for i in ids {
 # Forestry Greenhouse Additional Items
 JEI.removeAndHide(<forestry:greenhouse.window>);
 JEI.removeAndHide(<forestry:greenhouse.window_up>);
+
+# Engineer's Hammer -- don't use for crushing ores
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
+
+# Auto Stim Pack -- remove as OP for too many potion effects
+JEI.removeAndHide(<engineerstools:stimpack>);
+
+# REDIA Tool -- remove as OP for combining too many tools in one
+JEI.removeAndHide(<engineerstools:redia_tool>);
 
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));
@@ -131,7 +141,7 @@ JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:
 JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:lantern"}}));
 JEI.removeAndHide(<mowziesmobs:spawn_egg>.withTag({EntityTag: {id: "mowziesmobs:naga"}}));
 
-#Remove Realistic Horse Genetics Sppawn Egg
+# Remove Realistic Horse Genetics Sppawn Egg
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "horse_colors:horse_felinoid"}}));
 
 # Animania Spawn Eggs
@@ -295,4 +305,3 @@ JEI.removeAndHide(<animania:entity_egg_pig_random>);
 JEI.removeAndHide(<animania:entity_egg_chicken_random>);
 JEI.removeAndHide(<animania:entity_egg_goat_random>);
 JEI.removeAndHide(<animania:entity_egg_sheep_random>);
-
