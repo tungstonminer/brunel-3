@@ -1,13 +1,14 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.immersiveengineering.DieselHandler;
 import mods.immersiveengineering.Fermenter;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Squeezer;
 import mods.immersivepetroleum.Distillation;
 
-########################################################################################################################
+# Fuel Production ######################################################################################################
 
 # Biomass -- Create biomass by mixing organic materials
 var biomassLowYieldInput = oreDict.biomassLowYieldInput;
@@ -41,6 +42,16 @@ Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 4, biomassH
 Mixer.addRecipe(outputBiomass, juiceBucket, [biomassHighYieldInput * 5, biomassLowYieldFertilizer], 4096);
 Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 8, biomassHighYieldFertilizer], 4096);
 Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 10, biomassLowYieldFertilizer], 4096);
+
+# Crude Oil -- refine crude oil into its various byproducts
+Distillation.addRecipe(
+    [<liquid:lubricant> * 15, <liquid:diesel> * 40, <liquid:gasoline> * 45],
+    [<immersivepetroleum:material:0>],
+    <liquid:oil> * 100,
+    1024,
+    4,
+    [0.07]
+);
 
 # Fruit Juice -- Add recipes for Forestry Fruit Juice
 var fruitJuiceInput = oreDict.fruitJuiceInput;
@@ -96,15 +107,10 @@ Refinery.removeRecipe(<liquid:biodiesel>);
 Refinery.addRecipe(<liquid:biodiesel> * 100, <liquid:plantoil> * 50, <liquid:ethanol> * 50, 500);
 Refinery.addRecipe(<liquid:biodiesel> * 100, <liquid:plantoil> * 50, <liquid:bio.ethanol> * 50, 500);
 
+# Fuel Consumption #####################################################################################################
 
-# Diesel Production ####################################################################################################
-
-# Crude Oil -- refine crude oil into its various byproducts
-Distillation.addRecipe(
-    [<liquid:lubricant> * 15, <liquid:diesel> * 40, <liquid:gasoline> * 45],
-    [<immersivepetroleum:material:0>],
-    <liquid:oil> * 100,
-    1024,
-    4,
-    [0.07]
-);
+# The diesel generator yields a constant 4096 RF/t while it is running, so the DieselHandler expects to be told how many
+# seconds a given quantity of fuel will last at that rate.  So, for example, to specify that a bucket of fuel will
+# generate a total of 512,000 RF, you must specify that it will last: 512,000RF / 4096RF/t = 125t (6.25s)
+DieselHandler.removeFuel(<liquid:biodiesel>);
+DieselHandler.addFuel(<liquid:biodiesel>, 6.25 * 20);
