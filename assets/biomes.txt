@@ -1,41 +1,62 @@
-Biomes:
--minecraft:ocean	Ocean
--minecraft:plains	Plains
--minecraft:desert	Desert
--minecraft:extreme_hills	Extreme Hills
--minecraft:forest	Forest
--minecraft:taiga	Taiga
--minecraft:swampland	Swampland
--minecraft:river	River
--minecraft:hell	Hell
--minecraft:sky	The End
--minecraft:frozen_ocean	FrozenOcean
--minecraft:frozen_river	FrozenRiver
--minecraft:ice_flats	Ice Plains
--minecraft:ice_mountains	Ice Mountains
--minecraft:mushroom_island	MushroomIsland
--minecraft:mushroom_island_shore	MushroomIslandShore
--minecraft:beaches	Beach
--minecraft:desert_hills	DesertHills
--minecraft:forest_hills	ForestHills
--minecraft:taiga_hills	TaigaHills
--minecraft:smaller_extreme_hills	Extreme Hills Edge
--minecraft:jungle	Jungle
--minecraft:jungle_hills	JungleHills
--minecraft:jungle_edge	JungleEdge
--minecraft:deep_ocean	Deep Ocean
--minecraft:stone_beach	Stone Beach
--minecraft:cold_beach	Cold Beach
--minecraft:birch_forest	Birch Forest
--minecraft:birch_forest_hills	Birch Forest Hills
--minecraft:roofed_forest	Roofed Forest
--minecraft:taiga_cold	Cold Taiga
--minecraft:taiga_cold_hills	Cold Taiga Hills
--minecraft:redwood_taiga	Mega Taiga
--minecraft:redwood_taiga_hills	Mega Taiga Hills
--minecraft:extreme_hills_with_trees	Extreme Hills+
--minecraft:savanna	Savanna
--minecraft:savanna_rock	Savanna Plateau
--minecraft:mesa	Mesa
--minecraft:mesa_rock	Mesa Plateau F
--minecraft:mesa_clear_rock	Mesa Plateau
+Beach  <minecraft:beaches>
+Birch Forest  <minecraft:birch_forest>
+Birch Forest Hills  <minecraft:birch_forest_hills>
+Birch Forest Hills M  <minecraft:mutated_birch_forest_hills>
+Birch Forest M  <minecraft:mutated_birch_forest>
+Cold Beach  <minecraft:cold_beach>
+Cold Taiga  <minecraft:taiga_cold>
+Cold Taiga Hills  <minecraft:taiga_cold_hills>
+Cold Taiga M  <minecraft:mutated_taiga_cold>
+Deep Ocean  <minecraft:deep_ocean>
+Desert  <minecraft:desert>
+Desert M  <minecraft:mutated_desert>
+DesertHills  <minecraft:desert_hills>
+Extreme Hills  <minecraft:extreme_hills>
+Extreme Hills <minecraft:extreme_hills_with_trees>
+Extreme Hills <minecraft:mutated_extreme_hills_with_trees>
+Extreme Hills Edge  <minecraft:smaller_extreme_hills>
+Extreme Hills M  <minecraft:mutated_extreme_hills>
+Flower Forest  <minecraft:mutated_forest>
+Forest  <minecraft:forest>
+ForestHills  <minecraft:forest_hills>
+FrozenOcean  <minecraft:frozen_ocean>
+FrozenRiver  <minecraft:frozen_river>
+Hell  <minecraft:hell>
+Ice Mountains  <minecraft:ice_mountains>
+Ice Plains  <minecraft:ice_flats>
+Ice Plains Spikes  <minecraft:mutated_ice_flats>
+Jungle  <minecraft:jungle>
+Jungle Edge M  <minecraft:mutated_jungle_edge>
+Jungle M  <minecraft:mutated_jungle>
+JungleEdge  <minecraft:jungle_edge>
+JungleHills  <minecraft:jungle_hills>
+Mega Spruce Taiga  <minecraft:mutated_redwood_taiga>
+Mega Taiga  <minecraft:redwood_taiga>
+Mega Taiga Hills  <minecraft:redwood_taiga_hills>
+Mesa  <minecraft:mesa>
+Mesa  <minecraft:mutated_mesa>
+Mesa Plateau  <minecraft:mesa_clear_rock>
+Mesa Plateau F  <minecraft:mesa_rock>
+Mesa Plateau F M  <minecraft:mutated_mesa_rock>
+Mesa Plateau M  <minecraft:mutated_mesa_clear_rock>
+MushroomIsland  <minecraft:mushroom_island>
+MushroomIslandShore  <minecraft:mushroom_island_shore>
+Ocean  <minecraft:ocean>
+Plains  <minecraft:plains>
+Redwood Taiga Hills M  <minecraft:mutated_redwood_taiga_hills>
+River  <minecraft:river>
+Roofed Forest  <minecraft:roofed_forest>
+Roofed Forest M  <minecraft:mutated_roofed_forest>
+Savanna  <minecraft:savanna>
+Savanna M  <minecraft:mutated_savanna>
+Savanna Plateau  <minecraft:savanna_rock>
+Savanna Plateau M  <minecraft:mutated_savanna_rock>
+Stone Beach  <minecraft:stone_beach>
+Sunflower Plains  <minecraft:mutated_plains>
+Swampland  <minecraft:swampland>
+Swampland M  <minecraft:mutated_swampland>
+Taiga  <minecraft:taiga>
+Taiga M  <minecraft:mutated_taiga>
+TaigaHills  <minecraft:taiga_hills>
+The End  <minecraft:sky>
+The Void  <minecraft:void>
