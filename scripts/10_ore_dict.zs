@@ -52,3 +52,8 @@ toolMetalIngot.addAll(<ore:ingotInvar>);
 toolMetalIngot.addAll(<ore:ingotIron>);
 toolMetalIngot.addAll(<ore:ingotNickel>);
 toolMetalIngot.addAll(<ore:ingotSteel>);
+
+# Add individual items to ore dict entries
+<ore:foodEelraw>.add(<betteranimalsplus:eel_meat_raw>);
+<ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
+<ore:listAllmeatraw>.add(<animania:raw_peacock>);

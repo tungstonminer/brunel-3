@@ -7,6 +7,11 @@ var ids = [] as int[];
 
 ########################################################################################################################
 
+# BetterAnimalsPlus -- remove duplicate food items
+JEI.removeAndHide(<betteranimalsplus:fried_egg>);
+JEI.removeAndHide(<betteranimalsplus:goatcheese>);
+JEI.removeAndHide(<betteranimalsplus:goatmilk>);
+
 # Charcoal -- remove recipes in favor of Forestry charcoal pile
 recipes.remove(<minecraft:coal:1>);
 furnace.remove(<minecraft:coal:1>);

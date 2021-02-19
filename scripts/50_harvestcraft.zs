@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
@@ -5,6 +6,13 @@ import mods.jei.JEI;
 ########################################################################################################################
 
 var water = <harvestcraft:freshwateritem>;
+var milkBuckets =
+    <minecraft:milk_bucket> |
+    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000});
 
 
 ########################################################################################################################
@@ -56,6 +64,9 @@ recipes.addShapeless(
 
 # Fresh Milk -- don't let people use a whole bucket when a quarter will do
 <ore:listAllmilk>.remove(<minecraft:milk_bucket>);
+recipes.remove(<harvestcraft:freshmilkitem>);
+recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [milkBuckets]);
+recipes.addShapeless(<harvestcraft:freshmilkitem>, [<harvestcraft:juiceritem>.reuse(), <ore:cropAlmond> * 4]);
 
 # Fresh Water -- only allow HC water items in recipes
 <ore:listAllwater>.remove(<minecraft:water_bucket>);
@@ -66,6 +77,13 @@ JEI.removeAndHide(<harvestcraft:groundtrap>);
 # Hazelnut -- add to ore dictionary
 oreDict.get("listAllnut").add(<harvestcraft:hazelnutitem>);
 oreDict.get("cropHazelnut").add(<harvestcraft:hazelnutitem>);
+
+# Jellied Eel -- use ore dict for recipe
+recipes.remove(<harvestcraft:jelliedeelitem>);
+recipes.addShapeless(<harvestcraft:jelliedeelitem>, [
+    <ore:toolSaucepan>, <ore:foodEelraw>, <ore:foodShrimpraw>,
+    <ore:listAllwater>, <ore:foodVinegar>, <ore:foodGroundnutmeg>
+]);
 
 # Kale Seed -- allow crafting from kale
 recipes.addShapeless(<harvestcraft:kaleseeditem>, [<harvestcraft:kaleitem>]);
@@ -80,6 +98,18 @@ oreDict.get("listAllsugar").add(<harvestcraft:maplesyrupitem>);
 recipes.remove(<harvestcraft:nutellaitem>);
 recipes.addShapeless(<harvestcraft:nutellaitem>, [
     <ore:toolSaucepan>, <ore:foodChocolatebar>, <ore:cropHazelnut>
+]);
+
+# Omelette -- use Animania omelette as base
+var denverOmelette = <harvestcraft:omeletitem>;
+denverOmelette.displayName = "Denver Omelette";
+recipes.remove(denverOmelette);
+recipes.addShapeless(denverOmelette, [
+    <ore:toolCuttingboard>, <animania:plain_omelette>, <ore:cropOnion>, <ore:cropBellpepper>
+]);
+recipes.remove(<harvestcraft:mushroomketchupomeletitem>);
+recipes.addShapeless(<harvestcraft:mushroomketchupomeletitem>, [
+    <animania:plain_omelette>, <ore:foodMushroomketchup>
 ]);
 
 # Pemmican -- allow more food items as ingredients
