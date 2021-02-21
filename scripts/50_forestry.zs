@@ -4,8 +4,19 @@ import mods.forestry.Squeezer;
 import mods.immersiveengineering.BottlingMachine;
 import mods.jei.JEI;
 
+########################################################################################################################
+
+val HONEY_CAPSULE = <forestry:capsule:1>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}});
 
 ########################################################################################################################
+
+# Ambrosia -- limit receipt to only use honey capsules
+recipes.remove(<forestry:ambrosia>);
+recipes.addShaped(<forestry:ambrosia>, [
+    [<ore:dropHoneydew>, HONEY_CAPSULE, <ore:dropHoneydew>],
+    [<ore:dropRoyalJelly>, <ore:dropRoyalJelly>, <ore:dropRoyalJelly>],
+    [<ore:dropHoneydew>, <ore:dropHoneydew>, <ore:dropHoneydew>]
+]);
 
 # Compost -- Allow making compost out of any grain
 recipes.remove(<forestry:fertilizer_bio>);
@@ -33,6 +44,14 @@ JEI.removeAndHide(<forestry:climatiser:3>);
 JEI.removeAndHide(<forestry:climatiser:4>);
 JEI.removeAndHide(<forestry:greenhouse.window>);
 JEI.removeAndHide(<forestry:greenhouse.window_up>);
+
+# Honey Pot -- fix recipe to only allow honey
+recipes.remove(<forestry:honey_pot>);
+recipes.addShaped(<forestry:honey_pot>, [
+    [<ore:dropHoney>, null, <ore:dropHoney>],
+    [null, HONEY_CAPSULE, null],
+    [<ore:dropHoney>, null, <ore:dropHoney>],
+]);
 
 # Mulch -- Add recipes to return various things into mulch
 BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:fruitbaititem>, <liquid:water> * 10);

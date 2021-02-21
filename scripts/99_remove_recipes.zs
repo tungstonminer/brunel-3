@@ -7,6 +7,9 @@ var ids = [] as int[];
 
 ########################################################################################################################
 
+# Animania -- honey related recipes
+JEI.removeAndHide(<animania:honey_bottle>);
+
 # BetterAnimalsPlus -- remove duplicate food items
 JEI.removeAndHide(<betteranimalsplus:fried_egg>);
 JEI.removeAndHide(<betteranimalsplus:goatcheese>);
