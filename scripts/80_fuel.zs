@@ -48,7 +48,7 @@ Distillation.addRecipe(
     [<liquid:lubricant> * 15, <liquid:diesel> * 40, <liquid:gasoline> * 45],
     [<immersivepetroleum:material:0>],
     <liquid:oil> * 100,
-    1024,
+    256,
     4,
     [0.07]
 );
@@ -67,7 +67,7 @@ for itemStack in <ore:listAlljuice>.items {
 }
 
 # Ethanol (Forestry) -- Allow Refinery to create ethanol from biomass
-Distillation.addRecipe([<liquid:water> * 70, <liquid:bio.ethanol> * 30], [], <liquid:biomass> * 100, 500, 4, []);
+Distillation.addRecipe([<liquid:water> * 70, <liquid:bio.ethanol> * 30], [], <liquid:biomass> * 100, 256, 4, []);
 
 # Ethanol (IE) -- Expand recipes available for making ethanol in the fermenter
 var ethanolInput = oreDict.ethanolInput;

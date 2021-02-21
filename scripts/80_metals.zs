@@ -353,7 +353,7 @@ for metal in all_metals() {
 
         if (!isNull(oreDictEntry)) {
             Crusher.addRecipe(dustItem * 2, oreDictEntry, 2048, <minecraft:gravel>, 1.0);
-            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.transformDamage()]);
+            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.transformDamage(4)]);
         }
 
         if (!isNull(gearItem)) {
@@ -393,10 +393,7 @@ for metal in all_metals() {
 
         if (!isNull(nuggetDictEntry)) {
             MetalPress.addRecipe(ingotItem, nuggetDictEntry * 9, largePackingMold, 256);
-        }
-
-        if (!isNull(oreDictEntry)) {
-            furnace.addRecipe(ingotItem, oreDictEntry);
+            furnace.addRecipe(ingotItem, nuggetItem * 9);
         }
     }
 
@@ -407,6 +404,10 @@ for metal in all_metals() {
 
         if (!isNull(nuggetDictEntry)) {
             recipes.addShapeless(nuggetItem, [nuggetDictEntry]);
+        }
+
+        if (!isNull(oreDictEntry)) {
+            furnace.addRecipe(nuggetItem * 4, oreDictEntry);
         }
     }
 

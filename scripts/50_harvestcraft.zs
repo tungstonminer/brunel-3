@@ -178,3 +178,34 @@ recipes.addShaped(<harvestcraft:waterfilter>, [
 
 # Well -- remove as too OP
 JEI.removeAndHide(<harvestcraft:well>);
+
+# import mods.harvestcrafttweaker.HarvestCraftTweaker;
+#
+# Available methods:
+# clearAllPressing();
+# addPressing(IIngredient input, IItemStack leftOutput, IItemStack rightOutput);
+# removePressingByInput(IItemStack input);
+
+# clearAllGrinding();
+# addGrinding(IIngredient input, IItemStack leftOutput, IItemStack rightOutput);
+# removeGrindingByInput(IItemStack input);
+#
+# addWaterFilter(IIngredient input, IItemStack leftOutput, IItemStack rightOutput);
+# removeWaterFilterByInput(IItemStack input);
+#
+# //ground traps,normally hardcoded so needed coremods
+# addGroundTrap(IIngredient input, IItemStack[] outputs) ;
+# removeGroundTrapByInput(IIngredient input);
+#
+# //water traps, also hardcoded so needed coremods as well
+# addWaterTrap(IIngredient input, IItemStack[] outputs);
+# removeWaterTrapByInput(IIngredient input);
+#
+# //market
+# clearAllMarket();
+# addMarket(IItemStack toBuy,IItemStack input,int cost);
+# removeMarketByOutput(IItemStack output);
+#
+# //shipping bin
+# addShipping(IItemStack toBuy,IItemStack currency,int cost);
+# removeShippingByOutput(IItemStack output);
