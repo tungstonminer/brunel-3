@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-20T21:55:33.352555Z",
+  "lastPlayed": "2021-02-22T06:55:50.127547Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -699,7 +699,7 @@
       "dateInstalled": "2021-02-20T21:00:28.676159Z",
       "dateUpdated": "2021-02-20T21:00:28.680374Z",
       "dateLastUpdateAttempted": "2021-02-20T21:00:28.680374Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -708,7 +708,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246222,
@@ -2415,14 +2415,14 @@
       "addonID": 336569,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2929872,
-        "displayName": "MoreTweaker-1.0.16.jar",
-        "fileName": "MoreTweaker-1.0.16.jar",
-        "fileDate": "2020-04-14T13:50:41.967Z",
-        "fileLength": 302569,
+        "id": 3211576,
+        "displayName": "MoreTweaker-1.0.17.jar",
+        "fileName": "MoreTweaker-1.0.17.jar",
+        "fileDate": "2021-02-21T12:29:32.137Z",
+        "fileLength": 308166,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2929/872/MoreTweaker-1.0.16.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3211/576/MoreTweaker-1.0.17.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -2443,19 +2443,19 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 252806277,
+            "fingerprint": 1152282120,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "moretweaker",
-            "fingerprint": 2680225058,
+            "fingerprint": 3346574698,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2331194777,
+            "fingerprint": 845414500,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2472,7 +2472,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 952848053,
+        "packageFingerprint": 1794372542,
         "gameVersion": [
           "1.12.2"
         ],
@@ -2485,11 +2485,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MoreTweaker-1.0.16.jar"
+        "FileNameOnDisk": "MoreTweaker-1.0.17.jar"
       },
       "dateInstalled": "2021-02-20T21:27:42.892Z",
-      "dateUpdated": "2021-02-20T21:27:42.892801Z",
-      "dateLastUpdateAttempted": "2021-02-20T21:27:42.892801Z",
+      "dateUpdated": "2021-02-22T04:53:01.854213Z",
+      "dateLastUpdateAttempted": "2021-02-22T04:53:01.854213Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -2499,7 +2499,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237989,
@@ -3439,7 +3439,7 @@
       "dateInstalled": "2021-02-14T05:27:24.270237Z",
       "dateUpdated": "2021-02-19T23:26:52.228802Z",
       "dateLastUpdateAttempted": "2021-02-19T23:26:52.228802Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4334,7 +4334,7 @@
       "dateInstalled": "2021-01-23T15:29:47.768517Z",
       "dateUpdated": "2021-02-19T23:26:54.819724Z",
       "dateLastUpdateAttempted": "2021-02-19T23:26:54.819724Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4567,7 +4567,7 @@
       "dateInstalled": "2021-02-19T23:47:28.721838Z",
       "dateUpdated": "2021-02-19T23:47:28.722926Z",
       "dateLastUpdateAttempted": "2021-02-19T23:47:28.722926Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4735,7 +4735,7 @@
       "dateInstalled": "2021-02-20T03:24:08.693437Z",
       "dateUpdated": "2021-02-20T03:24:08.696442Z",
       "dateLastUpdateAttempted": "2021-02-20T03:24:08.696442Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8394,7 +8394,7 @@
       "dateInstalled": "2021-01-23T15:32:01.114751Z",
       "dateUpdated": "2021-02-19T23:26:56.612704Z",
       "dateLastUpdateAttempted": "2021-02-19T23:26:56.612704Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 
@@ -18,7 +19,27 @@ val unpackingMold = <immersiveengineering:mold:7>;
 
 # Metal Lookup Functions ###############################################################################################
 
-function all_metals() as string[] {
+function allAlloys() as string[][] {
+    return [
+        ["constantan", "copper", "nickel"],
+        ["electrum", "gold", "silver"],
+        ["invar", "iron", "nickel"],
+        ["bronze", "copper", "tin"],
+        ["brass", "copper", "zinc"],
+    ] as string[][];
+}
+
+function allAlloyAmounts() as int[][] {
+    return [
+        [2, 1, 1],
+        [2, 1, 1],
+        [3, 2, 1],
+        [4, 3, 1],
+        [4, 3, 1],
+    ] as int[][];
+}
+
+function allMetals() as string[] {
     return [
         "aluminum",
         "bronze",
@@ -296,7 +317,7 @@ function rod(name as string) as IItemStack {
 
 # Formulaic Recipes ####################################################################################################
 
-for metal in all_metals() {
+for metal in allMetals() {
     var blockItem = metalBlock(metal);
     var dustItem = dust(metal);
     var gearItem = gear(metal);
@@ -432,5 +453,29 @@ for metal in all_metals() {
         if (!isNull(plateItem)) {
             recipes.addShapeless(rodItem * 2, [plateItem, engineeringHammer.transformDamage()]);
         }
+    }
+}
+
+for index, alloyDefinition in allAlloys() {
+    var output = alloyDefinition[0];
+    var firstInput = alloyDefinition[1];
+    var secondInput = alloyDefinition[2];
+    var amounts = allAlloyAmounts()[index];
+
+    var firstInputAmount = amounts[1];
+    var firstInputIngotItem = ingot(firstInput);
+    var outputAmount = amounts[0];
+    var outputIngotItem = ingot(output);
+    var secondInputAmount = amounts[2];
+    var secondInputIngotItem = ingot(secondInput);
+
+    AlloySmelter.removeRecipe(outputIngotItem);
+    if !isNull(firstInputIngotItem) && !isNull(secondInputIngotItem) {
+        AlloySmelter.addRecipe(
+            outputIngotItem * outputAmount,
+            firstInputIngotItem * firstInputAmount,
+            secondInputIngotItem * secondInputAmount,
+            (outputAmount * 80)
+        );
     }
 }
