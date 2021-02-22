@@ -15,50 +15,38 @@ JEI.removeAndHide(<betteranimalsplus:fried_egg>);
 JEI.removeAndHide(<betteranimalsplus:goatcheese>);
 JEI.removeAndHide(<betteranimalsplus:goatmilk>);
 
-# Charcoal -- remove recipes in favor of Forestry charcoal pile
-recipes.remove(<minecraft:coal:1>);
-furnace.remove(<minecraft:coal:1>);
-
 # Chisel -- Block of Charcoal -- remove recipe which conflicts with TE
 recipes.remove(<chisel:block_charcoal>);
 
-# Enchantment Table -- don't allow enchantments
+# Engineer's Tools -- Auto Stim Pack -- remove as OP for too many potion effects
+JEI.removeAndHide(<engineerstools:stimpack>);
+
+# Engineer's Tools -- REDIA Tool -- remove as OP for combining too many tools in one
+JEI.removeAndHide(<engineerstools:redia_tool>);
+
+# Fist Full of Hay -- Logo
+JEI.removeAndHide(<fistful_of_hay:logo>);
+
+# Forestry -- remove rainmaker control items
+JEI.removeAndHide(<forestry:iodine_capsule>);
+JEI.removeAndHide(<forestry:crafting_material:4>);
+
+# Immersive Engineering -- Engineer's Hammer -- don't use for crushing ores
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
+
+# Minecraft -- Charcoal -- remove recipes in favor of Forestry charcoal pile
+recipes.remove(<minecraft:coal:1>);
+furnace.remove(<minecraft:coal:1>);
+
+# Minecraft -- Enchantment Table -- don't allow enchantments
 JEI.removeAndHide(<minecraft:brewing_stand>);
 JEI.removeAndHide(<minecraft:enchanting_table>);
 JEI.removeAndHide(<minecraft:experience_bottle>);
 
-# Fist Full of Hay
-JEI.removeAndHide(<fistful_of_hay:logo>);
-
-# Mowzie's Mobs
+# Mowzie's Mobs -- test items
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
 JEI.removeAndHide(<mowziesmobs:test_structure>);
-
-# Forestry Greenhouse Items
-ids = [0, 3, 4, 5] as int[];
-for i in ids {
-    JEI.removeAndHide(<forestry:greenhouse>.definition.makeStack(i));
-}
-
-# Forestry Greenhouse Climatiser Items
-ids = [0, 1, 2, 3, 4] as int[];
-for i in ids {
-    JEI.removeAndHide(<forestry:climatiser>.definition.makeStack(i));
-}
-
-# Forestry Greenhouse Additional Items
-JEI.removeAndHide(<forestry:greenhouse.window>);
-JEI.removeAndHide(<forestry:greenhouse.window_up>);
-
-# Engineer's Hammer -- don't use for crushing ores
-recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
-recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
-
-# Auto Stim Pack -- remove as OP for too many potion effects
-JEI.removeAndHide(<engineerstools:stimpack>);
-
-# REDIA Tool -- remove as OP for combining too many tools in one
-JEI.removeAndHide(<engineerstools:redia_tool>);
 
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));

@@ -78,6 +78,9 @@ val PRIME_MEATS_COOKED = [
 
 ########################################################################################################################
 
+# Bottle of Honey -- remove from ore dict
+<ore:dropHoney>.remove(<animania:honey_bottle>);
+
 # Cheese Mold -- allow any item metal in the recipe
 recipes.remove(<animania:cheese_mold>);
 recipes.addShaped(<animania:cheese_mold>, [
@@ -87,8 +90,6 @@ recipes.addShaped(<animania:cheese_mold>, [
 
 # Carving Knife -- rename
 CLEAVER.displayName = "Cleaver";
-
-# Cooked Prime Meat -- remove from ore dict, and require carving first
 
 # Omelette -- use any eggs
 furnace.remove(<betteranimalsplus:fried_egg>);
@@ -131,3 +132,6 @@ for index in 0 to MEATS_RAW.length {
         dictEntry.remove(cookedPrimeMeatItem);
     }
 }
+
+# Milk Bucket -- remove conversion recipes
+recipes.removeByRecipeName("animania:milk_conversion");

@@ -6,13 +6,6 @@ import mods.jei.JEI;
 ########################################################################################################################
 
 var water = <harvestcraft:freshwateritem>;
-var milkBuckets =
-    <minecraft:milk_bucket> |
-    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000});
 
 
 ########################################################################################################################
@@ -65,11 +58,40 @@ recipes.addShapeless(
 # Fresh Milk -- don't let people use a whole bucket when a quarter will do
 <ore:listAllmilk>.remove(<minecraft:milk_bucket>);
 recipes.remove(<harvestcraft:freshmilkitem>);
-recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [milkBuckets]);
+recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [
+    <minecraft:milk_bucket> |
+    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}})
+]);
 recipes.addShapeless(<harvestcraft:freshmilkitem>, [<harvestcraft:juiceritem>.reuse(), <ore:cropAlmond> * 4]);
 
 # Fresh Water -- only allow HC water items in recipes
-<ore:listAllwater>.remove(<minecraft:water_bucket>);
+val DIST_WATER = <liquid:dist_water>.name;
+recipes.remove(<harvestcraft:freshwateritem>);
+recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [
+    <forge:bucketfilled>.withTag({FluidName: DIST_WATER, Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: DIST_WATER, Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: DIST_WATER, Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: DIST_WATER, Amount: 1000}})
+]);
 
 # Ground Trap -- remove as too OP
 JEI.removeAndHide(<harvestcraft:groundtrap>);
@@ -158,7 +180,7 @@ recipes.addShapeless(<minecraft:sugar>, [
     <ore:toolPot>.reuse(), <ore:cropMaplesyrup>
 ]);
 recipes.addShapeless(<minecraft:sugar> * 2, [
-    <ore:toolPot>.reuse(), <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, water
+    <ore:toolPot>.reuse(), <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, <harvestcraft:freshwateritem>
 ]);
 
 # Venison -- change name to horse meat
