@@ -48,6 +48,13 @@ JEI.removeAndHide(<minecraft:experience_bottle>);
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
 JEI.removeAndHide(<mowziesmobs:test_structure>);
 
+# Water Works -- remove items we aren't using in this modpack
+JEI.removeAndHide(<waterworks:pipe_wrench>);
+JEI.removeAndHide(<waterworks:materials:0>);
+JEI.removeAndHide(<waterworks:materials:1>);
+
+# Mob Spawning Eggs ################################################################################
+
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:bat"}}));
