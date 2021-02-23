@@ -3,7 +3,7 @@
   "mmersivetweaker": "0.1",
   "journeymapdefaults": "1.12-0.0.2",
   "blockdrops": "1.4.0",
-  "animania": "2.0.2.26",
+  "animania": "2.0.3.28",
   "moretweaker": "1.0.17",
   "incontrol": "3.9.18",
   "cofhcore": "4.6.6",

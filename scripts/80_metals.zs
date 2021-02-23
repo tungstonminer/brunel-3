@@ -101,7 +101,7 @@ function dust(name as string) as IItemStack {
         "steel": <immersiveengineering:metal:17>,
         "tin": <contenttweaker:tin_dust>,
         "uranium": <immersiveengineering:metal:14>,
-        "zinc": null,
+        "zinc": <contenttweaker:zinc_dust>,
     } as IItemStack[string];
 
     return dusts[name];

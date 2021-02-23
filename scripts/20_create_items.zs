@@ -21,4 +21,7 @@ tinDust.creativeTab = <creativetab:Immersive Engineering>;
 tinDust.maxStackSize = 32;
 tinDust.register();
 
-# TODO: add recipes for creating and using tin dust
+var zincDust = VanillaFactory.createItem("zinc_dust");
+zincDust.creativeTab = <creativetab:Immersive Engineering>;
+zincDust.maxStackSize = 32;
+zincDust.register();
