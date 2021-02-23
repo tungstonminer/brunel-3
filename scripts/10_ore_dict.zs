@@ -47,7 +47,6 @@ itemMetalNugget.addAll(<ore:nuggetTin>);
 
 var toolMetalIngot as IOreDictEntry = oreDict.get("toolMetalIngot");
 toolMetalIngot.addAll(<ore:ingotBronze>);
-toolMetalIngot.addAll(<ore:ingotCopper>);
 toolMetalIngot.addAll(<ore:ingotInvar>);
 toolMetalIngot.addAll(<ore:ingotIron>);
 toolMetalIngot.addAll(<ore:ingotNickel>);

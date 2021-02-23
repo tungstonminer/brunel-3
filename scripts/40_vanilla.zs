@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.immersiveengineering.Crusher;
 
 
 ########################################################################################################################
@@ -36,21 +37,8 @@ recipes.addShaped(<minecraft:iron_bars> * 8, [
 
 
 # Prismarine Shard -- add Pulverizer recipe to get shards from blocks
-# TODO: convert these into recipes for the IE crusher
-# Pulverizer.addRecipe(
-#     <minecraft:prismarine_shard> * 3,
-#     <minecraft:prismarine:0>,
-#     4000,
-#     <minecraft:prismarine_shard>,
-#     50
-# );
-# Pulverizer.addRecipe(
-#     <minecraft:prismarine_shard> * 8,
-#     <minecraft:prismarine:1>,
-#     4000,
-#     <minecraft:prismarine_shard>,
-#     50
-# );
+Crusher.addRecipe(<minecraft:prismarine_shard> * 3, <minecraft:prismarine:0>, 2048, <minecraft:prismarine_shard>, 0.25);
+Crusher.addRecipe(<minecraft:prismarine_shard> * 8, <minecraft:prismarine:1>, 2048, <minecraft:prismarine_shard>, 0.25);
 
 
 # Saddle -- add alternate recipes using various metals
@@ -67,3 +55,35 @@ recipes.addShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft
 
 # Rabbit Skin -- change name to match its use
 <minecraft:rabbit_hide>.displayName = "Small Hide";
+
+# Torch -- add easier early-game recipe which doesn't require charcoal
+recipes.remove(<minecraft:torch>);
+recipes.addShaped(<minecraft:torch> * 2, [
+    [<ore:blockWool>],
+    [<ore:stickWood>]
+]);
+recipes.addShaped(<minecraft:torch> * 3, [
+    [<ore:itemBeeswax>],
+    [<ore:itemBeeswax>],
+    [<ore:stickWood>]
+]);
+recipes.addShaped(<minecraft:torch> * 4, [
+    [<betteranimalsplus:blubber> | <ore:coal> | <ore:charcoal>],
+    [<ore:stickWood>],
+]);
+recipes.addShaped(<minecraft:torch> * 6, [
+    [
+        <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}) |
+        <forestry:refractory:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}) |
+        <forestry:capsule:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}) |
+        <railcraft:fluid_bottle_creosote> |
+        <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000})
+
+    ],
+    [<ore:blockWool>],
+    [<ore:stickWood>],
+]);
+recipes.addShaped(<minecraft:torch> * 8, [
+    [<ore:fuelCoke>],
+    [<ore:stickWood>],
+]);

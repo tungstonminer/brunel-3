@@ -14,6 +14,14 @@ var inputItems = [] as IItemStack[];
 # Cactus -- Add recipe for water from Cactus
 Squeezer.addRecipe(<minecraft:dye:2>, <liquid:water> * 512, <minecraft:cactus>, 1024);
 
+# Engineering Hammer -- Add more forgiving recipes
+recipes.remove(<immersiveengineering:tool:0>);
+recipes.addShaped(<immersiveengineering:tool:0>, [
+    [null, <ore:toolMetalIngot>, <ore:string>],
+    [null, <ore:stickWood>, <ore:toolMetalIngot>],
+    [<ore:stickWood>, null, null],
+]);
+
 # HOP Graphite Dust -- Fix recipe for HOP Graphite Dust
 Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 Squeezer.addRecipe(
