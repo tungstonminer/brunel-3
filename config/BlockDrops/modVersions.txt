@@ -9,6 +9,7 @@
   "cofhcore": "4.6.6",
   "contenttweaker": "1.12.2-4.9.1",
   "mcwwindows": "1.0",
+  "lttweaker": "1.1.14",
   "craftstudioapi": "1.0.0",
   "rsgauges": "1.2.5",
   "hammercore": "2.0.6.26",
