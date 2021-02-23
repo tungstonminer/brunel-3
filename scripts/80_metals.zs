@@ -10,7 +10,7 @@ import mods.immersiveengineering.MetalPress;
 val bushing = <railcraft:gear:3>;
 val clippers = <immersiveengineering:tool:1>;
 val crushingHammer = <engineerstools:crushing_hammer>;
-val engineeringHammer = <immersiveengineering:tool:0>;
+val engineeringHammer = <immersiveengineering:tool>;
 val gearMold = <immersiveengineering:mold:1>;
 val largePackingMold = <immersiveengineering:mold:6>;
 val plateMold = <immersiveengineering:mold:0>;
@@ -374,7 +374,7 @@ for metal in allMetals() {
 
         if (!isNull(oreDictEntry)) {
             Crusher.addRecipe(dustItem * 2, oreDictEntry, 2048, <minecraft:gravel>, 1.0);
-            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.transformDamage(4)]);
+            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.anyDamage().transformDamage(4).reuse()]);
         }
 
         if (!isNull(gearItem)) {
@@ -390,7 +390,7 @@ for metal in allMetals() {
             MetalPress.addRecipe(gearItem, ingotItem * 4, gearMold, 1024);
 
             recipes.addShaped(gearItem, [
-                [clippers.transformDamage(4), ingotItem, null],
+                [clippers.anyDamage().transformDamage(4).reuse(), ingotItem, null],
                 [ingotItem, bushing, ingotItem],
                 [null, ingotItem, null],
             ]);
@@ -438,7 +438,7 @@ for metal in allMetals() {
 
         if (!isNull(ingotDictEntry)) {
             MetalPress.addRecipe(plateItem, ingotDictEntry, plateMold, 1024);
-            recipes.addShapeless(plateItem, [ingotDictEntry, engineeringHammer.transformDamage()]);
+            recipes.addShapeless(plateItem, [ingotDictEntry, crushingHammer.anyDamage().transformDamage(4).reuse()]);
         }
     }
 
@@ -451,7 +451,7 @@ for metal in allMetals() {
         }
 
         if (!isNull(plateItem)) {
-            recipes.addShapeless(rodItem * 2, [plateItem, engineeringHammer.transformDamage()]);
+            recipes.addShapeless(rodItem * 2, [plateItem, engineeringHammer.reuse()]);
         }
     }
 }
