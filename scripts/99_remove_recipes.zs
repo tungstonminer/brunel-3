@@ -64,6 +64,11 @@ JEI.removeAndHide(<railcraft:armor_chestplate_steel>);
 JEI.removeAndHide(<railcraft:armor_leggings_steel>);
 JEI.removeAndHide(<railcraft:armor_boots_steel>);
 
+# Railcraft -- Worldspike -- remove non-standard worldspike
+JEI.removeAndHide(<railcraft:worldspike:0>);
+JEI.removeAndHide(<railcraft:worldspike:1>);
+JEI.removeAndHide(<railcraft:worldspike:2>);
+
 # Water Works -- remove items we aren't using in this modpack
 JEI.removeAndHide(<waterworks:pipe_wrench>);
 JEI.removeAndHide(<waterworks:materials:0>);
