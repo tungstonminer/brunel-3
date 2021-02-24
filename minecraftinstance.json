@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-24T03:15:42.930994Z",
+  "lastPlayed": "2021-02-24T03:33:25.289688Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5256,10 +5256,10 @@
         "isServerPack": false,
         "FileNameOnDisk": "InventoryTweaks-1.63.jar"
       },
-      "dateInstalled": "2021-01-26T03:45:48.807581Z",
-      "dateUpdated": "2021-01-26T03:45:48.811427Z",
-      "dateLastUpdateAttempted": "2021-01-26T03:45:48.811427Z",
-      "status": 5,
+      "dateInstalled": "2021-02-24T03:24:03.160934Z",
+      "dateUpdated": "2021-02-24T03:24:03.161825Z",
+      "dateLastUpdateAttempted": "2021-02-24T03:24:03.161825Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5268,7 +5268,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 250398,
