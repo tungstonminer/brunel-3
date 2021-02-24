@@ -48,6 +48,17 @@ JEI.removeAndHide(<minecraft:experience_bottle>);
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
 JEI.removeAndHide(<mowziesmobs:test_structure>);
 
+# Railcraft -- steel tools which duplicate those in Immersive Engineering
+JEI.removeAndHide(<railcraft:tool_axe_steel>);
+JEI.removeAndHide(<railcraft:tool_hoe_steel>);
+JEI.removeAndHide(<railcraft:tool_pickaxe_steel>);
+JEI.removeAndHide(<railcraft:tool_shovel_steel>);
+JEI.removeAndHide(<railcraft:tool_sword_steel>);
+JEI.removeAndHide(<railcraft:armor_helmet_steel>);
+JEI.removeAndHide(<railcraft:armor_chestplate_steel>);
+JEI.removeAndHide(<railcraft:armor_leggings_steel>);
+JEI.removeAndHide(<railcraft:armor_boots_steel>);
+
 # Water Works -- remove items we aren't using in this modpack
 JEI.removeAndHide(<waterworks:pipe_wrench>);
 JEI.removeAndHide(<waterworks:materials:0>);
