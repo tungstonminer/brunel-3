@@ -18,6 +18,11 @@ JEI.removeAndHide(<betteranimalsplus:goatmilk>);
 # Chisel -- Block of Charcoal -- remove recipe which conflicts with TE
 recipes.remove(<chisel:block_charcoal>);
 
+# Currency -- Remove upgrade items
+for meta in 0 .. 6 {
+    JEI.removeAndHide(<modcurrency:upgrade>.definition.makeStack(meta));
+}
+
 # Engineer's Tools -- Auto Stim Pack -- remove as OP for too many potion effects
 JEI.removeAndHide(<engineerstools:stimpack>);
 
