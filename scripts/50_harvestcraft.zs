@@ -40,6 +40,10 @@ recipes.addShaped(<minecraft:cake>, [
 # Cheese -- remove in preference for the Animania process
 JEI.removeAndHide(<harvestcraft:cheeseitem>);
 
+# Cooking Oil -- make recipes consistent with Plant Oil recipes
+recipes.remove(<harvestcraft:oliveoilitem>);
+recipes.addShapeless(<harvestcraft:oliveoilitem>, [<ore:toolJuicer>.reuse(), <ore:plantOilInput>]);
+
 # Cutting Board -- replace bricks(?!) and use metals
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShaped(<harvestcraft:cuttingboarditem>, [

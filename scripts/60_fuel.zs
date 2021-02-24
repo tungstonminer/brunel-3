@@ -91,14 +91,8 @@ Squeezer.addRecipe(<forestry:propolis>, <liquid:for.honey> * 2000, <forestry:hon
 Squeezer.addRecipe(null, <liquid:for.honey> * 2000, <forestry:honeydew> * 20, 5120);
 
 # Plant Oil -- Add recipes for IE Plant Oil
-var plantOilInput = oreDict.plantOilInput;
-plantOilInput.addAll(<ore:cropAvocado>);
-plantOilInput.addAll(<ore:cropMustard>);
-plantOilInput.addAll(<ore:cropOlive>);
-plantOilInput.addAll(<ore:cropPeanut>);
-plantOilInput.addAll(<ore:cropWalnut>);
 Squeezer.removeFluidRecipe(<liquid:plantoil>);
-for itemStack in plantOilInput.items {
+for itemStack in <ore:plantOilInput>.items {
     Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:plantoil> * 512, itemStack * 8, 51200);
 }
 

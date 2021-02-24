@@ -45,6 +45,13 @@ itemMetalNugget.addAll(<ore:nuggetNickel>);
 itemMetalNugget.addAll(<ore:nuggetSteel>);
 itemMetalNugget.addAll(<ore:nuggetTin>);
 
+var plantOilInput = oreDict.plantOilInput;
+plantOilInput.addAll(<ore:cropAvocado>);
+plantOilInput.addAll(<ore:cropMustard>);
+plantOilInput.addAll(<ore:cropOlive>);
+plantOilInput.addAll(<ore:cropPeanut>);
+plantOilInput.addAll(<ore:cropWalnut>);
+
 var toolMetalIngot as IOreDictEntry = oreDict.get("toolMetalIngot");
 toolMetalIngot.addAll(<ore:ingotBronze>);
 toolMetalIngot.addAll(<ore:ingotInvar>);
