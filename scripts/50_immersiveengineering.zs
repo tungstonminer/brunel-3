@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Squeezer;
 
 
@@ -31,6 +32,29 @@ Squeezer.addRecipe(
     19280
 );
 
+# Lantern -- replace with non-oredicted items
+recipes.remove(<immersiveengineering:metal_decoration2:4>);
+recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 3, [
+    [null, <ore:plateIron>, null],
+    [<minecraft:glass_pane>, <minecraft:glowstone>, <minecraft:glass_pane>],
+    [null, <ore:plateIron>, null],
+]);
+
+# Powered Lantern -- replace with non-oredicted recipe
+recipes.remove(<immersiveengineering:metal_device1:4>);
+recipes.addShaped(<immersiveengineering:metal_device1:4>, [
+    [null, <ore:plateIron>, null],
+    [<minecraft:glass_pane>, <ore:electronTube>, <minecraft:glass_pane>],
+    [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>],
+]);
+
+# Sand -- remove recipes for making sand from colored glass
+Crusher.removeRecipe(<minecraft:sand>);
+Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 4096);
+Crusher.addRecipe(<minecraft:sand>, <ore:itemSlag>, 4096);
+Crusher.addRecipe(<minecraft:sand>, <ore:blockGlassColorless>, 4096);
+Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstone>, 4096, <immersiveengineering:material:24>, 0.5);
+
 # Seed Oil -- Add recipes for Forestry Seed Oil
 for itemStack in <ore:listAllseed>.items {
     Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:seed.oil> * 80, itemStack * 8, 51200);
@@ -38,3 +62,6 @@ for itemStack in <ore:listAllseed>.items {
 
 # Sulfur Dust -- Allow any sulfur dust to be converted to Immersive Engineering sulfur dust
 recipes.addShapeless(<immersiveengineering:material:25>, [<ore:dustSulfur>]);
+
+# Terracotta -- allow crushing back to clay
+Crusher.addRecipe(<minecraft:clay_ball> * 4, <minecraft:hardened_clay>, 2048);

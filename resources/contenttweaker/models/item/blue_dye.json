@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:item:tin_dust.png"
+    "layer0": "contenttweaker:items/blue_dye"
   }
 }

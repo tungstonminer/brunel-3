@@ -7,63 +7,18 @@ import mods.immersiveengineering.Crusher;
 var circuitBoard = <immersiveengineering:material:27>;
 var copperWire = <immersiveengineering:material:20>;
 
+val WATER = <liquid:water>.name;
+val waterItem =
+    <minecraft:water_bucket> | <claybucket:claybucket:1> |
+    <forge:bucketfilled>.withTag({FluidName: WATER, Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}});
+
 
 ########################################################################################################################
 
-# Fix missing names
-<railcraft:charge:9>.displayName = "Carbon Electrode";
-<railcraft:charge:10>.displayName = "Silver Electrode";
-
-# Add recipes for railcraft dusts
-Crusher.addRecipe(<railcraft:dust:6>, <minecraft:ender_pearl>, 8000);  # ender powder
-Crusher.addRecipe(<railcraft:dust:3>, <ore:charcoal>, 512);  # charcoal dust
-Crusher.addRecipe(<railcraft:dust:3> * 9, <ore:blockCharcoal>, 4096);  # charcoal dust
-Crusher.addRecipe(<railcraft:dust:4> * 2, <ore:itemSlag>, 1024);  # slag dust
-Crusher.addRecipe(<railcraft:dust:5> * 2, <ore:oreCoal>, 2048);  # coal dust
-Crusher.addRecipe(<railcraft:dust:5> * 9, <ore:blockCoal>, 4096);  # coal dust
-
-# Allow Railcraft sulfur to be converted to Immersive Engineering sulfur
-recipes.addShapeless(<immersiveengineering:material:25>, [<ore:dustSulfur>]);
-
-# Add more-compatible recipe for controller circuit
-recipes.remove(<railcraft:circuit:0>);
-recipes.addShapeless(<railcraft:circuit:0>, [
-    circuitBoard, copperWire, <ore:woolRed>, <ore:dustRedstone>
-]);
-
-# Add more-compatible recipe for receiver circuit
-recipes.remove(<railcraft:circuit:1>);
-recipes.addShapeless(<railcraft:circuit:1>, [
-    circuitBoard, copperWire, <ore:woolGreen>, <ore:dustRedstone>
-]);  # receiver circuit
-
-# Add more-compatible recipe for signal circuit
-recipes.remove(<railcraft:circuit:2>);
-recipes.addShapeless(<railcraft:circuit:2>, [
-    circuitBoard, copperWire, <ore:woolYellow>, <ore:dustRedstone>
-]);
-
-# Add more-compatible recipe for radio circuit
-recipes.remove(<railcraft:circuit:3>);
-recipes.addShapeless(<railcraft:circuit:3>, [
-    circuitBoard, copperWire, <ore:woolBlue>, <ore:dustRedstone>
-]);
-
-# Make recipe for concrete which doesn't require a trip to the nether
-recipes.remove(<railcraft:concrete>);
-recipes.addShaped(<railcraft:concrete> * 2, [
-    [<ore:gravel>, <ore:dustSlag>],
-    [<ore:dustSlag>, <ore:gravel>],
-]);
-
-# Only permit creating ties using a Carpenter
-recipes.remove(<railcraft:tie>);
-recipes.remove(<railcraft:tie:1>);
-
-# Only permit creating Creosote Wood Blocks in the Carpenter
-recipes.remove(<railcraft:generic:5>);
-
-# Only allow brass bushings
+# Bushing -- Only allow brass bushings
 var bushing = <railcraft:gear:3>;
 recipes.remove(bushing);
 recipes.addShaped(bushing * 4, [
@@ -71,8 +26,138 @@ recipes.addShaped(bushing * 4, [
     [<ore:ingotBrass>, <ore:ingotBrass>],
 ]);
 
-# Add recipe for crushed obsidian
+# Concrete -- Make recipe for concrete which doesn't require a trip to the nether
+recipes.remove(<railcraft:concrete>);
+recipes.addShaped(<railcraft:concrete> * 2, [
+    [<ore:gravel>, <ore:dustSlag>],
+    [<ore:dustSlag>, <ore:gravel>],
+]);
+
+# Controller Circuit -- Add more-compatible recipe for controller circuit
+recipes.remove(<railcraft:circuit:0>);
+recipes.addShapeless(<railcraft:circuit:0>, [
+    circuitBoard, copperWire, <ore:woolRed>, <ore:dustRedstone>
+]);
+
+# Creosote Wood -- Only permit creating Creosote Wood Blocks in the Carpenter
+recipes.remove(<railcraft:generic:5>);
+
+# Crushed Obsidian -- Add recipe for crushed obsidian
 Crusher.addRecipe(<railcraft:generic:7>, <ore:obsidian>, 4096);
+
+# Dust -- Add recipes for railcraft dusts
+Crusher.addRecipe(<railcraft:dust:6>, <minecraft:ender_pearl>, 8000);  # ender powder
+Crusher.addRecipe(<railcraft:dust:3>, <ore:charcoal>, 512);  # charcoal dust
+Crusher.addRecipe(<railcraft:dust:3> * 9, <ore:blockCharcoal>, 4096);  # charcoal dust
+Crusher.addRecipe(<railcraft:dust:4> * 2, <ore:itemSlag>, 1024);  # slag dust
+Crusher.addRecipe(<railcraft:dust:5> * 2, <ore:oreCoal>, 2048);  # coal dust
+Crusher.addRecipe(<railcraft:dust:5> * 9, <ore:blockCoal>, 4096);  # coal dust
+
+# Electrode -- Fix missing names
+<railcraft:charge:9>.displayName = "Carbon Electrode";
+<railcraft:charge:10>.displayName = "Silver Electrode";
+
+# Iron Tank Gauge -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_iron_gauge>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_iron_gauge:0>, [
+    [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>],
+    [<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>],
+    [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>],
+]);
+
+# Iron Tank Valve -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_iron_valve>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_iron_valve:0>, [
+    [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>],
+    [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],
+    [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>],
+]);
+
+# Iron Tank Wall -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_iron_wall>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_iron_wall:0>, [
+    [<ore:plateIron>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:plateIron>],
+]);
+
+# Radio Circuit -- Add more-compatible recipe for radio circuit
+recipes.remove(<railcraft:circuit:3>);
+recipes.addShapeless(<railcraft:circuit:3>, [
+    circuitBoard, copperWire, <ore:woolBlue>, <ore:dustRedstone>
+]);
+
+# Receiver Circuit -- Add more-compatible recipe for receiver circuit
+recipes.remove(<railcraft:circuit:1>);
+recipes.addShapeless(<railcraft:circuit:1>, [
+    circuitBoard, copperWire, <ore:woolGreen>, <ore:dustRedstone>
+]);  # receiver circuit
+
+# Reinforced Concrete -- remove all colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:reinforced_concrete>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:reinforced_concrete:8> * 8, [
+    [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
+    [<railcraft:rebar>, waterItem, <railcraft:rebar>],
+    [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
+]);
+
+
+# Signal Circuit -- Add more-compatible recipe for signal circuit
+recipes.remove(<railcraft:circuit:2>);
+recipes.addShapeless(<railcraft:circuit:2>, [
+    circuitBoard, copperWire, <ore:woolYellow>, <ore:dustRedstone>
+]);
+
+# Strengthened Glass -- only allow plain glass
+recipes.remove(<railcraft:glass:0>);
+recipes.addShaped(<railcraft:glass:0>, [
+    [<minecraft:glass>, <ore:toolMetalIngot>, <minecraft:glass>],
+    [<minecraft:glass>, <ore:dustSaltpeter>, <minecraft:glass>],
+    [<minecraft:glass>, waterItem, <minecraft:glass>],
+]);
+
+# Steel Tank Gauge -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_steel_gauge>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_steel_gauge:0>, [
+    [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>],
+    [<ore:plateSteel>, <minecraft:glass_pane>, <ore:plateSteel>],
+    [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>],
+]);
+
+# Steel Tank Valve -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_steel_valve>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_steel_valve:0>, [
+    [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>],
+    [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>],
+    [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>],
+]);
+
+# Steel Tank Wall -- remove colored recipes
+for meta in 0 .. 16 {
+    recipes.remove(<railcraft:tank_steel_wall>.definition.makeStack(meta));
+}
+recipes.addShaped(<railcraft:tank_steel_wall:0>, [
+    [<ore:plateSteel>, <ore:plateSteel>],
+    [<ore:plateSteel>, <ore:plateSteel>],
+]);
+
+# Sulfur -- Allow Railcraft sulfur to be converted to Immersive Engineering sulfur
+recipes.addShapeless(<immersiveengineering:material:25>, [<ore:dustSulfur>]);
+
+# Tie -- Only permit creating ties using a Carpenter
+recipes.remove(<railcraft:tie>);
+recipes.remove(<railcraft:tie:1>);
 
 
 # import moretweaker.railcraft.BlastFurnace;

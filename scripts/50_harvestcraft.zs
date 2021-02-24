@@ -37,6 +37,10 @@ recipes.addShaped(<minecraft:cake>, [
     [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
 
+# Candle -- replace white candle recipe
+recipes.remove(<harvestcraft:candledeco1>);
+recipes.addShapeless(<harvestcraft:candledeco1> * 4, [<ore:itemBeeswax>, <ore:string>]);
+
 # Cheese -- remove in preference for the Animania process
 JEI.removeAndHide(<harvestcraft:cheeseitem>);
 
@@ -87,7 +91,7 @@ recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [
 ]);
 recipes.addShapeless(<harvestcraft:freshmilkitem>, [<harvestcraft:juiceritem>.reuse(), <ore:cropAlmond> * 4]);
 
-# Fresh Water -- only allow HC water items in recipes
+# Fresh Water -- only allow distilled water for food
 val DIST_WATER = <liquid:dist_water>.name;
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [

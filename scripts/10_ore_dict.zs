@@ -63,3 +63,16 @@ toolMetalIngot.addAll(<ore:ingotSteel>);
 <ore:foodEelraw>.add(<betteranimalsplus:eel_meat_raw>);
 <ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
 <ore:listAllmeatraw>.add(<animania:raw_peacock>);
+
+# Concrete Powder
+for meta in 0 .. 16 {
+    <ore:concretePowder>.add(<minecraft:concrete_powder>.definition.makeStack(meta));
+}
+
+# Terracotta
+for meta in 0 .. 16 {
+    <ore:hardenedClay>.add(<minecraft:stained_hardened_clay>.definition.makeStack(meta));
+}
+
+# Pressed Wax
+<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);

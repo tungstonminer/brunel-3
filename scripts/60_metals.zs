@@ -58,7 +58,7 @@ function allMetals() as string[] {
         "tin",
         "uranium",
         "zinc",
-    ];
+    ] as string[];
 }
 
 function blockDictEntry(name as string) as IOreDictEntry {
