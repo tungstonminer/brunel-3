@@ -159,6 +159,13 @@ recipes.addShapeless(<immersiveengineering:material:25>, [<ore:dustSulfur>]);
 recipes.remove(<railcraft:tie>);
 recipes.remove(<railcraft:tie:1>);
 
+# Trackman's Nodepad -- fix recipe to use black dye
+recipes.remove(<railcraft:tool_notepad>);
+recipes.addShaped(<railcraft:tool_notepad>, [
+    [<ore:dyeBlack>, <ore:feather>],
+    [<railcraft:tool_magnifying_glass>, <ore:paper>],
+]);
+
 
 # import moretweaker.railcraft.BlastFurnace;
 # BlastFurnace.add(IItemStack output, IIngredient input, optional int ticks, optional int slag);

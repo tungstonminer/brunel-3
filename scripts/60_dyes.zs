@@ -103,7 +103,7 @@ function getStainedGlassEntry(color as string) as IOreDictEntry {
     return coloredGlassEntries[color];
 }
 
-function makeColoredBiblioCraftStack(itemStack as IItemStack, color as string) as IItemStack {
+function makeColoredBibliocraftStack(itemStack as IItemStack, color as string) as IItemStack {
     var metaValues = {
         "white": 0, "lightGray": 1, "gray": 2, "black": 3, "red": 4, "orange": 5, "yellow": 6, "lime": 7, "green": 8,
         "cyan": 9, "lightBlue": 10, "blue": 11, "purple": 12, "magenta": 13, "pink": 14, "brown": 15
@@ -152,7 +152,20 @@ for itemStack in <ore:hardenedClay>.items {
 ########################################################################################################################
 
 for color in ALL_COLORS {
-    var dyeItem = getDyeItem(color);
+    val dyeItem = getDyeItem(color);
+    val terracottaItem = makeColoredStack(<minecraft:stained_hardened_clay>, color);
+    val woolItem = makeColoredStack(<minecraft:wool>, color);
+
+    # Balloon -- use the new dyes for balloons
+    if color != "white" {
+        val balloonItem = makeColoredStack(<davincisvessels:balloon>, color);
+        recipes.remove(balloonItem);
+        recipes.addShaped(balloonItem * 8, [
+            [<davincisvessels:balloon:0>, <davincisvessels:balloon:0>, <davincisvessels:balloon:0>],
+            [<davincisvessels:balloon:0>, dyeItem, <davincisvessels:balloon:0>],
+            [<davincisvessels:balloon:0>, <davincisvessels:balloon:0>, <davincisvessels:balloon:0>],
+        ]);
+    }
 
     # Bed -- use the new dyes for beds
     if color != "white" {
@@ -190,16 +203,16 @@ for color in ALL_COLORS {
 
     # Fancy Lamps & Lanterns -- add colored recipes
     if color != "white" {
-        var goldLampItem = makeColoredBiblioCraftStack(<bibliocraft:lampgold>, color);
+        var goldLampItem = makeColoredBibliocraftStack(<bibliocraft:lampgold>, color);
         recipes.addShapeless(goldLampItem, [<bibliocraft:lampgold:0>, dyeItem]);
 
-        var ironLampItem = makeColoredBiblioCraftStack(<bibliocraft:lampiron>, color);
+        var ironLampItem = makeColoredBibliocraftStack(<bibliocraft:lampiron>, color);
         recipes.addShapeless(ironLampItem, [<bibliocraft:lampiron:0>, dyeItem]);
 
-        var goldLanternItem = makeColoredBiblioCraftStack(<bibliocraft:lanterngold>, color);
+        var goldLanternItem = makeColoredBibliocraftStack(<bibliocraft:lanterngold>, color);
         recipes.addShapeless(goldLanternItem, [<bibliocraft:lanterngold:0>, dyeItem]);
 
-        var ironLanternItem = makeColoredBiblioCraftStack(<bibliocraft:lanterniron>, color);
+        var ironLanternItem = makeColoredBibliocraftStack(<bibliocraft:lanterniron>, color);
         recipes.addShapeless(ironLanternItem, [<bibliocraft:lanterniron:0>, dyeItem]);
     }
 
@@ -300,8 +313,17 @@ for color in ALL_COLORS {
         ]);
     }
 
+    # Sword Pedestal -- add recipes for colored pedestals
+    if color != "white" {
+        val pedestalItem = makeColoredBibliocraftStack(<bibliocraft:swordpedestal>, color);
+        recipes.remove(pedestalItem);
+        recipes.addShaped(pedestalItem, [
+            [null, <minecraft:stone_slab>, null],
+            [<minecraft:stone_slab>, woolItem, <minecraft:stone_slab>],
+        ]);
+    }
+
     # Terracotta -- allow staining plain terracotta
-    val terracottaItem = makeColoredStack(<minecraft:stained_hardened_clay>, color);
     recipes.addShaped(terracottaItem * 8, [
         [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
         [<minecraft:hardened_clay>, dyeItem, <minecraft:hardened_clay>],
@@ -311,8 +333,16 @@ for color in ALL_COLORS {
     # Terracotta -- allow crushing terracotta back to clay
     Crusher.addRecipe(<minecraft:clay_ball> * 4, terracottaItem, 2048, dyeItem, 0.05);
 
+    # Typewriter -- add recipes for colored typewriters
+    val typewriterItem = makeColoredBibliocraftStack(<bibliocraft:typewriter>, color);
+    recipes.remove(typewriterItem);
+    recipes.addShaped(typewriterItem, [
+        [<ore:ingotIron>, <ore:paper>, <ore:ingotIron>],
+        [<ore:blockIron>, <ore:dyeBlack>, <ore:blockIron>],
+        [terracottaItem, terracottaItem, terracottaItem],
+    ]);
+
     # Wool -- allow crushing with a chance of getting dye back
-    val woolItem = makeColoredStack(<minecraft:wool>, color);
     Crusher.removeRecipesForInput(woolItem);
     Crusher.addRecipe(<minecraft:string> * 4, woolItem, 2048, dyeItem, 0.05);
 
@@ -398,8 +428,10 @@ recipes.addShaped(getDyeItem("white") * 7, [
 # Mixed Dyes
 function d(color as string) as IItemStack { return getDyeItem(color); }
 
+recipes.addShapeless(d("blue") * 2, [mortar, d("black"), d("lightBlue")]);
 recipes.addShapeless(d("cyan") * 2, [mortar, d("blue"), d("green")]);
 recipes.addShapeless(d("gray") * 2, [mortar, d("black"), d("white")]);
+recipes.addShapeless(d("green") * 2, [mortar, d("black"), d("green")]);
 recipes.addShapeless(d("lightBlue") * 2, [mortar, d("blue"), d("white")]);
 recipes.addShapeless(d("lightGray") * 2, [mortar, d("gray"), d("white")]);
 recipes.addShapeless(d("lightGray") * 3, [mortar, d("black"), d("white"), d("white")]);
@@ -407,6 +439,6 @@ recipes.addShapeless(d("lime") * 2, [mortar, d("green"), d("white")]);
 recipes.addShapeless(d("magenta") * 2, [mortar, d("pink"), d("purple")]);
 recipes.addShapeless(d("magenta") * 3, [mortar, d("blue"), d("pink"), d("red")]);
 recipes.addShapeless(d("magenta") * 4, [mortar, d("blue"), d("red"), d("red"), d("white")]);
+recipes.addShapeless(d("orange") * 2, [mortar, d("red"), d("yellow")]);
 recipes.addShapeless(d("pink") * 2, [mortar, d("red"), d("white")]);
 recipes.addShapeless(d("purple") * 2, [mortar, d("blue"), d("red")]);
-recipes.addShapeless(d("orange") * 2, [mortar, d("red"), d("yellow")]);

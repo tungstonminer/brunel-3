@@ -60,6 +60,13 @@ HCT.addGrinding(<ore:cropCinnamon>, <harvestcraft:groundcinnamonitem>, <harvestc
 recipes.remove(<harvestcraft:oliveoilitem>);
 HCT.addPressing(<ore:plantOilInput>, <harvestcraft:oliveoilitem>, <harvestcraft:grainbaititem>);
 
+# Cotton Candy -- use pink dye instead of bone meal
+recipes.remove(<harvestcraft:cottoncandyitem>);
+recipes.addShapeless(<harvestcraft:cottoncandyitem>, [
+    <ore:toolMixingbowl>, <ore:listAllsugar>, <ore:listAllwater>,
+    <ore:cropCotton>, <ore:dyePink>, <ore:paper>
+]);
+
 # Cutting Board -- replace bricks(?!) and use metals
 recipes.remove(<harvestcraft:cuttingboarditem>);
 recipes.addShaped(<harvestcraft:cuttingboarditem>, [

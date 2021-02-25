@@ -5,6 +5,11 @@ import mods.immersiveengineering.Crusher;
 
 ########################################################################################################################
 
+# Bone Meal -- change recipes to require some machinery
+recipes.remove(<minecraft:dye:15>);
+recipes.addShapeless(<minecraft:dye:15> * 3, [<ore:toolMortarandpestle>, <minecraft:bone>]);
+Crusher.addRecipe(<minecraft:dye:15> * 18, <minecraft:bone_block>, 2048);
+
 # Bucket -- add alternate recipes metal buckets
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [

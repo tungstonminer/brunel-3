@@ -89,3 +89,21 @@ for meta in 0 .. 16 {
 <ore:listAllrabbitraw>.remove(<harvestcraft:groundrabbititem>);
 <ore:listAllturkeyraw>.remove(<harvestcraft:groundturkeyitem>);
 <ore:listAllvenisonraw>.remove(<harvestcraft:groundvenisonitem>);
+
+# Dye -- remove items which are no longer valid dyes and add their replacements
+<ore:dye>.add(<contenttweaker:black_dye>);
+<ore:dye>.add(<contenttweaker:blue_dye>);
+<ore:dye>.add(<contenttweaker:brown_dye>);
+<ore:dye>.add(<contenttweaker:white_dye>);
+<ore:dye>.remove(<minecraft:dye:0>);
+<ore:dye>.remove(<minecraft:dye:15>);
+<ore:dye>.remove(<minecraft:dye:3>);
+<ore:dye>.remove(<minecraft:dye:4>);
+<ore:dyeBlack>.add(<contenttweaker:black_dye>);
+<ore:dyeBlack>.remove(<minecraft:dye:0>);
+<ore:dyeBlue>.add(<contenttweaker:blue_dye>);
+<ore:dyeBlue>.remove(<minecraft:dye:4>);
+<ore:dyeBrown>.add(<contenttweaker:brown_dye>);
+<ore:dyeBrown>.remove(<minecraft:dye:3>);
+<ore:dyeWhite>.add(<contenttweaker:white_dye>);
+<ore:dyeWhite>.remove(<minecraft:dye:15>);
