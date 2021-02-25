@@ -69,10 +69,23 @@ for meta in 0 .. 16 {
     <ore:concretePowder>.add(<minecraft:concrete_powder>.definition.makeStack(meta));
 }
 
+# Pressed Wax
+<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
+
 # Terracotta
 for meta in 0 .. 16 {
     <ore:hardenedClay>.add(<minecraft:stained_hardened_clay>.definition.makeStack(meta));
 }
 
-# Pressed Wax
-<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
+# Remove Erroneous Entries
+<ore:listAllporkraw>.remove(<harvestcraft:bbqjackfruititem>);
+<ore:listAllporkcooked>.remove(<harvestcraft:bbqjackfruititem>);
+<ore:listAllbeefraw>.remove(<harvestcraft:groundbeefitem>);
+<ore:listAllchickenraw>.remove(<harvestcraft:groundchickenitem>);
+<ore:listAllduckraw>.remove(<harvestcraft:groundduckitem>);
+<ore:listAllfishraw>.remove(<harvestcraft:groundfishitem>);
+<ore:listAllmuttonraw>.remove(<harvestcraft:groundmuttonitem>);
+<ore:listAllporkraw>.remove(<harvestcraft:groundporkitem>);
+<ore:listAllrabbitraw>.remove(<harvestcraft:groundrabbititem>);
+<ore:listAllturkeyraw>.remove(<harvestcraft:groundturkeyitem>);
+<ore:listAllvenisonraw>.remove(<harvestcraft:groundvenisonitem>);
