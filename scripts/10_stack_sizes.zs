@@ -9,8 +9,6 @@ print("Adjusting stack sizes...");
 for itemDefinition in game.items {
     var item as IItemStack = itemDefinition.makeStack();
     if !isNull(item) {
-        print("adjusting stack size for name: " ~ item.name ~ ", displayName: " ~ item.displayName);
-
         if item.isItemBlock || item.hasContainerItem {
             if item.maxStackSize > 4 {
                 item.maxStackSize = 4;

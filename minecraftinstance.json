@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-02-24T21:56:24.008139Z",
+  "lastPlayed": "2021-02-25T21:55:56.668777Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -375,84 +375,6 @@
       "dateInstalled": "2021-01-23T16:02:58.044692Z",
       "dateUpdated": "2021-01-23T16:02:58.045609Z",
       "dateLastUpdateAttempted": "2021-01-23T16:02:58.045609Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 266263,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 2684315,
-        "displayName": "[1.12.2] Block Protector - 6r",
-        "fileName": "BlockProtector-1.12.2-6r.jar",
-        "fileDate": "2019-03-07T05:41:36.84Z",
-        "fileLength": 164160,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2684/315/BlockProtector-1.12.2-6r.jar",
-        "isAlternate": false,
-        "alternateFileId": 2684316,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 247401,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3633096071,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 26954158,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3392177377,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3789048607,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3083996094,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BlockProtector-1.12.2-6r.jar"
-      },
-      "dateInstalled": "2021-01-25T03:20:23.114434Z",
-      "dateUpdated": "2021-01-25T03:20:23.120045Z",
-      "dateLastUpdateAttempted": "2021-01-25T03:20:23.120045Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -1555,89 +1477,6 @@
       "dateInstalled": "2021-01-27T03:27:51.759966Z",
       "dateUpdated": "2021-01-27T03:27:51.765544Z",
       "dateLastUpdateAttempted": "2021-01-27T03:27:51.765544Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 247401,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 3157564,
-        "displayName": "[1.12.2] Hammer Core - 2.0.6.26",
-        "fileName": "HammerLib-1.12.2-2.0.6.26.jar",
-        "fileDate": "2021-01-03T21:36:51.77Z",
-        "fileLength": 2420178,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3157/564/HammerLib-1.12.2-2.0.6.26.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3405220882,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "asm.properties",
-            "fingerprint": 6029263,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1882780959,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2937018370,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3547676547,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2520228967,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2878478187,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "HammerLib-1.12.2-2.0.6.26.jar"
-      },
-      "dateInstalled": "2021-01-25T03:20:22.471912Z",
-      "dateUpdated": "2021-01-25T03:20:22.473477Z",
-      "dateLastUpdateAttempted": "2021-01-25T03:20:22.473477Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
