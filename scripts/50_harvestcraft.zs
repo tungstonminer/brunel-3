@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.harvestcrafttweaker.HarvestCraftTweaker as HCT;
+import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Squeezer;
 import mods.jei.JEI;
 
@@ -253,6 +254,9 @@ recipes.addShaped(<harvestcraft:waterfilter>, [
 
 # Well -- remove as too OP
 JEI.removeAndHide(<harvestcraft:well>);
+
+# Veggie Bait -- add a crusher recipe
+Crusher.addRecipe(<harvestcraft:veggiebaititem>, <ore:listAllveggie>, 256);
 
 # import mods.harvestcrafttweaker.HarvestCraftTweaker;
 #
