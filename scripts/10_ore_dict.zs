@@ -60,6 +60,8 @@ toolMetalIngot.addAll(<ore:ingotNickel>);
 toolMetalIngot.addAll(<ore:ingotSteel>);
 
 # Add individual items to ore dict entries
+<ore:dustBronze>.add(<contenttweaker:bronze_dust>);
+<ore:dustTin>.add(<contenttweaker:tin_dust>);
 <ore:foodEelraw>.add(<betteranimalsplus:eel_meat_raw>);
 <ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
 <ore:listAllmeatraw>.add(<animania:raw_peacock>);

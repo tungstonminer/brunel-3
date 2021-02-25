@@ -19,6 +19,11 @@ blueDye.creativeTab = <creativetab:misc>;
 blueDye.maxStackSize = 32;
 blueDye.register();
 
+var bronzeDust = VanillaFactory.createItem("bronze_dust");
+bronzeDust.creativeTab = <creativetab:immersiveengineering>;
+bronzeDust.maxStackSize = 32;
+bronzeDust.register();
+
 var brownDye = VanillaFactory.createItem("brown_dye");
 brownDye.creativeTab = <creativetab:misc>;
 brownDye.maxStackSize = 32;

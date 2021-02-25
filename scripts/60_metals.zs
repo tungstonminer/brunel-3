@@ -88,7 +88,7 @@ function dust(name as string) as IItemStack {
     var dusts = {
         "aluminum": <immersiveengineering:metal:10>,
         "brass": null,
-        "bronze": null,
+        "bronze": <contenttweaker:bronze_dust>,
         "constantan": <immersiveengineering:metal:15>,
         "copper": <immersiveengineering:metal:9>,
         "electrum": <immersiveengineering:metal:16>,
@@ -456,6 +456,9 @@ for metal in allMetals() {
     }
 }
 
+
+# Alloy Furnace Recipes ################################################################################################
+
 for index, alloyDefinition in allAlloys() {
     var output = alloyDefinition[0];
     var firstInput = alloyDefinition[1];
@@ -479,3 +482,10 @@ for index, alloyDefinition in allAlloys() {
         );
     }
 }
+
+
+# Crafting Table Recipes ###############################################################################################
+
+recipes.addShapeless(<contenttweaker:bronze_dust> * 4, [
+    <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>
+]);
