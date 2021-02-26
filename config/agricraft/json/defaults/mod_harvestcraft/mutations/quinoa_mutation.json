@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/radish_mutation.json",
+  "path": "mod_harvestcraft/mutations/quinoa_mutation.json",
   "enabled": true,
   "chance": 0.375,
-  "child": "harvestcraft:radish_plant",
+  "child": "harvestcraft:quinoa_plant",
   "parent1": "harvestcraft:beet_plant",
   "parent2": "harvestcraft:garlic_plant"
 }

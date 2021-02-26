@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/soybean_mutation.json",
+  "path": "mod_harvestcraft/mutations/sisal_mutation.json",
   "enabled": true,
   "chance": 0.1,
-  "child": "harvestcraft:soybean_plant",
+  "child": "harvestcraft:sisal_plant",
   "parent1": "harvestcraft:peas_plant",
   "parent2": "harvestcraft:rice_plant"
 }

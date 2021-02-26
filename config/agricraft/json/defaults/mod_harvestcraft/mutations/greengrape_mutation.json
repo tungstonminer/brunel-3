@@ -1,8 +1,8 @@
 {
-  "path": "mod_harvestcraft/mutations/grape_mutation.json",
+  "path": "mod_harvestcraft/mutations/greengrape_mutation.json",
   "enabled": true,
   "chance": 0.4,
-  "child": "harvestcraft:grape_plant",
+  "child": "harvestcraft:greengrape_plant",
   "parent1": "harvestcraft:cactusfruit_plant",
   "parent2": "vanilla:orchid_plant"
 }
