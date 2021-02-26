@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.forestry.Moistener;
 import mods.forestry.Squeezer;
 import mods.immersiveengineering.BottlingMachine;
@@ -7,6 +8,7 @@ import mods.jei.JEI;
 ########################################################################################################################
 
 val HONEY_CAPSULE = <forestry:capsule:1>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}});
+
 
 ########################################################################################################################
 

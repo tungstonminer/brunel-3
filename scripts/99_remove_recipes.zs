@@ -18,6 +18,11 @@ JEI.removeAndHide(<betteranimalsplus:goatmilk>);
 # Chisel -- Block of Charcoal -- remove recipe which conflicts with TE
 recipes.remove(<chisel:block_charcoal>);
 
+# Currency -- Remove upgrade items
+for meta in 0 .. 6 {
+    JEI.removeAndHide(<modcurrency:upgrade>.definition.makeStack(meta));
+}
+
 # Engineer's Tools -- Auto Stim Pack -- remove as OP for too many potion effects
 JEI.removeAndHide(<engineerstools:stimpack>);
 
@@ -47,6 +52,29 @@ JEI.removeAndHide(<minecraft:experience_bottle>);
 # Mowzie's Mobs -- test items
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
 JEI.removeAndHide(<mowziesmobs:test_structure>);
+
+# Railcraft -- steel tools which duplicate those in Immersive Engineering
+JEI.removeAndHide(<railcraft:tool_axe_steel>);
+JEI.removeAndHide(<railcraft:tool_hoe_steel>);
+JEI.removeAndHide(<railcraft:tool_pickaxe_steel>);
+JEI.removeAndHide(<railcraft:tool_shovel_steel>);
+JEI.removeAndHide(<railcraft:tool_sword_steel>);
+JEI.removeAndHide(<railcraft:armor_helmet_steel>);
+JEI.removeAndHide(<railcraft:armor_chestplate_steel>);
+JEI.removeAndHide(<railcraft:armor_leggings_steel>);
+JEI.removeAndHide(<railcraft:armor_boots_steel>);
+
+# Railcraft -- Worldspike -- remove non-standard worldspike
+JEI.removeAndHide(<railcraft:worldspike:0>);
+JEI.removeAndHide(<railcraft:worldspike:1>);
+JEI.removeAndHide(<railcraft:worldspike:2>);
+
+# Water Works -- remove items we aren't using in this modpack
+JEI.removeAndHide(<waterworks:pipe_wrench>);
+JEI.removeAndHide(<waterworks:materials:0>);
+JEI.removeAndHide(<waterworks:materials:1>);
+
+# Mob Spawning Eggs ################################################################################
 
 # Remove Minecraft Spawn Eggs
 JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}));

@@ -1,11 +1,15 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.harvestcrafttweaker.HarvestCraftTweaker as HCT;
+import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.Squeezer;
 import mods.jei.JEI;
 
 
 ########################################################################################################################
 
-var water = <harvestcraft:freshwateritem>;
+HCT.clearAllPressing();
+HCT.clearAllGrinding();
 
 
 ########################################################################################################################
@@ -29,6 +33,12 @@ JEI.removeAndHide(<harvestcraft:honeycomb>);
 JEI.removeAndHide(<harvestcraft:honeycombitem>);
 JEI.removeAndHide(<harvestcraft:honeyitem>);
 
+# Black Pepper -- grind peppercorns to black pepper
+HCT.addGrinding(<ore:cropPeppercorn>, <harvestcraft:blackpepperitem>, <harvestcraft:blackpepperitem>);
+
+# Bubbly Water -- add presser recipe
+HCT.addPressing(<harvestcraft:freshwateritem>, <harvestcraft:bubblywateritem>, <harvestcraft:bubblywateritem>);
+
 # Cake -- only allow HC milk
 recipes.remove(<minecraft:cake>);
 recipes.addShaped(<minecraft:cake>, [
@@ -37,8 +47,26 @@ recipes.addShaped(<minecraft:cake>, [
     [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]
 ]);
 
+# Candle -- replace white candle recipe
+recipes.remove(<harvestcraft:candledeco1>);
+recipes.addShapeless(<harvestcraft:candledeco1> * 4, [<ore:itemBeeswax>, <ore:string>]);
+
 # Cheese -- remove in preference for the Animania process
 JEI.removeAndHide(<harvestcraft:cheeseitem>);
+
+# Cinnamon -- grind peppercorns to black pepper
+HCT.addGrinding(<ore:cropCinnamon>, <harvestcraft:groundcinnamonitem>, <harvestcraft:groundcinnamonitem>);
+
+# Cooking Oil -- make recipes consistent with Plant Oil recipes
+recipes.remove(<harvestcraft:oliveoilitem>);
+HCT.addPressing(<ore:plantOilInput>, <harvestcraft:oliveoilitem>, <harvestcraft:grainbaititem>);
+
+# Cotton Candy -- use pink dye instead of bone meal
+recipes.remove(<harvestcraft:cottoncandyitem>);
+recipes.addShapeless(<harvestcraft:cottoncandyitem>, [
+    <ore:toolMixingbowl>, <ore:listAllsugar>, <ore:listAllwater>,
+    <ore:cropCotton>, <ore:dyePink>, <ore:paper>
+]);
 
 # Cutting Board -- replace bricks(?!) and use metals
 recipes.remove(<harvestcraft:cuttingboarditem>);
@@ -54,6 +82,9 @@ recipes.addShapeless(
     "fishtrapbait_replacement", <harvestcraft:fishtrapbaititem>,
     [<ore:string>, <harvestcraft:groundfishitem>]
 );
+
+# Flour -- allow griding grains to flour
+HCT.addGrinding(<ore:listAllgrain>, <harvestcraft:flouritem>, <harvestcraft:flouritem>);
 
 # Fresh Milk -- don't let people use a whole bucket when a quarter will do
 <ore:listAllmilk>.remove(<minecraft:milk_bucket>);
@@ -81,9 +112,8 @@ recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [
     <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
     <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}})
 ]);
-recipes.addShapeless(<harvestcraft:freshmilkitem>, [<harvestcraft:juiceritem>.reuse(), <ore:cropAlmond> * 4]);
 
-# Fresh Water -- only allow HC water items in recipes
+# Fresh Water -- only allow distilled water for food
 val DIST_WATER = <liquid:dist_water>.name;
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [
@@ -92,6 +122,17 @@ recipes.addShapeless(<harvestcraft:freshwateritem> * 4, [
     <forestry:refractory:1>.withTag({Fluid: {FluidName: DIST_WATER, Amount: 1000}}) |
     <forestry:capsule:1>.withTag({Fluid: {FluidName: DIST_WATER, Amount: 1000}})
 ]);
+
+# Ground Meats -- add back the recipes for ground meat
+HCT.addGrinding(<ore:listAllbeefraw>, <harvestcraft:groundbeefitem>, <harvestcraft:groundbeefitem>);
+HCT.addGrinding(<ore:listAllchickenraw>, <harvestcraft:groundchickenitem>, <harvestcraft:groundchickenitem>);
+HCT.addGrinding(<ore:listAllduckraw>, <harvestcraft:groundduckitem>, <harvestcraft:groundduckitem>);
+HCT.addGrinding(<ore:listAllfishraw>, <harvestcraft:groundfishitem>, <harvestcraft:groundfishitem>);
+HCT.addGrinding(<ore:listAllmuttonraw>, <harvestcraft:groundmuttonitem>, <harvestcraft:groundmuttonitem>);
+HCT.addGrinding(<ore:listAllporkraw>, <harvestcraft:groundporkitem>, <harvestcraft:groundporkitem>);
+HCT.addGrinding(<ore:listAllrabbitraw>, <harvestcraft:groundrabbititem>, <harvestcraft:groundrabbititem>);
+HCT.addGrinding(<ore:listAllturkeyraw>, <harvestcraft:groundturkeyitem>, <harvestcraft:groundturkeyitem>);
+HCT.addGrinding(<ore:listAllvenisonraw>, <harvestcraft:groundvenisonitem>, <harvestcraft:groundvenisonitem>);
 
 # Ground Trap -- remove as too OP
 JEI.removeAndHide(<harvestcraft:groundtrap>);
@@ -121,6 +162,9 @@ recipes.remove(<harvestcraft:nutellaitem>);
 recipes.addShapeless(<harvestcraft:nutellaitem>, [
     <ore:toolSaucepan>, <ore:foodChocolatebar>, <ore:cropHazelnut>
 ]);
+
+# Nutmeg -- add back the recipes for grinding
+HCT.addGrinding(<ore:cropNutmeg>, <harvestcraft:groundnutmegitem>, <harvestcraft:groundnutmegitem>);
 
 # Omelette -- use Animania omelette as base
 var denverOmelette = <harvestcraft:omeletitem>;
@@ -175,6 +219,12 @@ recipes.addShaped(<harvestcraft:skilletitem>, [
     [null, null,  <ore:stickWood>],
 ]);
 
+# Seaweed -- add back the recipes for grinding
+HCT.addGrinding(<ore:cropSeaweed>, <harvestcraft:saltitem>, <harvestcraft:veggiebaititem>);
+
+# Sesame Seed Oil -- add presser recipe
+HCT.addPressing(<ore:cropSesame>, <harvestcraft:sesameoilitem>, <harvestcraft:grainbaititem>);
+
 # Sugar -- allow making sugar from maple syrup and beets
 recipes.addShapeless(<minecraft:sugar>, [
     <ore:toolPot>.reuse(), <ore:cropMaplesyrup>
@@ -182,6 +232,10 @@ recipes.addShapeless(<minecraft:sugar>, [
 recipes.addShapeless(<minecraft:sugar> * 2, [
     <ore:toolPot>.reuse(), <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, <ore:cropBeet>, <harvestcraft:freshwateritem>
 ]);
+
+# Tofu -- add presser recipes
+HCT.addPressing(<ore:cropSoybean>, <harvestcraft:silkentofuitem>, <harvestcraft:grainbaititem>);
+HCT.addPressing(<ore:foodSilkentofu>, <harvestcraft:firmtofuitem>, <harvestcraft:soymilkitem>);
 
 # Venison -- change name to horse meat
 <harvestcraft:venisonrawitem>.displayName = "Raw Horse Meat";
@@ -200,6 +254,9 @@ recipes.addShaped(<harvestcraft:waterfilter>, [
 
 # Well -- remove as too OP
 JEI.removeAndHide(<harvestcraft:well>);
+
+# Veggie Bait -- add a crusher recipe
+Crusher.addRecipe(<harvestcraft:veggiebaititem>, <ore:listAllveggie>, 256);
 
 # import mods.harvestcrafttweaker.HarvestCraftTweaker;
 #
