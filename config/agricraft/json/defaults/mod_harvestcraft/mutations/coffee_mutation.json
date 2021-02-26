@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/coffee_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:coffee_plant",
   "parent1": "harvestcraft:bean_plant",

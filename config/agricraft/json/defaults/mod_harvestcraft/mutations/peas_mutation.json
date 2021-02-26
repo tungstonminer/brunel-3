@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/peas_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:peas_plant",
   "parent1": "harvestcraft:bean_plant",

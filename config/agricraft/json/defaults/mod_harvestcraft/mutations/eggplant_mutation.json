@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/eggplant_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:eggplant_plant",
   "parent1": "harvestcraft:wintersquash_plant",

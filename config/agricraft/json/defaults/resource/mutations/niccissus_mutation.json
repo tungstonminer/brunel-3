@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/niccissus_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.1,
   "child": "resource:niccissus_plant",
   "parent1": "vanilla:nether_wart_plant",

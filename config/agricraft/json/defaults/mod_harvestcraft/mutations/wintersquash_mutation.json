@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/wintersquash_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:wintersquash_plant",
   "parent1": "harvestcraft:sweetpotato_plant",

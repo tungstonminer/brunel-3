@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/millet_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:millet_plant",
   "parent1": "harvestcraft:corn_plant",

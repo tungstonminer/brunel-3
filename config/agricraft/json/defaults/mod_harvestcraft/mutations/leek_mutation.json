@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/leek_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:leek_plant",
   "parent1": "harvestcraft:scallion_plant",

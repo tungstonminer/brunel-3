@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/tomatillo_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:tomatillo_plant",
   "parent1": "harvestcraft:lettuce_plant",

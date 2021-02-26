@@ -4,5 +4,5 @@
   "chance": 0.5,
   "child": "harvestcraft:agave_plant",
   "parent1": "vanilla:sugarcane_plant",
-  "parent2": "harvestcraft:cactusfruit_plant"
+  "parent2": "vanilla:cactus_plant"
 }

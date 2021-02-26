@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/seaweed_mutation.json",
-  "enabled": true,
+  "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:seaweed_plant",
   "parent1": "harvestcraft:lettuce_plant",
