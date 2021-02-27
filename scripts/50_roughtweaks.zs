@@ -8,7 +8,7 @@ var healingPotion = <minecraft:potion>.withTag({Potion: "minecraft:healing"});
 
 # Replace Salve recipe
 recipes.remove(salve);
-recipes.addShapeless(salve, [<ore:listAllmilk>, <ore:cropAgave>, <ore:dropHoney>, <minecraft:bowl>]);
+recipes.addShapeless(salve, [<ore:listAllmilk>, <ore:cropAgave>, <ore:listAllsugar>, <minecraft:bowl>]);
 
 # Replace Plaster recipe
 recipes.remove(plaster);
