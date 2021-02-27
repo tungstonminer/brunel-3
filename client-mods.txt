@@ -1,0 +1,15 @@
+BetterPlacement*
+blockdrops*
+Controlling*
+CTM*
+DefaultOptions*
+horseinfo*
+Hwyla*
+jei*
+jepb*
+just-enough-*
+JustEnough*
+MouseTweaks*
+noRecipeBook*
+reauth*
+Toast*
