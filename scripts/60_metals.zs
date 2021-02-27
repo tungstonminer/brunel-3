@@ -411,11 +411,6 @@ for metal in allMetals() {
         if (!isNull(ingotDictEntry)) {
             recipes.addShapeless(ingotItem, [ingotDictEntry]);
         }
-
-        if (!isNull(nuggetDictEntry)) {
-            MetalPress.addRecipe(ingotItem, nuggetDictEntry * 9, largePackingMold, 256);
-            furnace.addRecipe(ingotItem, nuggetItem * 9);
-        }
     }
 
     if (!isNull(nuggetItem)) {
@@ -425,10 +420,6 @@ for metal in allMetals() {
 
         if (!isNull(nuggetDictEntry)) {
             recipes.addShapeless(nuggetItem, [nuggetDictEntry]);
-        }
-
-        if (!isNull(oreDictEntry)) {
-            furnace.addRecipe(nuggetItem * 4, oreDictEntry);
         }
     }
 
