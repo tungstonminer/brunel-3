@@ -48,6 +48,25 @@ events.onCommand(function(event as CommandEvent) {
         if !isNull(player) {
             player.sendChat("/me pack biomes -- print all the biomes to the crafttweaker.log file");
             player.sendChat("/me pack help -- show this help message");
+            player.sendChat("/me pack mob -- reload mob configs");
+        }
+    } else if subcommand == "mob" {
+        server.commandManager.executeCommand(event.commandSender, "/ctrlreload");
+        server.commandManager.executeCommand(event.commandSender, "/cofh killall *");
+
+        if params.length > 2 {
+            var time = params[2];
+
+            if time == "day" {
+                server.commandManager.executeCommand(event.commandSender, "/time set 6000");
+                server.commandManager.executeCommand(event.commandSender, "/effect @p clear");
+            } else if time == "night" {
+                server.commandManager.executeCommand(event.commandSender, "/time set 18000");
+                server.commandManager.executeCommand(event.commandSender, "/effect @p minecraft:night_vision 999");
+            } else if time == "twilight" {
+                server.commandManager.executeCommand(event.commandSender, "/time set 12000");
+                server.commandManager.executeCommand(event.commandSender, "/effect @p clear");
+            }
         }
     } else if subcommand == "test" {
         server.commandManager.executeCommand(event.commandSender, "/gamemode creative");
