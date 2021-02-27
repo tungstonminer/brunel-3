@@ -6,6 +6,7 @@ import mods.immersiveengineering.Crusher;
 
 var circuitBoard = <immersiveengineering:material:27>;
 var copperWire = <immersiveengineering:material:20>;
+val crushingHammer = <engineerstools:crushing_hammer>;
 
 val WATER = <liquid:water>.name;
 val waterItem =
@@ -52,6 +53,8 @@ Crusher.addRecipe(<railcraft:dust:3> * 9, <ore:blockCharcoal>, 4096);  # charcoa
 Crusher.addRecipe(<railcraft:dust:4> * 2, <ore:itemSlag>, 1024);  # slag dust
 Crusher.addRecipe(<railcraft:dust:5> * 2, <ore:oreCoal>, 2048);  # coal dust
 Crusher.addRecipe(<railcraft:dust:5> * 9, <ore:blockCoal>, 4096);  # coal dust
+recipes.addShapeless(<railcraft:dust:3>, [<ore:charcoal>, crushingHammer.anyDamage().transformDamage(2).reuse()]);
+recipes.addShapeless(<railcraft:dust:5>, [<ore:coal>, crushingHammer.anyDamage().transformDamage(2).reuse()]);
 
 # Electrode -- Fix missing names
 <railcraft:charge:9>.displayName = "Carbon Electrode";
