@@ -108,3 +108,12 @@ for liquidStack in ALL_LIQUIDS {
         BottlingMachine.addRecipe(<claybucket:claybucket:1>, <claybucket:claybucket>, <liquid:water> * 1000);
     }
 }
+
+
+########################################################################################################################
+
+# Distilled Water -- create by boiling regular water
+furnace.addRecipe(
+    <forge:bucketfilled>.withTag({FluidName: <liquid:dist_water>.name, Amount: 1000}),
+    <forge:bucketfilled>.withTag({FluidName: <liquid:water>.name, Amount: 1000}) | <minecraft:water_bucket>
+);
