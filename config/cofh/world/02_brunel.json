@@ -2,7 +2,7 @@
     "enabled": true,
     "priority": 100,
     "populate": {
-        "iron_ore-metal_step0-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step0-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -36,7 +36,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "iron_ore-metal_step1-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step1-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -70,7 +70,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "iron_ore-metal_step2-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step2-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -104,7 +104,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "iron_ore-metal_step3-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step3-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -138,7 +138,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "iron_ore-metal_step4-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step4-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -172,7 +172,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "iron_ore-metal_step5-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step5-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -206,7 +206,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "iron_ore-metal_step6-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step6-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -240,7 +240,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "iron_ore-metal_step7-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step7-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -274,7 +274,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "iron_ore-metal_step8-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step8-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -308,7 +308,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "iron_ore-metal_step9-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step9-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -342,7 +342,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "iron_ore-metal_step10-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-metal_step10-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -376,7 +376,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "diamond_ore-gemstone_step0-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step0-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -394,7 +394,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -410,7 +413,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "diamond_ore-gemstone_step1-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step1-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -428,7 +431,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -444,7 +450,7 @@
             "min-height": 7,
             "max-height": 15
         },
-        "diamond_ore-gemstone_step2-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step2-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -462,7 +468,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -478,7 +487,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "diamond_ore-gemstone_step3-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step3-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -496,7 +505,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -512,7 +524,7 @@
             "min-height": 12,
             "max-height": 20
         },
-        "diamond_ore-gemstone_step4-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step4-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -530,7 +542,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -546,7 +561,7 @@
             "min-height": 15,
             "max-height": 23
         },
-        "diamond_ore-gemstone_step5-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step5-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -564,7 +579,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 2,
                 "type": "cluster"
@@ -580,7 +598,7 @@
             "min-height": 18,
             "max-height": 26
         },
-        "diamond_ore-gemstone_step6-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step6-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -598,7 +616,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -614,7 +635,7 @@
             "min-height": 21,
             "max-height": 29
         },
-        "diamond_ore-gemstone_step7-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step7-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -632,7 +653,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -648,7 +672,7 @@
             "min-height": 24,
             "max-height": 32
         },
-        "diamond_ore-gemstone_step8-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step8-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -666,7 +690,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -682,7 +709,7 @@
             "min-height": 26,
             "max-height": 34
         },
-        "diamond_ore-gemstone_step9-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step9-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -700,7 +727,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -716,7 +746,7 @@
             "min-height": 29,
             "max-height": 37
         },
-        "diamond_ore-gemstone_step10-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "ore-gemstone_step10-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -734,7 +764,10 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:diamond_ore",
+                "block": {
+                    "name": "immersiveengineering:ore",
+                    "metadata": 3
+                },
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -750,7 +783,7 @@
             "min-height": 32,
             "max-height": 40
         },
-        "marble2-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "marble2-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -787,7 +820,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "iron_ore-mountain_step0-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step0-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -821,7 +854,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "iron_ore-mountain_step1-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step1-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 22,
             "biome": {
@@ -855,7 +888,7 @@
             "min-height": 70,
             "max-height": 78
         },
-        "iron_ore-mountain_step2-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step2-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 22,
             "biome": {
@@ -889,7 +922,7 @@
             "min-height": 75,
             "max-height": 83
         },
-        "iron_ore-mountain_step3-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step3-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 24,
             "biome": {
@@ -923,7 +956,7 @@
             "min-height": 81,
             "max-height": 89
         },
-        "iron_ore-mountain_step4-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step4-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 24,
             "biome": {
@@ -957,7 +990,7 @@
             "min-height": 86,
             "max-height": 94
         },
-        "iron_ore-mountain_step5-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step5-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 13,
             "biome": {
@@ -991,7 +1024,7 @@
             "min-height": 92,
             "max-height": 100
         },
-        "iron_ore-mountain_step6-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step6-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -1025,7 +1058,7 @@
             "min-height": 98,
             "max-height": 106
         },
-        "iron_ore-mountain_step7-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step7-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -1059,7 +1092,7 @@
             "min-height": 103,
             "max-height": 111
         },
-        "iron_ore-mountain_step8-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step8-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -1093,7 +1126,7 @@
             "min-height": 109,
             "max-height": 117
         },
-        "iron_ore-mountain_step9-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step9-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 15,
             "biome": {
@@ -1127,7 +1160,7 @@
             "min-height": 114,
             "max-height": 122
         },
-        "iron_ore-mountain_step10-any-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_ore-mountain_step10-any-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 16,
             "biome": {
@@ -1161,7 +1194,7 @@
             "min-height": 120,
             "max-height": 128
         },
-        "iron_gravel_ore-mountain-1ab7aac6d052f79e2dc252f5911af088": {
+        "iron_gravel_ore-mountain-7657b8c70cbbbf76c3d44affe72563e5": {
             "chunk-chance": 1,
             "cluster-count": 80,
             "biome": {
@@ -1291,7 +1324,7 @@
             "min-height": 32,
             "max-height": 64
         },
-        "limestone2-any-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "limestone2-any-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -1327,7 +1360,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "iron_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "iron_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 116,
             "biome": {
@@ -1360,7 +1393,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "copper_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "copper_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 102,
             "biome": {
@@ -1393,7 +1426,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "tin_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "tin_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 88,
             "biome": {
@@ -1426,7 +1459,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "nickel_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "nickel_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 70,
             "biome": {
@@ -1459,7 +1492,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "aluminum_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "aluminum_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 56,
             "biome": {
@@ -1492,7 +1525,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "lead_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "lead_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 42,
             "biome": {
@@ -1525,7 +1558,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "silver_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "silver_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 28,
             "biome": {
@@ -1558,7 +1591,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "gold_gravel_ore-ocean_floor-19627c26ee36b4d26ef2bd4c6b26a2ff": {
+        "gold_gravel_ore-ocean_floor-f061620953990dae6d612a9d6a826704": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -1591,7 +1624,7 @@
             "min-height": 0,
             "max-height": 56
         },
-        "limestone2-any-8f7661aff2037086be6c43715cee444f": {
+        "limestone2-any-7350702ea7acc204cfc848f0e91f11ea": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -1627,7 +1660,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "ore-metal_step0-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step0-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -1662,7 +1695,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "ore-metal_step1-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step1-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -1697,7 +1730,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "ore-metal_step2-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step2-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -1732,7 +1765,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "ore-metal_step3-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step3-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -1767,7 +1800,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "ore-metal_step4-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step4-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -1802,7 +1835,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "ore-metal_step5-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step5-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -1837,7 +1870,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "ore-metal_step6-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step6-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -1872,7 +1905,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "ore-metal_step7-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step7-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -1907,7 +1940,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "ore-metal_step8-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step8-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -1942,7 +1975,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "ore-metal_step9-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step9-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -1977,7 +2010,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "ore-metal_step10-any-0bf9fb6093556fe0f133c053a494536d": {
+        "ore-metal_step10-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -2012,7 +2045,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "lapis_ore-gemstone_step0-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step0-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -2044,7 +2077,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "lapis_ore-gemstone_step1-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step1-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -2076,7 +2109,7 @@
             "min-height": 7,
             "max-height": 15
         },
-        "lapis_ore-gemstone_step2-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step2-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2108,7 +2141,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "lapis_ore-gemstone_step3-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step3-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2140,7 +2173,7 @@
             "min-height": 12,
             "max-height": 20
         },
-        "lapis_ore-gemstone_step4-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step4-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2172,7 +2205,7 @@
             "min-height": 15,
             "max-height": 23
         },
-        "lapis_ore-gemstone_step5-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step5-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2204,7 +2237,7 @@
             "min-height": 18,
             "max-height": 26
         },
-        "lapis_ore-gemstone_step6-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step6-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -2236,7 +2269,7 @@
             "min-height": 21,
             "max-height": 29
         },
-        "lapis_ore-gemstone_step7-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step7-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -2268,7 +2301,7 @@
             "min-height": 24,
             "max-height": 32
         },
-        "lapis_ore-gemstone_step8-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step8-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -2300,7 +2333,7 @@
             "min-height": 26,
             "max-height": 34
         },
-        "lapis_ore-gemstone_step9-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step9-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2332,7 +2365,7 @@
             "min-height": 29,
             "max-height": 37
         },
-        "lapis_ore-gemstone_step10-any-0bf9fb6093556fe0f133c053a494536d": {
+        "lapis_ore-gemstone_step10-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -2364,7 +2397,7 @@
             "min-height": 32,
             "max-height": 40
         },
-        "generic-any-0bf9fb6093556fe0f133c053a494536d": {
+        "generic-any-dded140a35bc0cc431103a82b8652cfb": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -2399,7 +2432,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "ore-metal_step0-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step0-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -2438,7 +2471,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "ore-metal_step1-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step1-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -2477,7 +2510,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "ore-metal_step2-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step2-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -2516,7 +2549,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "ore-metal_step3-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step3-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -2555,7 +2588,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "ore-metal_step4-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step4-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -2594,7 +2627,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "ore-metal_step5-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step5-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -2633,7 +2666,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "ore-metal_step6-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step6-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -2672,7 +2705,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "ore-metal_step7-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step7-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -2711,7 +2744,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "ore-metal_step8-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step8-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -2750,7 +2783,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "ore-metal_step9-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step9-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -2789,7 +2822,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "ore-metal_step10-any-9fb4287697735b792a489102462aef7b": {
+        "ore-metal_step10-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -2828,7 +2861,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "stone_diorite-any-9fb4287697735b792a489102462aef7b": {
+        "stone_diorite-any-c02987d857acb4610d145e0ab207d967": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -3277,7 +3310,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "ore-metal_step0-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step0-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -3312,7 +3345,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "ore-metal_step1-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step1-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -3347,7 +3380,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "ore-metal_step2-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step2-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -3382,7 +3415,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "ore-metal_step3-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step3-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -3417,7 +3450,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "ore-metal_step4-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step4-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -3452,7 +3485,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "ore-metal_step5-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step5-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -3487,7 +3520,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "ore-metal_step6-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step6-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -3522,7 +3555,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "ore-metal_step7-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step7-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -3557,7 +3590,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "ore-metal_step8-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step8-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -3592,7 +3625,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "ore-metal_step9-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step9-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -3627,7 +3660,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "ore-metal_step10-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "ore-metal_step10-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -3662,7 +3695,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "stone_andesite-any-b02c9fce63fa15bf72fab2bc40db33ed": {
+        "stone_andesite-any-8e8a066d6cbd41312424f2b12096d6f3": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -4791,9 +4824,9 @@
             "min-height": 120,
             "max-height": 128
         },
-        "ore-metal_step0-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 5,
+        "lava-diamond_ore-lake-lava-64a897f724e08e48a012bbadd9210fb3": {
+            "chunk-chance": 3,
+            "cluster-count": 1,
             "biome": {
                 "restriction": "whitelist",
                 "value": [
@@ -4806,81 +4839,22 @@
                 ]
             },
             "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
+                "block": "minecraft:lava",
                 "material": "minecraft:stone",
-                "cluster-size": 8,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 4,
-            "max-height": 12
-        },
-        "ore-metal_step1-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
+                "cluster-size": 16,
+                "outline-block": [
                     {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 7,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 10,
-            "max-height": 18
-        },
-        "ore-metal_step2-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
+                        "name": "minecraft:stone",
+                        "weight": 90000
+                    },
                     {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
+                        "name": "minecraft:diamond_ore",
+                        "weight": 10000
                     }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 7,
-                "type": "cluster"
+                ],
+                "solid-outline": true,
+                "type": "lake",
+                "use-material": true
             },
             "dimension": {
                 "restriction": "blacklist",
@@ -4890,112 +4864,10 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 16,
-            "max-height": 24
+            "min-height": 0,
+            "max-height": 16
         },
-        "ore-metal_step3-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 6,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 22,
-            "max-height": 30
-        },
-        "ore-metal_step4-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 5,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 28,
-            "max-height": 36
-        },
-        "ore-metal_step5-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 8,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 34,
-            "max-height": 42
-        },
-        "ore-metal_step6-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step0-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -5010,80 +4882,18 @@
                 ]
             },
             "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 40,
-            "max-height": 48
-        },
-        "ore-metal_step7-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 9,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
+                "block": [
                     {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 3,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 46,
-            "max-height": 54
-        },
-        "ore-metal_step8-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 12,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
                     {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
                     }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 2,
+                "cluster-size": 12,
                 "type": "cluster"
             },
             "dimension": {
@@ -5097,478 +4907,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "ore-metal_step9-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 12,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 2,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 58,
-            "max-height": 66
-        },
-        "ore-metal_step10-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 20,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": {
-                    "name": "immersiveengineering:ore",
-                    "metadata": 3
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 1,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 64,
-            "max-height": 72
-        },
-        "coal_ore-buried_mineral_step0-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 8,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 56,
-            "max-height": 64
-        },
-        "coal_ore-buried_mineral_step1-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 7,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 54,
-            "max-height": 62
-        },
-        "coal_ore-buried_mineral_step2-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 7,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 51,
-            "max-height": 59
-        },
-        "coal_ore-buried_mineral_step3-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 6,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 49,
-            "max-height": 57
-        },
-        "coal_ore-buried_mineral_step4-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 5,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 46,
-            "max-height": 54
-        },
-        "coal_ore-buried_mineral_step5-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 44,
-            "max-height": 52
-        },
-        "coal_ore-buried_mineral_step6-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 42,
-            "max-height": 50
-        },
-        "coal_ore-buried_mineral_step7-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 3,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 39,
-            "max-height": 47
-        },
-        "coal_ore-buried_mineral_step8-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 5,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 2,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 37,
-            "max-height": 45
-        },
-        "coal_ore-buried_mineral_step9-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 4,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 2,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 34,
-            "max-height": 42
-        },
-        "coal_ore-buried_mineral_step10-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 5,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 1,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 32,
-            "max-height": 40
-        },
-        "coal_ore-surface_mineral_step0-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 64,
-            "max-height": 72
-        },
-        "coal_ore-surface_mineral_step1-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 6,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 4,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 70,
-            "max-height": 78
-        },
-        "coal_ore-surface_mineral_step2-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step1-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -5583,9 +4922,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 3,
+                "cluster-size": 11,
                 "type": "cluster"
             },
             "dimension": {
@@ -5596,10 +4944,50 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 75,
-            "max-height": 83
+            "min-height": 47,
+            "max-height": 55
         },
-        "coal_ore-surface_mineral_step3-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step2-any-64a897f724e08e48a012bbadd9210fb3": {
+            "chunk-chance": 1,
+            "cluster-count": 7,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:swampland"
+                        ]
+                    }
+                ]
+            },
+            "generator": {
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 10,
+                "type": "cluster"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "distribution": "uniform",
+            "min-height": 42,
+            "max-height": 50
+        },
+        "coal_ore_etc-coal_gradient_step3-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -5614,9 +5002,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 3,
+                "cluster-size": 9,
                 "type": "cluster"
             },
             "dimension": {
@@ -5627,10 +5024,10 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 81,
-            "max-height": 89
+            "min-height": 36,
+            "max-height": 44
         },
-        "coal_ore-surface_mineral_step4-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step4-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -5645,9 +5042,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 3,
+                "cluster-size": 8,
                 "type": "cluster"
             },
             "dimension": {
@@ -5658,10 +5064,10 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 86,
-            "max-height": 94
+            "min-height": 31,
+            "max-height": 39
         },
-        "coal_ore-surface_mineral_step5-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step5-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -5676,9 +5082,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 2,
+                "cluster-size": 6,
                 "type": "cluster"
             },
             "dimension": {
@@ -5689,12 +5104,12 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 92,
-            "max-height": 100
+            "min-height": 26,
+            "max-height": 34
         },
-        "coal_ore-surface_mineral_step6-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step6-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
-            "cluster-count": 6,
+            "cluster-count": 8,
             "biome": {
                 "restriction": "whitelist",
                 "value": [
@@ -5707,9 +5122,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 2,
+                "cluster-size": 5,
                 "type": "cluster"
             },
             "dimension": {
@@ -5720,12 +5144,12 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 98,
-            "max-height": 106
+            "min-height": 21,
+            "max-height": 29
         },
-        "coal_ore-surface_mineral_step7-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step7-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
-            "cluster-count": 6,
+            "cluster-count": 8,
             "biome": {
                 "restriction": "whitelist",
                 "value": [
@@ -5738,9 +5162,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 2,
+                "cluster-size": 4,
                 "type": "cluster"
             },
             "dimension": {
@@ -5751,12 +5184,12 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 103,
-            "max-height": 111
+            "min-height": 16,
+            "max-height": 24
         },
-        "coal_ore-surface_mineral_step8-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step8-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
-            "cluster-count": 4,
+            "cluster-count": 8,
             "biome": {
                 "restriction": "whitelist",
                 "value": [
@@ -5769,9 +5202,18 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
-                "cluster-size": 2,
+                "cluster-size": 3,
                 "type": "cluster"
             },
             "dimension": {
@@ -5782,12 +5224,12 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 109,
-            "max-height": 117
+            "min-height": 10,
+            "max-height": 18
         },
-        "coal_ore-surface_mineral_step9-any-64a897f724e08e48a012bbadd9210fb3": {
+        "coal_ore_etc-coal_gradient_step9-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
-            "cluster-count": 7,
+            "cluster-count": 8,
             "biome": {
                 "restriction": "whitelist",
                 "value": [
@@ -5800,7 +5242,56 @@
                 ]
             },
             "generator": {
-                "block": "minecraft:coal_ore",
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 2,
+                "type": "cluster"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            },
+            "distribution": "uniform",
+            "min-height": 5,
+            "max-height": 13
+        },
+        "coal_ore_etc-coal_gradient_step10-any-64a897f724e08e48a012bbadd9210fb3": {
+            "chunk-chance": 1,
+            "cluster-count": 10,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "minecraft:swampland"
+                        ]
+                    }
+                ]
+            },
+            "generator": {
+                "block": [
+                    {
+                        "name": "minecraft:coal_ore",
+                        "weight": 99500
+                    },
+                    {
+                        "name": "minecraft:diamond_ore",
+                        "weight": 500
+                    }
+                ],
                 "material": "minecraft:stone",
                 "cluster-size": 1,
                 "type": "cluster"
@@ -5813,39 +5304,8 @@
                 ]
             },
             "distribution": "uniform",
-            "min-height": 114,
-            "max-height": 122
-        },
-        "coal_ore-surface_mineral_step10-any-64a897f724e08e48a012bbadd9210fb3": {
-            "chunk-chance": 1,
-            "cluster-count": 5,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "minecraft:swampland"
-                        ]
-                    }
-                ]
-            },
-            "generator": {
-                "block": "minecraft:coal_ore",
-                "material": "minecraft:stone",
-                "cluster-size": 1,
-                "type": "cluster"
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            },
-            "distribution": "uniform",
-            "min-height": 120,
-            "max-height": 128
+            "min-height": 0,
+            "max-height": 8
         },
         "basalt2-any-64a897f724e08e48a012bbadd9210fb3": {
             "chunk-chance": 1,
@@ -6655,7 +6115,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "ore_metal-metal_step0-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step0-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -6691,7 +6151,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "ore_metal-metal_step1-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step1-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -6727,7 +6187,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "ore_metal-metal_step2-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step2-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -6763,7 +6223,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "ore_metal-metal_step3-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step3-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -6799,7 +6259,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "ore_metal-metal_step4-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step4-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -6835,7 +6295,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "ore_metal-metal_step5-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step5-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -6871,7 +6331,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "ore_metal-metal_step6-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step6-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -6907,7 +6367,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "ore_metal-metal_step7-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step7-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -6943,7 +6403,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "ore_metal-metal_step8-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step8-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -6979,7 +6439,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "ore_metal-metal_step9-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step9-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -7015,7 +6475,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "ore_metal-metal_step10-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "ore_metal-metal_step10-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -7051,7 +6511,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "emerald_ore-gemstone_step0-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step0-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -7084,7 +6544,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "emerald_ore-gemstone_step1-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step1-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -7117,7 +6577,7 @@
             "min-height": 7,
             "max-height": 15
         },
-        "emerald_ore-gemstone_step2-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step2-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7150,7 +6610,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "emerald_ore-gemstone_step3-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step3-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7183,7 +6643,7 @@
             "min-height": 12,
             "max-height": 20
         },
-        "emerald_ore-gemstone_step4-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step4-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7216,7 +6676,7 @@
             "min-height": 15,
             "max-height": 23
         },
-        "emerald_ore-gemstone_step5-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step5-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7249,7 +6709,7 @@
             "min-height": 18,
             "max-height": 26
         },
-        "emerald_ore-gemstone_step6-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step6-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -7282,7 +6742,7 @@
             "min-height": 21,
             "max-height": 29
         },
-        "emerald_ore-gemstone_step7-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step7-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {
@@ -7315,7 +6775,7 @@
             "min-height": 24,
             "max-height": 32
         },
-        "emerald_ore-gemstone_step8-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step8-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 3,
             "biome": {
@@ -7348,7 +6808,7 @@
             "min-height": 26,
             "max-height": 34
         },
-        "emerald_ore-gemstone_step9-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step9-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7381,7 +6841,7 @@
             "min-height": 29,
             "max-height": 37
         },
-        "emerald_ore-gemstone_step10-any-c76e5fb5267269d114bc7ffaa95cc6d4": {
+        "emerald_ore-gemstone_step10-any-599acbe1d2aaace703f93efba304c375": {
             "chunk-chance": 1,
             "cluster-count": 2,
             "biome": {
@@ -7414,7 +6874,7 @@
             "min-height": 32,
             "max-height": 40
         },
-        "gold_ore_etc-metal_step0-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step0-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 5,
             "biome": {
@@ -7459,7 +6919,7 @@
             "min-height": 4,
             "max-height": 12
         },
-        "gold_ore_etc-metal_step1-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step1-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -7504,7 +6964,7 @@
             "min-height": 10,
             "max-height": 18
         },
-        "gold_ore_etc-metal_step2-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step2-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -7549,7 +7009,7 @@
             "min-height": 16,
             "max-height": 24
         },
-        "gold_ore_etc-metal_step3-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step3-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -7594,7 +7054,7 @@
             "min-height": 22,
             "max-height": 30
         },
-        "gold_ore_etc-metal_step4-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step4-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 6,
             "biome": {
@@ -7639,7 +7099,7 @@
             "min-height": 28,
             "max-height": 36
         },
-        "gold_ore_etc-metal_step5-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step5-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -7684,7 +7144,7 @@
             "min-height": 34,
             "max-height": 42
         },
-        "gold_ore_etc-metal_step6-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step6-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 7,
             "biome": {
@@ -7729,7 +7189,7 @@
             "min-height": 40,
             "max-height": 48
         },
-        "gold_ore_etc-metal_step7-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step7-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 9,
             "biome": {
@@ -7774,7 +7234,7 @@
             "min-height": 46,
             "max-height": 54
         },
-        "gold_ore_etc-metal_step8-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step8-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -7819,7 +7279,7 @@
             "min-height": 52,
             "max-height": 60
         },
-        "gold_ore_etc-metal_step9-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step9-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 12,
             "biome": {
@@ -7864,7 +7324,7 @@
             "min-height": 58,
             "max-height": 66
         },
-        "gold_ore_etc-metal_step10-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-metal_step10-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -7909,7 +7369,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "stone_granite-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "stone_granite-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 208,
             "biome": {
@@ -7950,7 +7410,7 @@
             "min-height": 0,
             "max-height": 256
         },
-        "gold_ore_etc-mountain_step0-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step0-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 20,
             "biome": {
@@ -7995,7 +7455,7 @@
             "min-height": 64,
             "max-height": 72
         },
-        "gold_ore_etc-mountain_step1-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step1-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 22,
             "biome": {
@@ -8040,7 +7500,7 @@
             "min-height": 70,
             "max-height": 78
         },
-        "gold_ore_etc-mountain_step2-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step2-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 22,
             "biome": {
@@ -8085,7 +7545,7 @@
             "min-height": 75,
             "max-height": 83
         },
-        "gold_ore_etc-mountain_step3-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step3-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 24,
             "biome": {
@@ -8130,7 +7590,7 @@
             "min-height": 81,
             "max-height": 89
         },
-        "gold_ore_etc-mountain_step4-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step4-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 24,
             "biome": {
@@ -8175,7 +7635,7 @@
             "min-height": 86,
             "max-height": 94
         },
-        "gold_ore_etc-mountain_step5-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step5-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 13,
             "biome": {
@@ -8220,7 +7680,7 @@
             "min-height": 92,
             "max-height": 100
         },
-        "gold_ore_etc-mountain_step6-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step6-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -8265,7 +7725,7 @@
             "min-height": 98,
             "max-height": 106
         },
-        "gold_ore_etc-mountain_step7-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step7-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -8310,7 +7770,7 @@
             "min-height": 103,
             "max-height": 111
         },
-        "gold_ore_etc-mountain_step8-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step8-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 14,
             "biome": {
@@ -8355,7 +7815,7 @@
             "min-height": 109,
             "max-height": 117
         },
-        "gold_ore_etc-mountain_step9-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step9-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 15,
             "biome": {
@@ -8400,7 +7860,7 @@
             "min-height": 114,
             "max-height": 122
         },
-        "gold_ore_etc-mountain_step10-any-6b25929eb79aace6c6a368afaa5ede09": {
+        "gold_ore_etc-mountain_step10-any-7e495fc94b0a72d6a5a784626c28089f": {
             "chunk-chance": 1,
             "cluster-count": 16,
             "biome": {
