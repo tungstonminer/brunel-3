@@ -5,3 +5,9 @@ recipes.addShaped(<engineerstools:crushing_hammer>, [
     [null, <ore:stickWood>, <minecraft:flint>],
     [<ore:stickWood>, null, null]
 ]);
+
+# Sleeping Bag -- make recipe *much* simpler
+recipes.remove(<engineerstools:sleeping_bag>);
+recipes.addShaped(<engineerstools:sleeping_bag>, [
+    [<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+]);

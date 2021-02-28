@@ -135,3 +135,6 @@ for index in 0 to MEATS_RAW.length {
 
 # Milk Bucket -- remove conversion recipes
 recipes.removeByRecipeName("animania:milk_conversion");
+
+# Straw -- must be chopped up
+recipes.removeByRecipeName("animania:straw");

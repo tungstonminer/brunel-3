@@ -11,6 +11,7 @@
   "mcwwindows": "1.0",
   "craftstudioapi": "1.0.0",
   "rsgauges": "1.2.5",
+  "initialinventory": "2.0.2",
   "jeibees": "0.9.0.5",
   "ctm": "MC1.12.2-1.0.2.31",
   "controlling": "3.0.10",

@@ -398,7 +398,7 @@ for metal in allMetals() {
     }
 
     if (!isNull(ingotItem)) {
-        ingotItem.maxStackSize = 16;
+        ingotItem.maxStackSize = 9;
 
         if (!isNull(dustItem)) {
             furnace.addRecipe(ingotItem, dustItem);
