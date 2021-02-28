@@ -89,7 +89,7 @@ function getStainedGlassEntry(color as string) as IOreDictEntry {
         "gray": <ore:blockGlassGray>,
         "green": <ore:blockGlassGreen>,
         "lightBlue": <ore:blockGlassLightBlue>,
-        "lightGray": <ore:blockGlasslightGray>,
+        "lightGray": <ore:blockGlassLightGray>,
         "lime": <ore:blockGlassLime>,
         "magenta": <ore:blockGlassMagenta>,
         "orange": <ore:blockGlassOrange>,
@@ -101,6 +101,29 @@ function getStainedGlassEntry(color as string) as IOreDictEntry {
     } as IOreDictEntry[string];
 
     return coloredGlassEntries[color];
+}
+
+function getWoolEntry(color as string) as IOreDictEntry {
+    val woolEntries = {
+        "black": <ore:blockWoolBlack>,
+        "blue": <ore:blockWoolBlue>,
+        "brown": <ore:blockWoolBrown>,
+        "cyan": <ore:blockWoolCyan>,
+        "gray": <ore:blockWoolGray>,
+        "green": <ore:blockWoolGreen>,
+        "lightBlue": <ore:blockWoolLightBlue>,
+        "lightGray": <ore:blockWoolLightGray>,
+        "lime": <ore:blockWoolLime>,
+        "magenta": <ore:blockWoolMagenta>,
+        "orange": <ore:blockWoolOrange>,
+        "pink": <ore:blockWoolPink>,
+        "purple": <ore:blockWoolPurple>,
+        "red": <ore:blockWoolRed>,
+        "white": <ore:blockWoolWhite>,
+        "yellow": <ore:blockWoolYellow>,
+    } as IOreDictEntry[string];
+
+    return woolEntries[color];
 }
 
 function makeColoredBibliocraftStack(itemStack as IItemStack, color as string) as IItemStack {
@@ -343,8 +366,9 @@ for color in ALL_COLORS {
     ]);
 
     # Wool -- allow crushing with a chance of getting dye back
+    val woolEntry = getWoolEntry(color);
     Crusher.removeRecipesForInput(woolItem);
-    Crusher.addRecipe(<minecraft:string> * 4, woolItem, 2048, dyeItem, 0.05);
+    Crusher.addRecipe(<minecraft:string> * 4, woolEntry, 2048, dyeItem, 0.05);
 
     # Wool -- allow dying white wool
     recipes.addShapeless(woolItem * 2, [<minecraft:wool:0>, <minecraft:wool:0>, dyeItem]);

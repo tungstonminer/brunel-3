@@ -6,14 +6,19 @@ import mods.immersiveengineering.Squeezer;
 
 ########################################################################################################################
 
-var inputDictEntries = [] as IOreDictEntry[];
-var inputItems = [] as IItemStack[];
+val crushingHammer = <engineerstools:crushing_hammer>;
 
 
 ########################################################################################################################
 
 # Cactus -- Add recipe for water from Cactus
 Squeezer.addRecipe(<minecraft:dye:2>, <liquid:water> * 512, <minecraft:cactus>, 1024);
+
+# Coke Dust -- add recipe using crushing hammer
+recipes.addShapeless(<immersiveengineering:material:17>, [
+    <ore:fuelCoke>,
+    crushingHammer.anyDamage().transformDamage(2).reuse()
+]);
 
 # Engineering Hammer -- Add more forgiving recipes
 recipes.remove(<immersiveengineering:tool:0>);

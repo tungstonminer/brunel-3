@@ -40,11 +40,12 @@ recipes.addShaped(<minecraft:iron_bars> * 8, [
     [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
 ]);
 
-
 # Prismarine Shard -- add Pulverizer recipe to get shards from blocks
 Crusher.addRecipe(<minecraft:prismarine_shard> * 3, <minecraft:prismarine:0>, 2048, <minecraft:prismarine_shard>, 0.25);
 Crusher.addRecipe(<minecraft:prismarine_shard> * 8, <minecraft:prismarine:1>, 2048, <minecraft:prismarine_shard>, 0.25);
 
+# Rabbit Skin -- change name to match its use
+<minecraft:rabbit_hide>.displayName = "Small Hide";
 
 # Saddle -- add alternate recipes using various metals
 recipes.remove(<minecraft:saddle>);
@@ -58,8 +59,9 @@ recipes.addShaped(<minecraft:saddle>, [
 <minecraft:wheat_seeds>.displayName = "Wheat Seeds";
 recipes.addShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft:wheat>]);
 
-# Rabbit Skin -- change name to match its use
-<minecraft:rabbit_hide>.displayName = "Small Hide";
+# String -- allow early-game recipe for making string from wool
+recipes.addShapeless(<minecraft:string> * 2, [<agricraft:rake:0>.reuse(), <ore:blockWool>]);
+recipes.addShapeless(<minecraft:string> * 3, [<agricraft:rake:1>.reuse(), <ore:blockWool>]);
 
 # Torch -- add easier early-game recipe which doesn't require charcoal
 recipes.remove(<minecraft:torch>);

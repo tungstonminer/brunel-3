@@ -109,3 +109,8 @@ for meta in 0 .. 16 {
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
 <ore:dyeWhite>.add(<contenttweaker:white_dye>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
+
+# Animania Wool -- make sure everything is in the right ore dict entries
+<ore:blockWoolBlack>.add(<animania:wool:1>);
+<ore:blockWoolBrown>.add(<animania:wool:0>, <animania:wool:2>, <animania:wool:4>, <animania:wool:6>);
+<ore:blockWoolWhite>.add(<animania:wool:3>, <animania:wool:5>);
