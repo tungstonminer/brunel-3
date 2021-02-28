@@ -125,8 +125,8 @@
             },
             {
                 "mob": "betteranimalsplus:walrus",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 25
             }
         ]
@@ -147,13 +147,13 @@
             {
                 "mob": "betteranimalsplus:crab",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 25
             },
             {
                 "mob": "betteranimalsplus:horseshoecrab",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 10
             }
         ]
@@ -176,8 +176,8 @@
             },
             {
                 "mob": "animania:hamster",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 25
             },
             {
@@ -254,8 +254,8 @@
             },
             {
                 "mob": "minecraft:blaze",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 5
             }
         ]
@@ -289,8 +289,8 @@
             },
             {
                 "mob": "animania:cow_angus",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -360,8 +360,8 @@
             },
             {
                 "mob": "animania:cow_hereford",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             },
             {
@@ -390,8 +390,8 @@
             },
             {
                 "mob": "betteranimalsplus:fox",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2,
                 "weight": 10
             }
         ]
@@ -440,8 +440,8 @@
             },
             {
                 "mob": "minecraft:parrot",
-                "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 60
             },
             {
@@ -509,7 +509,7 @@
             {
                 "mob": "minecraft:ocelot",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 5
             }
         ]
@@ -559,8 +559,8 @@
             },
             {
                 "mob": "betteranimalsplus:squirrel",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2,
                 "weight": 50
             },
             {
@@ -571,8 +571,8 @@
             },
             {
                 "mob": "betteranimalsplus:deer",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2,
                 "weight": 25
             },
             {
@@ -589,8 +589,8 @@
             },
             {
                 "mob": "animania:cow_holstein",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -639,8 +639,8 @@
             },
             {
                 "mob": "betteranimalsplus:fox",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2,
                 "weight": 25
             }
         ]
@@ -733,8 +733,8 @@
             },
             {
                 "mob": "minecraft:blaze",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 5
             }
         ]
@@ -746,33 +746,31 @@
             "Extreme Hills M"
         ],
         "block": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
             "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
         ],
         "minheight": 110,
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1749
+                "weight": 1770
             },
             {
                 "mob": "betteranimalsplus:lammergeier",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
-                "weight": 40
-            },
-            {
-                "mob": "animania:doe_alpine",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
-                "weight": 10
+                "groupcountmin": 1,
+                "groupcountmax": 1,
+                "weight": 25
             },
             {
                 "mob": "mowziesmobs:naga",
                 "groupcountmin": 1,
                 "groupcountmax": 1,
-                "weight": 1
+                "weight": 5
             }
         ]
     },
@@ -783,15 +781,25 @@
             "Extreme Hills M"
         ],
         "block": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
             "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
         ],
         "maxheight": 110,
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1780
+                "weight": 1770
+            },
+            {
+                "mob": "animania:doe_alpine",
+                "groupcountmin": 3,
+                "groupcountmax": 6,
+                "weight": 10
             },
             {
                 "mob": "animania:doe_chinchilla",
@@ -801,8 +809,8 @@
             },
             {
                 "mob": "minecraft:llama",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -814,9 +822,13 @@
             "Extreme Hills M"
         ],
         "block": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
             "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
         ],
         "maxheight": 110,
         "mobs": [
@@ -826,8 +838,8 @@
             },
             {
                 "mob": "minecraft:wolf",
-                "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 25
             }
         ]
@@ -850,7 +862,7 @@
             {
                 "mob": "minecraft:villager_golem",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 1
             }
         ]
@@ -890,8 +902,8 @@
             },
             {
                 "mob": "animania:cow_highland",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -913,8 +925,8 @@
             },
             {
                 "mob": "animania:hedgehog",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 40
             }
         ]
@@ -934,8 +946,8 @@
             },
             {
                 "mob": "animania:cow_mooshroom",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 100
             }
         ]
@@ -950,12 +962,12 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 450
+                "weight": 460
             },
             {
                 "mob": "minecraft:squid",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 50
             },
             {
@@ -975,12 +987,6 @@
                 "groupcountmin": 1,
                 "groupcountmax": 1,
                 "weight": 20
-            },
-            {
-                "mob": "betteranimalsplus:shark",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
-                "weight": 10
             }
         ]
     },
@@ -994,7 +1000,7 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1150
+                "weight": 1140
             },
             {
                 "mob": "betteranimalsplus:jellyfish",
@@ -1004,14 +1010,20 @@
             },
             {
                 "mob": "betteranimalsplus:nautilus",
-                "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmin": 10,
+                "groupcountmax": 20,
                 "weight": 20
             },
             {
-                "mob": "betteranimalsplus:whale",
+                "mob": "betteranimalsplus:shark",
                 "groupcountmin": 2,
                 "groupcountmax": 3,
+                "weight": 10
+            },
+            {
+                "mob": "betteranimalsplus:whale",
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 5
             }
         ]
@@ -1030,8 +1042,8 @@
             },
             {
                 "mob": "betteranimalsplus:whale",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 5
             }
         ]
@@ -1106,14 +1118,14 @@
             },
             {
                 "mob": "animania:cow_friesian",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 20
             },
             {
                 "mob": "animania:mare_draft",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 10
             }
         ]
@@ -1135,8 +1147,8 @@
             },
             {
                 "mob": "animania:ferret_grey",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 50
             }
         ]
@@ -1221,14 +1233,14 @@
             },
             {
                 "mob": "animania:cow_longhorn",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 20
             },
             {
                 "mob": "horse_colors:horse_felinoid",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 10
             }
         ]
@@ -1252,8 +1264,8 @@
             },
             {
                 "mob": "animania:doe_rex",
-                "groupcountmin": 6,
-                "groupcountmax": 10,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 25
             }
         ]
@@ -1299,7 +1311,7 @@
             {
                 "mob": "minecraft:villager_golem",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 5
             }
         ]
@@ -1376,13 +1388,13 @@
             {
                 "mob": "animania:frog",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 60
             },
             {
                 "mob": "betteranimalsplus:goose",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 40
             },
             {
@@ -1411,8 +1423,8 @@
             },
             {
                 "mob": "animania:cow_jersey",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -1491,8 +1503,8 @@
             },
             {
                 "mob": "betteranimalsplus:lamprey",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 10
             }
         ]
@@ -1572,8 +1584,8 @@
             },
             {
                 "mob": "betteranimalsplus:turkey",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 20
             },
             {
@@ -1608,8 +1620,8 @@
             },
             {
                 "mob": "betteranimalsplus:moose",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2,
                 "weight": 10
             }
         ]
@@ -1632,8 +1644,8 @@
             },
             {
                 "mob": "minecraft:wolf",
-                "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 25
             }
         ]
@@ -1652,7 +1664,7 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1745
+                "weight": 1750
             },
             {
                 "mob": "animania:doe_fainting",
@@ -1662,15 +1674,9 @@
             },
             {
                 "mob": "betteranimalsplus:reindeer",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 20
-            },
-            {
-                "mob": "betteranimalsplus:feralwolf",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
-                "weight": 5
             }
         ]
     },
@@ -1695,6 +1701,30 @@
                 "groupcountmin": 1,
                 "groupcountmax": 1,
                 "weight": 1
+            }
+        ]
+    },
+    {
+        "biome": [
+            "Cold Taiga",
+            "Cold Taiga Hills",
+            "Cold Taiga M"
+        ],
+        "block": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mobs": [
+            {
+                "mob": "minecraft:giant",
+                "weight": 1795
+            },
+            {
+                "mob": "betteranimalsplus:feralwolf",
+                "groupcountmin": 2,
+                "groupcountmax": 3,
+                "weight": 5
             }
         ]
     },
@@ -1738,8 +1768,8 @@
             },
             {
                 "mob": "animania:ferret_white",
-                "groupcountmin": 2,
-                "groupcountmax": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 5
             },
             {
@@ -1965,7 +1995,7 @@
             {
                 "mob": "minecraft:cave_spider",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 25
             }
         ]
