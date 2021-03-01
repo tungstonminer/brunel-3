@@ -41,7 +41,6 @@ for itemDefinition in game.items {
             else if id has "logic_wire" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "mapframe" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "mushroom" { item.maxStackSize = item.maxStackSize * 16; }
-            else if id has "ore" { item.maxStackSize = item.maxStackSize / 2; }
             else if id has "paintingframe" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "pipe" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "plant" { item.maxStackSize = item.maxStackSize * 8; }
@@ -54,6 +53,9 @@ for itemDefinition in game.items {
             else if id has "track" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "trapdoor" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "vines" { item.maxStackSize = item.maxStackSize * 8; }
+
+            # the following should come after the group above to avoid capturing partial words
+            else if (id has "ore") && (!(id has "forestry")) { item.maxStackSize = item.maxStackSize / 2; }
         } else {
             if item.maxStackSize > 1 {
                 item.maxStackSize = item.maxStackSize / 2;

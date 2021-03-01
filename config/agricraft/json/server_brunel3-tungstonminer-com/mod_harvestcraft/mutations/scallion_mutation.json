@@ -1,8 +1,0 @@
-{
-  "path": "mod_harvestcraft/mutations/scallion_mutation.json",
-  "enabled": true,
-  "chance": 0.8,
-  "child": "harvestcraft:scallion_plant",
-  "parent1": "vanilla:allium_plant",
-  "parent2": "vanilla:dandelion_plant"
-}

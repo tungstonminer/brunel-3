@@ -17,6 +17,14 @@ recipes.addShaped(<minecraft:bucket>, [
     [null, <ore:itemMetalIngot>, null],
 ]);
 
+# Cauldron -- allow any tool metal
+recipes.remove(<minecraft:cauldron>);
+recipes.addShaped(<minecraft:cauldron>, [
+    [<ore:cookwareMetalIngot>, null, <ore:cookwareMetalIngot>],
+    [<ore:cookwareMetalIngot>, null, <ore:cookwareMetalIngot>],
+    [<ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>],
+]);
+
 # Compass -- make a much easier recipe for early-game use
 <minecraft:compass>.displayName = "Compass";
 recipes.remove(<minecraft:compass>);
@@ -33,11 +41,27 @@ recipes.addShapeless(<minecraft:gunpowder>, [
     carbon, <ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustSaltpeter>
 ]);
 
+# Hopper -- allow any tool metal
+recipes.remove(<minecraft:hopper>);
+recipes.addShaped(<minecraft:hopper>, [
+    [<ore:toolMetalIngot>, null, <ore:toolMetalIngot>],
+    [<ore:toolMetalIngot>, <ore:chestWood>, <ore:toolMetalIngot>],
+    [null, <ore:toolMetalIngot>, null],
+]);
+
 # Iron Bars -- use Iron Rods instead of ingots
 recipes.remove(<minecraft:iron_bars>);
 recipes.addShaped(<minecraft:iron_bars> * 8, [
     [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
     [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
+]);
+
+# Piston -- allow any tool metal
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:cobblestone>, <ore:toolMetalIngot>, <ore:cobblestone>],
+    [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>],
 ]);
 
 # Prismarine Shard -- add Pulverizer recipe to get shards from blocks
@@ -58,6 +82,22 @@ recipes.addShaped(<minecraft:saddle>, [
 # Seed -- create seed from wheat and rename
 <minecraft:wheat_seeds>.displayName = "Wheat Seeds";
 recipes.addShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft:wheat>]);
+
+# Shears -- allow shears from any bronze or iron
+val SHEARS_METAL = <ore:ingotIron> | <ore:ingotBronze>;
+recipes.remove(<minecraft:shears>);
+recipes.addShaped(<minecraft:shears>, [
+    [null, SHEARS_METAL],
+    [SHEARS_METAL, null],
+]);
+
+# Shield -- allow any tool metal
+recipes.remove(<minecraft:shield>);
+recipes.addShaped(<minecraft:shield>, [
+    [<ore:plankWood>, <ore:itemMetalIngot>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [null, <ore:plankWood>, null],
+]);
 
 # String -- allow early-game recipe for making string from wool
 recipes.addShapeless(<minecraft:string> * 2, [<agricraft:rake:0>.reuse(), <ore:blockWool>]);
@@ -93,4 +133,12 @@ recipes.addShaped(<minecraft:torch> * 6, [
 recipes.addShaped(<minecraft:torch> * 8, [
     [<ore:fuelCoke>],
     [<ore:stickWood>],
+]);
+
+# Tripwire Hook -- allow any item metal
+recipes.remove(<minecraft:tripwire_hook>);
+recipes.addShaped(<minecraft:tripwire_hook>, [
+    [<ore:itemMetalIngot>],
+    [<ore:stickWood>],
+    [<ore:plankWood>],
 ]);

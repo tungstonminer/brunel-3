@@ -20,6 +20,9 @@ recipes.addShaped(<forestry:ambrosia>, [
     [<ore:dropHoneydew>, <ore:dropHoneydew>, <ore:dropHoneydew>]
 ]);
 
+# Gear -- remove recipes in preference for the one from railcraft
+JEI.removeAndHide(<forestry:gear_bronze>);
+
 # Compost -- Allow making compost out of any grain
 recipes.remove(<forestry:fertilizer_bio>);
 recipes.addShaped(<forestry:fertilizer_bio> * 2, [

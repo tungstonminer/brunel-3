@@ -91,6 +91,19 @@ recipes.addShaped(<animania:cheese_mold>, [
 
 # Carving Knife -- rename
 CLEAVER.displayName = "Cleaver";
+recipes.remove(CLEAVER);
+recipes.addShaped(CLEAVER, [
+    [<ore:bladeMetalIngot>, <ore:bladeMetalIngot>],
+    [<ore:stickWood>],
+]);
+
+# Hamster Wheel -- allow any item metal
+recipes.remove(<animania:block_hamster_wheel>);
+recipes.addShaped(<animania:block_hamster_wheel>, [
+    [null, <ore:itemMetalIngot>, null],
+    [<ore:itemMetalIngot>, null, <ore:itemMetalIngot>],
+    [<minecraft:stone_slab>, <ore:itemMetalIngot>, <minecraft:stone_slab>],
+]);
 
 # Omelette -- use any eggs
 furnace.remove(<betteranimalsplus:fried_egg>);
@@ -117,11 +130,13 @@ for index in 0 to MEATS_RAW.length {
 
     # can carve raw prime meat to raw meat
     recipes.remove(rawMeatItem);
-    recipes.addShapeless(rawMeatItem * carvingQuantity, [CLEAVER.transformDamage(), rawPrimeMeatItem]);
+    recipes.addShapeless(rawMeatItem * carvingQuantity, [CLEAVER.anyDamage().transformDamage(), rawPrimeMeatItem]);
 
     # can carve cooked prime meat to cooked meat
     recipes.remove(cookedMeatItem);
-    recipes.addShapeless(cookedMeatItem * carvingQuantity, [CLEAVER.transformDamage(), cookedPrimeMeatItem]);
+    recipes.addShapeless(cookedMeatItem * carvingQuantity, [
+        CLEAVER.anyDamage().transformDamage(), cookedPrimeMeatItem
+    ]);
 
     # remove raw prime meats from ore dict entries for ordinary meats
     for dictEntry in MEATS_RAW_DICT_ENTRIES {
@@ -139,3 +154,11 @@ recipes.removeByRecipeName("animania:milk_conversion");
 
 # Straw -- must be chopped up
 recipes.removeByRecipeName("animania:straw");
+
+# Trough -- allow any item metal
+recipes.remove(<animania:block_trough>);
+recipes.addShaped(<animania:block_trough>, [
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:plankWood>, <ore:itemMetalIngot>, <ore:plankWood>],
+    [<ore:stickWood>, null, <ore:stickWood>],
+]);

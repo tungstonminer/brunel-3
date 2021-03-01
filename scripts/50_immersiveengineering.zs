@@ -28,6 +28,13 @@ recipes.addShaped(<immersiveengineering:tool:0>, [
     [<ore:stickWood>, null, null],
 ]);
 
+# Engineer's Wire Cutters -- allow any tool metal
+recipes.remove(<immersiveengineering:tool:1>);
+recipes.addShaped(<immersiveengineering:tool:1>, [
+    [<ore:stickWood>, <ore:toolMetalIngot>, null],
+    [null, <ore:stickWood>, null],
+]);
+
 # HOP Graphite Dust -- Fix recipe for HOP Graphite Dust
 Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 Squeezer.addRecipe(

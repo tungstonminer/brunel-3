@@ -1,8 +1,0 @@
-{
-  "path": "mod_harvestcraft/mutations/lettuce_mutation.json",
-  "enabled": true,
-  "chance": 0.8,
-  "child": "harvestcraft:lettuce_plant",
-  "parent1": "vanilla:carrot_plant",
-  "parent2": "vanilla:daisy_plant"
-}

@@ -40,10 +40,33 @@ var redMushroomSpores = makeSeed("vanilla:red_mushroom_plant");
 
 # Recipe Adjustments ###################################################################################################
 
-# Remove advanced technology
+# Clipper -- allow any tool metal
+recipes.remove(<agricraft:clipper>);
+recipes.addShaped(<agricraft:clipper>, [
+    [null, <ore:toolMetalIngot>, null],
+    [<ore:stickWood>, <minecraft:shears> | <railcraft:tool_shears_steel>, null],
+    [null, <ore:stickWood>],
+]);
+
+# Gardening Trowel -- allow any tool metal
+recipes.remove(<agricraft:trowel>);
+recipes.addShaped(<agricraft:trowel>, [
+    [null, null, <ore:stickWood>],
+    [<ore:toolMetalIngot>, <ore:toolMetalIngot>, null],
+]);
+
+# Peripheral -- remove advanced technology
 JEI.removeAndHide(<agricraft:peripheral>);
 
-# Add receipes for vanilla crop seeds
+# Iron Hand Rake -- use sticks for the handle
+recipes.remove(<agricraft:rake:1>);
+recipes.addShaped(<agricraft:rake:1>, [
+    [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null],
+]);
+
+# Seeds -- add receipes for vanilla crop seeds
 recipes.addShapeless(<minecraft:beetroot_seeds> * 2, [<minecraft:beetroot>, <minecraft:beetroot>]);
 recipes.addShapeless(alliumSeed * 2, [<minecraft:red_flower:2>, <minecraft:red_flower:2>]);
 recipes.addShapeless(blueOrchidSeed * 2, [<minecraft:red_flower:1>, <minecraft:red_flower:1>]);

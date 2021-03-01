@@ -10,7 +10,7 @@ import mods.immersiveengineering.MetalPress;
 val bushing = <railcraft:gear:3>;
 val clippers = <immersiveengineering:tool:1>;
 val crushingHammer = <engineerstools:crushing_hammer>;
-val engineeringHammer = <immersiveengineering:tool>;
+val engineeringHammer = <immersiveengineering:tool:0>;
 val gearMold = <immersiveengineering:mold:1>;
 val largePackingMold = <immersiveengineering:mold:6>;
 val plateMold = <immersiveengineering:mold:0>;
@@ -390,7 +390,7 @@ for metal in allMetals() {
             MetalPress.addRecipe(gearItem, ingotItem * 4, gearMold, 1024);
 
             recipes.addShaped(gearItem, [
-                [clippers.anyDamage().transformDamage(4).reuse(), ingotItem, null],
+                [null, ingotItem, null],
                 [ingotItem, bushing, ingotItem],
                 [null, ingotItem, null],
             ]);
@@ -416,6 +416,10 @@ for metal in allMetals() {
     if (!isNull(nuggetItem)) {
         if (!isNull(ingotItem)) {
             MetalPress.addRecipe(nuggetItem * 9, ingotItem, unpackingMold, 256);
+            val SHEARS =
+                <minecraft:shears>.anyDamage().transformDamage(9).reuse() |
+                <railcraft:tool_shears_steel>.anyDamage().transformDamage(3).reuse();
+            recipes.addShapeless(nuggetItem * 9, [SHEARS, ingotItem]);
         }
 
         if (!isNull(nuggetDictEntry)) {
