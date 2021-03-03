@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:bambooshoot_plant",
-  "parent1": "vanilla:Allium_plant",
+  "parent1": "vanilla:dandelion_plant",
   "parent2": "vanilla:sugarcane_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:zucchini_plant",
-  "parent1": "harvestcraft:cucumber_plant",
-  "parent2": "harvestcraft:rice_plant"
+  "parent1": "vanilla:potato_plant",
+  "parent2": "vanilla:pumpkin_plant"
 }

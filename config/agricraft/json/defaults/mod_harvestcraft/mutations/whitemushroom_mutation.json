@@ -4,5 +4,5 @@
   "chance": 0.8,
   "child": "harvestcraft:whitemushroom_plant",
   "parent1": "vanilla:brown_mushroom_plant",
-  "parent2": "vanilla:daisy_plant"
+  "parent2": "vanilla:white_tulip_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.8,
   "child": "harvestcraft:rice_plant",
-  "parent1": "vanilla:potato_plant",
+  "parent1": "vanilla:white_tulip_plant",
   "parent2": "vanilla:wheat_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.8,
   "child": "harvestcraft:garlic_plant",
-  "parent1": "vanilla:carrot_plant",
-  "parent2": "vanilla:orange_tulip_plant"
+  "parent1": "vanilla:allium_plant",
+  "parent2": "vanilla:carrot_plant"
 }
