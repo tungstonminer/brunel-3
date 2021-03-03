@@ -242,20 +242,18 @@
             "Desert M",
             "DesertHills"
         ],
-        "block": [
-            "minecraft:stone"
-        ],
+        "block": [],
         "seesky": false,
         "maxheight": 48,
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1795
+                "weight": 295
             },
             {
                 "mob": "minecraft:blaze",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 5
             }
         ]
@@ -498,13 +496,13 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 515
+                "weight": 585
             },
             {
                 "mob": "animania:dartfrog",
                 "groupcountmin": 1,
                 "groupcountmax": 2,
-                "weight": 80
+                "weight": 10
             },
             {
                 "mob": "minecraft:ocelot",
@@ -733,8 +731,8 @@
             },
             {
                 "mob": "minecraft:blaze",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 5
             }
         ]
@@ -1056,7 +1054,8 @@
             "minecraft:netherrack",
             "minecraft:soul_sand",
             "minecraft:nether_brick",
-            "minecraft:bedrock"
+            "minecraft:bedrock",
+            "minecraft:stone"
         ],
         "mobs": [
             {

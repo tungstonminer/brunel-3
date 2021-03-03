@@ -19,10 +19,12 @@ for itemDefinition in game.items {
             if item.displayName has "Capacitor" { item.maxStackSize = 1; }
             else if id has "banner" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "bee_combs_" { item.maxStackSize = item.maxStackSize * 2; }
+            else if id has "bottle" { item.maxStackSize = item.maxStackSize * 3; }
             else if id has "button" { item.maxStackSize = item.maxStackSize * 16; }
             else if id has "cake" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "carpet" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "chest" { item.maxStackSize = item.maxStackSize * 2; }
+            else if id has "connector" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "door" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "fence" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "flower" { item.maxStackSize = item.maxStackSize * 16; }
@@ -46,6 +48,7 @@ for itemDefinition in game.items {
             else if id has "plant" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "post_metal" { item.maxStackSize = item.maxStackSize / 2; }
             else if id has "sapling" { item.maxStackSize = item.maxStackSize * 8; }
+            else if id has "scaffolding_block" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "sheetmetal" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "slab" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "stairs" { item.maxStackSize = item.maxStackSize * 4 / 3; }
@@ -56,6 +59,7 @@ for itemDefinition in game.items {
 
             # the following should come after the group above to avoid capturing partial words
             else if (id has "ore") && (!(id has "forestry")) { item.maxStackSize = item.maxStackSize / 2; }
+            else if (id has "potion") && (!(id has "shelf")) { item.maxStackSize = item.maxStackSize * 3; }
         } else {
             if item.maxStackSize > 1 {
                 item.maxStackSize = item.maxStackSize / 2;

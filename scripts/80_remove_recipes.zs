@@ -23,6 +23,10 @@ for meta in 0 .. 6 {
     JEI.removeAndHide(<modcurrency:upgrade>.definition.makeStack(meta));
 }
 
+# Dynamic Trees -- Infested Oak Acorn -- remove seed recipe
+JEI.removeAndHide(<dynamictreesphc:spiderwebseed>);
+JEI.removeAndHide(<harvestcraft:spiderweb_sapling>);
+
 # Engineer's Tools -- Auto Stim Pack -- remove as OP for too many potion effects
 JEI.removeAndHide(<engineerstools:stimpack>);
 
@@ -52,6 +56,9 @@ JEI.removeAndHide(<minecraft:experience_bottle>);
 # Mowzie's Mobs -- test items
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
 JEI.removeAndHide(<mowziesmobs:test_structure>);
+
+# Railcraft -- remove silver block
+JEI.removeAndHide(<railcraft:metal:4>);
 
 # Railcraft -- steel tools which duplicate those in Immersive Engineering
 JEI.removeAndHide(<railcraft:tool_axe_steel>);
