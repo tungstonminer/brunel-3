@@ -43,6 +43,9 @@ recipes.addShapeless(<railcraft:circuit:0>, [
 # Creosote Wood -- Only permit creating Creosote Wood Blocks in the Carpenter
 recipes.remove(<railcraft:generic:5>);
 
+# Creosote -- don't allow smelting charcoal to creosote bottles
+furnace.remove(<railcraft:fluid_bottle_creosote>);
+
 # Crushed Obsidian -- Add recipe for crushed obsidian
 Crusher.addRecipe(<railcraft:generic:7>, <ore:obsidian>, 4096);
 
@@ -110,7 +113,6 @@ recipes.addShaped(<railcraft:reinforced_concrete:8> * 8, [
     [<railcraft:rebar>, waterItem, <railcraft:rebar>],
     [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
 ]);
-
 
 # Signal Circuit -- Add more-compatible recipe for signal circuit
 recipes.remove(<railcraft:circuit:2>);
