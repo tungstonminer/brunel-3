@@ -9,6 +9,11 @@ import mods.contenttweaker.ResourceLocation;
 
 ########################################################################################################################
 
+val IRON_AXE = <minecraft:iron_axe>;
+
+
+########################################################################################################################
+
 var blackDye = VanillaFactory.createItem("black_dye");
 blackDye.creativeTab = <creativetab:misc>;
 blackDye.maxStackSize = 32;
@@ -18,6 +23,11 @@ var blueDye = VanillaFactory.createItem("blue_dye");
 blueDye.creativeTab = <creativetab:misc>;
 blueDye.maxStackSize = 32;
 blueDye.register();
+
+var bronzeAxe = VanillaFactory.createItem("bronze_axe");
+bronzeAxe.creativeTab = IRON_AXE.
+bronzeAxe.maxStackSize = 32;
+bronzeAxe.register();
 
 var bronzeDust = VanillaFactory.createItem("bronze_dust");
 bronzeDust.creativeTab = <creativetab:immersiveengineering>;
