@@ -35,6 +35,27 @@ recipes.addShaped(<immersiveengineering:tool:1>, [
     [null, <ore:stickWood>, null],
 ]);
 
+# Fluid Pipe -- allow creating pipes from various metals
+recipes.remove(<immersiveengineering:metal_device1:6>);
+var plate = <ore:plateAluminum> | <ore:plateCopper> | <ore:plateTin>;
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 6, [
+    [plate, plate, plate],
+    [null, null, null],
+    [plate, plate, plate],
+]);
+plate = <ore:plateBronze> | <ore:plateIron> | <ore:plateNickel>;
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [
+    [plate, plate, plate],
+    [null, null, null],
+    [plate, plate, plate],
+]);
+plate = <ore:plateSteel>;
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 12, [
+    [plate, plate, plate],
+    [null, null, null],
+    [plate, plate, plate],
+]);
+
 # HOP Graphite Dust -- Fix recipe for HOP Graphite Dust
 Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 Squeezer.addRecipe(
@@ -63,7 +84,6 @@ recipes.addShaped(<immersiveengineering:metal_device1:4>, [
 # Sand -- remove recipes for making sand from colored glass
 Crusher.removeRecipe(<minecraft:sand>);
 Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 4096);
-Crusher.addRecipe(<minecraft:sand>, <ore:itemSlag>, 4096);
 Crusher.addRecipe(<minecraft:sand>, <ore:blockGlassColorless>, 4096);
 Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstone>, 4096, <immersiveengineering:material:24>, 0.5);
 

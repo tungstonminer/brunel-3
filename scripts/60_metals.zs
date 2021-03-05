@@ -374,7 +374,9 @@ for metal in allMetals() {
 
         if (!isNull(oreDictEntry)) {
             Crusher.addRecipe(dustItem * 2, oreDictEntry, 2048, <minecraft:gravel>, 1.0);
-            recipes.addShapeless(dustItem, [oreDictEntry, crushingHammer.anyDamage().transformDamage(4).reuse()]);
+            recipes.addShapeless(dustItem, [
+                oreDictEntry, crushingHammer.anyDamage().transformDamage(4)
+            ]);
         }
 
         if (!isNull(gearItem)) {
@@ -417,8 +419,8 @@ for metal in allMetals() {
         if (!isNull(ingotItem)) {
             MetalPress.addRecipe(nuggetItem * 9, ingotItem, unpackingMold, 256);
             val SHEARS =
-                <minecraft:shears>.anyDamage().transformDamage(9).reuse() |
-                <railcraft:tool_shears_steel>.anyDamage().transformDamage(3).reuse();
+                <minecraft:shears>.anyDamage().transformDamage(9) |
+                <railcraft:tool_shears_steel>.anyDamage().transformDamage(3);
             recipes.addShapeless(nuggetItem * 9, [SHEARS, ingotItem]);
         }
 
@@ -433,7 +435,7 @@ for metal in allMetals() {
 
         if (!isNull(ingotDictEntry)) {
             MetalPress.addRecipe(plateItem, ingotDictEntry, plateMold, 1024);
-            recipes.addShapeless(plateItem, [ingotDictEntry, crushingHammer.anyDamage().transformDamage(4).reuse()]);
+            recipes.addShapeless(plateItem, [ingotDictEntry, crushingHammer.anyDamage().transformDamage(2)]);
         }
     }
 
