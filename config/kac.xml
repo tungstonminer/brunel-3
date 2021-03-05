@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ModList>
-    <Mod name="FML">FML</Mod>
     <Mod name="agricraft">agricraft</Mod>
     <Mod name="alternatingflux">alternatingflux</Mod>
     <Mod name="animania">animania</Mod>
     <Mod name="applecore">applecore</Mod>
+    <Mod name="appleskin">appleskin</Mod>
     <Mod name="architecturecraft">architecturecraft</Mod>
     <Mod name="base">base</Mod>
     <Mod name="betteranimalsplus">betteranimalsplus</Mod>
@@ -47,6 +47,7 @@
     <Mod name="fenceoverhaul">fenceoverhaul</Mod>
     <Mod name="fistful_of_hay">fistful_of_hay</Mod>
     <Mod name="flatcoloredblocks">flatcoloredblocks</Mod>
+    <Mod name="FML">FML</Mod>
     <Mod name="forestry">forestry</Mod>
     <Mod name="forge">forge</Mod>
     <Mod name="forgemultipartcbe">forgemultipartcbe</Mod>
@@ -61,6 +62,7 @@
     <Mod name="horseinfo">horseinfo</Mod>
     <Mod name="horsepower">horsepower</Mod>
     <Mod name="horsestandstill">horsestandstill</Mod>
+    <Mod name="hungeroverhaul">hungeroverhaul</Mod>
     <Mod name="immersiveengineering">immersiveengineering</Mod>
     <Mod name="immersivepetroleum">immersivepetroleum</Mod>
     <Mod name="immersiveposts">immersiveposts</Mod>
@@ -69,19 +71,19 @@
     <Mod name="impstorage">impstorage</Mod>
     <Mod name="incontrol">incontrol</Mod>
     <Mod name="infinitylib">infinitylib</Mod>
-    <Mod name="inventorytweaks">inventorytweaks</Mod>
     <Mod name="initialinventory">initialinventory</Mod>
+    <Mod name="inventorytweaks">inventorytweaks</Mod>
     <Mod name="itechoredict">itechoredict</Mod>
     <Mod name="jebc">jebc</Mod>
     <Mod name="jehc">jehc</Mod>
-    <Mod name="jei">jei</Mod>
     <Mod name="jeibees">jeibees</Mod>
     <Mod name="jeiintegration">jeiintegration</Mod>
+    <Mod name="jei">jei</Mod>
     <Mod name="jeivillagers">jeivillagers</Mod>
     <Mod name="jepb">jepb</Mod>
     <Mod name="jeresources">jeresources</Mod>
-    <Mod name="journeymap">journeymap</Mod>
     <Mod name="journeymapdefaults">journeymapdefaults</Mod>
+    <Mod name="journeymap">journeymap</Mod>
     <Mod name="justenoughpetroleum">justenoughpetroleum</Mod>
     <Mod name="kinetic anti-cheat">kinetic anti-cheat</Mod>
     <Mod name="llibrary">llibrary</Mod>
