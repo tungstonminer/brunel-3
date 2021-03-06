@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-03-05T16:07:35.955412Z",
+  "lastPlayed": "2021-03-06T23:45:12.856102Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "brunel-3",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-03-05T14:09:11.86021Z",
+  "lastPreviousMatchUpdate": "2021-03-06T15:55:35.2559Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -223,7 +223,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240630,
@@ -2423,7 +2423,7 @@
       "dateInstalled": "2021-02-20T21:27:42.892Z",
       "dateUpdated": "2021-03-05T15:51:13.958514Z",
       "dateLastUpdateAttempted": "2021-03-05T15:51:13.958514Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6244,7 +6244,7 @@
       "dateInstalled": "2021-03-05T15:52:24.966452Z",
       "dateUpdated": "2021-03-05T15:52:24.97158Z",
       "dateLastUpdateAttempted": "2021-03-05T15:52:24.97158Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6253,7 +6253,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291126,

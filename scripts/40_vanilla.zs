@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.MetalPress;
 
 
 ########################################################################################################################
@@ -37,7 +38,7 @@ recipes.addShaped(<minecraft:compass>, [
 # Gunpowder -- simplify recipes down to a single ore-dicted option
 var carbon = <ore:dustCharcoal> | <ore:dustCoal>;
 recipes.remove(<minecraft:gunpowder>);
-recipes.addShapeless(<minecraft:gunpowder>, [
+recipes.addShapeless(<minecraft:gunpowder> * 4, [
     carbon, <ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustSaltpeter>
 ]);
 
@@ -78,6 +79,12 @@ recipes.addShaped(<minecraft:saddle>, [
     [<ore:leather>, <ore:decorativeMetalIngot>, <ore:leather>],
     [<ore:itemMetalIngot>, null, <ore:itemMetalIngot>],
 ]);
+
+# Sandstone -- remove crafting table recipe
+recipes.remove(<minecraft:red_sandstone>);
+MetalPress.addRecipe(<minecraft:red_sandstone>, <minecraft:sand:1>, <immersiveengineering:mold:5>, 1024, 4);
+recipes.remove(<minecraft:sandstone>);
+MetalPress.addRecipe(<minecraft:sandstone>, <minecraft:sand:0>, <immersiveengineering:mold:5>, 1024, 4);
 
 # Seed -- create seed from wheat and rename
 <minecraft:wheat_seeds>.displayName = "Wheat Seeds";

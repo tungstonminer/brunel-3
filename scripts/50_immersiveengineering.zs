@@ -65,6 +65,9 @@ Squeezer.addRecipe(
     19280
 );
 
+# Iron Grit -- allow getting iron grit from red sandstone
+Crusher.addRecipe(<minecraft:sand:1> * 2, <ore:sandstoneRed>, 2048, <immersiveengineering:metal:18>, 0.1);
+
 # Lantern -- replace with non-oredicted items
 recipes.remove(<immersiveengineering:metal_decoration2:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 3, [

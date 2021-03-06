@@ -59,6 +59,11 @@ toolMetalIngot.addAll(<ore:ingotIron>);
 toolMetalIngot.addAll(<ore:ingotNickel>);
 toolMetalIngot.addAll(<ore:ingotSteel>);
 
+# Animania -- Wool -- make sure everything is in the right ore dict entries
+<ore:blockWoolBlack>.add(<animania:wool:1>);
+<ore:blockWoolBrown>.add(<animania:wool:0>, <animania:wool:2>, <animania:wool:4>, <animania:wool:6>);
+<ore:blockWoolWhite>.add(<animania:wool:3>, <animania:wool:5>);
+
 # Add individual items to ore dict entries
 <ore:dustBronze>.add(<contenttweaker:bronze_dust>);
 <ore:dustTin>.add(<contenttweaker:tin_dust>);
@@ -66,20 +71,7 @@ toolMetalIngot.addAll(<ore:ingotSteel>);
 <ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
 <ore:listAllmeatraw>.add(<animania:raw_peacock>);
 
-# Concrete Powder
-for meta in 0 .. 16 {
-    <ore:concretePowder>.add(<minecraft:concrete_powder>.definition.makeStack(meta));
-}
-
-# Pressed Wax
-<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
-
-# Terracotta
-for meta in 0 .. 16 {
-    <ore:hardenedClay>.add(<minecraft:stained_hardened_clay>.definition.makeStack(meta));
-}
-
-# Remove Erroneous Entries
+# Harvestcraft -- remove erroneous entries
 <ore:listAllporkraw>.remove(<harvestcraft:bbqjackfruititem>);
 <ore:listAllporkcooked>.remove(<harvestcraft:bbqjackfruititem>);
 <ore:listAllbeefraw>.remove(<harvestcraft:groundbeefitem>);
@@ -92,7 +84,15 @@ for meta in 0 .. 16 {
 <ore:listAllturkeyraw>.remove(<harvestcraft:groundturkeyitem>);
 <ore:listAllvenisonraw>.remove(<harvestcraft:groundvenisonitem>);
 
-# Dye -- remove items which are no longer valid dyes and add their replacements
+# Harvestcraft -- Pressed Wax
+<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
+
+# Minecraft -- Concrete Powder
+for meta in 0 .. 16 {
+    <ore:concretePowder>.add(<minecraft:concrete_powder>.definition.makeStack(meta));
+}
+
+# Minecraft -- Dye -- remove items which are no longer valid dyes and add their replacements
 <ore:dye>.add(<contenttweaker:black_dye>);
 <ore:dye>.add(<contenttweaker:blue_dye>);
 <ore:dye>.add(<contenttweaker:brown_dye>);
@@ -110,7 +110,25 @@ for meta in 0 .. 16 {
 <ore:dyeWhite>.add(<contenttweaker:white_dye>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 
-# Animania Wool -- make sure everything is in the right ore dict entries
-<ore:blockWoolBlack>.add(<animania:wool:1>);
-<ore:blockWoolBrown>.add(<animania:wool:0>, <animania:wool:2>, <animania:wool:4>, <animania:wool:6>);
-<ore:blockWoolWhite>.add(<animania:wool:3>, <animania:wool:5>);
+# Minecraft -- Sandstone -- add dict entries which distinguish between yellow and red sandstone
+for meta in 0 .. 3 { <ore:sandstoneYellow>.add(<minecraft:sandstone>.definition.makeStack(meta)); }
+for meta in 0 .. 16 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow>.definition.makeStack(meta)); }
+for meta in 0 .. 10 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow1>.definition.makeStack(meta)); }
+for meta in 0 .. 8 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow2>.definition.makeStack(meta)); }
+for meta in 0 .. 16 { <ore:sandstoneYellow>.add(<chisel:sandstone-scribbles>.definition.makeStack(meta)); }
+
+for meta in 0 .. 3 { <ore:sandstoneRed>.add(<minecraft:sandstone>.definition.makeStack(meta)); }
+for meta in 0 .. 16 { <ore:sandstoneRed>.add(<chisel:sandstonered>.definition.makeStack(meta)); }
+for meta in 0 .. 10 { <ore:sandstoneRed>.add(<chisel:sandstonered1>.definition.makeStack(meta)); }
+for meta in 0 .. 8 { <ore:sandstoneRed>.add(<chisel:sandstonered2>.definition.makeStack(meta)); }
+for meta in 0 .. 16 { <ore:sandstoneRed>.add(<chisel:sandstonered-scribbles>.definition.makeStack(meta)); }
+
+# Minecraft -- Stone -- add entries for the various kinds of vanilla stone
+<ore:stoneGranite>.add(<minecraft:stone:2>);
+<ore:stoneDiorite>.add(<minecraft:stone:4>);
+<ore:stoneAndesite>.add(<minecraft:stone:6>);
+
+# Minecraft -- Terracotta
+for meta in 0 .. 16 {
+    <ore:hardenedClay>.add(<minecraft:stained_hardened_clay>.definition.makeStack(meta));
+}
