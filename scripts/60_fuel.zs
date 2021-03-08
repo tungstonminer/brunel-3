@@ -92,9 +92,8 @@ Squeezer.addRecipe(null, <liquid:for.honey> * 2000, <forestry:honeydew> * 20, 51
 
 # Plant Oil -- Add recipes for IE Plant Oil
 Squeezer.removeFluidRecipe(<liquid:plantoil>);
-for itemStack in <ore:plantOilInput>.items {
-    Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:plantoil> * 512, itemStack * 8, 51200);
-}
+Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:plantoil> * 512, <ore:plantOilItem> * 8, 51200);
+Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:plantoil> * 512, <immersiveengineering:seed:0> * 8, 51200);
 
 # Biodiesel -- Replace recipe with a more standardized one
 Refinery.removeRecipe(<liquid:biodiesel>);
