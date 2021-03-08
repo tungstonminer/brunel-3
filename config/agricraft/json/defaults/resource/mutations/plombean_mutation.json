@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.1,
   "child": "resource:plombean_plant",
-  "parent1": "vanilla:nether_wart_plant",
-  "parent2": "vanilla:allium_plant"
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "resource:ferranium_plant"
 }

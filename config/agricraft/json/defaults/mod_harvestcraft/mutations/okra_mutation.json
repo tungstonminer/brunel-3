@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:okra_plant",
-  "parent1": "harvestcraft:cucumber_plant",
-  "parent2": "harvestcraft:bambooshoot_plant"
+  "parent1": "vanilla:allium_plant",
+  "parent2": "harvestcraft:zucchini_plant"
 }

@@ -3,6 +3,7 @@
   "enabled": false,
   "chance": 0.05,
   "child": "resource:redstodendron_plant",
-  "parent1": "resource:quartzanthemum_plant",
-  "parent2": "vanilla:red_tulip_plant"
+  "parent1": "vanilla:red_tulip_plant"
+  "parent2": "vanilla:nether_wart_plant",
+  
 }

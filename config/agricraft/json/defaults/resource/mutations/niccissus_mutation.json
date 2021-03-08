@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.1,
   "child": "resource:niccissus_plant",
-  "parent1": "vanilla:nether_wart_plant",
-  "parent2": "vanilla:daisy_plant"
+  "parent1": "vanilla:dandelion_plant",
+  "parent2": "resource:jaslumine_plant"
 }

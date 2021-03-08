@@ -95,6 +95,7 @@
             "minecraft:polar_bear",
             "minecraft:skeleton",
             "minecraft:slime",
+            "minecraft:spider",
             "minecraft:squid",
             "minecraft:villager",
             "minecraft:villager_golem",
@@ -318,6 +319,29 @@
     },
     {
         "biome": [
+            "Roofed Forest",
+            "Roofed Forest M"
+        ],
+        "block": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mobs": [
+            {
+                "mob": "minecraft:giant",
+                "weight": 1790
+            },
+            {
+                "mob": "minecraft:spider",
+                "groupcountmin": 1,
+                "groupcountmax": 1,
+                "weight": 10
+            }
+        ]
+    },
+    {
+        "biome": [
             "Birch Forest Hills",
             "Birch Forest Hills M",
             "ForestHills"
@@ -339,21 +363,21 @@
                 "weight": 40
             },
             {
-                "mob": "betteranimalsplus:badger",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
-                "weight": 30
-            },
-            {
                 "mob": "animania:hen_rhode_island_red",
                 "groupcountmin": 3,
                 "groupcountmax": 6,
-                "weight": 20
+                "weight": 30
             },
             {
                 "mob": "animania:sow_large_white",
                 "groupcountmin": 2,
                 "groupcountmax": 3,
+                "weight": 20
+            },
+            {
+                "mob": "betteranimalsplus:badger",
+                "groupcountmin": 1,
+                "groupcountmax": 1,
                 "weight": 10
             },
             {
@@ -528,7 +552,7 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 599
+                "weight": 2999
             },
             {
                 "mob": "mowziesmobs:foliaath",
@@ -791,7 +815,7 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1770
+                "weight": 1785
             },
             {
                 "mob": "animania:doe_alpine",
@@ -800,16 +824,38 @@
                 "weight": 10
             },
             {
-                "mob": "animania:doe_chinchilla",
-                "groupcountmin": 6,
-                "groupcountmax": 10,
-                "weight": 15
-            },
-            {
                 "mob": "minecraft:llama",
                 "groupcountmin": 6,
                 "groupcountmax": 10,
                 "weight": 5
+            }
+        ]
+    },
+    {
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "block": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
+        ],
+        "mobs": [
+            {
+                "mob": "minecraft:giant",
+                "weight": 285
+            },
+            {
+                "mob": "animania:doe_chinchilla",
+                "groupcountmin": 6,
+                "groupcountmax": 10,
+                "weight": 15
             }
         ]
     },
@@ -1573,13 +1619,7 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1735
-            },
-            {
-                "mob": "animania:doe_havana",
-                "groupcountmin": 6,
-                "groupcountmax": 10,
-                "weight": 40
+                "weight": 1775
             },
             {
                 "mob": "betteranimalsplus:turkey",
@@ -1592,6 +1632,31 @@
                 "groupcountmin": 1,
                 "groupcountmax": 2,
                 "weight": 5
+            }
+        ]
+    },
+    {
+        "biome": [
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Taiga",
+            "Taiga M"
+        ],
+        "block": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mobs": [
+            {
+                "mob": "minecraft:giant",
+                "weight": 560
+            },
+            {
+                "mob": "animania:doe_havana",
+                "groupcountmin": 6,
+                "groupcountmax": 10,
+                "weight": 40
             }
         ]
     },

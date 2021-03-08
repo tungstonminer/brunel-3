@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:flax_plant",
-  "parent1": "vanilla:wheat_plant",
-  "parent2": "vanilla:orchid_plant"
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "immersiveengineering:hemp_plant"
 }

@@ -34,7 +34,7 @@
             "Deep Ocean"
         ],
         "mincount": {
-            "amount": 60,
+            "amount": 45,
             "perperson": true,
             "mob": [
                 "betteranimalsplus:jellyfish",
@@ -207,28 +207,6 @@
     },
     {
         "mob": [
-            "animania:doe_alpine",
-            "animania:doe_chinchilla",
-            "minecraft:llama"
-        ],
-        "biome": [
-            "Extreme Hills",
-            "Extreme Hills Edge",
-            "Extreme Hills M"
-        ],
-        "mincount": {
-            "amount": 20,
-            "perperson": true,
-            "mob": [
-                "animania:doe_alpine",
-                "animania:doe_chinchilla",
-                "minecraft:llama"
-            ]
-        },
-        "result": "deny"
-    },
-    {
-        "mob": [
             "minecraft:skeleton",
             "minecraft:zombie",
             "minecraft:zombie_villager"
@@ -325,9 +303,9 @@
     {
         "mob": [
             "betteranimalsplus:pheasant",
-            "betteranimalsplus:badger",
             "animania:hen_rhode_island_red",
             "animania:sow_large_white",
+            "betteranimalsplus:badger",
             "animania:cow_hereford",
             "betteranimalsplus:blackbear"
         ],
@@ -341,11 +319,31 @@
             "perperson": true,
             "mob": [
                 "betteranimalsplus:pheasant",
-                "betteranimalsplus:badger",
                 "animania:hen_rhode_island_red",
                 "animania:sow_large_white",
+                "betteranimalsplus:badger",
                 "animania:cow_hereford",
                 "betteranimalsplus:blackbear"
+            ]
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "animania:doe_alpine",
+            "minecraft:llama"
+        ],
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "mincount": {
+            "amount": 15,
+            "perperson": true,
+            "mob": [
+                "animania:doe_alpine",
+                "minecraft:llama"
             ]
         },
         "result": "deny"
@@ -616,7 +614,6 @@
     },
     {
         "mob": [
-            "animania:doe_havana",
             "betteranimalsplus:turkey",
             "betteranimalsplus:brownbear"
         ],
@@ -630,7 +627,6 @@
             "amount": 10,
             "perperson": true,
             "mob": [
-                "animania:doe_havana",
                 "betteranimalsplus:turkey",
                 "betteranimalsplus:brownbear"
             ]
@@ -751,6 +747,23 @@
             "perperson": true,
             "mob": [
                 "betteranimalsplus:zotzpyre"
+            ]
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:spider"
+        ],
+        "biome": [
+            "Roofed Forest",
+            "Roofed Forest M"
+        ],
+        "mincount": {
+            "amount": 6,
+            "perperson": true,
+            "mob": [
+                "minecraft:spider"
             ]
         },
         "result": "deny"
@@ -917,6 +930,24 @@
     },
     {
         "mob": [
+            "animania:doe_chinchilla"
+        ],
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "mincount": {
+            "amount": 5,
+            "perperson": true,
+            "mob": [
+                "animania:doe_chinchilla"
+            ]
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
             "minecraft:wolf"
         ],
         "biome": [
@@ -982,6 +1013,25 @@
             "perperson": true,
             "mob": [
                 "minecraft:slime"
+            ]
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "animania:doe_havana"
+        ],
+        "biome": [
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Taiga",
+            "Taiga M"
+        ],
+        "mincount": {
+            "amount": 5,
+            "perperson": true,
+            "mob": [
+                "animania:doe_havana"
             ]
         },
         "result": "deny"
@@ -1073,26 +1123,6 @@
             "perperson": true,
             "mob": [
                 "betteranimalsplus:walrus"
-            ]
-        },
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "mowziesmobs:foliaath"
-        ],
-        "biome": [
-            "Jungle",
-            "Jungle M",
-            "JungleEdge",
-            "JungleEdge M",
-            "JungleHills"
-        ],
-        "mincount": {
-            "amount": 4,
-            "perperson": true,
-            "mob": [
-                "mowziesmobs:foliaath"
             ]
         },
         "result": "deny"
@@ -1296,6 +1326,26 @@
             "perperson": true,
             "mob": [
                 "mowziesmobs:frostmaw"
+            ]
+        },
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "mowziesmobs:foliaath"
+        ],
+        "biome": [
+            "Jungle",
+            "Jungle M",
+            "JungleEdge",
+            "JungleEdge M",
+            "JungleHills"
+        ],
+        "mincount": {
+            "amount": 1,
+            "perperson": true,
+            "mob": [
+                "mowziesmobs:foliaath"
             ]
         },
         "result": "deny"
@@ -1876,6 +1926,44 @@
         "result": "allow"
     },
     {
+        "mob": "minecraft:spider",
+        "biome": [
+            "Roofed Forest",
+            "Roofed Forest M"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mintime": 11500,
+        "maxcount": {
+            "mob": "minecraft:spider",
+            "amount": 2,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:spider",
+        "biome": [
+            "Roofed Forest",
+            "Roofed Forest M"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "maxtime": 500,
+        "maxcount": {
+            "mob": "minecraft:spider",
+            "amount": 2,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
         "mob": "betteranimalsplus:pheasant",
         "biome": [
             "Birch Forest Hills",
@@ -1911,46 +1999,6 @@
         "maxcount": {
             "mob": "betteranimalsplus:pheasant",
             "amount": 30,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "betteranimalsplus:badger",
-        "biome": [
-            "Birch Forest Hills",
-            "Birch Forest Hills M",
-            "ForestHills"
-        ],
-        "blocks": [
-            "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
-        ],
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "betteranimalsplus:badger",
-            "amount": 2,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "betteranimalsplus:badger",
-        "biome": [
-            "Birch Forest Hills",
-            "Birch Forest Hills M",
-            "ForestHills"
-        ],
-        "blocks": [
-            "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
-        ],
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "betteranimalsplus:badger",
-            "amount": 2,
             "perplayer": true
         },
         "result": "allow"
@@ -2031,6 +2079,46 @@
         "maxcount": {
             "mob": "animania:sow_large_white",
             "amount": 9,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:badger",
+        "biome": [
+            "Birch Forest Hills",
+            "Birch Forest Hills M",
+            "ForestHills"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mintime": 23500,
+        "maxcount": {
+            "mob": "betteranimalsplus:badger",
+            "amount": 2,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:badger",
+        "biome": [
+            "Birch Forest Hills",
+            "Birch Forest Hills M",
+            "ForestHills"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "maxtime": 12500,
+        "maxcount": {
+            "mob": "betteranimalsplus:badger",
+            "amount": 2,
             "perplayer": true
         },
         "result": "allow"
@@ -2586,7 +2674,7 @@
         ],
         "maxcount": {
             "mob": "mowziesmobs:foliaath",
-            "amount": 4,
+            "amount": 1,
             "perplayer": true
         },
         "result": "allow"
@@ -3307,54 +3395,6 @@
         "result": "allow"
     },
     {
-        "mob": "animania:doe_chinchilla",
-        "biome": [
-            "Extreme Hills",
-            "Extreme Hills Edge",
-            "Extreme Hills M"
-        ],
-        "blocks": [
-            "minecraft:cobblestone",
-            "minecraft:stone",
-            "minecraft:grass",
-            "minecraft:gravel",
-            "chisel:marble2",
-            "minecraft:stained_hardened_clay",
-            "minecraft:snow_layer"
-        ],
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "animania:doe_chinchilla",
-            "amount": 50,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "animania:doe_chinchilla",
-        "biome": [
-            "Extreme Hills",
-            "Extreme Hills Edge",
-            "Extreme Hills M"
-        ],
-        "blocks": [
-            "minecraft:cobblestone",
-            "minecraft:stone",
-            "minecraft:grass",
-            "minecraft:gravel",
-            "chisel:marble2",
-            "minecraft:stained_hardened_clay",
-            "minecraft:snow_layer"
-        ],
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "animania:doe_chinchilla",
-            "amount": 50,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
         "mob": "minecraft:llama",
         "biome": [
             "Extreme Hills",
@@ -3397,6 +3437,79 @@
         "maxtime": 12500,
         "maxcount": {
             "mob": "minecraft:llama",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_chinchilla",
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "blocks": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
+        ],
+        "mintime": 11000,
+        "maxtime": 13000,
+        "maxcount": {
+            "mob": "animania:doe_chinchilla",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_chinchilla",
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "blocks": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
+        ],
+        "maxtime": 1000,
+        "maxcount": {
+            "mob": "animania:doe_chinchilla",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_chinchilla",
+        "biome": [
+            "Extreme Hills",
+            "Extreme Hills Edge",
+            "Extreme Hills M"
+        ],
+        "blocks": [
+            "minecraft:cobblestone",
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:gravel",
+            "chisel:marble2",
+            "minecraft:stained_hardened_clay",
+            "minecraft:snow_layer"
+        ],
+        "mintime": 23000,
+        "maxcount": {
+            "mob": "animania:doe_chinchilla",
             "amount": 30,
             "perplayer": true
         },
@@ -3773,7 +3886,7 @@
         ],
         "maxcount": {
             "mob": "betteranimalsplus:shark",
-            "amount": 6,
+            "amount": 3,
             "perplayer": true
         },
         "result": "allow"
@@ -3788,7 +3901,7 @@
         ],
         "maxcount": {
             "mob": "betteranimalsplus:whale",
-            "amount": 12,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -5067,48 +5180,6 @@
         "result": "allow"
     },
     {
-        "mob": "animania:doe_havana",
-        "biome": [
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [
-            "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
-        ],
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "animania:doe_havana",
-            "amount": 30,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "animania:doe_havana",
-        "biome": [
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [
-            "minecraft:grass",
-            "minecraft:dirt",
-            "minecraft:sand"
-        ],
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "animania:doe_havana",
-            "amount": 30,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
         "mob": "betteranimalsplus:turkey",
         "biome": [
             "Mega Spruce Taiga",
@@ -5188,6 +5259,70 @@
         "maxcount": {
             "mob": "betteranimalsplus:brownbear",
             "amount": 2,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_havana",
+        "biome": [
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mintime": 11000,
+        "maxtime": 13000,
+        "maxcount": {
+            "mob": "animania:doe_havana",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_havana",
+        "biome": [
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "maxtime": 1000,
+        "maxcount": {
+            "mob": "animania:doe_havana",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "animania:doe_havana",
+        "biome": [
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:sand"
+        ],
+        "mintime": 23000,
+        "maxcount": {
+            "mob": "animania:doe_havana",
+            "amount": 30,
             "perplayer": true
         },
         "result": "allow"
@@ -6044,6 +6179,7 @@
             "minecraft:polar_bear",
             "minecraft:skeleton",
             "minecraft:slime",
+            "minecraft:spider",
             "minecraft:squid",
             "minecraft:villager",
             "minecraft:villager_golem",

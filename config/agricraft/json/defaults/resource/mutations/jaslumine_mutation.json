@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.1,
   "child": "resource:jaslumine_plant",
-  "parent1": "vanilla:nether_wart_plant",
-  "parent2": "vanilla:pink_tulip_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "resource:cuprosia_plant"
 }

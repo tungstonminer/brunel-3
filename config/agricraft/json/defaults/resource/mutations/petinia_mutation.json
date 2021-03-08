@@ -4,5 +4,5 @@
   "chance": 0.1,
   "child": "resource:petinia_plant",
   "parent1": "vanilla:nether_wart_plant",
-  "parent2": "vanilla:white_tulip_plant"
+  "parent2": "vanilla:daisy_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:cranberry_plant",
-  "parent1": "harvestcraft:seaweed_plant",
-  "parent2": "harvestcraft:strawberry_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "harvestcraft:cactusfruit_plant"
 }

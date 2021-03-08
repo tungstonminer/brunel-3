@@ -36,6 +36,11 @@ lawnBlock.setBlockResistance(0.6);
 lawnBlock.setBlockSoundType(<soundtype:ground>);
 lawnBlock.register();
 
+var marbleDust = VanillaFactory.createItem("marble_dust");
+marbleDust.creativeTab = <creativetab:misc>;
+marbleDust.maxStackSize = 16;
+marbleDust.register();
+
 var tinDust = VanillaFactory.createItem("tin_dust");
 tinDust.creativeTab = <creativetab:immersiveengineering>;
 tinDust.maxStackSize = 32;

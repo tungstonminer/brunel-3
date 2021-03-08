@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:corn_plant",
-  "parent1": "vanilla:pumpkin_plant",
-  "parent2": "vanilla:red_mushroom_plant"
+  "parent1": "vanilla:dandelion_plant",
+  "parent2": "harvestcraft:barley_plant"
 }

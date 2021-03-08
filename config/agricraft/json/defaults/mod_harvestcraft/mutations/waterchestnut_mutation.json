@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:waterchestnut_plant",
-  "parent1": "harvestcraft:radish_plant",
-  "parent2": "harvestcraft:leek_plant"
+  "parent1": "vanilla:cactus_plant",
+  "parent2": "harvestcraft:scallion_plant"
 }

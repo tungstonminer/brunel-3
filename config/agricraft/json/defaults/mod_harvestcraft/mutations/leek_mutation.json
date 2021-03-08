@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:leek_plant",
-  "parent1": "harvestcraft:scallion_plant",
-  "parent2": "harvestcraft:celery_plant"
+  "parent1": "harvestcraft:onion_plant",
+  "parent2": "harvestcraft:scallion_plant"
 }

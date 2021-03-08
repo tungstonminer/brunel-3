@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:seaweed_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "vanilla:orchid_plant"
+  "parent1": "harvestcraft:cabbage_plant",
+  "parent2": "harvestcraft:rice_plant"
 }

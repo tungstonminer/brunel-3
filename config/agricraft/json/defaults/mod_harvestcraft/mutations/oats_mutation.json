@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:oats_plant",
-  "parent1": "vanilla:dandelion_plant",
-  "parent2": "harvestcraft:rice_plant"
+  "parent1": "vanilla:orange_tulip_plant",
+  "parent2": "harvestcraft:barley_plant"
 }

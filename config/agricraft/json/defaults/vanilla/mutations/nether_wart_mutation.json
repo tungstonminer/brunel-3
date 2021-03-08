@@ -4,5 +4,5 @@
   "chance": 0.25,
   "child": "vanilla:nether_wart_plant",
   "parent1": "vanilla:red_mushroom_plant",
-  "parent2": "vanilla:brown_mushroom_plant"
+  "parent2": "harvestcraft:whitemushroom_plant"
 }

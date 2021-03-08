@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.05,
   "child": "resource:emeryllis_plant",
-  "parent1": "resource:quartzanthemum_plant",
-  "parent2": "vanilla:cactus_plant"
+  "parent1": "resource:diamahlia_plant",
+  "parent2": "harvestcraft:lettuce_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:cotton_plant",
-  "parent1": "harvestcraft:flax_plant",
-  "parent2": "vanilla:dandelion_plant"
+  "parent1": "vanilla:daisy_plant",
+  "parent2": "harvestcraft:flax_plant"
 }

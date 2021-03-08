@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.8,
   "child": "harvestcraft:sesameseed_plant",
-  "parent1": "vanilla:pumpkin_plant",
-  "parent2": "vanilla:poppy_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "harvestcraft:rice_plant"
 }

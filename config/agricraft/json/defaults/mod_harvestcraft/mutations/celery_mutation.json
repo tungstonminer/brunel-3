@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:celery_plant",
-  "parent1": "vanilla:sugarcane_plant",
-  "parent2": "vanilla:poppy_plant"
+  "parent1": "vanilla:daisy_plant",
+  "parent2": "harvestcraft:bambooshoot_plant"
 }

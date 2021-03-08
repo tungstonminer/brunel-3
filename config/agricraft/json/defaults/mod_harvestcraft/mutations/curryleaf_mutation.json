@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:curryleaf_plant",
-  "parent1": "harvestcraft:spiceleaf_plant",
-  "parent2": "harvestcraft:mustard_plant"
+  "parent1": "vanilla:orange_tulip_plant",
+  "parent2": "brewcraft:hops_plant"
 }

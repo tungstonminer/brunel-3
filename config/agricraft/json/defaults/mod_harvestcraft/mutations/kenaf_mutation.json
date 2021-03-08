@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:kenaf_plant",
-  "parent1": "harvestcraft:cucumber_plant",
-  "parent2": "harvestcraft:cactusfruit_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "immersiveengineering:hemp_plant"
 }

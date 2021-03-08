@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.05,
   "child": "resource:diamahlia_plant",
-  "parent1": "resource:quartzanthemum_plant",
-  "parent2": "vanilla:orchid_plant"
+  "parent1": "harvestcraft:juniperberry_plant",
+  "parent2": "resource:lapender_plant"
 }

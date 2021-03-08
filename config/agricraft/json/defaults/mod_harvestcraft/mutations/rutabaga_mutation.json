@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:rutabaga_plant",
-  "parent1": "harvestcraft:turnip_plant",
-  "parent2": "harvestcraft:radish_plant"
+  "parent1": "harvestcraft:parsnip_plant",
+  "parent2": "harvestcraft:turnip_plant"
 }

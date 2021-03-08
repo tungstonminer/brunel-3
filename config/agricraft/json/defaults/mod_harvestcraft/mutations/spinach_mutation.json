@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.4,
   "child": "harvestcraft:spinach_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "vanilla:cactus_plant"
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "harvestcraft:cabbage_plant"
 }

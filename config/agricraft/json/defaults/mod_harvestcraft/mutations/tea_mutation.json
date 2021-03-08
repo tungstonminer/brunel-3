@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:tea_plant",
-  "parent1": "harvestcraft:lettuce_plant",
-  "parent2": "harvestcraft:spiceleaf_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "brewcraft:hops_plant"
 }

@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.1,
   "child": "harvestcraft:soybean_plant",
-  "parent1": "harvestcraft:peas_plant",
-  "parent2": "harvestcraft:rice_plant"
+  "parent1": "harvestcraft:oats_plant",
+  "parent2": "harvestcraft:peas_plant"
 }

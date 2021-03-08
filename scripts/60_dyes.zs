@@ -442,7 +442,7 @@ recipes.addShapeless(getDyeItem("yellow"), [mortar, <minecraft:yellow_flower:0>]
 recipes.addShapeless(getDyeItem("yellow") * 2, [mortar, <minecraft:double_plant:0>]);
 
 # White Dye
-var whiteDust = <minecraft:dye:15>;
+var whiteDust = <minecraft:dye:15> | <contenttweaker:marble_dust>;
 recipes.addShaped(getDyeItem("white") * 7, [
     [whiteDust, whiteDust, whiteDust],
     [whiteDust, waterItem, whiteDust],

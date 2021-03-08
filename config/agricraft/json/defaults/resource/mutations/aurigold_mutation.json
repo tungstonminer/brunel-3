@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.1,
   "child": "resource:aurigold_plant",
-  "parent1": "vanilla:nether_wart_plant",
-  "parent2": "vanilla:dandelion_plant"
+  "parent1": "vanilla:pink_tulip_plant",
+  "parent2": "harvestcraft:plombean_plant"
 }

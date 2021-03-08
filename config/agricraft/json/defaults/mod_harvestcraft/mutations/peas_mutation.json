@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:peas_plant",
-  "parent1": "harvestcraft:bean_plant",
-  "parent2": "harvestcraft:spinach_plant"
+  "parent1": "vanilla:poppy_plant",
+  "parent2": "harvestcraft:zucchini_plant"
 }

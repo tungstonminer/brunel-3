@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.5,
   "child": "harvestcraft:cassava_plant",
-  "parent1": "harvestcraft:sisal_plant",
+  "parent1": "vanilla:orange_tulip_plant",
   "parent2": "harvestcraft:turnip_plant"
 }

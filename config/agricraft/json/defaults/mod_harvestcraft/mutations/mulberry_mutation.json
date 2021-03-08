@@ -3,6 +3,6 @@
   "enabled": false,
   "chance": 0.2,
   "child": "harvestcraft:mulberry_plant",
-  "parent1": "harvestcraft:corn_plant",
-  "parent2": "harvestcraft:spiceleaf_plant"
+  "parent1": "vanilla:pink_tulip_plant",
+  "parent2": "harvestcraft:elderberyy_plant"
 }
