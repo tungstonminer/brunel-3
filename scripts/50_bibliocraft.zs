@@ -53,6 +53,17 @@ recipes.addShaped(<bibliocraft:framingsaw>, [
     [null, null, <ore:plankWood>],
 ]);
 
+# Label -- make recipe more appropriate for the item
+for meta in 0 .. 5 {
+    var labelItem = <bibliocraft:label>.definition.makeStack(meta);
+    var slabItem = <minecraft:wooden_slab>.definition.makeStack(meta);
+
+    recipes.remove(labelItem);
+    recipes.addShaped(labelItem, [[slabItem, slabItem]]);
+}
+recipes.remove(<bibliocraft:label:6>);
+recipes.addShaped(<bibliocraft:label:6>, [[<bibliocraft:framingboard>, <bibliocraft:framingboard>]]);
+
 # Reading Glasses -- fix recipe to use black dye
 recipes.remove(<bibliocraft:biblioglasses>);
 recipes.addShaped(<bibliocraft:biblioglasses>, [
