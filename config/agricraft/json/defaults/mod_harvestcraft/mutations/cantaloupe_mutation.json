@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/cantaloupe_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:cantaloupe_plant",
   "parent1": "vanilla:melon_plant",

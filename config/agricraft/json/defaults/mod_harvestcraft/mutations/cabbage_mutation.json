@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/cabbage_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:cabbage_plant",
   "parent1": "vanilla:dandelion_plant",

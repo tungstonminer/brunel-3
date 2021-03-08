@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/eggplant_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:eggplant_plant",
   "parent1": "vanilla:pumpkin_plant",

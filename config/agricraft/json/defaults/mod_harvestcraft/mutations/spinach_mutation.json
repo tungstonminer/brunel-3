@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/spinach_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.4,
   "child": "harvestcraft:spinach_plant",
   "parent1": "vanilla:orchid_plant",

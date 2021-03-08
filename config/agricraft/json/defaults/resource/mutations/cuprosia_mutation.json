@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/cuprosia_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.1,
   "child": "resource:cuprosia_plant",
   "parent1": "vanilla:orange_tulip_plant",

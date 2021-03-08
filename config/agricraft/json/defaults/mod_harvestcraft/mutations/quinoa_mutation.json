@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/quinoa_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.375,
   "child": "harvestcraft:quinoa_plant",
   "parent1": "vanilla:red_tulip_plant",

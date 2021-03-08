@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/raspberry_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.4,
   "child": "harvestcraft:raspberry_plant",
   "parent1": "vanilla:red_tulip_plant",

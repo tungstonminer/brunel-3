@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/rye_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.2,
   "child": "harvestcraft:rye_plant",
   "parent1": "vanilla:orchid_plant",

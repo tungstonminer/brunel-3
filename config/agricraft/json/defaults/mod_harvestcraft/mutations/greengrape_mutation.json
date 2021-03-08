@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/greengrape_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.4,
   "child": "harvestcraft:greengrape_plant",
   "parent1": "vanilla:dandelion_plant",

@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/okra_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.4,
   "child": "harvestcraft:okra_plant",
   "parent1": "vanilla:allium_plant",

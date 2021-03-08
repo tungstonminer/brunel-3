@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/lapender_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.05,
   "child": "resource:lapender_plant",
   "parent1": "vanilla:orchid_plant",

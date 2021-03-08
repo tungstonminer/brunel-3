@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/niccissus_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.1,
   "child": "resource:niccissus_plant",
   "parent1": "vanilla:dandelion_plant",

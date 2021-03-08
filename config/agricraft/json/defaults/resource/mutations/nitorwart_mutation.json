@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/nitorwart_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.05,
   "child": "resource:nitorwart_plant",
   "parent1": "vanilla:dandelion_plant",

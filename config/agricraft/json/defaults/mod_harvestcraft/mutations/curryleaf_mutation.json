@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/curryleaf_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:curryleaf_plant",
   "parent1": "vanilla:orange_tulip_plant",

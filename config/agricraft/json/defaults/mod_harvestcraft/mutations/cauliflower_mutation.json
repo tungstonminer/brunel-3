@@ -1,6 +1,6 @@
 {
   "path": "mod_harvestcraft/mutations/cauliflower_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:cauliflower_plant",
   "parent1": "vanilla:white_tulip_plant",

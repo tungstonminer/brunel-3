@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/emeryllis_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.05,
   "child": "resource:emeryllis_plant",
   "parent1": "resource:diamahlia_plant",
