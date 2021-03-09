@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ModList>
+    <Mod name="FML">FML</Mod>
     <Mod name="agricraft">agricraft</Mod>
     <Mod name="alternatingflux">alternatingflux</Mod>
     <Mod name="animania">animania</Mod>
@@ -40,6 +41,7 @@
     <Mod name="dynamictrees">dynamictrees</Mod>
     <Mod name="dynamictreesforestry">dynamictreesforestry</Mod>
     <Mod name="dynamictreesphc">dynamictreesphc</Mod>
+    <Mod name="dynmap">dynmap</Mod>
     <Mod name="engineersdecor">engineersdecor</Mod>
     <Mod name="engineersdoors">engineersdoors</Mod>
     <Mod name="engineerstools">engineerstools</Mod>
@@ -47,7 +49,6 @@
     <Mod name="fenceoverhaul">fenceoverhaul</Mod>
     <Mod name="fistful_of_hay">fistful_of_hay</Mod>
     <Mod name="flatcoloredblocks">flatcoloredblocks</Mod>
-    <Mod name="FML">FML</Mod>
     <Mod name="forestry">forestry</Mod>
     <Mod name="forge">forge</Mod>
     <Mod name="forgemultipartcbe">forgemultipartcbe</Mod>
@@ -76,14 +77,14 @@
     <Mod name="itechoredict">itechoredict</Mod>
     <Mod name="jebc">jebc</Mod>
     <Mod name="jehc">jehc</Mod>
+    <Mod name="jei">jei</Mod>
     <Mod name="jeibees">jeibees</Mod>
     <Mod name="jeiintegration">jeiintegration</Mod>
-    <Mod name="jei">jei</Mod>
     <Mod name="jeivillagers">jeivillagers</Mod>
     <Mod name="jepb">jepb</Mod>
     <Mod name="jeresources">jeresources</Mod>
-    <Mod name="journeymapdefaults">journeymapdefaults</Mod>
     <Mod name="journeymap">journeymap</Mod>
+    <Mod name="journeymapdefaults">journeymapdefaults</Mod>
     <Mod name="justenoughpetroleum">justenoughpetroleum</Mod>
     <Mod name="kinetic anti-cheat">kinetic anti-cheat</Mod>
     <Mod name="llibrary">llibrary</Mod>

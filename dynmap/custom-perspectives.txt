@@ -1,0 +1,17 @@
+version: 3.1-beta7
+perspectives:
+  - class: org.dynmap.hdmap.IsoHDPerspective
+    name: default
+    azimuth: 180
+    inclination: 90
+    scale: 4
+  - class: org.dynmap.hdmap.IsoHDPerspective
+    name: aerial_view
+    azimuth: 135
+    inclination: 30
+    scale: 4
+  - class: org.dynmap.hdmap.IsoHDPerspective
+    name: satellite_view
+    azimuth: 180
+    inclination: 90
+    scale: 4

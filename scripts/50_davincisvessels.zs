@@ -8,9 +8,12 @@ recipes.addShaped(<davincisvessels:anchorpoint>, [
     [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>],
 ]);
 
-# Balloon
+# Balloon -- only allow plain balloons from white wool
 recipes.remove(<davincisvessels:balloon:0>);
 recipes.addShapeless(<davincisvessels:balloon:0>, [<ore:blockWoolWhite>, <ore:string>]);
+
+# Balloon -- allow unmaking balloons to recover materials
+recipes.addShapeless(<minecraft:wool:0>, [<davincisvessels:balloon>.transformReplace(<minecraft:string>)]);
 
 # Floater
 recipes.remove(<davincisvessels:floater>);

@@ -1,0 +1,46 @@
+version: 1.9
+templates:
+  normal:
+    enabled: true
+    extrazoomout: 2
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 2
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface NE"
+        prefix: t
+        perspective: iso_NE_30_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 2
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface NW"
+        prefix: t
+        perspective: iso_NW_30_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 2
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface SE"
+        prefix: t
+        perspective: iso_SE_30_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 2
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface SW"
+        prefix: t
+        perspective: iso_SW_30_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 2

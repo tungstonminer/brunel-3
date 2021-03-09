@@ -1,0 +1,4 @@
+version: 0.24
+templates:
+  normal-vlowres:
+    enabled: false

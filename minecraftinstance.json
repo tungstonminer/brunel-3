@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-03-08T06:12:07.617785Z",
+  "lastPlayed": "2021-03-09T17:49:39.709057Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "brunel-3",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-03-07T15:02:55.576037Z",
+  "lastPreviousMatchUpdate": "2021-03-09T17:41:14.346977Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -6587,6 +6587,216 @@
       "dateUpdated": "2021-01-23T15:31:57.794268Z",
       "dateLastUpdateAttempted": "2021-01-23T15:31:57.794268Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 59433,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 3197691,
+        "displayName": "v3.1-beta-7 for Forge 1.12.2",
+        "fileName": "Dynmap-3.1-beta7-forge-1.12.2.jar",
+        "fileDate": "2021-02-09T05:01:24.233Z",
+        "fileLength": 8352557,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3197/691/Dynmap-3.1-beta7-forge-1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 914593079,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 587268222,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "renderdata",
+            "fingerprint": 1185653739,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "permissions.yml.example",
+            "fingerprint": 19901092,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "configuration.txt",
+            "fingerprint": 2100034580,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 385437374,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dummyThing",
+            "fingerprint": 79582461,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "custom-lightings.txt",
+            "fingerprint": 1025769648,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "texture_0.txt",
+            "fingerprint": 11354044,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "core.yml",
+            "fingerprint": 3833123551,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "models_0.txt",
+            "fingerprint": 3191365445,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "lightings.txt",
+            "fingerprint": 1892802561,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "texture_1.txt",
+            "fingerprint": 1902209060,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "deleted.txt",
+            "fingerprint": 2127869309,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "char.png",
+            "fingerprint": 3444852297,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "custom-shaders.txt",
+            "fingerprint": 3480947621,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "models_1.txt",
+            "fingerprint": 1866158837,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "extracted",
+            "fingerprint": 1337107588,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "worlds.txt",
+            "fingerprint": 338408161,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "custom-perspectives.txt",
+            "fingerprint": 822559545,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "templates",
+            "fingerprint": 1997262795,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shaders.txt",
+            "fingerprint": 3683184424,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "perspectives.txt",
+            "fingerprint": 1746863684,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "texturepacks",
+            "fingerprint": 2750918897,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "markers",
+            "fingerprint": 1720042426,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "about.html",
+            "fingerprint": 1421502970,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "jetty-dir.css",
+            "fingerprint": 3056094628,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4124232425,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Dynmap-3.1-beta7-forge-1.12.2.jar"
+      },
+      "dateInstalled": "2021-03-09T16:14:31.922036Z",
+      "dateUpdated": "2021-03-09T16:14:36.388308Z",
+      "dateLastUpdateAttempted": "2021-03-09T16:14:36.388308Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

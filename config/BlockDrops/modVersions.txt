@@ -91,6 +91,7 @@
   "wearablebackpacks": "3.1.4",
   "immersiveposts": "0.2.1",
   "minecraft": "1.12.2",
+  "dynmap": "3.1-beta7-449",
   "kinetic anti-cheat": "12.2.2",
   "mousetweaks": "2.10",
   "roughtweaks": "1.0",

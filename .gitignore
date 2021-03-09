@@ -22,3 +22,6 @@ server/
 usercache.json
 usernamecache.json
 config/agricraft/json/server_
+dynmap/colorschemes/
+dynmap/web/
+dynmap/*.pending
