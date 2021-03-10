@@ -181,9 +181,6 @@ recipes.addShaped(<railcraft:reinforced_concrete:8> * 8, [
     [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
 ]);
 
-# Saltpeter -- add recipe for saltpeter from crusher
-Crusher.addRecipe(<minecraft:sand:0> * 2, <ore:sandstoneYellow>, 2048, <railcraft:dust:2>, 0.1);
-
 # Signal Circuit -- Add more-compatible recipe for signal circuit
 recipes.remove(<railcraft:circuit:2>);
 recipes.addShapeless(<railcraft:circuit:2>, [

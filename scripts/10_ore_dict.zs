@@ -111,13 +111,13 @@ for meta in 0 .. 16 {
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 
 # Minecraft -- Sandstone -- add dict entries which distinguish between yellow and red sandstone
-for meta in 0 .. 3 { <ore:sandstoneYellow>.add(<minecraft:sandstone>.definition.makeStack(meta)); }
+for meta in 0 .. 3 { <ore:sandstoneYellow>.add(<minecraft:sandstone:0>.definition.makeStack(meta)); }
 for meta in 0 .. 16 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow>.definition.makeStack(meta)); }
 for meta in 0 .. 10 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow1>.definition.makeStack(meta)); }
 for meta in 0 .. 8 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow2>.definition.makeStack(meta)); }
 for meta in 0 .. 16 { <ore:sandstoneYellow>.add(<chisel:sandstone-scribbles>.definition.makeStack(meta)); }
 
-for meta in 0 .. 3 { <ore:sandstoneRed>.add(<minecraft:sandstone>.definition.makeStack(meta)); }
+for meta in 0 .. 3 { <ore:sandstoneRed>.add(<minecraft:sandstone:1>.definition.makeStack(meta)); }
 for meta in 0 .. 16 { <ore:sandstoneRed>.add(<chisel:sandstonered>.definition.makeStack(meta)); }
 for meta in 0 .. 10 { <ore:sandstoneRed>.add(<chisel:sandstonered1>.definition.makeStack(meta)); }
 for meta in 0 .. 8 { <ore:sandstoneRed>.add(<chisel:sandstonered2>.definition.makeStack(meta)); }

@@ -88,7 +88,7 @@ recipes.addShaped(<immersiveengineering:metal_device1:4>, [
 Crusher.removeRecipe(<minecraft:sand>);
 Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 4096);
 Crusher.addRecipe(<minecraft:sand>, <ore:blockGlassColorless>, 4096);
-Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstone>, 4096, <immersiveengineering:material:24>, 0.5);
+Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstoneYellow>, 4096, <immersiveengineering:material:24>, 0.5);
 
 # Seed Oil -- Add recipes for Forestry Seed Oil
 for itemStack in <ore:listAllseed>.items {
