@@ -26,6 +26,9 @@ recipes.addShaped(<minecraft:cauldron>, [
     [<ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>],
 ]);
 
+# Minecraft -- Charcoal -- remove recipes in favor of Forestry charcoal pile
+furnace.remove(<minecraft:coal:1>);
+
 # Compass -- make a much easier recipe for early-game use
 <minecraft:compass>.displayName = "Compass";
 recipes.remove(<minecraft:compass>);

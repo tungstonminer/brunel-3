@@ -44,10 +44,6 @@ JEI.removeAndHide(<forestry:crafting_material:4>);
 recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
 recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
 
-# Minecraft -- Charcoal -- remove recipes in favor of Forestry charcoal pile
-recipes.remove(<minecraft:coal:1>);
-furnace.remove(<minecraft:coal:1>);
-
 # Minecraft -- Enchantment Table -- don't allow enchantments
 JEI.removeAndHide(<minecraft:brewing_stand>);
 JEI.removeAndHide(<minecraft:enchanting_table>);
