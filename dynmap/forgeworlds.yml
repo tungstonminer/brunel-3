@@ -5,7 +5,7 @@ worlds:
     nether: false
     name: brunel3
     the_end: false
-    title: Brunel
+    title: Brunel III
     height: 256
 isMCPC: false
 useSaveFolderAsName: true
