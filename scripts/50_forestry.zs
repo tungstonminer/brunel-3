@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.forestry.Moistener;
 import mods.forestry.Squeezer;
 import mods.immersiveengineering.BottlingMachine;
+import mods.immersiveengineering.Mixer;
 import mods.jei.JEI;
 
 ########################################################################################################################
@@ -62,6 +63,14 @@ recipes.addShaped(<forestry:honey_pot>, [
 BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:fruitbaititem>, <liquid:water> * 10);
 BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:veggiebaititem>, <liquid:water> * 20);
 BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:grainbaititem>, <liquid:water> * 40);
+
+# Short Mead -- add mixer recipe
+Mixer.addRecipe(
+    <liquid:short.mead> * 4000,
+    <liquid:for.honey> * 4000,
+    [<forestry:mulch>, <forestry:honeydew> * 4],
+    4096
+);
 
 # Squeezer -- Remove recipes for things transferred to the IE Squeezer
 Squeezer.removeRecipe(<liquid:biomass>);
