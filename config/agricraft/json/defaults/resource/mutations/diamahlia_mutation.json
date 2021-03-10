@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/diamahlia_mutation.json",
   "enabled": true,
-  "chance": 0.05,
+  "chance": 0.18,
   "child": "resource:diamahlia_plant",
   "parent1": "harvestcraft:juniperberry_plant",
   "parent2": "resource:lapender_plant"

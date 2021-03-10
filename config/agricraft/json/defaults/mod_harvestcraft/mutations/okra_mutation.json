@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/okra_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.56,
   "child": "harvestcraft:okra_plant",
   "parent1": "vanilla:allium_plant",
   "parent2": "harvestcraft:zucchini_plant"

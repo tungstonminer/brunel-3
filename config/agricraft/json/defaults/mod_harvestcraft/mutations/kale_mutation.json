@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/kale_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.32,
   "child": "harvestcraft:kale_plant",
   "parent1": "vanilla:orange_tulip_plant",
   "parent2": "harvestcraft:artichoke_plant"

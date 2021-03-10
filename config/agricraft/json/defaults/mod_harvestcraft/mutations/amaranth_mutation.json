@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/amaranth_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.42,
   "child": "harvestcraft:amaranth_plant",
   "parent1": "vanilla:red_tulip_plant",
   "parent2": "harvestcraft:rye_plant"

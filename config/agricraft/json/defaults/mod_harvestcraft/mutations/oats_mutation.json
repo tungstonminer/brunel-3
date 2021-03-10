@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/oats_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.56,
   "child": "harvestcraft:oats_plant",
   "parent1": "vanilla:orange_tulip_plant",
   "parent2": "harvestcraft:barley_plant"

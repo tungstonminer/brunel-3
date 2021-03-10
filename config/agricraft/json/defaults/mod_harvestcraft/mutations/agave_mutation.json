@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/agave_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.75,
   "child": "harvestcraft:agave_plant",
   "parent1": "vanilla:pink_tulip_plant",
   "parent2": "vanilla:cactus_plant"

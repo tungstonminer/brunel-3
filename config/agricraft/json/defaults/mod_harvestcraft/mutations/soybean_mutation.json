@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/soybean_mutation.json",
   "enabled": true,
-  "chance": 0.1,
+  "chance": 0.42,
   "child": "harvestcraft:soybean_plant",
   "parent1": "harvestcraft:oats_plant",
   "parent2": "harvestcraft:peas_plant"

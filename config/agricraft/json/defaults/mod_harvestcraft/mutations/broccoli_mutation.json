@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/broccoli_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.42,
   "child": "harvestcraft:broccoli_plant",
   "parent1": "vanilla:orchid_plant",
   "parent2": "harvestcraft:rye_plant"

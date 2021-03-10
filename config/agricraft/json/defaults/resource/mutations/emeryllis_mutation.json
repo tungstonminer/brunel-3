@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/emeryllis_mutation.json",
   "enabled": true,
-  "chance": 0.05,
+  "chance": 0.13,
   "child": "resource:emeryllis_plant",
   "parent1": "resource:diamahlia_plant",
   "parent2": "harvestcraft:lettuce_plant"

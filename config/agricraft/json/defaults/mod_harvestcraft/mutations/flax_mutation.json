@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/flax_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.56,
   "child": "harvestcraft:flax_plant",
   "parent1": "vanilla:orchid_plant",
   "parent2": "immersiveengineering:hemp_plant"

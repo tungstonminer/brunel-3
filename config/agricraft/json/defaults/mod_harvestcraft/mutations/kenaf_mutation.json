@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/kenaf_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.56,
   "child": "harvestcraft:kenaf_plant",
   "parent1": "vanilla:poppy_plant",
   "parent2": "immersiveengineering:hemp_plant"

@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/ferranium_mutation.json",
   "enabled": true,
-  "chance": 0.1,
+  "chance": 0.13,
   "child": "resource:ferranium_plant",
   "parent1": "vanilla:red_tulip_plant",
   "parent2": "resource:niccissus_plant"

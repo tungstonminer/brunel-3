@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/blueberry_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.32,
   "child": "harvestcraft:blueberry_plant",
   "parent1": "vanilla:orchid_plant",
   "parent2": "harvestcraft:huckleberry_plant"

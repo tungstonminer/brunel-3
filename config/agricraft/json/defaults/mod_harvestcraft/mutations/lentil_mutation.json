@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/lentil_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.42,
   "child": "harvestcraft:lentil_plant",
   "parent1": "harvestcraft:peas_plant",
   "parent2": "harvestcraft:quinoa_plant"

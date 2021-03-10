@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/spiceleaf_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.32,
   "child": "harvestcraft:spiceleaf_plant",
   "parent1": "vanilla:orchid_plant",
   "parent2": "brewcraft:hops_plant"

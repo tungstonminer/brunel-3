@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/kiwi_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.56,
   "child": "harvestcraft:kiwi_plant",
   "parent1": "vanilla:daisy_plant",
   "parent2": "harvestcraft:agave_plant"

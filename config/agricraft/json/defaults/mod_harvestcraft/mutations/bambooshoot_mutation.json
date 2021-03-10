@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/bambooshoot_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.75,
   "child": "harvestcraft:bambooshoot_plant",
   "parent1": "vanilla:dandelion_plant",
   "parent2": "vanilla:sugarcane_plant"

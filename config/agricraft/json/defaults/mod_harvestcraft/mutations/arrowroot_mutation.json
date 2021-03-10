@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/arrowroot_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.56,
   "child": "harvestcraft:arrowroot_plant",
   "parent1": "vanilla:daisy_plant",
   "parent2": "harvestcraft:parsnip_plant"

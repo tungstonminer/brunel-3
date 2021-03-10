@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/redstodendron_mutation.json",
   "enabled": true,
-  "chance": 0.05,
+  "chance": 0.42,
   "child": "resource:redstodendron_plant",
   "parent1": "vanilla:red_tulip_plant"
   "parent2": "vanilla:nether_wart_plant",

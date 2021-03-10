@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/ginger_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.24,
   "child": "harvestcraft:ginger_plant",
   "parent1": "harvestcraft:curryleaf_plant",
   "parent2": "harvestcraft:garlic_plant"

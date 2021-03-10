@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/juniperberry_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.32,
   "child": "harvestcraft:juniperberry_plant",
   "parent1": "vanilla:allium_plant",
   "parent2": "harvestcraft:huckleberry_plant"

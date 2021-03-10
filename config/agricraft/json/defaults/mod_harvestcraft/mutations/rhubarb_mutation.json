@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/rhubarb_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.32,
   "child": "harvestcraft:rhubarb_plant",
   "parent1": "vanilla:pink_tulip_plant",
   "parent2": "harvestcraft:asparagus_plant"

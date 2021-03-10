@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/cassava_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.56,
   "child": "harvestcraft:cassava_plant",
   "parent1": "vanilla:orange_tulip_plant",
   "parent2": "harvestcraft:turnip_plant"

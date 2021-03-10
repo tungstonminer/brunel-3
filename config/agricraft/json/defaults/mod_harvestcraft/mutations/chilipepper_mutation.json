@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/chilipepper_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.32,
   "child": "harvestcraft:chilipepper_plant",
   "parent1": "harvestcraft:bellpepper_plant",
   "parent2": "harvestcraft:spiceleaf_plant"

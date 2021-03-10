@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/seaweed_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.32,
   "child": "harvestcraft:seaweed_plant",
   "parent1": "harvestcraft:cabbage_plant",
   "parent2": "harvestcraft:rice_plant"

@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/chickpea_mutation.json",
   "enabled": true,
-  "chance": 0.3,
+  "chance": 0.32,
   "child": "harvestcraft:chickpea_plant",
   "parent1": "harvestcraft:lentil_plant",
   "parent2": "harvestcraft:wintersquash_plant"

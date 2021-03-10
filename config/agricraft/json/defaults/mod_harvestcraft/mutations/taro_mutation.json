@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/taro_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.56,
   "child": "harvestcraft:taro_plant",
   "parent1": "vanilla:dandelion_plant",
   "parent2": "harvestcraft:sweetpotato_plant"

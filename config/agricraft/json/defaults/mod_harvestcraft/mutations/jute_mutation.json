@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/jute_mutation.json",
   "enabled": true,
-  "chance": 0.4,
+  "chance": 0.42,
   "child": "harvestcraft:jute_plant",
   "parent1": "harvestcraft:flax_plant",
   "parent2": "harvestcraft:agave_plant"

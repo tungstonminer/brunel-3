@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/asparagus_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.42,
   "child": "harvestcraft:asparagus_plant",
   "parent1": "vanilla:poppy_plant",
   "parent2": "harvestcraft:celery_plant"

@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/quartzanthemum_mutation.json",
   "enabled": true,
-  "chance": 0.1,
+  "chance": 0.32,
   "child": "resource:quartzanthemum_plant",
   "parent1": "vanilla:white_tulip_plant",
   "parent2": "resource:redstodendron_plant"

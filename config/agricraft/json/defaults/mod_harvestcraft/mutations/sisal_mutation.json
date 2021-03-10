@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/sisal_mutation.json",
   "enabled": true,
-  "chance": 0.1,
+  "chance": 0.56,
   "child": "harvestcraft:sisal_plant",
   "parent1": "vanilla:pink_tulip_plant",
   "parent2": "immersiveengineering:hemp_plant"

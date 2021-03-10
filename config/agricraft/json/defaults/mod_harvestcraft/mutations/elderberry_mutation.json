@@ -1,7 +1,7 @@
 {
-  "path": "mod_harvestcraft/mutations/garlic_mutation.json",
+  "path": "mod_harvestcraft/mutations/elderberry_mutation.json",
   "enabled": true,
-  "chance": 0.8,
+  "chance": 0.56,
   "child": "harvestcraft:elderberry_plant",
   "parent1": "harvestcraft:bambooshoot_plant",
   "parent2": "harvestcraft:cactusfruit_plant"

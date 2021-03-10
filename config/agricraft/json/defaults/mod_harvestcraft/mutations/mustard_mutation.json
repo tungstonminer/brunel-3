@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/mustard_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.42,
   "child": "harvestcraft:mustard_plant",
   "parent1": "harvestcraft:corn_plant",
   "parent2": "harvestcraft:sesameseed_plant"

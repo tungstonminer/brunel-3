@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/wintersquash_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.75,
   "child": "harvestcraft:wintersquash_plant",
   "parent1": "vanilla:carrot_plant",
   "parent2": "vanilla:pumpkin_plant"

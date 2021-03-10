@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/brusselsprout_mutation.json",
   "enabled": true,
-  "chance": 0.5,
+  "chance": 0.56,
   "child": "harvestcraft:brusselsprout_plant",
   "parent1": "vanilla:dandelion_plant",
   "parent2": "harvestcraft:bambooshoot_plant"

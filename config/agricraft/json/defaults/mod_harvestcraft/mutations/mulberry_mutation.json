@@ -1,7 +1,7 @@
 {
   "path": "mod_harvestcraft/mutations/mulberry_mutation.json",
   "enabled": true,
-  "chance": 0.2,
+  "chance": 0.42,
   "child": "harvestcraft:mulberry_plant",
   "parent1": "vanilla:pink_tulip_plant",
   "parent2": "harvestcraft:elderberry_plant"

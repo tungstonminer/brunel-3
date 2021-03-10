@@ -1,7 +1,7 @@
 {
   "path": "resource/mutations/aurigold_mutation.json",
   "enabled": true,
-  "chance": 0.1,
+  "chance": 0.08,
   "child": "resource:aurigold_plant",
   "parent1": "vanilla:pink_tulip_plant",
   "parent2": "harvestcraft:plombean_plant"
