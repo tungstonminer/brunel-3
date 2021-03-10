@@ -94,7 +94,9 @@ Crusher.addRecipe(<railcraft:brick_diorite:5>, <ore:stoneDiorite>, 4096);
 Crusher.addRecipe(<railcraft:brick_granite:5>, <ore:stoneGranite>, 4096);
 
 # Crushed Obsidian -- Add recipe for crushed obsidian
+Crusher.removeRecipe(<railcraft:dust:0>);
 Crusher.addRecipe(<railcraft:generic:7>, <ore:obsidian>, 4096);
+Crusher.addRecipe(<railcraft:dust:0> * 4, <railcraft:generic:7>, 4096);
 
 # Dust -- Add recipes for railcraft dusts
 Crusher.addRecipe(<railcraft:dust:6>, <minecraft:ender_pearl>, 8000);  # ender powder
