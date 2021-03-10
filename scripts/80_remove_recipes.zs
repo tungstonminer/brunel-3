@@ -45,7 +45,6 @@ recipes.removeByRecipeName("immersiveengineering:hammercrushing_sulfur");
 recipes.removeByRecipeName("immersiveengineering:hammercrushing_saltpeter");
 
 # Minecraft -- Enchantment Table -- don't allow enchantments
-JEI.removeAndHide(<minecraft:brewing_stand>);
 JEI.removeAndHide(<minecraft:enchanting_table>);
 JEI.removeAndHide(<minecraft:experience_bottle>);
 
