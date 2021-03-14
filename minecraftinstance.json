@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-03-14T00:16:09.226238Z",
+  "lastPlayed": "2021-03-14T16:16:52.752218Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,7 +46,7 @@
   "name": "brunel-3",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-03-11T14:28:47.452768Z",
+  "lastPreviousMatchUpdate": "2021-03-14T15:42:51.793993Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -1562,6 +1562,77 @@
       "dateUpdated": "2021-01-27T03:27:51.765544Z",
       "dateLastUpdateAttempted": "2021-01-27T03:27:51.765544Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 358241,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2859203,
+        "displayName": "horsestandstill-1.12.2-0.0.1.jar",
+        "fileName": "horsestandstill-1.12.2-0.0.1.jar",
+        "fileDate": "2020-01-12T19:56:11.157Z",
+        "fileLength": 6231,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2859/203/horsestandstill-1.12.2-0.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2400922599,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2711765287,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 685760203,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 772414644,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "horsestandstill-1.12.2-0.0.1.jar"
+      },
+      "dateInstalled": "2021-03-14T03:14:51.687847Z",
+      "dateUpdated": "2021-03-14T03:14:51.693493Z",
+      "dateLastUpdateAttempted": "2021-03-14T03:14:51.693493Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6441,7 +6512,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220954,

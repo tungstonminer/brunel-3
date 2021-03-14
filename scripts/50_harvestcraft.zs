@@ -1,3 +1,4 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.harvestcrafttweaker.HarvestCraftTweaker as HCT;
@@ -10,6 +11,29 @@ import mods.jei.JEI;
 
 HCT.clearAllPressing();
 HCT.clearAllGrinding();
+
+val MILK_CONTAINER as IIngredient =
+    <minecraft:milk_bucket> |
+    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
+    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}});
 
 
 ########################################################################################################################
@@ -89,29 +113,7 @@ HCT.addGrinding(<ore:listAllgrain>, <harvestcraft:flouritem>, <harvestcraft:flou
 # Fresh Milk -- don't let people use a whole bucket when a quarter will do
 <ore:listAllmilk>.remove(<minecraft:milk_bucket>);
 recipes.remove(<harvestcraft:freshmilkitem>);
-recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [
-    <minecraft:milk_bucket> |
-    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}})
-]);
+recipes.addShapeless(<harvestcraft:freshmilkitem> * 4, [MILK_CONTAINER]);
 
 # Fresh Water -- only allow distilled water for food
 val DIST_WATER = <liquid:dist_water>.name;
@@ -156,6 +158,11 @@ JEI.removeAndHide(<harvestcraft:market>);
 
 # Maple Syrup -- add to the all sugar list
 oreDict.get("listAllsugar").add(<harvestcraft:maplesyrupitem>);
+
+# Milk -- use the ore dictionary instead
+recipes.replaceAllOccurences(<minecraft:milk_bucket>, MILK_CONTAINER, <*>.only(function(itemStack) {
+    return true;
+}));
 
 # Nutella -- should be made with hazelnuts
 recipes.remove(<harvestcraft:nutellaitem>);

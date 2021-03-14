@@ -17,7 +17,6 @@ recipes.addShaped(<minecraft:golden_shovel>.withTag({ench: [{lvl: 1 as short, id
 ]);
 
 # Steel Pickaxe -- allow adding an electrum coating to make it have silk touch
-recipes.remove(<immersiveengineering:pickaxe_steel>);
 recipes.addShaped(<immersiveengineering:pickaxe_steel>.withTag({ench: [{lvl: 1 as short, id: 33 as short}]}), [
     [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
     [null, <immersiveengineering:pickaxe_steel>, null],
@@ -25,7 +24,6 @@ recipes.addShaped(<immersiveengineering:pickaxe_steel>.withTag({ench: [{lvl: 1 a
 ]);
 
 # Steel Shovel -- allow adding an electrum coating to make it have silk touch
-recipes.remove(<immersiveengineering:shovel_steel>);
 recipes.addShaped(<immersiveengineering:shovel_steel>.withTag({ench: [{lvl: 1 as short, id: 33 as short}]}), [
     [<ore:ingotElectrum>],
     [<immersiveengineering:shovel_steel>],
