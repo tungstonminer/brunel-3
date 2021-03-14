@@ -1,3 +1,4 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.immersiveengineering.Crusher;
@@ -9,6 +10,13 @@ val ALL_COLORS = [
     "black", "blue", "brown", "cyan", "gray", "green", "lightBlue", "lightGray", "lime", "magenta", "orange", "pink",
     "purple", "red", "white", "yellow"
 ] as string[];
+
+val WATER_ITEM as IIngredient =
+    <minecraft:water_bucket> | <claybucket:claybucket:1> |
+    <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}});
 
 
 ########################################################################################################################
@@ -377,22 +385,14 @@ for color in ALL_COLORS {
 
 ########################################################################################################################
 
-val WATER = <liquid:water>.name;
-
 val mortar = <ore:toolMortarandpestle>.reuse();
-val waterItem =
-    <minecraft:water_bucket> | <claybucket:claybucket:1> |
-    <forge:bucketfilled>.withTag({FluidName: WATER, Amount: 1000}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}});
 
 # Black Dye
 var blackDust = <ore:dustCoal> | <ore:dustCharcoal>;
 recipes.addShapeless(getDyeItem("black"), [mortar, <minecraft:dye:0>]);
 recipes.addShaped(getDyeItem("black") * 7, [
     [blackDust, blackDust, blackDust],
-    [blackDust, waterItem, blackDust],
+    [blackDust, WATER_ITEM, blackDust],
     [blackDust, mortar, blackDust],
 ]);
 
@@ -406,7 +406,7 @@ recipes.addShapeless(getDyeItem("red") * 2, [mortar, <minecraft:double_plant:4>]
 var brownDust = <harvestcraft:cocoapowderitem>;
 recipes.addShaped(getDyeItem("brown") * 7, [
     [brownDust, brownDust, brownDust],
-    [brownDust, waterItem, brownDust],
+    [brownDust, WATER_ITEM, brownDust],
     [brownDust, mortar, brownDust],
 ]);
 
@@ -414,7 +414,7 @@ recipes.addShaped(getDyeItem("brown") * 7, [
 var blueDust = <minecraft:dye:4>;
 recipes.addShaped(getDyeItem("blue") * 7, [
     [blueDust, blueDust, blueDust],
-    [blueDust, waterItem, blueDust],
+    [blueDust, WATER_ITEM, blueDust],
     [blueDust, mortar, blueDust],
 ]);
 
@@ -445,7 +445,7 @@ recipes.addShapeless(getDyeItem("yellow") * 2, [mortar, <minecraft:double_plant:
 var whiteDust = <minecraft:dye:15> | <contenttweaker:marble_dust>;
 recipes.addShaped(getDyeItem("white") * 7, [
     [whiteDust, whiteDust, whiteDust],
-    [whiteDust, waterItem, whiteDust],
+    [whiteDust, WATER_ITEM, whiteDust],
     [whiteDust, mortar, whiteDust],
 ]);
 

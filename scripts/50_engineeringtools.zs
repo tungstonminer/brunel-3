@@ -1,3 +1,5 @@
+########################################################################################################################
+
 # Crushing Hammer -- adjust recipe to not require metals
 recipes.remove(<engineerstools:crushing_hammer>);
 recipes.addShaped(<engineerstools:crushing_hammer>, [

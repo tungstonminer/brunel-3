@@ -25,8 +25,8 @@
     },
     {
         "mob": [
-            "betteranimalsplus:jellyfish",
             "betteranimalsplus:nautilus",
+            "betteranimalsplus:jellyfish",
             "betteranimalsplus:shark",
             "betteranimalsplus:whale"
         ],
@@ -37,8 +37,8 @@
             "amount": 45,
             "perperson": true,
             "mob": [
-                "betteranimalsplus:jellyfish",
                 "betteranimalsplus:nautilus",
+                "betteranimalsplus:jellyfish",
                 "betteranimalsplus:shark",
                 "betteranimalsplus:whale"
             ]
@@ -104,8 +104,8 @@
     {
         "mob": [
             "minecraft:squid",
-            "betteranimalsplus:jellyfish",
             "betteranimalsplus:eel_saltwater",
+            "betteranimalsplus:jellyfish",
             "betteranimalsplus:bobbit_worm"
         ],
         "biome": [
@@ -116,8 +116,8 @@
             "perperson": true,
             "mob": [
                 "minecraft:squid",
-                "betteranimalsplus:jellyfish",
                 "betteranimalsplus:eel_saltwater",
+                "betteranimalsplus:jellyfish",
                 "betteranimalsplus:bobbit_worm"
             ]
         },
@@ -3802,21 +3802,6 @@
         "result": "allow"
     },
     {
-        "mob": "betteranimalsplus:jellyfish",
-        "biome": [
-            "Ocean"
-        ],
-        "blocks": [
-            "minecraft:water"
-        ],
-        "maxcount": {
-            "mob": "betteranimalsplus:jellyfish",
-            "amount": 100,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
         "mob": "betteranimalsplus:eel_saltwater",
         "biome": [
             "Ocean"
@@ -3827,6 +3812,21 @@
         "maxcount": {
             "mob": "betteranimalsplus:eel_saltwater",
             "amount": 12,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:jellyfish",
+        "biome": [
+            "Ocean"
+        ],
+        "blocks": [
+            "minecraft:water"
+        ],
+        "maxcount": {
+            "mob": "betteranimalsplus:jellyfish",
+            "amount": 60,
             "perplayer": true
         },
         "result": "allow"
@@ -3847,21 +3847,6 @@
         "result": "allow"
     },
     {
-        "mob": "betteranimalsplus:jellyfish",
-        "biome": [
-            "Deep Ocean"
-        ],
-        "blocks": [
-            "minecraft:water"
-        ],
-        "maxcount": {
-            "mob": "betteranimalsplus:jellyfish",
-            "amount": 100,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
         "mob": "betteranimalsplus:nautilus",
         "biome": [
             "Deep Ocean"
@@ -3872,6 +3857,21 @@
         "maxcount": {
             "mob": "betteranimalsplus:nautilus",
             "amount": 80,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:jellyfish",
+        "biome": [
+            "Deep Ocean"
+        ],
+        "blocks": [
+            "minecraft:water"
+        ],
+        "maxcount": {
+            "mob": "betteranimalsplus:jellyfish",
+            "amount": 40,
             "perplayer": true
         },
         "result": "allow"

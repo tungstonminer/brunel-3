@@ -1,3 +1,5 @@
+########################################################################################################################
+
 # Nature's Compass -- make this *much* harder to create
 recipes.remove(<naturescompass:naturescompass>);
 recipes.addShaped(<naturescompass:naturescompass>, [

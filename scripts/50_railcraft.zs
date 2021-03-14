@@ -1,5 +1,5 @@
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.Crusher;
 
 
@@ -26,16 +26,31 @@ val RAILCRAFT_BRICKS = [
     <railcraft:brick_sandy>,
 ] as IItemStack[];
 
-val WATER = <liquid:water>.name;
-val waterItem =
+val WATER_ITEM as IIngredient =
     <minecraft:water_bucket> | <claybucket:claybucket:1> |
-    <forge:bucketfilled>.withTag({FluidName: WATER, Amount: 1000}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: WATER, Amount: 1000}});
+    <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}});
 
 
 ########################################################################################################################
+
+# Adv. Item Loader -- use the immersive engineering shovel instead
+recipes.remove(<railcraft:manipulator:2>);
+recipes.addShaped(<railcraft:manipulator:2>, [
+    [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
+    [<ore:dustRedstone>, <railcraft:manipulator:0>, <ore:dustRedstone>],
+    [<ore:ingotSteel>, <immersiveengineering:shovel_steel>, <ore:ingotSteel>],
+]);
+
+# Adv. Item UnLoader -- use the immersive engineering shovel instead
+recipes.remove(<railcraft:manipulator:3>);
+recipes.addShaped(<railcraft:manipulator:3>, [
+    [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
+    [<ore:dustRedstone>, <railcraft:manipulator:1>, <ore:dustRedstone>],
+    [<ore:ingotSteel>, <immersiveengineering:shovel_steel>, <ore:ingotSteel>],
+]);
 
 # Bushing -- Only allow brass bushings
 var bushing = <railcraft:gear:3>;
@@ -179,7 +194,7 @@ for meta in 0 .. 16 {
 }
 recipes.addShaped(<railcraft:reinforced_concrete:8> * 8, [
     [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
-    [<railcraft:rebar>, waterItem, <railcraft:rebar>],
+    [<railcraft:rebar>, WATER_ITEM, <railcraft:rebar>],
     [<railcraft:concrete>, <railcraft:rebar>, <railcraft:concrete>],
 ]);
 
@@ -194,7 +209,7 @@ recipes.remove(<railcraft:glass:0>);
 recipes.addShaped(<railcraft:glass:0>, [
     [<minecraft:glass>, <ore:toolMetalIngot>, <minecraft:glass>],
     [<minecraft:glass>, <ore:dustSaltpeter>, <minecraft:glass>],
-    [<minecraft:glass>, waterItem, <minecraft:glass>],
+    [<minecraft:glass>, WATER_ITEM, <minecraft:glass>],
 ]);
 
 # Steel Tank Gauge -- remove colored recipes

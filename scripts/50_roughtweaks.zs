@@ -1,3 +1,5 @@
+########################################################################################################################
+
 var salve = <roughtweaks:salve>;
 var plaster = <roughtweaks:plaster>;
 var bandage = <roughtweaks:bandage>;
@@ -5,6 +7,9 @@ var medikit = <roughtweaks:medikit>;
 
 var plates = <ore:plateTin> | <ore:plateAluminum> | <ore:plateCopper>;
 var healingPotion = <minecraft:potion>.withTag({Potion: "minecraft:healing"});
+
+
+########################################################################################################################
 
 # Replace Salve recipe
 recipes.remove(salve);

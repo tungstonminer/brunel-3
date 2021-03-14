@@ -65,9 +65,6 @@ Squeezer.addRecipe(
     19280
 );
 
-# Iron Grit -- allow getting iron grit from red sandstone
-Crusher.addRecipe(<minecraft:sand:1> * 2, <ore:sandstoneRed>, 2048, <immersiveengineering:metal:18>, 0.1);
-
 # Lantern -- replace with non-oredicted items
 recipes.remove(<immersiveengineering:metal_decoration2:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 3, [
@@ -84,11 +81,15 @@ recipes.addShaped(<immersiveengineering:metal_device1:4>, [
     [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>],
 ]);
 
-# Sand -- remove recipes for making sand from colored glass
-Crusher.removeRecipe(<minecraft:sand>);
-Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 4096);
-Crusher.addRecipe(<minecraft:sand>, <ore:blockGlassColorless>, 4096);
-Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstoneYellow>, 4096, <immersiveengineering:material:24>, 0.5);
+# Sand, Red -- allow getting iron grit from red sandstone
+Crusher.removeRecipe(<minecraft:sand:1>);
+Crusher.addRecipe(<minecraft:sand:1> * 2, <ore:sandstoneRed>, 2048, <immersiveengineering:metal:18>, 0.1);
+
+# Sand, Yellow -- remove recipes for making sand from various things
+Crusher.removeRecipe(<minecraft:sand:0>);
+Crusher.addRecipe(<minecraft:sand:0>, <ore:gravel>, 4096);
+Crusher.addRecipe(<minecraft:sand:0>, <ore:blockGlassColorless>, 4096);
+Crusher.addRecipe(<minecraft:sand:0> * 2, <ore:sandstoneYellow>, 4096, <immersiveengineering:material:24>, 0.5);
 
 # Seed Oil -- Add recipes for Forestry Seed Oil
 for itemStack in <ore:listAllseed>.items {

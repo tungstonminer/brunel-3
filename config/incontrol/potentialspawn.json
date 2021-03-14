@@ -1015,15 +1015,15 @@
                 "weight": 50
             },
             {
-                "mob": "betteranimalsplus:jellyfish",
-                "groupcountmin": 10,
-                "groupcountmax": 20,
-                "weight": 40
-            },
-            {
                 "mob": "betteranimalsplus:eel_saltwater",
                 "groupcountmin": 2,
                 "groupcountmax": 3,
+                "weight": 40
+            },
+            {
+                "mob": "betteranimalsplus:jellyfish",
+                "groupcountmin": 10,
+                "groupcountmax": 20,
                 "weight": 30
             },
             {
@@ -1044,19 +1044,19 @@
         "mobs": [
             {
                 "mob": "minecraft:giant",
-                "weight": 1140
-            },
-            {
-                "mob": "betteranimalsplus:jellyfish",
-                "groupcountmin": 10,
-                "groupcountmax": 20,
-                "weight": 25
+                "weight": 1150
             },
             {
                 "mob": "betteranimalsplus:nautilus",
                 "groupcountmin": 10,
                 "groupcountmax": 20,
                 "weight": 20
+            },
+            {
+                "mob": "betteranimalsplus:jellyfish",
+                "groupcountmin": 10,
+                "groupcountmax": 20,
+                "weight": 15
             },
             {
                 "mob": "betteranimalsplus:shark",

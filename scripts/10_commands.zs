@@ -2,6 +2,9 @@ import crafttweaker.command.ICommandManager;
 import crafttweaker.event.CommandEvent;
 import crafttweaker.player.IPlayer;
 
+
+########################################################################################################################
+
 events.onCommand(function(event as CommandEvent) {
     val command = event.command;
     val params = event.parameters;

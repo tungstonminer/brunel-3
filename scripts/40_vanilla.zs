@@ -6,6 +6,16 @@ import mods.immersiveengineering.MetalPress;
 
 ########################################################################################################################
 
+val WATER_ITEM as IIngredient =
+    <minecraft:water_bucket> | <claybucket:claybucket:1> |
+    <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}) |
+    <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
+    <forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}});
+
+
+########################################################################################################################
+
 # Bone Meal -- change recipes to require some machinery
 recipes.remove(<minecraft:dye:15>);
 recipes.addShapeless(<minecraft:dye:15> * 3, [<ore:toolMortarandpestle>, <minecraft:bone>]);
@@ -26,7 +36,14 @@ recipes.addShaped(<minecraft:cauldron>, [
     [<ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>, <ore:cookwareMetalIngot>],
 ]);
 
-# Minecraft -- Charcoal -- remove recipes in favor of Forestry charcoal pile
+# Clay -- add recipe for making clay
+recipes.addShaped(<minecraft:clay> * 6, [
+    [<ore:sand>, WATER_ITEM, <ore:dirt>],
+    [<ore:sand>, null, <ore:dirt>],
+    [<ore:sand>, WATER_ITEM, <ore:dirt>],
+]);
+
+# Charcoal -- remove recipes in favor of Forestry charcoal pile
 furnace.remove(<minecraft:coal:1>);
 
 # Compass -- make a much easier recipe for early-game use
@@ -60,6 +77,11 @@ recipes.addShaped(<minecraft:iron_bars> * 8, [
     [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
 ]);
 
+# Iron Nugget -- use the ore dictionary instead
+recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:itemMetalNugget>, <*>.only(function(itemStack) {
+    return true;
+}));
+
 # Piston -- allow any tool metal
 recipes.remove(<minecraft:piston>);
 recipes.addShaped(<minecraft:piston>, [
@@ -86,8 +108,8 @@ recipes.addShaped(<minecraft:saddle>, [
 # Sandstone -- remove crafting table recipe
 recipes.remove(<minecraft:red_sandstone>);
 MetalPress.addRecipe(<minecraft:red_sandstone>, <minecraft:sand:1>, <immersiveengineering:mold:5>, 1024, 4);
-recipes.remove(<minecraft:sandstone>);
-MetalPress.addRecipe(<minecraft:sandstone>, <minecraft:sand:0>, <immersiveengineering:mold:5>, 1024, 4);
+recipes.remove(<minecraft:sandstone:0>);
+MetalPress.addRecipe(<minecraft:sandstone:0>, <minecraft:sand:0>, <immersiveengineering:mold:5>, 1024, 4);
 
 # Seed -- create seed from wheat and rename
 <minecraft:wheat_seeds>.displayName = "Wheat Seeds";

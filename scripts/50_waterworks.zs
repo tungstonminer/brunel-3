@@ -1,3 +1,5 @@
+########################################################################################################################
+
 # Water Pipe -- replace with more compatible recipe
 val PIPE_PLATE = <ore:plateAluminum> | <ore:plateCopper> | <ore:plateTin>;
 <waterworks:water_pipe>.maxStackSize = 32;
