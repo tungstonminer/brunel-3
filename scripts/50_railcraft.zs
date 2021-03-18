@@ -255,6 +255,20 @@ recipes.addShaped(<railcraft:tool_notepad>, [
     [<railcraft:tool_magnifying_glass>, <ore:paper>],
 ]);
 
+# Turbine -- make recipe more compatible with IE
+val HEAVY_ENG_BLOCK = <immersiveengineering:metal_decoration0:5>;
+val GENERATOR_BLOCK = <immersiveengineering:metal_decoration0:6>;
+val RADIATOR_BLOCK = <immersiveengineering:metal_decoration0:7>;
+val STEEL_ROD = <ore:stickSteel>;
+val FLUID_PIPE = <immersiveengineering:metal_device1:6>;
+val STEEL_PLATE = <ore:plateSteel>;
+recipes.remove(<railcraft:steam_turbine>);
+recipes.addShaped(<railcraft:steam_turbine> * 3, [
+    [STEEL_PLATE, RADIATOR_BLOCK, STEEL_PLATE],
+    [GENERATOR_BLOCK, STEEL_ROD, GENERATOR_BLOCK],
+    [STEEL_PLATE, HEAVY_ENG_BLOCK, FLUID_PIPE],
+]);
+
 
 # import moretweaker.railcraft.BlastFurnace;
 # BlastFurnace.add(IItemStack output, IIngredient input, optional int ticks, optional int slag);

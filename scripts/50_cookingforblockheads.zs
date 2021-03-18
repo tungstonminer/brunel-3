@@ -29,6 +29,17 @@ recipes.addShaped(<cookingforblockheads:ice_unit>, [
     [<forestry:can:1>.withTag({Fluid: {FluidName: "ice", Amount: 1000}})],
 ]);
 
+# Kitchen Floor -- change to use natural stone
+recipes.remove(<cookingforblockheads:kitchen_floor>);
+recipes.addShaped(<cookingforblockheads:kitchen_floor> * 4, [
+    [<ore:blockMarble>, <ore:blockBasalt>],
+    [<ore:blockBasalt>, <ore:blockMarble>],
+]);
+recipes.addShaped(<cookingforblockheads:kitchen_floor> * 4, [
+    [<minecraft:concrete:0>, <minecraft:concrete:15>],
+    [<minecraft:concrete:15>, <minecraft:concrete:0>],
+]);
+
 # Milk Jar -- only allow plain glass
 recipes.remove(<cookingforblockheads:milk_jar>);
 recipes.addShaped(<cookingforblockheads:milk_jar>, [
