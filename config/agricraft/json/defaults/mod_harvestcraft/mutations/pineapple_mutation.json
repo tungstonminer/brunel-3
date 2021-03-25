@@ -1,7 +1,7 @@
 {_
   "path": "mod_harvestcraft/mutations/pineapple_mutation.json",
   "enabled": true,
-  "chance": 0.75,
+  "chance": 0.56,
   "child": "harvestcraft:pineapple_plant",
   "parent1": "vanilla:dandelion_plant",
   "parent2": "harvestcraft:cactusfruit_plant"
