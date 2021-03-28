@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.Crusher;
+import moretweaker.railcraft.FluidFuels;
 
 
 ########################################################################################################################
@@ -51,6 +52,23 @@ recipes.addShaped(<railcraft:manipulator:3>, [
     [<ore:dustRedstone>, <railcraft:manipulator:1>, <ore:dustRedstone>],
     [<ore:ingotSteel>, <immersiveengineering:shovel_steel>, <ore:ingotSteel>],
 ]);
+
+# Boiler Fuels -- adjust to match capabilities across all mods
+FluidFuels.removeAll();
+FluidFuels.add(<liquid:creosote>, 4000);
+FluidFuels.add(<liquid:plantoil>, 8000);
+FluidFuels.add(<liquid:oil>, 16000);
+FluidFuels.add(<liquid:ethanol>, 24000);
+FluidFuels.add(<liquid:bio.ethanol>, 32000);
+FluidFuels.add(<liquid:gasoline>, 48000);
+FluidFuels.add(<liquid:biodiesel>, 64000);
+FluidFuels.add(<liquid:diesel>, 96000);
+
+
+# FluidFuels.add(ILiquidStack fuel, optional int heatPerBucket);
+#
+# FluidFuels.remove(ILiquidStack fuel);
+#
 
 # Bushing -- Only allow brass bushings
 var bushing = <railcraft:gear:3>;

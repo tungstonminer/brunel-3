@@ -56,6 +56,7 @@ for itemDefinition in game.items {
             else if id has "track" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "trapdoor" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "vines" { item.maxStackSize = item.maxStackSize * 8; }
+            else if id has "wooden_device" { item.maxStackSize = 1; }
 
             # the following should come after the group above to avoid capturing partial words
             else if (id has "ore") && (!(id has "forestry")) { item.maxStackSize = item.maxStackSize / 2; }
@@ -67,3 +68,5 @@ for itemDefinition in game.items {
         }
     }
 }
+
+<minecraft:rotten_flesh>.maxStackSize = 64;
