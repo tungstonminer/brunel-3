@@ -76,7 +76,8 @@ events.onCommand(function(event as CommandEvent) {
         server.commandManager.executeCommand(event.commandSender, "/gamerule doDaylightCycle false");
         server.commandManager.executeCommand(event.commandSender, "/gamerule doWeatherCycle false");
         server.commandManager.executeCommand(event.commandSender, "/time set 6000");
-        server.commandManager.executeCommand(event.commandSender, "/effect @p clear");
+        server.commandManager.executeCommand(event.commandSender, "/effect @p minecraft:night_vision 9999");
+        server.commandManager.executeCommand(event.commandSender, "/give @p naturescompass:naturescompass");
     } else {
         if !isNull(player) {
             player.sendChat("Unrecognized subcommand: " ~ subcommand);

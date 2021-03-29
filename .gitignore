@@ -27,3 +27,4 @@ server/
 usercache.json
 usernamecache.json
 ~*
+worldSettings.cfg
