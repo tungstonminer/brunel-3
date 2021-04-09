@@ -291,6 +291,29 @@ function plate(name as string) as IItemStack {
     return plateItems[name];
 }
 
+function plateDictEntry(name as string) as IOreDictEntry {
+    var entries = {
+        "aluminum": <ore:plateAluminum>,
+        "brass": <ore:plateBrass>,
+        "bronze": <ore:plateBronze>,
+        "constantan": <ore:plateConstantan>,
+        "copper": <ore:plateCopper>,
+        "electrum": <ore:plateElectrum>,
+        "gold": <ore:plateGold>,
+        "invar": <ore:plateInvar>,
+        "iron": <ore:plateIron>,
+        "lead": <ore:plateLead>,
+        "nickel": <ore:plateNickel>,
+        "silver": <ore:plateSilver>,
+        "steel": <ore:plateSteel>,
+        "tin": <ore:plateTin>,
+        "uranium": <ore:plateUranium>,
+        "zinc": <ore:plateZinc>,
+    } as IOreDictEntry[string];
+
+    return entries[name];
+}
+
 function rod(name as string) as IItemStack {
     var rodItems = {
         "aluminum": <immersiveengineering:material:3>,
@@ -330,6 +353,7 @@ for metal in allMetals() {
     var ingotDictEntry = ingotDictEntry(metal);
     var nuggetDictEntry = nuggetDictEntry(metal);
     var oreDictEntry = oreBlockDictEntry(metal);
+    var plateDictEntry = plateDictEntry(metal);
 
     if (!isNull(blockDictEntry)) {
         for item in blockDictEntry.items {
@@ -413,6 +437,10 @@ for metal in allMetals() {
         if (!isNull(ingotDictEntry)) {
             recipes.addShapeless(ingotItem, [ingotDictEntry]);
         }
+
+        if (!isNull(nuggetItem)) {
+            MetalPress.addRecipe(ingotItem, nuggetItem * 9, largePackingMold, 2304);
+        }
     }
 
     if (!isNull(nuggetItem)) {
@@ -447,8 +475,8 @@ for metal in allMetals() {
             MetalPress.addRecipe(rodItem * 2, ingotItem, rodMold, 256);
         }
 
-        if (!isNull(plateItem)) {
-            recipes.addShapeless(rodItem * 2, [plateItem, engineeringHammer.reuse()]);
+        if (!isNull(plateDictEntry)) {
+            recipes.addShapeless(rodItem * 2, [plateDictEntry, engineeringHammer.reuse()]);
         }
     }
 }

@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Squeezer;
 
 
 ########################################################################################################################
@@ -70,6 +71,9 @@ recipes.addShaped(<minecraft:hopper>, [
     [null, <ore:toolMetalIngot>, null],
 ]);
 
+# Ice -- allow packing snow blocks in a press
+MetalPress.addRecipe(<minecraft:ice>, <minecraft:snow>, <immersiveengineering:mold:5>, 1024, 4);
+
 # Iron Bars -- use Iron Rods instead of ingots
 recipes.remove(<minecraft:iron_bars>);
 recipes.addShaped(<minecraft:iron_bars> * 8, [
@@ -81,6 +85,19 @@ recipes.addShaped(<minecraft:iron_bars> * 8, [
 recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:itemMetalNugget>, <*>.only(function(itemStack) {
     return true;
 }));
+
+# Lava -- squeeze magma blocks to get lava
+Squeezer.addRecipe(<minecraft:stone>, <liquid:lava> * 250, <minecraft:magma>, 8192);
+
+# Magma Block -- only allow creating magma blocks by packing magma creams
+recipes.remove(<minecraft:magma>);
+MetalPress.addRecipe(<minecraft:magma>, <minecraft:magma_cream>, <immersiveengineering:mold:5>, 2048, 4);
+
+# Magma Cream -- allow crushing magma back to magma creams
+Crusher.addRecipe(<minecraft:magma_cream> * 3, <minecraft:magma>, 4096, <minecraft:magma_cream>, 0.5);
+
+# Packed Ice -- allow packing ice blocks in a press
+MetalPress.addRecipe(<minecraft:packed_ice>, <minecraft:ice>, <immersiveengineering:mold:5>, 4096, 4);
 
 # Piston -- allow any tool metal
 recipes.remove(<minecraft:piston>);

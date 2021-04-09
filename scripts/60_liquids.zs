@@ -64,11 +64,13 @@ for liquidStack in ALL_LIQUIDS {
         liquidStack * 8000
     );
 
-    BottlingMachine.addRecipe(
-        <forge:bucketfilled>.withTag({FluidName: liquidStack.name, Amount: 1000}),
-        <minecraft:bucket>,
-        liquidStack * 1000
-    );
+    if liquidStack.name != <liquid:lava>.name {
+        BottlingMachine.addRecipe(
+            <forge:bucketfilled>.withTag({FluidName: liquidStack.name, Amount: 1000}),
+            <minecraft:bucket>,
+            liquidStack * 1000
+        );
+    }
 
     BottlingMachine.addRecipe(
         <forestry:can:1>.withTag({Fluid: {FluidName: liquidStack.name, Amount: 1000}}),
@@ -101,6 +103,7 @@ for liquidStack in ALL_LIQUIDS {
     }
 
     if liquidStack.name == <liquid:lava>.name {
+        BottlingMachine.addRecipe(<minecraft:lava_bucket>, <minecraft:bucket>, <liquid:lava> * 1000);
         BottlingMachine.addRecipe(<claybucket:claybucket:2>, <claybucket:claybucket>, <liquid:lava> * 1000);
     }
 
