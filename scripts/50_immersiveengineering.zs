@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.Excavator;
 import mods.immersiveengineering.Squeezer;
 
 
@@ -101,3 +102,46 @@ recipes.addShapeless(<immersiveengineering:material:25>, [<ore:dustSulfur>]);
 
 # Terracotta -- allow crushing back to clay
 Crusher.addRecipe(<minecraft:clay_ball> * 4, <minecraft:hardened_clay>, 2048);
+
+
+########################################################################################################################
+
+Excavator.removeMineral("Bauxite");
+Excavator.removeMineral("Cassiterite");
+Excavator.removeMineral("Coal");
+Excavator.removeMineral("Copper");
+Excavator.removeMineral("Cinnabar");
+Excavator.removeMineral("Silt");
+Excavator.removeMineral("Galena");
+Excavator.removeMineral("Gold");
+Excavator.removeMineral("Iron");
+Excavator.removeMineral("Lapis");
+Excavator.removeMineral("Lead");
+Excavator.removeMineral("Magnetite");
+Excavator.removeMineral("Nickel");
+Excavator.removeMineral("Pyrite");
+Excavator.removeMineral("Quartzite");
+Excavator.removeMineral("Silver");
+Excavator.removeMineral("Uranium");
+
+Excavator.addMineral("Tin", 87, 0, ["cobblestone", "oreTin", "oreApatite"], [96.5, 2, 1.5], [0]);
+Excavator.addMineral("Copper", 54, 0, ["cobblestone", "stoneAndesite", "oreCopper"], [78, 20, 2], [0]);
+Excavator.addMineral("Coal", 33, 0, ["cobblestone", "blockBasalt", "oreCoal", "blockDiamondOre"], [76, 20, 3.8, 0.2], [0]);
+Excavator.addMineral("Zinc", 21, 0, ["cobblestone", "oreZinc", "blockEmeraldOre"], [97.7, 2, 0.3], [0]);
+Excavator.addMineral("Lead", 13, 0, ["cobblestone", "stoneQuarried", "oreLead", "blockLapisOre"], [77.7, 20, 2, 0.3], [0]);
+Excavator.addMineral("Iron", 8, 0, ["cobblestone", "blockMarble", "oreIron", "oreSilver"], [77.7, 20, 2, 0.3], [0]);
+Excavator.addMineral("Nickel", 5, 0, ["cobblestone", "stoneDiorite", "oreNickel"], [78, 20, 2], [0]);
+Excavator.addMineral("Aluminum", 3, 0, ["cobblestone", "stoneGranite", "oreAluminum", "oreRedstone"], [77.7, 20, 2, 0.3], [0]);
+Excavator.addMineral("Gold", 2, 0, ["cobblestone", "oreGold", ], [98.5, 1.5], [0]);
+Excavator.addMineral("Uranium", 1, 0, ["cobblestone", "stoneAbyssal", "oreUranium"], [78, 20, 2], [0]);
+Excavator.addMineral("Nether", 1, 0, ["cobblestone", "netherrack", "oreQuartz", "blockGlowstone", "blockSoulSand"], [50, 46.7, 2, 1, 0.3], [0]);
+
+# Excavator.addMineral(
+#     String name,
+#     int mineralWeight,
+#     double failChance,
+#     String[] ores,
+#     double[] chances,
+#     @Optional int[] dimensionWhitelist,
+#     @Optional boolean blacklist
+# );

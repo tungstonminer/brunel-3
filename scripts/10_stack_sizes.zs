@@ -11,7 +11,7 @@ for itemDefinition in game.items {
     if !isNull(item) {
         if item.isItemBlock || item.hasContainerItem {
             if item.maxStackSize > 4 {
-                item.maxStackSize = 4;
+                item.maxStackSize = 8;
             }
 
             var id = item.definition.id;
@@ -20,19 +20,19 @@ for itemDefinition in game.items {
             else if id has "banner" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "bee_combs_" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "bottle" { item.maxStackSize = item.maxStackSize * 3; }
-            else if id has "button" { item.maxStackSize = item.maxStackSize * 16; }
+            else if id has "button" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "cake" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "carpet" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "chest" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "connector" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "door" { item.maxStackSize = item.maxStackSize * 2; }
             else if id has "fence" { item.maxStackSize = item.maxStackSize * 4; }
-            else if id has "flower" { item.maxStackSize = item.maxStackSize * 16; }
+            else if id has "flower" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "gate" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "glass_pane" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "glasspane" { item.maxStackSize = item.maxStackSize * 4; }
-            else if id has "glowstone" { item.maxStackSize = item.maxStackSize * 16; }
-            else if id has "hay_bedding" { item.maxStackSize = item.maxStackSize * 16; }
+            else if id has "glowstone" { item.maxStackSize = item.maxStackSize * 8; }
+            else if id has "hay_bedding" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "hook" { item.maxStackSize = item.maxStackSize * 8; }
             else if id has "label" { item.maxStackSize = item.maxStackSize * 4; }
             else if id has "ladder" { item.maxStackSize = item.maxStackSize * 2; }

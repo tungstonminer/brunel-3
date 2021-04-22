@@ -136,8 +136,25 @@ HCT.addGrinding(<ore:listAllrabbitraw>, <harvestcraft:groundrabbititem>, <harves
 HCT.addGrinding(<ore:listAllturkeyraw>, <harvestcraft:groundturkeyitem>, <harvestcraft:groundturkeyitem>);
 HCT.addGrinding(<ore:listAllvenisonraw>, <harvestcraft:groundvenisonitem>, <harvestcraft:groundvenisonitem>);
 
-# Ground Trap -- remove as too OP
-JEI.removeAndHide(<harvestcraft:groundtrap>);
+# Fruit Bait -- only allow catching a limited number of things
+HCT.removeGroundTrapByInput(<harvestcraft:fruitbaititem>);
+HCT.addGroundTrap(<harvestcraft:fruitbaititem>, [
+    <animania:raw_peacock>, <animania:blue_peacock_feather>, <animania:white_peacock_feather>,
+    <animania:charcoal_peacock_feather>, <animania:opal_peacock_feather>, <animania:peach_peacock_feather>,
+    <animania:purple_peacock_feather>, <animania:taupe_peacock_feather>
+] as IItemStack[]);
+
+# Grain Bait -- only allow catching a limited number of things
+HCT.removeGroundTrapByInput(<harvestcraft:grainbaititem>);
+HCT.addGroundTrap(<harvestcraft:grainbaititem>, [
+    <minecraft:chicken>, <minecraft:feather>, <harvestcraft:duckrawitem>, <betteranimalsplus:pheasantraw>
+] as IItemStack[]);
+
+# Veggie Bait -- only allow catching a limited number of things
+HCT.removeGroundTrapByInput(<harvestcraft:veggiebaititem>);
+HCT.addGroundTrap(<harvestcraft:veggiebaititem>, [
+    <minecraft:rabbit_hide>, <minecraft:rabbit>, <minecraft:rabbit_foot>
+] as IItemStack[]);
 
 # Hazelnut -- add to ore dictionary
 oreDict.get("listAllnut").add(<harvestcraft:hazelnutitem>);

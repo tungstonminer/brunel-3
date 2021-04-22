@@ -187,17 +187,6 @@ for color in ALL_COLORS {
     val terracottaItem = makeColoredStack(<minecraft:stained_hardened_clay>, color);
     val woolItem = makeColoredStack(<minecraft:wool>, color);
 
-    # Balloon -- use the new dyes for balloons
-    if color != "white" {
-        val balloonItem = makeColoredStack(<davincisvessels:balloon>, color);
-        recipes.remove(balloonItem);
-        recipes.addShaped(balloonItem * 8, [
-            [<davincisvessels:balloon:0>, <davincisvessels:balloon:0>, <davincisvessels:balloon:0>],
-            [<davincisvessels:balloon:0>, dyeItem, <davincisvessels:balloon:0>],
-            [<davincisvessels:balloon:0>, <davincisvessels:balloon:0>, <davincisvessels:balloon:0>],
-        ]);
-    }
-
     # Bed -- use the new dyes for beds
     if color != "white" {
         val bedItem = makeColoredStack(<minecraft:bed>, color);

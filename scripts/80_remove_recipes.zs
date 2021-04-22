@@ -15,6 +15,14 @@ JEI.removeAndHide(<betteranimalsplus:fried_egg>);
 JEI.removeAndHide(<betteranimalsplus:goatcheese>);
 JEI.removeAndHide(<betteranimalsplus:goatmilk>);
 
+# Boat -- remove all minecraft boats in favor of rafts, modular boats, and motor boats
+recipes.remove(<minecraft:boat>);
+recipes.remove(<minecraft:acacia_boat>);
+recipes.remove(<minecraft:birch_boat>);
+recipes.remove(<minecraft:dark_oak_boat>);
+recipes.remove(<minecraft:jungle_boat>);
+recipes.remove(<minecraft:spruce_boat>);
+
 # Chisel -- Block of Charcoal -- remove recipe which conflicts with TE
 recipes.remove(<chisel:block_charcoal>);
 

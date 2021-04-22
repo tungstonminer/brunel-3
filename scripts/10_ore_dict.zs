@@ -87,6 +87,12 @@ toolMetalIngot.addAll(<ore:ingotSteel>);
 # Harvestcraft -- Pressed Wax
 <ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
 
+# Just Another Raft Mod -- add all rafts to an ore dict entry
+<ore:raft>.add(
+    <jarm:oak_raft>, <jarm:spruce_raft>, <jarm:birch_raft>,
+    <jarm:jungle_raft>, <jarm:acacia_raft>, <jarm:dark_oak_raft>
+);
+
 # Minecraft -- Concrete Powder
 for meta in 0 .. 16 {
     <ore:concretePowder>.add(<minecraft:concrete_powder>.definition.makeStack(meta));
@@ -110,6 +116,11 @@ for meta in 0 .. 16 {
 <ore:dyeWhite>.add(<contenttweaker:white_dye>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 
+# Minecraft -- Ore -- isolate various ores for use in the excavator
+<ore:blockDiamondOre>.add(<minecraft:diamond_ore>);
+<ore:blockEmeraldOre>.add(<minecraft:emerald_ore>);
+<ore:blockLapisOre>.add(<minecraft:lapis_ore>);
+
 # Minecraft -- Sandstone -- add dict entries which distinguish between yellow and red sandstone
 for meta in 0 .. 3 { <ore:sandstoneYellow>.add(<minecraft:sandstone>.definition.makeStack(meta)); }
 for meta in 0 .. 16 { <ore:sandstoneYellow>.add(<chisel:sandstoneyellow>.definition.makeStack(meta)); }
@@ -123,6 +134,9 @@ for meta in 0 .. 10 { <ore:sandstoneRed>.add(<chisel:sandstonered1>.definition.m
 for meta in 0 .. 8 { <ore:sandstoneRed>.add(<chisel:sandstonered2>.definition.makeStack(meta)); }
 for meta in 0 .. 16 { <ore:sandstoneRed>.add(<chisel:sandstonered-scribbles>.definition.makeStack(meta)); }
 
+# Minecraft -- Soulsand -- add ore dict entry
+<ore:blockSoulSand>.add(<minecraft:soul_sand>);
+
 # Minecraft -- Stone -- add entries for the various kinds of vanilla stone
 <ore:stoneGranite>.add(<minecraft:stone:2>);
 <ore:stoneDiorite>.add(<minecraft:stone:4>);
@@ -132,3 +146,7 @@ for meta in 0 .. 16 { <ore:sandstoneRed>.add(<chisel:sandstonered-scribbles>.def
 for meta in 0 .. 16 {
     <ore:hardenedClay>.add(<minecraft:stained_hardened_clay>.definition.makeStack(meta));
 }
+
+# Railcraft -- Stones
+<ore:stoneAbyssal>.add(<railcraft:generic:8>);
+<ore:stoneQuarried>.add(<railcraft:generic:9>);
