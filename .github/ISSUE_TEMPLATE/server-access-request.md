@@ -1,7 +1,7 @@
 ---
 name: Server Access Request
 about: Requests for access to the official Brunel III server
-title: ''
+title: Server Access Request
 labels: server access
 assignees: tungstonminer
 
