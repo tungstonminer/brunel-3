@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+</ModList>
 <ModList>
-    <Mod name="FML">FML</Mod>
     <Mod name="agricraft">agricraft</Mod>
     <Mod name="alternatingflux">alternatingflux</Mod>
     <Mod name="animania">animania</Mod>
@@ -50,8 +49,10 @@
     <Mod name="fenceoverhaul">fenceoverhaul</Mod>
     <Mod name="fistful_of_hay">fistful_of_hay</Mod>
     <Mod name="flatcoloredblocks">flatcoloredblocks</Mod>
+    <Mod name="FML">FML</Mod>
     <Mod name="forestry">forestry</Mod>
     <Mod name="forge">forge</Mod>
+    <Mod name="forgelin">forgelin</Mod>
     <Mod name="forgemultipartcbe">forgemultipartcbe</Mod>
     <Mod name="framedcompactdrawers">framedcompactdrawers</Mod>
     <Mod name="geographicraft">geographicraft</Mod>
@@ -77,16 +78,17 @@
     <Mod name="initialinventory">initialinventory</Mod>
     <Mod name="inventorytweaks">inventorytweaks</Mod>
     <Mod name="itechoredict">itechoredict</Mod>
+    <Mod name="jarm">jarm</Mod>
     <Mod name="jebc">jebc</Mod>
     <Mod name="jehc">jehc</Mod>
-    <Mod name="jei">jei</Mod>
     <Mod name="jeibees">jeibees</Mod>
     <Mod name="jeiintegration">jeiintegration</Mod>
+    <Mod name="jei">jei</Mod>
     <Mod name="jeivillagers">jeivillagers</Mod>
     <Mod name="jepb">jepb</Mod>
     <Mod name="jeresources">jeresources</Mod>
-    <Mod name="journeymap">journeymap</Mod>
     <Mod name="journeymapdefaults">journeymapdefaults</Mod>
+    <Mod name="journeymap">journeymap</Mod>
     <Mod name="justenoughpetroleum">justenoughpetroleum</Mod>
     <Mod name="kinetic anti-cheat">kinetic anti-cheat</Mod>
     <Mod name="llibrary">llibrary</Mod>
@@ -101,6 +103,7 @@
     <Mod name="minecraft">minecraft</Mod>
     <Mod name="minecraftmultipartcbe">minecraftmultipartcbe</Mod>
     <Mod name="mmersivetweaker">mmersivetweaker</Mod>
+    <Mod name="moarboats">moarboats</Mod>
     <Mod name="modcurrency">modcurrency</Mod>
     <Mod name="modtweaker">modtweaker</Mod>
     <Mod name="moretweaker">moretweaker</Mod>
@@ -133,4 +136,4 @@
     <Mod name="wearablebackpacks">wearablebackpacks</Mod>
     <Mod name="worldstripper">worldstripper</Mod>
     <Mod name="zenutils">zenutils</Mod>
-</ModList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
