@@ -80,6 +80,9 @@ JEI.removeAndHide(<harvestcraft:cheeseitem>);
 
 # Cinnamon -- grind peppercorns to black pepper
 HCT.addGrinding(<ore:cropCinnamon>, <harvestcraft:groundcinnamonitem>, <harvestcraft:groundcinnamonitem>);
+recipes.addShapeless(<dynamictreesphc:cinnamonseed> * 2, [
+    <dynamictrees:dirtbucket>.reuse(), <dynamictreesphc:nutmegseed>, <dynamictrees:oakseed>
+]);
 
 # Cooking Oil -- make recipes consistent with Plant Oil recipes
 recipes.remove(<harvestcraft:oliveoilitem>);
@@ -172,6 +175,11 @@ recipes.addShapeless(<harvestcraft:kaleseeditem>, [<harvestcraft:kaleitem>]);
 
 # Market -- remove as there's no one out there to trade with
 JEI.removeAndHide(<harvestcraft:market>);
+
+# Maple Seeds
+recipes.addShapeless(<dynamictreesphc:mapleseed> * 2, [
+    <dynamictrees:dirtbucket>.reuse(), <dynamictreesphc:persimmonseed>, <dynamictrees:spruceseed>
+]);
 
 # Maple Syrup -- add to the all sugar list
 oreDict.get("listAllsugar").add(<harvestcraft:maplesyrupitem>);
