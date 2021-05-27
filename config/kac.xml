@@ -1,4 +1,4 @@
-</ModList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ModList>
     <Mod name="agricraft">agricraft</Mod>
     <Mod name="alternatingflux">alternatingflux</Mod>
@@ -136,4 +136,4 @@
     <Mod name="wearablebackpacks">wearablebackpacks</Mod>
     <Mod name="worldstripper">worldstripper</Mod>
     <Mod name="zenutils">zenutils</Mod>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+</ModList>
