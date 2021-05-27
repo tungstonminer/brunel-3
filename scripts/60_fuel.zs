@@ -19,6 +19,9 @@ Refinery.addRecipe(<liquid:biodiesel> * 10, <liquid:plantoil> * 5, <liquid:bio.e
 var biomassLowYieldInput = oreDict.biomassLowYieldInput;
 biomassLowYieldInput.addAll(<ore:listAllveggie>);
 biomassLowYieldInput.addAll(<ore:listAllfruit>);
+for item in <ore:biomassLowYieldInput>.items {
+    item.maxStackSize = 40;
+}
 
 var biomassHighYieldInput = oreDict.biomassHighYieldInput;
 biomassHighYieldInput.addAll(<ore:treeSapling>);

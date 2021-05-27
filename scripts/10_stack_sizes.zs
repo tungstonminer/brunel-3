@@ -65,8 +65,10 @@ for itemDefinition in game.items {
             if item.maxStackSize > 1 {
                 item.maxStackSize = item.maxStackSize / 2;
             }
+
+            var id = item.definition.id;
+
+            if id has "rotten_flesh" { item.maxStackSize = 64; }
         }
     }
 }
-
-<minecraft:rotten_flesh>.maxStackSize = 64;

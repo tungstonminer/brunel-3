@@ -50,7 +50,7 @@ components:
   - class: org.dynmap.MarkersComponent
     type: markers
     showlabel: false
-    enablesigns: false
+    enablesigns: true
     # Default marker set for sign markers
     default-sign-set: markers
     # (optional) add spawn point markers to standard marker layer
