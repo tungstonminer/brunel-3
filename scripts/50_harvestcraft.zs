@@ -63,6 +63,16 @@ HCT.addGrinding(<ore:cropPeppercorn>, <harvestcraft:blackpepperitem>, <harvestcr
 # Bubbly Water -- add presser recipe
 HCT.addPressing(<harvestcraft:freshwateritem>, <harvestcraft:bubblywateritem>, <harvestcraft:bubblywateritem>);
 
+# Burgers -- fix recipes to use mustard seed *food* item rather than the *plantable* item
+recipes.replaceAllOccurences(<harvestcraft:mustardseeditem>, <harvestcraft:mustardseedsitem>, <*>.only(function(item) {
+    return !isNull(item) & (
+        <harvestcraft:gourmetvenisonpattyitem>.matches(item) |
+        <harvestcraft:gourmetporkpattyitem>.matches(item) |
+        <harvestcraft:gourmetmuttonpattyitem>.matches(item) |
+        <harvestcraft:gourmetbeefpattyitem>.matches(item)
+    );
+}));
+
 # Cake -- only allow HC milk
 recipes.remove(<minecraft:cake>);
 recipes.addShaped(<minecraft:cake>, [

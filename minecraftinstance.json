@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-05-27T03:12:48.849307Z",
-  "playedCount": 2,
+  "lastPlayed": "2021-06-13T13:59:18.887009Z",
+  "playedCount": 7,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -72,6 +72,84 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2021-01-23T15:27:23.435136Z",
   "installedAddons": [
+    {
+      "addonID": 431676,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 3151476,
+        "displayName": "TradeWithCarts-1.0.2-1.12.2.jar",
+        "fileName": "TradeWithCarts-1.0.2-1.12.2.jar",
+        "fileDate": "2020-12-28T17:43:23.597Z",
+        "fileLength": 34572,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3151/476/TradeWithCarts-1.0.2-1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3216083356,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 169536359,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kaktusz",
+            "fingerprint": 4044791781,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1188509087,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1422397991,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "TradeWithCarts-1.0.2-1.12.2.jar"
+      },
+      "dateInstalled": "2021-06-13T13:39:47.60903Z",
+      "dateUpdated": "2021-06-13T13:39:47.616793Z",
+      "dateLastUpdateAttempted": "2021-06-13T13:39:47.616793Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
     {
       "addonID": 224472,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
@@ -637,6 +715,89 @@
       "installedTargets": null
     },
     {
+      "addonID": 358174,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2858581,
+        "displayName": "replant1.12.2-1.0.0.jar",
+        "fileName": "replant1.12.2-1.0.0.jar",
+        "fileDate": "2020-01-11T21:47:30.78Z",
+        "fileLength": 966331,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2858/581/replant1.12.2-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1206258776,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "panda",
+            "fingerprint": 3031867099,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.replant.json",
+            "fingerprint": 296771506,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 485800739,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mixins.replant.refmap.json",
+            "fingerprint": 1569046036,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 1950284326,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2094454411,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "replant1.12.2-1.0.0.jar"
+      },
+      "dateInstalled": "2021-06-13T13:42:17.811267Z",
+      "dateUpdated": "2021-06-13T13:42:17.814073Z",
+      "dateLastUpdateAttempted": "2021-06-13T13:42:17.814073Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 392712,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
@@ -1131,7 +1292,7 @@
       "dateInstalled": "2021-01-23T22:22:32.761228Z",
       "dateUpdated": "2021-05-25T02:31:15.588589Z",
       "dateLastUpdateAttempted": "2021-05-25T02:31:15.588589Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2368,21 +2529,21 @@
       "addonID": 401178,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3244428,
-        "displayName": "zenutils-1.6.7.jar",
-        "fileName": "zenutils-1.6.7.jar",
-        "fileDate": "2021-03-19T05:01:01.58Z",
-        "fileLength": 103440,
+        "id": 3334796,
+        "displayName": "zenutils-1.8.1.jar",
+        "fileName": "zenutils-1.8.1.jar",
+        "fileDate": "2021-06-02T08:06:14.837Z",
+        "fileLength": 121032,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3244/428/zenutils-1.6.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3334/796/zenutils-1.8.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 289412,
-            "type": 2,
+            "addonId": 270789,
+            "type": 3,
             "fileId": 0
           },
           {
@@ -2393,13 +2554,13 @@
           },
           {
             "id": 0,
-            "addonId": 270789,
-            "type": 3,
+            "addonId": 237065,
+            "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 237065,
+            "addonId": 289412,
             "type": 2,
             "fileId": 0
           }
@@ -2408,13 +2569,13 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 415230899,
+            "fingerprint": 1978667075,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "youyihj",
-            "fingerprint": 4078546392,
+            "fingerprint": 3165424809,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2426,7 +2587,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 514270850,
+            "fingerprint": 3892486939,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2437,7 +2598,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 369029294,
+        "packageFingerprint": 3533655665,
         "gameVersion": [
           "1.12.2"
         ],
@@ -2450,12 +2611,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "zenutils-1.6.7.jar"
+        "FileNameOnDisk": "zenutils-1.8.1.jar"
       },
       "dateInstalled": "2021-02-24T02:06:28.87475Z",
-      "dateUpdated": "2021-03-26T01:12:02.693205Z",
-      "dateLastUpdateAttempted": "2021-03-26T01:12:02.693205Z",
-      "status": 5,
+      "dateUpdated": "2021-06-12T14:36:21.865137Z",
+      "dateLastUpdateAttempted": "2021-06-12T14:36:21.865137Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2657,14 +2818,14 @@
       "addonID": 255257,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2988990,
-        "displayName": "LootTweaker-0.2.0+MC1.12.2.jar",
-        "fileName": "LootTweaker-0.2.0+MC1.12.2.jar",
-        "fileDate": "2020-06-26T02:39:24.95Z",
-        "fileLength": 92941,
-        "releaseType": 2,
+        "id": 3334690,
+        "displayName": "LootTweaker-0.3.0+MC1.12.2.jar",
+        "fileName": "LootTweaker-0.3.0+MC1.12.2.jar",
+        "fileDate": "2021-06-02T04:45:57.063Z",
+        "fileLength": 105537,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2988/990/LootTweaker-0.2.0+MC1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3334/690/LootTweaker-0.3.0+MC1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -2679,25 +2840,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1469979126,
+            "fingerprint": 2875036196,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "leviathan143",
-            "fingerprint": 3777490193,
+            "fingerprint": 2181480033,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 3816577989,
+            "fingerprint": 1917768248,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 452168957,
+            "fingerprint": 3054025886,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2708,10 +2869,8 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3632592252,
+        "packageFingerprint": 1485080964,
         "gameVersion": [
-          "1.12",
-          "1.12.1",
           "Forge",
           "1.12.2"
         ],
@@ -2724,12 +2883,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LootTweaker-0.2.0+MC1.12.2.jar"
+        "FileNameOnDisk": "LootTweaker-0.3.0+MC1.12.2.jar"
       },
       "dateInstalled": "2021-02-23T23:01:30.912713Z",
-      "dateUpdated": "2021-02-23T23:01:30.913607Z",
-      "dateLastUpdateAttempted": "2021-02-23T23:01:30.913607Z",
-      "status": 5,
+      "dateUpdated": "2021-06-12T14:36:25.209585Z",
+      "dateLastUpdateAttempted": "2021-06-12T14:36:25.209585Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3170,7 +3329,7 @@
       "dateInstalled": "2021-01-23T22:22:32.484964Z",
       "dateUpdated": "2021-05-25T02:29:50.926535Z",
       "dateLastUpdateAttempted": "2021-05-25T02:29:50.926535Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4334,14 +4493,14 @@
       "addonID": 239197,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3294372,
-        "displayName": "CraftTweaker2-1.12-4.1.20.646.jar",
-        "fileName": "CraftTweaker2-1.12-4.1.20.646.jar",
-        "fileDate": "2021-04-30T23:02:58.48Z",
-        "fileLength": 1540699,
+        "id": 3335030,
+        "displayName": "CraftTweaker2-1.12-4.1.20.647.jar",
+        "fileName": "CraftTweaker2-1.12-4.1.20.647.jar",
+        "fileDate": "2021-06-02T13:50:16.193Z",
+        "fileLength": 1541105,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3294/372/CraftTweaker2-1.12-4.1.20.646.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3335/30/CraftTweaker2-1.12-4.1.20.647.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4349,7 +4508,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3511383395,
+            "fingerprint": 386203292,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4361,7 +4520,7 @@
           },
           {
             "foldername": "crafttweaker",
-            "fingerprint": 567526281,
+            "fingerprint": 4201977349,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4379,7 +4538,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1516798348,
+            "fingerprint": 1802506821,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4390,7 +4549,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2423603192,
+        "packageFingerprint": 3318662535,
         "gameVersion": [
           "1.12.2"
         ],
@@ -4403,11 +4562,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CraftTweaker2-1.12-4.1.20.646.jar"
+        "FileNameOnDisk": "CraftTweaker2-1.12-4.1.20.647.jar"
       },
       "dateInstalled": "2021-01-23T15:29:47.768517Z",
-      "dateUpdated": "2021-05-25T02:31:11.844575Z",
-      "dateLastUpdateAttempted": "2021-05-25T02:31:11.844575Z",
+      "dateUpdated": "2021-06-12T14:36:22.549808Z",
+      "dateLastUpdateAttempted": "2021-06-12T14:36:22.549808Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -5928,7 +6087,7 @@
       "dateInstalled": "2021-02-13T23:06:34.183247Z",
       "dateUpdated": "2021-05-25T02:29:37.181676Z",
       "dateLastUpdateAttempted": "2021-05-25T02:29:37.181676Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5943,23 +6102,17 @@
       "addonID": 237065,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2652853,
-        "displayName": "ContentTweaker-1.12.2-4.9.1.jar",
-        "fileName": "ContentTweaker-1.12.2-4.9.1.jar",
-        "fileDate": "2018-12-27T02:46:34.317Z",
-        "fileLength": 274895,
+        "id": 3331364,
+        "displayName": "ContentTweaker-1.12.2-4.10.0.jar",
+        "fileName": "ContentTweaker-1.12.2-4.10.0.jar",
+        "fileDate": "2021-05-31T18:29:12.857Z",
+        "fileLength": 278152,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2652/853/ContentTweaker-1.12.2-4.9.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3331/364/ContentTweaker-1.12.2-4.10.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 246996,
-            "type": 3,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 239197,
@@ -5971,13 +6124,13 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3127095813,
+            "fingerprint": 3368698024,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 2369474583,
+            "fingerprint": 2804302505,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -5989,13 +6142,14 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3309217721,
+            "fingerprint": 2532280598,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4180990591,
+        "packageFingerprint": 2491132539,
         "gameVersion": [
+          "Forge",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -6007,12 +6161,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ContentTweaker-1.12.2-4.9.1.jar"
+        "FileNameOnDisk": "ContentTweaker-1.12.2-4.10.0.jar"
       },
       "dateInstalled": "2021-01-27T04:38:04.385908Z",
-      "dateUpdated": "2021-01-27T04:38:04.387564Z",
-      "dateLastUpdateAttempted": "2021-01-27T04:38:04.387564Z",
-      "status": 5,
+      "dateUpdated": "2021-06-12T14:36:22.998538Z",
+      "dateLastUpdateAttempted": "2021-06-12T14:36:22.998538Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6670,7 +6824,7 @@
       "dateInstalled": "2021-02-13T23:06:34.439106Z",
       "dateUpdated": "2021-05-25T02:29:47.741464Z",
       "dateLastUpdateAttempted": "2021-05-25T02:29:47.741464Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7415,7 +7569,7 @@
       "dateInstalled": "2021-01-23T16:27:32.79Z",
       "dateUpdated": "2021-05-25T02:29:35.790695Z",
       "dateLastUpdateAttempted": "2021-05-25T02:29:35.790695Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

@@ -53,22 +53,22 @@ Mixer.addRecipe(outputBiomass, waterBucket, [biomassHighYieldInput * 10, biomass
 
 # Crude Oil -- refine crude oil into its various byproducts
 Distillation.addRecipe(
-    [<liquid:lubricant> * 150, <liquid:diesel> * 400, <liquid:gasoline> * 450],
+    [<liquid:lubricant> * 15, <liquid:diesel> * 40, <liquid:gasoline> * 45],
     [<immersivepetroleum:material:0>],
-    <liquid:oil> * 1000,
-    192,
-    600,
-    [0.05]
+    <liquid:oil> * 100,
+    1152,
+    60,
+    [0.01]
 );
 
 # Ethanol (Forestry) -- Allow Refinery to create ethanol from biomass
 Distillation.addRecipe(
-    [<liquid:water> * 200, <liquid:bio.ethanol> * 800],
+    [<liquid:water> * 20, <liquid:bio.ethanol> * 80],
     [<forestry:mulch>],
-    <liquid:biomass> * 1000,
-    96,
+    <liquid:biomass> * 100,
     600,
-    [0.10]
+    60,
+    [0.01]
 );
 
 # Ethanol (IE) -- Expand recipes available for making ethanol in the fermenter
