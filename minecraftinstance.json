@@ -139,7 +139,7 @@
       "dateInstalled": "2021-06-13T13:39:47.60903Z",
       "dateUpdated": "2021-06-13T13:39:47.616793Z",
       "dateLastUpdateAttempted": "2021-06-13T13:39:47.616793Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -786,7 +786,7 @@
       "dateInstalled": "2021-06-13T13:42:17.811267Z",
       "dateUpdated": "2021-06-13T13:42:17.814073Z",
       "dateLastUpdateAttempted": "2021-06-13T13:42:17.814073Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2529,27 +2529,21 @@
       "addonID": 401178,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3334796,
-        "displayName": "zenutils-1.8.1.jar",
-        "fileName": "zenutils-1.8.1.jar",
-        "fileDate": "2021-06-02T08:06:14.837Z",
-        "fileLength": 121032,
+        "id": 3382337,
+        "displayName": "zenutils-1.9.0.jar",
+        "fileName": "zenutils-1.9.0.jar",
+        "fileDate": "2021-07-09T11:15:07.253Z",
+        "fileLength": 147344,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3334/796/zenutils-1.8.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3382/337/zenutils-1.9.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 270789,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 239197,
-            "type": 3,
+            "addonId": 289412,
+            "type": 2,
             "fileId": 0
           },
           {
@@ -2560,8 +2554,14 @@
           },
           {
             "id": 0,
-            "addonId": 289412,
-            "type": 2,
+            "addonId": 239197,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 270789,
+            "type": 3,
             "fileId": 0
           }
         ],
@@ -2569,25 +2569,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1978667075,
+            "fingerprint": 3403402071,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "youyihj",
-            "fingerprint": 3165424809,
+            "fingerprint": 330558687,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 1907301498,
+            "fingerprint": 130584980,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3892486939,
+            "fingerprint": 1631620378,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2598,7 +2598,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3533655665,
+        "packageFingerprint": 1981994894,
         "gameVersion": [
           "1.12.2"
         ],
@@ -2611,11 +2611,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "zenutils-1.8.1.jar"
+        "FileNameOnDisk": "zenutils-1.9.0.jar"
       },
       "dateInstalled": "2021-02-24T02:06:28.87475Z",
-      "dateUpdated": "2021-06-12T14:36:21.865137Z",
-      "dateLastUpdateAttempted": "2021-06-12T14:36:21.865137Z",
+      "dateUpdated": "2021-07-21T04:12:53.886142Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:53.886142Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -2888,7 +2888,7 @@
       "dateInstalled": "2021-02-23T23:01:30.912713Z",
       "dateUpdated": "2021-06-12T14:36:25.209585Z",
       "dateLastUpdateAttempted": "2021-06-12T14:36:25.209585Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4493,14 +4493,14 @@
       "addonID": 239197,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3335030,
-        "displayName": "CraftTweaker2-1.12-4.1.20.647.jar",
-        "fileName": "CraftTweaker2-1.12-4.1.20.647.jar",
-        "fileDate": "2021-06-02T13:50:16.193Z",
-        "fileLength": 1541105,
+        "id": 3383242,
+        "displayName": "CraftTweaker2-1.12-4.1.20.655.jar",
+        "fileName": "CraftTweaker2-1.12-4.1.20.655.jar",
+        "fileDate": "2021-07-10T01:57:12.65Z",
+        "fileLength": 1545792,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3335/30/CraftTweaker2-1.12-4.1.20.647.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3383/242/CraftTweaker2-1.12-4.1.20.655.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4508,7 +4508,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 386203292,
+            "fingerprint": 3254912460,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4520,7 +4520,7 @@
           },
           {
             "foldername": "crafttweaker",
-            "fingerprint": 4201977349,
+            "fingerprint": 3718103101,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4538,7 +4538,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1802506821,
+            "fingerprint": 4122181433,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4549,7 +4549,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3318662535,
+        "packageFingerprint": 156829327,
         "gameVersion": [
           "1.12.2"
         ],
@@ -4562,11 +4562,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CraftTweaker2-1.12-4.1.20.647.jar"
+        "FileNameOnDisk": "CraftTweaker2-1.12-4.1.20.655.jar"
       },
       "dateInstalled": "2021-01-23T15:29:47.768517Z",
-      "dateUpdated": "2021-06-12T14:36:22.549808Z",
-      "dateLastUpdateAttempted": "2021-06-12T14:36:22.549808Z",
+      "dateUpdated": "2021-07-21T04:12:56.619809Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:56.619809Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -4887,14 +4887,14 @@
       "addonID": 351725,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2894304,
-        "displayName": "mcw-bridges-1.0.4-mc1.12.2.jar",
-        "fileName": "mcw-bridges-1.0.4-mc1.12.2.jar",
-        "fileDate": "2020-03-04T17:10:37.93Z",
-        "fileLength": 118950,
+        "id": 3383460,
+        "displayName": "[1.0.6b / 1.12.2] Macaw's Bridges",
+        "fileName": "mcw-bridges-1.0.6b-mc1.12.2.jar",
+        "fileDate": "2021-07-10T09:43:38.713Z",
+        "fileLength": 373298,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2894/304/mcw-bridges-1.0.4-mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3383/460/mcw-bridges-1.0.6b-mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4902,25 +4902,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2234623396,
+            "fingerprint": 3673169044,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 1955502641,
+            "fingerprint": 2680228739,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 132740436,
+            "fingerprint": 3606851617,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1488144666,
+            "fingerprint": 1728820697,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -4931,7 +4931,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2250842421,
+        "packageFingerprint": 3444815215,
         "gameVersion": [
           "Forge",
           "1.12.2"
@@ -4945,12 +4945,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "mcw-bridges-1.0.4-mc1.12.2.jar"
+        "FileNameOnDisk": "mcw-bridges-1.0.6b-mc1.12.2.jar"
       },
       "dateInstalled": "2021-01-23T16:02:56.373855Z",
-      "dateUpdated": "2021-01-23T16:02:56.375614Z",
-      "dateLastUpdateAttempted": "2021-01-23T16:02:56.375614Z",
-      "status": 5,
+      "dateUpdated": "2021-07-21T04:12:54.982808Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:54.982808Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5946,16 +5946,16 @@
       "addonID": 268250,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2544919,
-        "displayName": "immersivepetroleum-1.12.2-1.1.9.jar",
-        "fileName": "immersivepetroleum-1.12.2-1.1.9.jar",
-        "fileDate": "2018-03-25T17:36:20.13Z",
-        "fileLength": 906018,
+        "id": 3382321,
+        "displayName": "immersivepetroleum-1.12.2-1.1.10.jar",
+        "fileName": "immersivepetroleum-1.12.2-1.1.10.jar",
+        "fileDate": "2021-07-09T10:33:35.05Z",
+        "fileLength": 797724,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2544/919/immersivepetroleum-1.12.2-1.1.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3382/321/immersivepetroleum-1.12.2-1.1.10.jar",
         "isAlternate": false,
-        "alternateFileId": 2544920,
+        "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
@@ -5968,25 +5968,19 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 900987018,
+            "fingerprint": 862450308,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "flaxbeard",
-            "fingerprint": 3841297575,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1362079390,
+            "fingerprint": 458995455,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2620956805,
+            "fingerprint": 410440249,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -5995,9 +5989,15 @@
             "fingerprint": 2194156202,
             "type": 0,
             "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3500363263,
+            "type": 0,
+            "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 4256046140,
+        "packageFingerprint": 4029569122,
         "gameVersion": [
           "1.12.2"
         ],
@@ -6010,12 +6010,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "immersivepetroleum-1.12.2-1.1.9.jar"
+        "FileNameOnDisk": "immersivepetroleum-1.12.2-1.1.10.jar"
       },
       "dateInstalled": "2021-01-23T15:28:13.174149Z",
-      "dateUpdated": "2021-01-23T15:28:13.175347Z",
-      "dateLastUpdateAttempted": "2021-01-23T15:28:13.175347Z",
-      "status": 5,
+      "dateUpdated": "2021-07-21T04:12:56.199204Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:56.199204Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6166,7 +6166,7 @@
       "dateInstalled": "2021-01-27T04:38:04.385908Z",
       "dateUpdated": "2021-06-12T14:36:22.998538Z",
       "dateLastUpdateAttempted": "2021-06-12T14:36:22.998538Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6761,41 +6761,28 @@
       "addonID": 220954,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3308463,
-        "displayName": "modtweaker-4.0.19",
-        "fileName": "modtweaker-4.0.19.jar",
-        "fileDate": "2021-05-13T18:41:26.027Z",
-        "fileLength": 491315,
+        "id": 3368737,
+        "displayName": "modtweaker-4.0.20.4.jar",
+        "fileName": "modtweaker-4.0.20.4.jar",
+        "fileDate": "2021-06-29T11:20:46.507Z",
+        "fileLength": 492862,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3308/463/modtweaker-4.0.19.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3368/737/modtweaker-4.0.20.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 253211,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1957208513,
+            "fingerprint": 3275766718,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 3127178037,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 727474027,
+            "fingerprint": 2823426772,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -6804,10 +6791,17 @@
             "fingerprint": 1420232274,
             "type": 0,
             "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 550860370,
+            "type": 0,
+            "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3477662865,
+        "packageFingerprint": 1106888205,
         "gameVersion": [
+          "Forge",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -6819,12 +6813,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "modtweaker-4.0.19.jar"
+        "FileNameOnDisk": "modtweaker-4.0.20.4.jar"
       },
       "dateInstalled": "2021-02-13T23:06:34.439106Z",
-      "dateUpdated": "2021-05-25T02:29:47.741464Z",
-      "dateLastUpdateAttempted": "2021-05-25T02:29:47.741464Z",
-      "status": 5,
+      "dateUpdated": "2021-07-21T04:12:54.069432Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:54.069432Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7662,14 +7656,14 @@
       "addonID": 378646,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2940138,
-        "displayName": "mcw-doors-1.0.0-mc1.12.2.jar",
-        "fileName": "mcw-doors-1.0.0-mc1.12.2.jar",
-        "fileDate": "2020-04-25T13:34:54.493Z",
-        "fileLength": 324896,
+        "id": 3340797,
+        "displayName": "[1.0.3 / 1.12.2] Macaw's Doors",
+        "fileName": "mcw-doors-1.0.3-mc1.12.2.jar",
+        "fileDate": "2021-06-06T13:00:28.183Z",
+        "fileLength": 552150,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2940/138/mcw-doors-1.0.0-mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3340/797/mcw-doors-1.0.3-mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7677,25 +7671,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 188358609,
+            "fingerprint": 3647482150,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "com",
-            "fingerprint": 2992790693,
+            "fingerprint": 3303970457,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 4037416838,
+            "fingerprint": 1735304313,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2268500504,
+            "fingerprint": 1322989511,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -7704,15 +7698,9 @@
             "fingerprint": 2894702728,
             "type": 0,
             "invalidFingerprint": false
-          },
-          {
-            "foldername": "windowslogo.png",
-            "fingerprint": 3740096354,
-            "type": 0,
-            "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3057158868,
+        "packageFingerprint": 1817957761,
         "gameVersion": [
           "Forge",
           "1.12.2"
@@ -7726,12 +7714,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "mcw-doors-1.0.0-mc1.12.2.jar"
+        "FileNameOnDisk": "mcw-doors-1.0.3-mc1.12.2.jar"
       },
       "dateInstalled": "2021-01-23T16:02:57.399989Z",
-      "dateUpdated": "2021-01-23T16:02:57.400708Z",
-      "dateLastUpdateAttempted": "2021-01-23T16:02:57.400708Z",
-      "status": 5,
+      "dateUpdated": "2021-07-21T04:12:54.29836Z",
+      "dateLastUpdateAttempted": "2021-07-21T04:12:54.29836Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
