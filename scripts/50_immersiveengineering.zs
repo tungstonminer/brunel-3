@@ -21,6 +21,26 @@ recipes.addShapeless(<immersiveengineering:material:17>, [
     crushingHammer.anyDamage().transformDamage(2).reuse()
 ]);
 
+# Conveyor Belts -- allow breaking up combined conveyor belts
+# recipes.addShapeless(<minecraft:hopper>, [<minecraft:hopper_minecart>.transformReplace(<minecraft:minecart>)]);
+val steelScaffold = <immersiveengineering:metal_decoration1:1>;
+
+val basicConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"});
+val basicCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"});
+recipes.addShapeless(steelScaffold, [basicCoveredConveyor.transformReplace(basicConveyor)]);
+
+val dropperConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"});
+val dropperCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"});
+recipes.addShapeless(steelScaffold, [dropperCoveredConveyor.transformReplace(dropperConveyor)]);
+
+val extractConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"});
+val extractCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"});
+recipes.addShapeless(steelScaffold, [extractCoveredConveyor.transformReplace(extractConveyor)]);
+
+val verticalConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"});
+val verticalCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"});
+recipes.addShapeless(steelScaffold, [verticalCoveredConveyor.transformReplace(verticalConveyor)]);
+
 # Engineering Hammer -- Add more forgiving recipes
 recipes.remove(<immersiveengineering:tool:0>);
 recipes.addShaped(<immersiveengineering:tool:0>, [

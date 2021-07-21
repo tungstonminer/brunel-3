@@ -64,18 +64,20 @@ FluidFuels.add(<liquid:gasoline>, 48000);
 FluidFuels.add(<liquid:biodiesel>, 64000);
 FluidFuels.add(<liquid:diesel>, 96000);
 
-
-# FluidFuels.add(ILiquidStack fuel, optional int heatPerBucket);
-#
-# FluidFuels.remove(ILiquidStack fuel);
-#
-
 # Bushing -- Only allow brass bushings
 var bushing = <railcraft:gear:3>;
 recipes.remove(bushing);
 recipes.addShaped(bushing * 4, [
     [<ore:ingotBrass>, <ore:ingotBrass>],
     [<ore:ingotBrass>, <ore:ingotBrass>],
+]);
+
+# Cart Detector: Routing -- change to use a less expensive recipe
+recipes.remove(<railcraft:detector:13>);
+recipes.addShaped(<railcraft:detector:13>, [
+    [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
+    [<ore:gemQuartz>, <minecraft:stone_pressure_plate>, <ore:gemQuartz>],
+    [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
 ]);
 
 # Carts -- allow unpacking all kinds of carts
