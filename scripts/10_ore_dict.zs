@@ -70,6 +70,7 @@ toolMetalIngot.addAll(<ore:ingotSteel>);
 <ore:foodEelraw>.add(<betteranimalsplus:eel_meat_raw>);
 <ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
 <ore:listAllmeatraw>.add(<animania:raw_peacock>);
+<ore:toolMortarandpestle>.add(<contenttweaker:industrial_mortarandpestle>);
 
 # Harvestcraft -- remove erroneous entries
 <ore:listAllporkraw>.remove(<harvestcraft:bbqjackfruititem>);

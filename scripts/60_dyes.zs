@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.forestry.Carpenter;
 import mods.immersiveengineering.Crusher;
 
 
@@ -12,7 +13,8 @@ val ALL_COLORS = [
 ] as string[];
 
 val WATER_ITEM as IIngredient =
-    <minecraft:water_bucket> | <claybucket:claybucket:1> |
+    <minecraft:water_bucket> |
+    <claybucket:claybucket:1> |
     <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}) |
     <forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
     <forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}) |
@@ -377,13 +379,15 @@ for color in ALL_COLORS {
 val mortar = <ore:toolMortarandpestle>.reuse();
 
 # Black Dye
-var blackDust = <ore:dustCoal> | <ore:dustCharcoal>;
+var blackDust as IIngredient = <ore:dustCoal> | <ore:dustCharcoal>;
 recipes.addShapeless(getDyeItem("black"), [mortar, <minecraft:dye:0>]);
 recipes.addShaped(getDyeItem("black") * 7, [
     [blackDust, blackDust, blackDust],
     [blackDust, WATER_ITEM, blackDust],
     [blackDust, mortar, blackDust],
 ]);
+Carpenter.addRecipe(getDyeItem("black"), [[<ore:dustCoal>]], 10, <liquid:water> * 125);
+Carpenter.addRecipe(getDyeItem("black"), [[<ore:dustCharcoal>]], 10, <liquid:water> * 125);
 
 # Red Dye
 recipes.addShapeless(getDyeItem("red"), [
@@ -392,20 +396,22 @@ recipes.addShapeless(getDyeItem("red"), [
 recipes.addShapeless(getDyeItem("red") * 2, [mortar, <minecraft:double_plant:4>]);
 
 # Brown Dye
-var brownDust = <harvestcraft:cocoapowderitem>;
+var brownDust as IIngredient = <harvestcraft:cocoapowderitem>;
 recipes.addShaped(getDyeItem("brown") * 7, [
     [brownDust, brownDust, brownDust],
     [brownDust, WATER_ITEM, brownDust],
     [brownDust, mortar, brownDust],
 ]);
+Carpenter.addRecipe(getDyeItem("brown"), [[<harvestcraft:cocoapowderitem>]], 10, <liquid:water> * 125);
 
 # Blue Dye
-var blueDust = <minecraft:dye:4>;
+var blueDust as IIngredient = <minecraft:dye:4>;
 recipes.addShaped(getDyeItem("blue") * 7, [
     [blueDust, blueDust, blueDust],
     [blueDust, WATER_ITEM, blueDust],
     [blueDust, mortar, blueDust],
 ]);
+Carpenter.addRecipe(getDyeItem("blue"), [[<minecraft:dye:4>]], 10, <liquid:water> * 125);
 
 # Light Blue Dye
 recipes.addShapeless(getDyeItem("lightBlue"), [mortar, <minecraft:red_flower:1>]);
@@ -431,12 +437,14 @@ recipes.addShapeless(getDyeItem("yellow"), [mortar, <minecraft:yellow_flower:0>]
 recipes.addShapeless(getDyeItem("yellow") * 2, [mortar, <minecraft:double_plant:0>]);
 
 # White Dye
-var whiteDust = <minecraft:dye:15> | <contenttweaker:marble_dust>;
+var whiteDust as IIngredient = <minecraft:dye:15> | <contenttweaker:marble_dust>;
 recipes.addShaped(getDyeItem("white") * 7, [
     [whiteDust, whiteDust, whiteDust],
     [whiteDust, WATER_ITEM, whiteDust],
     [whiteDust, mortar, whiteDust],
 ]);
+Carpenter.addRecipe(getDyeItem("white"), [[<minecraft:dye:15>]], 10, <liquid:water> * 125);
+Carpenter.addRecipe(getDyeItem("white"), [[<contenttweaker:marble_dust>]], 10, <liquid:water> * 125);
 
 # Mixed Dyes
 function d(color as string) as IItemStack { return getDyeItem(color); }
@@ -444,7 +452,8 @@ function d(color as string) as IItemStack { return getDyeItem(color); }
 recipes.addShapeless(d("blue") * 2, [mortar, d("black"), d("lightBlue")]);
 recipes.addShapeless(d("cyan") * 2, [mortar, d("blue"), d("green")]);
 recipes.addShapeless(d("gray") * 2, [mortar, d("black"), d("white")]);
-recipes.addShapeless(d("green") * 2, [mortar, d("black"), d("green")]);
+recipes.addShapeless(d("gray") * 4, [mortar, d("lightGray") * 3, d("black")]);
+recipes.addShapeless(d("green") * 2, [mortar, d("black"), d("lime")]);
 recipes.addShapeless(d("lightBlue") * 2, [mortar, d("blue"), d("white")]);
 recipes.addShapeless(d("lightGray") * 2, [mortar, d("gray"), d("white")]);
 recipes.addShapeless(d("lightGray") * 3, [mortar, d("black"), d("white"), d("white")]);

@@ -37,6 +37,10 @@ val extractConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "im
 val extractCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"});
 recipes.addShapeless(steelScaffold, [extractCoveredConveyor.transformReplace(extractConveyor)]);
 
+val metalLadder = <immersiveengineering:metal_ladder>;
+val metalCoveredLadder = <immersiveengineering:metal_ladder:1>;
+recipes.addShapeless(steelScaffold, [metalCoveredLadder.transformReplace(metalLadder)]);
+
 val verticalConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"});
 val verticalCoveredConveyor = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"});
 recipes.addShapeless(steelScaffold, [verticalCoveredConveyor.transformReplace(verticalConveyor)]);

@@ -444,6 +444,8 @@ for metal in allMetals() {
     }
 
     if (!isNull(nuggetItem)) {
+        nuggetItem.maxStackSize = 32;
+
         if (!isNull(ingotItem)) {
             MetalPress.addRecipe(nuggetItem * 9, ingotItem, unpackingMold, 256);
             val SHEARS =

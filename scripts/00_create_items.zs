@@ -29,6 +29,11 @@ brownDye.creativeTab = <creativetab:misc>;
 brownDye.maxStackSize = 32;
 brownDye.register();
 
+var industrialMortarAndPestle = VanillaFactory.createItem("industrial_mortarandpestle");
+industrialMortarAndPestle.creativeTab = <creativetab:misc>;
+industrialMortarAndPestle.maxStackSize = 1;
+industrialMortarAndPestle.register();
+
 var lawnBlock = VanillaFactory.createBlock("lawn", <blockmaterial:grass>);
 lawnBlock.creativeTab = <creativetab:decorations>;
 lawnBlock.setBlockHardness(0.6);

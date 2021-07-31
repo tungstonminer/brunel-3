@@ -6,7 +6,10 @@ import crafttweaker.event.PlayerItemPickupEvent;
 
 function cloneItemStack(itemStack as IItemStack, amount as int) as IItemStack {
     var result = itemStack.definition.makeStack(itemStack.metadata) * amount;
-    return result.withTag(itemStack.tag);
+    if itemStack.hasTag {
+        result = result.withTag(itemStack.tag);
+    }
+    return result;
 }
 
 val INVENTORY_SIZE = 36;

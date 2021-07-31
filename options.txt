@@ -86,12 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.railcraft.cart.bed:0
-key_key.davincis.up:45
-key_key.davincis.down:44
-key_key.davincis.brake:46
-key_key.davincis.align:13
-key_key.davincis.decompile:43
-key_key.davincis.shipinv:37
 key_key.toastcontrol.clear:0
 key_key.wearablebackpacks.open:48
 key_Strip World:211
@@ -167,7 +161,7 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
-soundCategory_master:0.0
+soundCategory_master:0.5033113
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
