@@ -201,20 +201,20 @@ function metalBlock(name as string) as IItemStack {
 
 function nugget(name as string) as IItemStack {
     var ingots = {
-        "aluminum": <immersiveengineering:metal:21>,
+        "aluminum": <agricraft:agri_nugget:8>,
         "brass": <railcraft:nugget:9>,
         "bronze": <railcraft:nugget:5>,
         "constantan": <immersiveengineering:metal:26>,
-        "copper": <immersiveengineering:metal:20>,
+        "copper": <agricraft:agri_nugget:4>,
         "electrum": <immersiveengineering:metal:27>,
         "gold": <minecraft:gold_nugget>,
         "invar": <railcraft:nugget:7>,
-        "iron": <immersiveengineering:metal:29>,
-        "lead": <immersiveengineering:metal:22>,
-        "nickel": <immersiveengineering:metal:24>,
-        "silver": <immersiveengineering:metal:23>,
-        "steel": <immersiveengineering:metal:28>,
-        "tin": <railcraft:nugget:2>,
+        "iron": <agricraft:agri_nugget:3>,
+        "lead": <agricraft:agri_nugget:5>,
+        "nickel": <agricraft:agri_nugget:9>,
+        "silver": <agricraft:agri_nugget:7>,
+        "steel": <railcraft:nugget:0>,
+        "tin": <agricraft:agri_nugget:5>,
         "uranium": <immersiveengineering:metal:25>,
         "zinc": <railcraft:nugget:8>,
     } as IItemStack[string];
@@ -355,14 +355,22 @@ for metal in allMetals() {
     var oreDictEntry = oreBlockDictEntry(metal);
     var plateDictEntry = plateDictEntry(metal);
 
+    if (!isNull(oreDictEntry)) {
+        for item in oreDictEntry.items {
+            item.maxStackSize = 4;
+        }
+    }
+
     if (!isNull(blockDictEntry)) {
         for item in blockDictEntry.items {
+            item.maxStackSize = 1;
             recipes.remove(item);
         }
     }
 
     if (!isNull(ingotDictEntry)) {
         for item in ingotDictEntry.items {
+            item.maxStackSize = 9;
             furnace.remove(item);
             recipes.remove(item);
         }
@@ -370,14 +378,20 @@ for metal in allMetals() {
 
     if (!isNull(nuggetDictEntry)) {
         for item in nuggetDictEntry.items {
+            item.maxStackSize = 32;
             furnace.remove(item);
             recipes.remove(item);
         }
     }
 
+    if (!isNull(plateDictEntry)) {
+        for item in plateDictEntry.items {
+            item.maxStackSize = 9;
+        }
+    }
+
     if (!isNull(blockItem)) {
         recipes.remove(blockItem);
-        blockItem.maxStackSize = 1;
 
         if (!isNull(blockDictEntry)) {
             recipes.addShapeless(blockItem, [blockDictEntry]);
@@ -389,6 +403,7 @@ for metal in allMetals() {
     }
 
     if (!isNull(dustItem)) {
+        dustItem.maxStackSize = 9;
         recipes.remove(dustItem);
         Crusher.removeRecipe(dustItem);
 
@@ -409,23 +424,22 @@ for metal in allMetals() {
     }
 
     if (!isNull(gearItem)) {
+        gearItem.maxStackSize = 9;
         MetalPress.removeRecipe(gearItem);
         recipes.remove(gearItem);
 
         if (!isNull(ingotItem)) {
-            MetalPress.addRecipe(gearItem, ingotItem * 4, gearMold, 1024);
+            MetalPress.addRecipe(gearItem * 4, ingotItem * 4, gearMold, 1024);
 
-            recipes.addShaped(gearItem, [
+            recipes.addShaped(gearItem * 4, [
                 [null, ingotItem, null],
-                [ingotItem, bushing, ingotItem],
+                [ingotItem, bushing * 4, ingotItem],
                 [null, ingotItem, null],
             ]);
         }
     }
 
     if (!isNull(ingotItem)) {
-        ingotItem.maxStackSize = 9;
-
         if (!isNull(dustItem)) {
             furnace.addRecipe(ingotItem, dustItem);
         }
@@ -444,8 +458,6 @@ for metal in allMetals() {
     }
 
     if (!isNull(nuggetItem)) {
-        nuggetItem.maxStackSize = 32;
-
         if (!isNull(ingotItem)) {
             MetalPress.addRecipe(nuggetItem * 9, ingotItem, unpackingMold, 256);
             val SHEARS =
@@ -460,6 +472,7 @@ for metal in allMetals() {
     }
 
     if (!isNull(plateItem)) {
+        plateItem.maxStackSize = 9;
         MetalPress.removeRecipe(plateItem);
         recipes.remove(plateItem);
 
@@ -470,6 +483,7 @@ for metal in allMetals() {
     }
 
     if (!isNull(rodItem)) {
+        rodItem.maxStackSize = 18;
         MetalPress.removeRecipe(rodItem);
         recipes.remove(rodItem);
 

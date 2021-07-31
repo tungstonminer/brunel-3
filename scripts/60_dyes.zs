@@ -452,7 +452,7 @@ function d(color as string) as IItemStack { return getDyeItem(color); }
 recipes.addShapeless(d("blue") * 2, [mortar, d("black"), d("lightBlue")]);
 recipes.addShapeless(d("cyan") * 2, [mortar, d("blue"), d("green")]);
 recipes.addShapeless(d("gray") * 2, [mortar, d("black"), d("white")]);
-recipes.addShapeless(d("gray") * 4, [mortar, d("lightGray") * 3, d("black")]);
+recipes.addShapeless(d("gray") * 4, [mortar, d("lightGray"), d("lightGray"), d("lightGray"), d("black")]);
 recipes.addShapeless(d("green") * 2, [mortar, d("black"), d("lime")]);
 recipes.addShapeless(d("lightBlue") * 2, [mortar, d("blue"), d("white")]);
 recipes.addShapeless(d("lightGray") * 2, [mortar, d("gray"), d("white")]);
