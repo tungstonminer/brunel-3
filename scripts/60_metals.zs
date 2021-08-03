@@ -398,7 +398,7 @@ for metal in allMetals() {
         }
 
         if (!isNull(ingotItem)) {
-            MetalPress.addRecipe(blockItem, ingotItem * 9, largePackingMold, 2304);
+            MetalPress.addRecipe(blockItem, ingotDictEntry * 9, largePackingMold, 2304);
         }
     }
 
@@ -429,7 +429,7 @@ for metal in allMetals() {
         recipes.remove(gearItem);
 
         if (!isNull(ingotItem)) {
-            MetalPress.addRecipe(gearItem * 4, ingotItem * 4, gearMold, 1024);
+            MetalPress.addRecipe(gearItem * 4, ingotDictEntry * 4, gearMold, 1024);
 
             recipes.addShaped(gearItem * 4, [
                 [null, ingotItem, null],
@@ -453,13 +453,13 @@ for metal in allMetals() {
         }
 
         if (!isNull(nuggetItem)) {
-            MetalPress.addRecipe(ingotItem, nuggetItem * 9, largePackingMold, 2304);
+            MetalPress.addRecipe(ingotItem, nuggetDictEntry * 9, largePackingMold, 2304);
         }
     }
 
     if (!isNull(nuggetItem)) {
         if (!isNull(ingotItem)) {
-            MetalPress.addRecipe(nuggetItem * 9, ingotItem, unpackingMold, 256);
+            MetalPress.addRecipe(nuggetItem * 9, ingotDictEntry, unpackingMold, 256);
             val SHEARS =
                 <minecraft:shears>.anyDamage().transformDamage(9) |
                 <railcraft:tool_shears_steel>.anyDamage().transformDamage(3);
@@ -488,7 +488,7 @@ for metal in allMetals() {
         recipes.remove(rodItem);
 
         if (!isNull(ingotItem)) {
-            MetalPress.addRecipe(rodItem * 2, ingotItem, rodMold, 256);
+            MetalPress.addRecipe(rodItem * 2, ingotDictEntry, rodMold, 256);
         }
 
         if (!isNull(plateDictEntry)) {
