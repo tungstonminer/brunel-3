@@ -218,6 +218,7 @@ function command-start {
         echo "[$(date)] Starting server..."
         tail -n 0 -F stdin \
             | "$JAVA" -XX:+UseG1GC -Xmx3G -Xms3G \
+	    	-Dio.netty.leakDetection.level=advanced \
                 -Dsun.rmi.dgc.server.gcInterval=2147483646 \
                 -Dfml.queryResult=confirm \
                 -XX:+UnlockExperimentalVMOptions \
