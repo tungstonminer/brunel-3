@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-03T02:55:27.305074Z",
-  "playedCount": 14,
+  "lastPlayed": "2021-08-04T03:09:11.510536Z",
+  "playedCount": 15,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2529,23 +2529,17 @@
       "addonID": 401178,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 3382337,
-        "displayName": "zenutils-1.9.0.jar",
-        "fileName": "zenutils-1.9.0.jar",
-        "fileDate": "2021-07-09T11:15:07.253Z",
-        "fileLength": 147344,
+        "id": 3395870,
+        "displayName": "zenutils-1.9.3.jar",
+        "fileName": "zenutils-1.9.3.jar",
+        "fileDate": "2021-07-21T08:48:35.867Z",
+        "fileLength": 151993,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3382/337/zenutils-1.9.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3395/870/zenutils-1.9.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 289412,
-            "type": 2,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 237065,
@@ -2560,6 +2554,12 @@
           },
           {
             "id": 0,
+            "addonId": 289412,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
             "addonId": 270789,
             "type": 3,
             "fileId": 0
@@ -2569,25 +2569,25 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3403402071,
+            "fingerprint": 3448857206,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "youyihj",
-            "fingerprint": 330558687,
+            "fingerprint": 963174542,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 130584980,
+            "fingerprint": 3548225530,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1631620378,
+            "fingerprint": 1986323934,
             "type": 0,
             "invalidFingerprint": false
           },
@@ -2598,7 +2598,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1981994894,
+        "packageFingerprint": 3281488643,
         "gameVersion": [
           "1.12.2"
         ],
@@ -2611,12 +2611,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "zenutils-1.9.0.jar"
+        "FileNameOnDisk": "zenutils-1.9.3.jar"
       },
       "dateInstalled": "2021-02-24T02:06:28.87475Z",
-      "dateUpdated": "2021-07-21T04:12:53.886142Z",
-      "dateLastUpdateAttempted": "2021-07-21T04:12:53.886142Z",
-      "status": 3,
+      "dateUpdated": "2021-08-04T04:43:26.116026Z",
+      "dateLastUpdateAttempted": "2021-08-04T04:43:26.116026Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3928,73 +3928,6 @@
       "dateInstalled": "2021-01-24T21:08:33.364429Z",
       "dateUpdated": "2021-01-24T21:08:33.370239Z",
       "dateLastUpdateAttempted": "2021-01-24T21:08:33.370239Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 268704,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 2661859,
-        "displayName": "CraftStudioAPI-1.0.1.95-mc1.12-alpha.jar",
-        "fileName": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
-        "fileDate": "2019-01-18T22:14:22.807Z",
-        "fileLength": 90465,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2661/859/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2314640535,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1777442019,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4196766581,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1339366238,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar"
-      },
-      "dateInstalled": "2021-01-23T16:20:00.105454Z",
-      "dateUpdated": "2021-01-23T16:20:00.106353Z",
-      "dateLastUpdateAttempted": "2021-01-23T16:20:00.106353Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -8397,85 +8330,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 407632,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 3213139,
-        "displayName": "animania-1.12.2-farm-1.0.2.28",
-        "fileName": "animania-1.12.2-farm-1.0.2.28.jar",
-        "fileDate": "2021-02-22T17:15:26.5Z",
-        "fileLength": 5530204,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3213/139/animania-1.12.2-farm-1.0.2.28.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 268704,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 261199,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3760739025,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3502807840,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1433273761,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "animania-1.12.2-farm-1.0.2.28.jar"
-      },
-      "dateInstalled": "2021-01-23T16:20:01.308252Z",
-      "dateUpdated": "2021-02-23T16:57:42.288191Z",
-      "dateLastUpdateAttempted": "2021-02-23T16:57:42.288191Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 239431,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
@@ -8691,85 +8545,6 @@
       "dateInstalled": "2021-01-23T16:01:22.45374Z",
       "dateUpdated": "2021-01-23T16:01:22.45542Z",
       "dateLastUpdateAttempted": "2021-01-23T16:01:22.45542Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 407657,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 3213137,
-        "displayName": "animania-1.12.2-extra-1.0.2.28",
-        "fileName": "animania-1.12.2-extra-1.0.2.28.jar",
-        "fileDate": "2021-02-22T17:14:33.423Z",
-        "fileLength": 1926227,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3213/137/animania-1.12.2-extra-1.0.2.28.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 261199,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 268704,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2954883041,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 260954659,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3497978324,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "animania-1.12.2-extra-1.0.2.28.jar"
-      },
-      "dateInstalled": "2021-01-23T16:20:03.016775Z",
-      "dateUpdated": "2021-02-23T16:57:42.477719Z",
-      "dateLastUpdateAttempted": "2021-02-23T16:57:42.477719Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9973,91 +9748,6 @@
       "dateInstalled": "2021-02-18T14:52:30.603496Z",
       "dateUpdated": "2021-02-18T14:52:30.607955Z",
       "dateLastUpdateAttempted": "2021-02-18T14:52:30.607955Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 261199,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 3213136,
-        "displayName": "animania-1.12.2-base-2.0.3.28",
-        "fileName": "animania-1.12.2-base-2.0.3.28.jar",
-        "fileDate": "2021-02-22T17:13:19.587Z",
-        "fileLength": 1626689,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3213/136/animania-1.12.2-base-2.0.3.28.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 268704,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3242973093,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "addons.mcmeta",
-            "fingerprint": 2673473374,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2554208112,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 4206017572,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 928183622,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1778381478,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "animania-1.12.2-base-2.0.3.28.jar"
-      },
-      "dateInstalled": "2021-01-23T16:20:00.477967Z",
-      "dateUpdated": "2021-02-23T16:57:42.797969Z",
-      "dateLastUpdateAttempted": "2021-02-23T16:57:42.797969Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
