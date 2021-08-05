@@ -110,7 +110,7 @@ Squeezer.removeFluidRecipe(<liquid:plantoil>);
 for itemStack in <ore:plantOilInput>.items {
     Squeezer.addRecipe(null, <liquid:plantoil> * 16, itemStack, 1024);
 }
-Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:plantoil> * 512, <immersiveengineering:seed:0> * 8, 51200);
+Squeezer.addRecipe(<forestry:mulch>, <liquid:plantoil> * 512, <immersiveengineering:seed:0> * 8, 51200);
 
 # Fuel Consumption #####################################################################################################
 

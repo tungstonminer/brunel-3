@@ -102,8 +102,8 @@
             },
             {
                 "mob": "betteranimalsplus:walrus",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 25
             }
         ]
@@ -171,8 +171,8 @@
             },
             {
                 "mob": "minecraft:rabbit",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 15
             }
         ]
@@ -446,8 +446,8 @@
             },
             {
                 "mob": "minecraft:rabbit",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 25
             }
         ]
@@ -789,8 +789,8 @@
             },
             {
                 "mob": "betteranimalsplus:whale",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -809,8 +809,8 @@
             },
             {
                 "mob": "betteranimalsplus:whale",
-                "groupcountmin": 3,
-                "groupcountmax": 6,
+                "groupcountmin": 6,
+                "groupcountmax": 10,
                 "weight": 5
             }
         ]
@@ -891,8 +891,8 @@
             },
             {
                 "mob": "minecraft:rabbit",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 25
             }
         ]
@@ -967,8 +967,8 @@
             },
             {
                 "mob": "minecraft:rabbit",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 25
             }
         ]
@@ -1090,8 +1090,8 @@
             },
             {
                 "mob": "minecraft:pig",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 3,
+                "groupcountmax": 6,
                 "weight": 30
             },
             {
@@ -1123,7 +1123,7 @@
             {
                 "mob": "minecraft:slime",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 25
             }
         ]
@@ -1204,7 +1204,7 @@
             {
                 "mob": "minecraft:slime",
                 "groupcountmin": 1,
-                "groupcountmax": 2,
+                "groupcountmax": 1,
                 "weight": 50
             }
         ]
@@ -1288,8 +1288,8 @@
             },
             {
                 "mob": "minecraft:rabbit",
-                "groupcountmin": 1,
-                "groupcountmax": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 3,
                 "weight": 40
             }
         ]

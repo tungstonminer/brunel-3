@@ -1328,7 +1328,7 @@
         "mintime": 23500,
         "maxcount": {
             "mob": "betteranimalsplus:walrus",
-            "amount": 18,
+            "amount": 30,
             "perplayer": true
         },
         "result": "allow"
@@ -1347,7 +1347,7 @@
         "maxtime": 12500,
         "maxcount": {
             "mob": "betteranimalsplus:walrus",
-            "amount": 18,
+            "amount": 30,
             "perplayer": true
         },
         "result": "allow"
@@ -1442,7 +1442,7 @@
         "maxtime": 13000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -1462,7 +1462,7 @@
         "maxtime": 1000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -1482,7 +1482,7 @@
         "mintime": 23000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -2016,7 +2016,7 @@
         "maxtime": 13000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -2037,7 +2037,7 @@
         "maxtime": 1000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -2058,7 +2058,7 @@
         "mintime": 23000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -2600,7 +2600,7 @@
         ],
         "maxcount": {
             "mob": "betteranimalsplus:whale",
-            "amount": 6,
+            "amount": 10,
             "perplayer": true
         },
         "result": "allow"
@@ -2615,7 +2615,7 @@
         ],
         "maxcount": {
             "mob": "betteranimalsplus:whale",
-            "amount": 6,
+            "amount": 10,
             "perplayer": true
         },
         "result": "allow"
@@ -2730,7 +2730,7 @@
         "maxtime": 13000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 2,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -2749,7 +2749,7 @@
         "maxtime": 1000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 2,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -2768,7 +2768,7 @@
         "mintime": 23000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 2,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -2889,7 +2889,7 @@
         "maxtime": 13000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 2,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -2910,7 +2910,7 @@
         "maxtime": 1000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 2,
+            "amount": 6,
             "perplayer": true
         },
         "result": "allow"
@@ -2931,298 +2931,298 @@
         "mintime": 23000,
         "maxcount": {
             "mob": "minecraft:rabbit",
+            "amount": 6,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:villager_golem",
+        "biome": [
+            "Beach",
+            "Birch Forest",
+            "Birch Forest M",
+            "Cold Taiga",
+            "Cold Taiga Hills",
+            "Cold Taiga M",
+            "DeepSwamp",
+            "Desert",
+            "Desert M",
+            "DesertHills",
+            "Flower Forest",
+            "Forest",
+            "Marsh",
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Plains",
+            "River",
+            "Roofed Forest",
+            "Roofed Forest M",
+            "Savanna",
+            "Savanna M",
+            "Savanna Plateau",
+            "Savanna Plateau M",
+            "Sunflower Plains",
+            "Swampland",
+            "Swampland M",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [],
+        "structure": "Village",
+        "mintime": 23500,
+        "maxcount": {
+            "mob": "minecraft:villager_golem",
+            "amount": 1,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:villager_golem",
+        "biome": [
+            "Beach",
+            "Birch Forest",
+            "Birch Forest M",
+            "Cold Taiga",
+            "Cold Taiga Hills",
+            "Cold Taiga M",
+            "DeepSwamp",
+            "Desert",
+            "Desert M",
+            "DesertHills",
+            "Flower Forest",
+            "Forest",
+            "Marsh",
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Plains",
+            "River",
+            "Roofed Forest",
+            "Roofed Forest M",
+            "Savanna",
+            "Savanna M",
+            "Savanna Plateau",
+            "Savanna Plateau M",
+            "Sunflower Plains",
+            "Swampland",
+            "Swampland M",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [],
+        "structure": "Village",
+        "maxtime": 12500,
+        "maxcount": {
+            "mob": "minecraft:villager_golem",
+            "amount": 1,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:villager",
+        "biome": [
+            "Beach",
+            "Birch Forest",
+            "Birch Forest M",
+            "Cold Taiga",
+            "Cold Taiga Hills",
+            "Cold Taiga M",
+            "DeepSwamp",
+            "Desert",
+            "Desert M",
+            "DesertHills",
+            "Flower Forest",
+            "Forest",
+            "Marsh",
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Plains",
+            "River",
+            "Roofed Forest",
+            "Roofed Forest M",
+            "Savanna",
+            "Savanna M",
+            "Savanna Plateau",
+            "Savanna Plateau M",
+            "Sunflower Plains",
+            "Swampland",
+            "Swampland M",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [
+            "minecraft:cobblestone",
+            "minecraft:dirt",
+            "minecraft:planks"
+        ],
+        "structure": "Village",
+        "mintime": 11500,
+        "maxcount": {
+            "mob": "minecraft:villager",
+            "amount": 24,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:villager",
+        "biome": [
+            "Beach",
+            "Birch Forest",
+            "Birch Forest M",
+            "Cold Taiga",
+            "Cold Taiga Hills",
+            "Cold Taiga M",
+            "DeepSwamp",
+            "Desert",
+            "Desert M",
+            "DesertHills",
+            "Flower Forest",
+            "Forest",
+            "Marsh",
+            "Mega Spruce Taiga",
+            "Mega Taiga",
+            "Plains",
+            "River",
+            "Roofed Forest",
+            "Roofed Forest M",
+            "Savanna",
+            "Savanna M",
+            "Savanna Plateau",
+            "Savanna Plateau M",
+            "Sunflower Plains",
+            "Swampland",
+            "Swampland M",
+            "Taiga",
+            "Taiga M"
+        ],
+        "blocks": [
+            "minecraft:cobblestone",
+            "minecraft:dirt",
+            "minecraft:planks"
+        ],
+        "structure": "Village",
+        "maxtime": 500,
+        "maxcount": {
+            "mob": "minecraft:villager",
+            "amount": 24,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:pig",
+        "biome": [
+            "DeepSwamp",
+            "Marsh",
+            "Swampland",
+            "Swampland M"
+        ],
+        "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:water"
+        ],
+        "mintime": 23500,
+        "maxcount": {
+            "mob": "minecraft:pig",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:pig",
+        "biome": [
+            "DeepSwamp",
+            "Marsh",
+            "Swampland",
+            "Swampland M"
+        ],
+        "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:water"
+        ],
+        "maxtime": 12500,
+        "maxcount": {
+            "mob": "minecraft:pig",
+            "amount": 30,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:goose",
+        "biome": [
+            "DeepSwamp",
+            "Marsh",
+            "Swampland",
+            "Swampland M"
+        ],
+        "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:water"
+        ],
+        "mintime": 23500,
+        "maxcount": {
+            "mob": "betteranimalsplus:goose",
+            "amount": 18,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "betteranimalsplus:goose",
+        "biome": [
+            "DeepSwamp",
+            "Marsh",
+            "Swampland",
+            "Swampland M"
+        ],
+        "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:water"
+        ],
+        "maxtime": 12500,
+        "maxcount": {
+            "mob": "betteranimalsplus:goose",
+            "amount": 18,
+            "perplayer": true
+        },
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:slime",
+        "biome": [
+            "DeepSwamp",
+            "Marsh",
+            "Swampland",
+            "Swampland M"
+        ],
+        "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:water"
+        ],
+        "mintime": 11500,
+        "maxcount": {
+            "mob": "minecraft:slime",
             "amount": 2,
             "perplayer": true
         },
         "result": "allow"
     },
     {
-        "mob": "minecraft:villager_golem",
-        "biome": [
-            "Beach",
-            "Birch Forest",
-            "Birch Forest M",
-            "Cold Taiga",
-            "Cold Taiga Hills",
-            "Cold Taiga M",
-            "DeepSwamp",
-            "Desert",
-            "Desert M",
-            "DesertHills",
-            "Flower Forest",
-            "Forest",
-            "Marsh",
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Plains",
-            "River",
-            "Roofed Forest",
-            "Roofed Forest M",
-            "Savanna",
-            "Savanna M",
-            "Savanna Plateau",
-            "Savanna Plateau M",
-            "Sunflower Plains",
-            "Swampland",
-            "Swampland M",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [],
-        "structure": "Village",
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "minecraft:villager_golem",
-            "amount": 1,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:villager_golem",
-        "biome": [
-            "Beach",
-            "Birch Forest",
-            "Birch Forest M",
-            "Cold Taiga",
-            "Cold Taiga Hills",
-            "Cold Taiga M",
-            "DeepSwamp",
-            "Desert",
-            "Desert M",
-            "DesertHills",
-            "Flower Forest",
-            "Forest",
-            "Marsh",
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Plains",
-            "River",
-            "Roofed Forest",
-            "Roofed Forest M",
-            "Savanna",
-            "Savanna M",
-            "Savanna Plateau",
-            "Savanna Plateau M",
-            "Sunflower Plains",
-            "Swampland",
-            "Swampland M",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [],
-        "structure": "Village",
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "minecraft:villager_golem",
-            "amount": 1,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:villager",
-        "biome": [
-            "Beach",
-            "Birch Forest",
-            "Birch Forest M",
-            "Cold Taiga",
-            "Cold Taiga Hills",
-            "Cold Taiga M",
-            "DeepSwamp",
-            "Desert",
-            "Desert M",
-            "DesertHills",
-            "Flower Forest",
-            "Forest",
-            "Marsh",
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Plains",
-            "River",
-            "Roofed Forest",
-            "Roofed Forest M",
-            "Savanna",
-            "Savanna M",
-            "Savanna Plateau",
-            "Savanna Plateau M",
-            "Sunflower Plains",
-            "Swampland",
-            "Swampland M",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [
-            "minecraft:cobblestone",
-            "minecraft:dirt",
-            "minecraft:planks"
-        ],
-        "structure": "Village",
-        "mintime": 11500,
-        "maxcount": {
-            "mob": "minecraft:villager",
-            "amount": 24,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:villager",
-        "biome": [
-            "Beach",
-            "Birch Forest",
-            "Birch Forest M",
-            "Cold Taiga",
-            "Cold Taiga Hills",
-            "Cold Taiga M",
-            "DeepSwamp",
-            "Desert",
-            "Desert M",
-            "DesertHills",
-            "Flower Forest",
-            "Forest",
-            "Marsh",
-            "Mega Spruce Taiga",
-            "Mega Taiga",
-            "Plains",
-            "River",
-            "Roofed Forest",
-            "Roofed Forest M",
-            "Savanna",
-            "Savanna M",
-            "Savanna Plateau",
-            "Savanna Plateau M",
-            "Sunflower Plains",
-            "Swampland",
-            "Swampland M",
-            "Taiga",
-            "Taiga M"
-        ],
-        "blocks": [
-            "minecraft:cobblestone",
-            "minecraft:dirt",
-            "minecraft:planks"
-        ],
-        "structure": "Village",
-        "maxtime": 500,
-        "maxcount": {
-            "mob": "minecraft:villager",
-            "amount": 24,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:pig",
-        "biome": [
-            "DeepSwamp",
-            "Marsh",
-            "Swampland",
-            "Swampland M"
-        ],
-        "blocks": [
-            "minecraft:dirt",
-            "minecraft:grass",
-            "minecraft:sand",
-            "minecraft:water"
-        ],
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "minecraft:pig",
-            "amount": 5,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:pig",
-        "biome": [
-            "DeepSwamp",
-            "Marsh",
-            "Swampland",
-            "Swampland M"
-        ],
-        "blocks": [
-            "minecraft:dirt",
-            "minecraft:grass",
-            "minecraft:sand",
-            "minecraft:water"
-        ],
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "minecraft:pig",
-            "amount": 5,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "betteranimalsplus:goose",
-        "biome": [
-            "DeepSwamp",
-            "Marsh",
-            "Swampland",
-            "Swampland M"
-        ],
-        "blocks": [
-            "minecraft:dirt",
-            "minecraft:grass",
-            "minecraft:sand",
-            "minecraft:water"
-        ],
-        "mintime": 23500,
-        "maxcount": {
-            "mob": "betteranimalsplus:goose",
-            "amount": 18,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "betteranimalsplus:goose",
-        "biome": [
-            "DeepSwamp",
-            "Marsh",
-            "Swampland",
-            "Swampland M"
-        ],
-        "blocks": [
-            "minecraft:dirt",
-            "minecraft:grass",
-            "minecraft:sand",
-            "minecraft:water"
-        ],
-        "maxtime": 12500,
-        "maxcount": {
-            "mob": "betteranimalsplus:goose",
-            "amount": 18,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
-        "mob": "minecraft:slime",
-        "biome": [
-            "DeepSwamp",
-            "Marsh",
-            "Swampland",
-            "Swampland M"
-        ],
-        "blocks": [
-            "minecraft:dirt",
-            "minecraft:grass",
-            "minecraft:sand",
-            "minecraft:water"
-        ],
-        "mintime": 11500,
-        "maxcount": {
-            "mob": "minecraft:slime",
-            "amount": 4,
-            "perplayer": true
-        },
-        "result": "allow"
-    },
-    {
         "mob": "minecraft:slime",
         "biome": [
             "DeepSwamp",
@@ -3239,7 +3239,7 @@
         "maxtime": 500,
         "maxcount": {
             "mob": "minecraft:slime",
-            "amount": 4,
+            "amount": 2,
             "perplayer": true
         },
         "result": "allow"
@@ -3315,7 +3315,7 @@
         "weather": "rain",
         "maxcount": {
             "mob": "minecraft:slime",
-            "amount": 6,
+            "amount": 3,
             "perplayer": true
         },
         "result": "allow"
@@ -3485,7 +3485,7 @@
         "maxtime": 13000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -3506,7 +3506,7 @@
         "maxtime": 1000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
@@ -3527,7 +3527,7 @@
         "mintime": 23000,
         "maxcount": {
             "mob": "minecraft:rabbit",
-            "amount": 3,
+            "amount": 9,
             "perplayer": true
         },
         "result": "allow"
