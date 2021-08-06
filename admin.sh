@@ -45,6 +45,10 @@ END
 BASE_DIR="$(cd "$(dirname "$0")"; pwd)"
 JAVA=$(which java)
 
+if [[ -x "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java" ]]; then
+    JAVA="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java"
+fi
+
 # Helper Functions ####################################################################################################
 
 function cancel {
