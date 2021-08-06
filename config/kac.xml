@@ -7,6 +7,7 @@
     <Mod name="appleskin">appleskin</Mod>
     <Mod name="architecturecraft">architecturecraft</Mod>
     <Mod name="base">base</Mod>
+    <Mod name="betteranimals">betteranimals</Mod>
     <Mod name="betteranimalsplus">betteranimalsplus</Mod>
     <Mod name="betterplacement">betterplacement</Mod>
     <Mod name="bibliocraft">bibliocraft</Mod>
@@ -111,6 +112,7 @@
     <Mod name="movingworld">movingworld</Mod>
     <Mod name="mowziesmobs">mowziesmobs</Mod>
     <Mod name="mtlib">mtlib</Mod>
+    <Mod name="naturalbabyanimals">naturalbabyanimals</Mod>
     <Mod name="naturescompass">naturescompass</Mod>
     <Mod name="norecipebook">norecipebook</Mod>
     <Mod name="pathundergates">pathundergates</Mod>
