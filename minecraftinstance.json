@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-05T02:17:50.985679Z",
-  "playedCount": 16,
+  "lastPlayed": "2021-08-07T14:15:33.686816Z",
+  "playedCount": 19,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1121,7 +1121,7 @@
       "dateInstalled": "2021-08-04T04:55:03.507275Z",
       "dateUpdated": "2021-08-04T04:55:03.508849Z",
       "dateLastUpdateAttempted": "2021-08-04T04:55:03.508849Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2702,7 +2702,7 @@
       "dateInstalled": "2021-02-24T02:06:28.87475Z",
       "dateUpdated": "2021-08-04T04:43:26.116026Z",
       "dateLastUpdateAttempted": "2021-08-04T04:43:26.116026Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3671,7 +3671,7 @@
       "dateInstalled": "2021-08-04T05:10:44.855762Z",
       "dateUpdated": "2021-08-04T05:10:44.861502Z",
       "dateLastUpdateAttempted": "2021-08-04T05:10:44.861502Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4654,7 +4654,7 @@
       "dateInstalled": "2021-01-23T15:29:47.768517Z",
       "dateUpdated": "2021-07-21T04:12:56.619809Z",
       "dateLastUpdateAttempted": "2021-07-21T04:12:56.619809Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8876,24 +8876,30 @@
       "installedTargets": null
     },
     {
-      "addonID": 314645,
+      "addonID": 231095,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2951672,
-        "displayName": "Immersive Posts 0.2.1",
-        "fileName": "ImmersivePosts-0.2.1.jar",
-        "fileDate": "2020-05-08T18:12:21.32Z",
-        "fileLength": 227166,
+        "id": 2720655,
+        "displayName": "chiselsandbits-14.33.jar",
+        "fileName": "chiselsandbits-14.33.jar",
+        "fileDate": "2019-06-06T01:32:08.75Z",
+        "fileLength": 737407,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2951/672/ImmersivePosts-0.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 231951,
-            "type": 3,
+            "addonId": 239431,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
             "fileId": 0
           }
         ],
@@ -8901,37 +8907,39 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 605836686,
+            "fingerprint": 2066040898,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mod",
+            "fingerprint": 3608985086,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 2090771998,
+            "fingerprint": 321139769,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1033773290,
+            "fingerprint": 3876564513,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 4015204812,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "twistedgate",
-            "fingerprint": 1108154520,
+            "fingerprint": 2325622583,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3121263219,
+        "packageFingerprint": 3211462819,
         "gameVersion": [
+          "1.12",
+          "1.12.1",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -8943,11 +8951,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ImmersivePosts-0.2.1.jar"
+        "FileNameOnDisk": "chiselsandbits-14.33.jar"
       },
-      "dateInstalled": "2021-01-23T15:28:23.089648Z",
-      "dateUpdated": "2021-01-23T21:56:22.519492Z",
-      "dateLastUpdateAttempted": "2021-01-23T21:56:22.519492Z",
+      "dateInstalled": "2021-01-23T15:40:03.486243Z",
+      "dateUpdated": "2021-01-23T15:40:03.488298Z",
+      "dateLastUpdateAttempted": "2021-01-23T15:40:03.488298Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9056,30 +9064,24 @@
       "installedTargets": null
     },
     {
-      "addonID": 231095,
+      "addonID": 314645,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2720655,
-        "displayName": "chiselsandbits-14.33.jar",
-        "fileName": "chiselsandbits-14.33.jar",
-        "fileDate": "2019-06-06T01:32:08.75Z",
-        "fileLength": 737407,
+        "id": 2951672,
+        "displayName": "Immersive Posts 0.2.1",
+        "fileName": "ImmersivePosts-0.2.1.jar",
+        "fileDate": "2020-05-08T18:12:21.32Z",
+        "fileLength": 227166,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/672/ImmersivePosts-0.2.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 239431,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
+            "addonId": 231951,
+            "type": 3,
             "fileId": 0
           }
         ],
@@ -9087,39 +9089,37 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2066040898,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mod",
-            "fingerprint": 3608985086,
+            "fingerprint": 605836686,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 321139769,
+            "fingerprint": 2090771998,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3876564513,
+            "fingerprint": 1033773290,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 2325622583,
+            "fingerprint": 4015204812,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "twistedgate",
+            "fingerprint": 1108154520,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3211462819,
+        "packageFingerprint": 3121263219,
         "gameVersion": [
-          "1.12",
-          "1.12.1",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -9131,11 +9131,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "chiselsandbits-14.33.jar"
+        "FileNameOnDisk": "ImmersivePosts-0.2.1.jar"
       },
-      "dateInstalled": "2021-01-23T15:40:03.486243Z",
-      "dateUpdated": "2021-01-23T15:40:03.488298Z",
-      "dateLastUpdateAttempted": "2021-01-23T15:40:03.488298Z",
+      "dateInstalled": "2021-01-23T15:28:23.089648Z",
+      "dateUpdated": "2021-01-23T21:56:22.519492Z",
+      "dateLastUpdateAttempted": "2021-01-23T21:56:22.519492Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9311,62 +9311,50 @@
       "installedTargets": null
     },
     {
-      "addonID": 285135,
+      "addonID": 388180,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2693578,
-        "displayName": "alternatingflux-0.12.2-2.jar",
-        "fileName": "alternatingflux-0.12.2-2.jar",
-        "fileDate": "2019-03-31T03:56:05.307Z",
-        "fileLength": 56274,
+        "id": 2974111,
+        "displayName": "watercontrol-1.0.jar",
+        "fileName": "watercontrol-1.0.jar",
+        "fileDate": "2020-06-06T20:35:53.64Z",
+        "fileLength": 6746,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2974/111/watercontrol-1.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 231951,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3910881690,
+            "fingerprint": 3072442137,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "antibluequirk",
-            "fingerprint": 3999235510,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3764360965,
+            "foldername": "com",
+            "fingerprint": 1475915188,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2925895508,
+            "fingerprint": 133467496,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 4010066160,
+            "fingerprint": 1213894411,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3909728463,
+        "packageFingerprint": 254132753,
         "gameVersion": [
+          "Forge",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -9378,11 +9366,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "alternatingflux-0.12.2-2.jar"
+        "FileNameOnDisk": "watercontrol-1.0.jar"
       },
-      "dateInstalled": "2021-02-25T23:41:03.283523Z",
-      "dateUpdated": "2021-02-25T23:41:03.290569Z",
-      "dateLastUpdateAttempted": "2021-02-25T23:41:03.290569Z",
+      "dateInstalled": "2021-01-25T03:25:50.197038Z",
+      "dateUpdated": "2021-01-25T03:25:50.202565Z",
+      "dateLastUpdateAttempted": "2021-01-25T03:25:50.202565Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9538,50 +9526,62 @@
       "installedTargets": null
     },
     {
-      "addonID": 388180,
+      "addonID": 285135,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
-        "id": 2974111,
-        "displayName": "watercontrol-1.0.jar",
-        "fileName": "watercontrol-1.0.jar",
-        "fileDate": "2020-06-06T20:35:53.64Z",
-        "fileLength": 6746,
+        "id": 2693578,
+        "displayName": "alternatingflux-0.12.2-2.jar",
+        "fileName": "alternatingflux-0.12.2-2.jar",
+        "fileDate": "2019-03-31T03:56:05.307Z",
+        "fileLength": 56274,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2974/111/watercontrol-1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 231951,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3072442137,
+            "fingerprint": 3910881690,
             "type": 0,
             "invalidFingerprint": false
           },
           {
-            "foldername": "com",
-            "fingerprint": 1475915188,
+            "foldername": "antibluequirk",
+            "fingerprint": 3999235510,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3764360965,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 133467496,
+            "fingerprint": 2925895508,
             "type": 0,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 1213894411,
+            "fingerprint": 4010066160,
             "type": 0,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 254132753,
+        "packageFingerprint": 3909728463,
         "gameVersion": [
-          "Forge",
           "1.12.2"
         ],
         "hasInstallScript": false,
@@ -9593,11 +9593,11 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "watercontrol-1.0.jar"
+        "FileNameOnDisk": "alternatingflux-0.12.2-2.jar"
       },
-      "dateInstalled": "2021-01-25T03:25:50.197038Z",
-      "dateUpdated": "2021-01-25T03:25:50.202565Z",
-      "dateLastUpdateAttempted": "2021-01-25T03:25:50.202565Z",
+      "dateInstalled": "2021-02-25T23:41:03.283523Z",
+      "dateUpdated": "2021-02-25T23:41:03.290569Z",
+      "dateLastUpdateAttempted": "2021-02-25T23:41:03.290569Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9669,6 +9669,77 @@
       "dateInstalled": "2021-01-27T03:24:07.862749Z",
       "dateUpdated": "2021-01-27T03:24:07.86706Z",
       "dateLastUpdateAttempted": "2021-01-27T03:24:07.86706Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 250611,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2491670,
+        "displayName": "horseinfo-1.0.1.jar",
+        "fileName": "horseinfo-1.0.1.jar",
+        "fileDate": "2017-10-17T18:25:38Z",
+        "fileLength": 5860,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2491/670/horseinfo-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fr",
+            "fingerprint": 435693051,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1003416534,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3520490847,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 59509421,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "horseinfo-1.0.1.jar"
+      },
+      "dateInstalled": "2021-03-18T15:36:54.927487Z",
+      "dateUpdated": "2021-03-18T15:36:54.932724Z",
+      "dateLastUpdateAttempted": "2021-03-18T15:36:54.932724Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -9760,77 +9831,6 @@
       "dateInstalled": "2021-01-23T15:35:37.194017Z",
       "dateUpdated": "2021-04-11T16:38:50.944434Z",
       "dateLastUpdateAttempted": "2021-04-11T16:38:50.944434Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 250611,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 2491670,
-        "displayName": "horseinfo-1.0.1.jar",
-        "fileName": "horseinfo-1.0.1.jar",
-        "fileDate": "2017-10-17T18:25:38Z",
-        "fileLength": 5860,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2491/670/horseinfo-1.0.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fr",
-            "fingerprint": 435693051,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1003416534,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3520490847,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 59509421,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "horseinfo-1.0.1.jar"
-      },
-      "dateInstalled": "2021-03-18T15:36:54.927487Z",
-      "dateUpdated": "2021-03-18T15:36:54.932724Z",
-      "dateLastUpdateAttempted": "2021-03-18T15:36:54.932724Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -10527,79 +10527,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 275156,
-      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
-      "installedFile": {
-        "id": 2468500,
-        "displayName": "Road Runner 1.0.1",
-        "fileName": "roadrunner-1.0.1.jar",
-        "fileDate": "2017-08-24T12:34:04.663Z",
-        "fileLength": 10346,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2468/500/roadrunner-1.0.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "thretcha",
-            "fingerprint": 2451206116,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1017009265,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 758058852,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "roadrunner-1.0.1.jar"
-      },
-      "dateInstalled": "2021-03-28T13:20:12.244739Z",
-      "dateUpdated": "2021-03-28T13:20:12.249555Z",
-      "dateLastUpdateAttempted": "2021-03-28T13:20:12.249555Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 319716,
       "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
       "installedFile": {
@@ -10672,6 +10599,79 @@
       "dateInstalled": "2021-02-17T06:16:12.222042Z",
       "dateUpdated": "2021-02-17T06:16:12.225266Z",
       "dateLastUpdateAttempted": "2021-02-17T06:16:12.225266Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 275156,
+      "gameInstanceID": "f0bffedf-a52e-4f77-b069-dd8029930a66",
+      "installedFile": {
+        "id": 2468500,
+        "displayName": "Road Runner 1.0.1",
+        "fileName": "roadrunner-1.0.1.jar",
+        "fileDate": "2017-08-24T12:34:04.663Z",
+        "fileLength": 10346,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2468/500/roadrunner-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "thretcha",
+            "fingerprint": 2451206116,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1017009265,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 758058852,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "roadrunner-1.0.1.jar"
+      },
+      "dateInstalled": "2021-03-28T13:20:12.244739Z",
+      "dateUpdated": "2021-03-28T13:20:12.249555Z",
+      "dateLastUpdateAttempted": "2021-03-28T13:20:12.249555Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,

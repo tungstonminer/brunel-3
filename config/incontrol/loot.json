@@ -58,7 +58,14 @@
         "item": [
             "harvestcraft:crabrawitem"
         ],
-        "itemcount": "1-2"
+        "itemcount": "1"
+    },
+    {
+        "mob": "betteranimalsplus:crab",
+        "item": [
+            "betteranimalsplus:crab_meat_raw"
+        ],
+        "itemcount": "0-1"
     },
     {
         "mob": "betteranimalsplus:crab",
@@ -84,6 +91,31 @@
             "betteranimalsplus:crab_meat_raw"
         ],
         "itemcount": "0-1"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "removeall": true
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "item": [
+            "minecraft:rabbit"
+        ],
+        "itemcount": "1"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "item": [
+            "minecraft:rabbit_hide"
+        ],
+        "itemcount": "0-1"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "item": [
+            "minecraft:rabbit_foot"
+        ],
+        "itemcount": "0-2"
     },
     {
         "mob": "minecraft:blaze",
@@ -146,7 +178,7 @@
     {
         "mob": "betteranimalsplus:badger",
         "item": [
-            "minecraft:rabbit"
+            "minecraft:rabbit_hide"
         ],
         "itemcount": "1"
     },
@@ -225,7 +257,7 @@
     {
         "mob": "betteranimalsplus:squirrel",
         "item": [
-            "minecraft:rabbit"
+            "minecraft:rabbit_hide"
         ],
         "itemcount": "1"
     },

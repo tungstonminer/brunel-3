@@ -4,7 +4,7 @@
 .mixin.out
 Illegal_Clients/
 asm/
-config/agricraft/json/server_
+config/agricraft/json/server_*
 config/jeresources/world-gen-old*
 crafttweaker.log
 crash-reports/
@@ -24,6 +24,7 @@ mountains.txt/
 saves/
 screenshots/
 server/
+servers.dat
 usercache.json
 usernamecache.json
 ~*
