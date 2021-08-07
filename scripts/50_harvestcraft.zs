@@ -12,28 +12,7 @@ import mods.jei.JEI;
 HCT.clearAllPressing();
 HCT.clearAllGrinding();
 
-val MILK_CONTAINER as IIngredient =
-    <minecraft:milk_bucket> |
-    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}});
+val MILK_CONTAINER as IIngredient = <minecraft:milk_bucket>;
 
 
 ########################################################################################################################
@@ -79,9 +58,6 @@ recipes.addShaped(<minecraft:cake>, [
 # Candle -- replace white candle recipe
 recipes.remove(<harvestcraft:candledeco1>);
 recipes.addShapeless(<harvestcraft:candledeco1> * 4, [<ore:itemBeeswax>, <ore:string>]);
-
-# Cheese -- remove in preference for the Animania process
-JEI.removeAndHide(<harvestcraft:cheeseitem>);
 
 # Cinnamon -- grind peppercorns to black pepper
 HCT.addGrinding(<ore:cropCinnamon>, <harvestcraft:groundcinnamonitem>, <harvestcraft:groundcinnamonitem>);
