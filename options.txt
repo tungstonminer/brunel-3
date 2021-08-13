@@ -104,7 +104,6 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.cofh.multimode:47
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -133,6 +132,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
+key_key.cofh.multimode:47
 key_waila.keybind.wailaconfig:65
 key_waila.keybind.wailadisplay:0
 key_waila.keybind.liquid:0
