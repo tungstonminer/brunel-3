@@ -1,8 +1,9 @@
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.forestry.Moistener;
 import mods.forestry.Squeezer;
 import mods.immersiveengineering.BottlingMachine;
+import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Mixer;
 import mods.jei.JEI;
 
@@ -59,10 +60,8 @@ recipes.addShaped(<forestry:honey_pot>, [
     [<ore:dropHoney>, null, <ore:dropHoney>],
 ]);
 
-# Mulch -- Add recipes to return various things into mulch
-BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:fruitbaititem>, <liquid:water> * 10);
-BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:veggiebaititem>, <liquid:water> * 20);
-BottlingMachine.addRecipe(<forestry:mulch>, <harvestcraft:grainbaititem>, <liquid:water> * 40);
+# Mulch -- add a crusher recipe
+Crusher.addRecipe(<forestry:mulch>, <ore:listAllveggie>, 256);
 
 # Short Mead -- add mixer recipe
 Mixer.addRecipe(

@@ -12,28 +12,7 @@ import mods.jei.JEI;
 HCT.clearAllPressing();
 HCT.clearAllGrinding();
 
-val MILK_CONTAINER as IIngredient =
-    <minecraft:milk_bucket> |
-    <forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}) |
-    <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:can:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:refractory:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_holstein", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_friesian", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_jersey", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_goat", Amount: 1000}}) |
-    <forestry:capsule:1>.withTag({Fluid: {FluidName: "milk_sheep", Amount: 1000}});
+val MILK_CONTAINER as IIngredient = <minecraft:milk_bucket>;
 
 
 ########################################################################################################################
@@ -45,11 +24,6 @@ recipes.addShaped(<harvestcraft:bakewareitem>, [
     [<ore:ingotBrick>, null,  <ore:ingotBrick>],
     [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
 ]);
-
-# Bait -- don't allow simple crafting of bait
-recipes.remove(<harvestcraft:fruitbaititem>);
-recipes.remove(<harvestcraft:grainbaititem>);
-recipes.remove(<harvestcraft:veggiebaititem>);
 
 # Bees -- Remove bee-related products
 JEI.removeAndHide(<harvestcraft:honey>);
@@ -85,9 +59,6 @@ recipes.addShaped(<minecraft:cake>, [
 recipes.remove(<harvestcraft:candledeco1>);
 recipes.addShapeless(<harvestcraft:candledeco1> * 4, [<ore:itemBeeswax>, <ore:string>]);
 
-# Cheese -- remove in preference for the Animania process
-JEI.removeAndHide(<harvestcraft:cheeseitem>);
-
 # Cinnamon -- grind peppercorns to black pepper
 HCT.addGrinding(<ore:cropCinnamon>, <harvestcraft:groundcinnamonitem>, <harvestcraft:groundcinnamonitem>);
 recipes.addShapeless(<dynamictreesphc:cinnamonseed> * 2, [
@@ -96,7 +67,7 @@ recipes.addShapeless(<dynamictreesphc:cinnamonseed> * 2, [
 
 # Cooking Oil -- make recipes consistent with Plant Oil recipes
 recipes.remove(<harvestcraft:oliveoilitem>);
-HCT.addPressing(<ore:plantOilInput>, <harvestcraft:oliveoilitem>, <harvestcraft:grainbaititem>);
+HCT.addPressing(<ore:plantOilInput>, <harvestcraft:oliveoilitem>, <forestry:mulch>);
 
 # Cotton Candy -- use pink dye instead of bone meal
 recipes.remove(<harvestcraft:cottoncandyitem>);
@@ -115,8 +86,7 @@ recipes.addShaped(<harvestcraft:cuttingboarditem>, [
 
 # Fish Bait -- replace recipe to use less string and require ground fish
 recipes.remove(<harvestcraft:fishtrapbaititem>);
-recipes.addShapeless(
-    "fishtrapbait_replacement", <harvestcraft:fishtrapbaititem>,
+recipes.addShapeless("fishtrapbait_replacement", <harvestcraft:fishtrapbaititem>,
     [<ore:string>, <harvestcraft:groundfishitem>]
 );
 
@@ -148,26 +118,6 @@ HCT.addGrinding(<ore:listAllporkraw>, <harvestcraft:groundporkitem>, <harvestcra
 HCT.addGrinding(<ore:listAllrabbitraw>, <harvestcraft:groundrabbititem>, <harvestcraft:groundrabbititem>);
 HCT.addGrinding(<ore:listAllturkeyraw>, <harvestcraft:groundturkeyitem>, <harvestcraft:groundturkeyitem>);
 HCT.addGrinding(<ore:listAllvenisonraw>, <harvestcraft:groundvenisonitem>, <harvestcraft:groundvenisonitem>);
-
-# Fruit Bait -- only allow catching a limited number of things
-HCT.removeGroundTrapByInput(<harvestcraft:fruitbaititem>);
-HCT.addGroundTrap(<harvestcraft:fruitbaititem>, [
-    <animania:raw_peacock>, <animania:blue_peacock_feather>, <animania:white_peacock_feather>,
-    <animania:charcoal_peacock_feather>, <animania:opal_peacock_feather>, <animania:peach_peacock_feather>,
-    <animania:purple_peacock_feather>, <animania:taupe_peacock_feather>
-] as IItemStack[]);
-
-# Grain Bait -- only allow catching a limited number of things
-HCT.removeGroundTrapByInput(<harvestcraft:grainbaititem>);
-HCT.addGroundTrap(<harvestcraft:grainbaititem>, [
-    <minecraft:chicken>, <minecraft:feather>, <harvestcraft:duckrawitem>, <betteranimalsplus:pheasantraw>
-] as IItemStack[]);
-
-# Veggie Bait -- only allow catching a limited number of things
-HCT.removeGroundTrapByInput(<harvestcraft:veggiebaititem>);
-HCT.addGroundTrap(<harvestcraft:veggiebaititem>, [
-    <minecraft:rabbit_hide>, <minecraft:rabbit>, <minecraft:rabbit_foot>
-] as IItemStack[]);
 
 # Hazelnut -- add to ore dictionary
 oreDict.get("listAllnut").add(<harvestcraft:hazelnutitem>);
@@ -207,18 +157,6 @@ recipes.addShapeless(<harvestcraft:nutellaitem>, [
 
 # Nutmeg -- add back the recipes for grinding
 HCT.addGrinding(<ore:cropNutmeg>, <harvestcraft:groundnutmegitem>, <harvestcraft:groundnutmegitem>);
-
-# Omelette -- use Animania omelette as base
-var denverOmelette = <harvestcraft:omeletitem>;
-denverOmelette.displayName = "Denver Omelette";
-recipes.remove(denverOmelette);
-recipes.addShapeless(denverOmelette, [
-    <ore:toolCuttingboard>, <animania:plain_omelette>, <ore:cropOnion>, <ore:cropBellpepper>
-]);
-recipes.remove(<harvestcraft:mushroomketchupomeletitem>);
-recipes.addShapeless(<harvestcraft:mushroomketchupomeletitem>, [
-    <animania:plain_omelette>, <ore:foodMushroomketchup>
-]);
 
 # Pemmican -- allow more food items as ingredients
 recipes.remove(<harvestcraft:pemmicanitem>);
@@ -262,10 +200,10 @@ recipes.addShaped(<harvestcraft:skilletitem>, [
 ]);
 
 # Seaweed -- add back the recipes for grinding
-HCT.addGrinding(<ore:cropSeaweed>, <harvestcraft:saltitem>, <harvestcraft:veggiebaititem>);
+HCT.addGrinding(<ore:cropSeaweed>, <harvestcraft:saltitem>, <forestry:mulch>);
 
 # Sesame Seed Oil -- add presser recipe
-HCT.addPressing(<ore:cropSesame>, <harvestcraft:sesameoilitem>, <harvestcraft:grainbaititem>);
+HCT.addPressing(<ore:cropSesame>, <harvestcraft:sesameoilitem>, <forestry:mulch>);
 
 # Sugar -- allow making sugar from maple syrup and beets
 recipes.addShapeless(<minecraft:sugar>, [
@@ -276,7 +214,7 @@ recipes.addShapeless(<minecraft:sugar> * 2, [
 ]);
 
 # Tofu -- add presser recipes
-HCT.addPressing(<ore:cropSoybean>, <harvestcraft:silkentofuitem>, <harvestcraft:grainbaititem>);
+HCT.addPressing(<ore:cropSoybean>, <harvestcraft:silkentofuitem>, <forestry:mulch>);
 HCT.addPressing(<ore:foodSilkentofu>, <harvestcraft:firmtofuitem>, <harvestcraft:soymilkitem>);
 
 # Venison -- change name to horse meat
@@ -296,9 +234,6 @@ recipes.addShaped(<harvestcraft:waterfilter>, [
 
 # Well -- remove as too OP
 JEI.removeAndHide(<harvestcraft:well>);
-
-# Veggie Bait -- add a crusher recipe
-Crusher.addRecipe(<harvestcraft:veggiebaititem>, <ore:listAllveggie>, 256);
 
 # import mods.harvestcrafttweaker.HarvestCraftTweaker;
 #

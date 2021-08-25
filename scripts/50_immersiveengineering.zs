@@ -118,7 +118,7 @@ Crusher.addRecipe(<minecraft:sand:0> * 2, <ore:sandstoneYellow>, 4096, <immersiv
 
 # Seed Oil -- Add recipes for Forestry Seed Oil
 for itemStack in <ore:listAllseed>.items {
-    Squeezer.addRecipe(<harvestcraft:grainbaititem>, <liquid:seed.oil> * 80, itemStack * 8, 51200);
+    Squeezer.addRecipe(<forestry:mulch>, <liquid:seed.oil> * 80, itemStack * 8, 51200);
 }
 
 # Sulfur Dust -- Allow any sulfur dust to be converted to Immersive Engineering sulfur dust

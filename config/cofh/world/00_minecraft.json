@@ -249,7 +249,7 @@
             "min-height": 0,
             "max-height": 16
         },
-        "gold_ore-mesa_band-6660d818bccf0929db203129e3c58177": {
+        "gold_ore-mesa_band-dc64165bf0926e689db4c6e12d1f27e6": {
             "chunk-chance": 1,
             "cluster-count": 21,
             "biome": {
@@ -285,7 +285,7 @@
             "min-height": 32,
             "max-height": 80
         },
-        "monster_egg_stone-iron_band-0ffd961a2c35c07b5fef0d8ac2009ca4": {
+        "monster_egg_stone-iron_band-ffd2af685bf463ef20ae140866ffbcfc": {
             "chunk-chance": 1,
             "cluster-count": 8,
             "biome": {
@@ -325,7 +325,7 @@
             "min-height": 0,
             "max-height": 64
         },
-        "emerald_ore-emerald_band-0ffd961a2c35c07b5fef0d8ac2009ca4": {
+        "emerald_ore-emerald_band-ffd2af685bf463ef20ae140866ffbcfc": {
             "chunk-chance": 1,
             "cluster-count": 4,
             "biome": {

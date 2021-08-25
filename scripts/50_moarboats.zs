@@ -73,7 +73,7 @@ recipes.addShaped(<moarboats:golden_ticket>, [
 # Helm -- use more compatible recipe
 recipes.remove(<moarboats:helm>);
 recipes.addShaped(<moarboats:helm>, [
-    [<animania:wheel>, <ore:stickIron>, <ore:gearBrass>],
+    [<ore:plankWood>, <ore:stickIron>, <ore:gearBrass>],
     [null, <ore:plankWood>, <cathedral:cathedral_chain_various:4>],
     [<ore:slabWood>, <ore:slabWood>, <ore:gearBrass>],
 ]);

@@ -59,17 +59,10 @@ toolMetalIngot.addAll(<ore:ingotIron>);
 toolMetalIngot.addAll(<ore:ingotNickel>);
 toolMetalIngot.addAll(<ore:ingotSteel>);
 
-# Animania -- Wool -- make sure everything is in the right ore dict entries
-<ore:blockWoolBlack>.add(<animania:wool:1>);
-<ore:blockWoolBrown>.add(<animania:wool:0>, <animania:wool:2>, <animania:wool:4>, <animania:wool:6>);
-<ore:blockWoolWhite>.add(<animania:wool:3>, <animania:wool:5>);
-
 # Add individual items to ore dict entries
 <ore:dustBronze>.add(<contenttweaker:bronze_dust>);
 <ore:dustTin>.add(<contenttweaker:tin_dust>);
 <ore:foodEelraw>.add(<betteranimalsplus:eel_meat_raw>);
-<ore:listAllmeatcooked>.add(<animania:cooked_peacock>);
-<ore:listAllmeatraw>.add(<animania:raw_peacock>);
 <ore:toolMortarandpestle>.add(<contenttweaker:industrial_mortarandpestle>);
 
 # Harvestcraft -- remove erroneous entries

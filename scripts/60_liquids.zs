@@ -12,11 +12,6 @@ var HOT_LIQUIDS = [
 
 var MILK_LIQUIDS = [
     <liquid:milk>,
-    <liquid:milk_friesian>,
-    <liquid:milk_goat>,
-    <liquid:milk_holstein>,
-    <liquid:milk_jersey>,
-    <liquid:milk_sheep>,
 ] as ILiquidStack[];
 
 var COOL_LIQUIDS = [
@@ -38,7 +33,6 @@ var COOL_LIQUIDS = [
     <liquid:plantoil>,
     <liquid:seed.oil>,
     <liquid:short.mead>,
-    <liquid:slop>,
     <liquid:water>,
 ] as ILiquidStack[];
 
@@ -90,10 +84,6 @@ for liquidStack in ALL_LIQUIDS {
             <forestry:capsule>,
             liquidStack * 1000
         );
-    }
-
-    if MILK_LIQUIDS has liquidStack {
-        BottlingMachine.addRecipe(<animania:milk_bottle>, <minecraft:glass_bottle>, liquidStack * 250);
     }
 
     if liquidStack.name == <liquid:creosote>.name {

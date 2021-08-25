@@ -1,23 +1,5 @@
 [
     {
-        "mob": "betteranimalsplus:crab",
-        "removeall": true
-    },
-    {
-        "mob": "betteranimalsplus:crab",
-        "item": [
-            "harvestcraft:crabrawitem"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "betteranimalsplus:crab",
-        "item": [
-            "minecraft:dye@15"
-        ],
-        "itemcount": "0-1"
-    },
-    {
         "mob": "betteranimalsplus:horseshoecrab",
         "removeall": true
     },
@@ -36,22 +18,61 @@
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:doe_nigerian_dwarf",
+        "mob": "betteranimalsplus:walrus",
         "removeall": true
     },
     {
-        "mob": "animania:doe_nigerian_dwarf",
+        "mob": "betteranimalsplus:walrus",
         "item": [
-            "animania:raw_chevon"
+            "betteranimalsplus:blubber"
+        ],
+        "itemcount": "3-4"
+    },
+    {
+        "mob": "betteranimalsplus:walrus",
+        "item": [
+            "minecraft:beef"
+        ],
+        "itemcount": "2-3"
+    },
+    {
+        "mob": "betteranimalsplus:walrus",
+        "item": [
+            "minecraft:bone"
         ],
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:doe_nigerian_dwarf",
+        "mob": "betteranimalsplus:walrus",
         "item": [
-            "minecraft:rabbit_hide"
+            "minecraft:leather"
         ],
         "itemcount": "1"
+    },
+    {
+        "mob": "betteranimalsplus:crab",
+        "removeall": true
+    },
+    {
+        "mob": "betteranimalsplus:crab",
+        "item": [
+            "harvestcraft:crabrawitem"
+        ],
+        "itemcount": "1"
+    },
+    {
+        "mob": "betteranimalsplus:crab",
+        "item": [
+            "betteranimalsplus:crab_meat_raw"
+        ],
+        "itemcount": "0-1"
+    },
+    {
+        "mob": "betteranimalsplus:crab",
+        "item": [
+            "minecraft:dye@15"
+        ],
+        "itemcount": "0-1"
     },
     {
         "mob": "betteranimalsplus:tarantula",
@@ -65,29 +86,36 @@
         "itemcount": "1-4"
     },
     {
-        "mob": "animania:doe_jack",
+        "mob": "betteranimalsplus:tarantula",
+        "item": [
+            "betteranimalsplus:crab_meat_raw"
+        ],
+        "itemcount": "0-1"
+    },
+    {
+        "mob": "minecraft:rabbit",
         "removeall": true
     },
     {
-        "mob": "animania:doe_jack",
+        "mob": "minecraft:rabbit",
         "item": [
             "minecraft:rabbit"
         ],
         "itemcount": "1"
     },
     {
-        "mob": "animania:doe_jack",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_jack",
+        "mob": "minecraft:rabbit",
         "item": [
             "minecraft:rabbit_hide"
         ],
         "itemcount": "0-1"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "item": [
+            "minecraft:rabbit_foot"
+        ],
+        "itemcount": "0-2"
     },
     {
         "mob": "minecraft:blaze",
@@ -108,85 +136,6 @@
         "itemcount": "1-3"
     },
     {
-        "mob": "animania:sow_large_black",
-        "removeall": true
-    },
-    {
-        "mob": "animania:sow_large_black",
-        "item": [
-            "minecraft:porkchop"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_friesian",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_friesian",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_friesian",
-        "item": [
-            "minecraft:wool"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_angus",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_angus",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_angus",
-        "item": [
-            "minecraft:leather"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_angus",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_lop",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_lop",
-        "item": [
-            "minecraft:rabbit"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_lop",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_lop",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
         "mob": "minecraft:spider",
         "removeall": true
     },
@@ -196,6 +145,13 @@
             "minecraft:spider_eye"
         ],
         "itemcount": "1-4"
+    },
+    {
+        "mob": "minecraft:spider",
+        "item": [
+            "betteranimalsplus:crab_meat_raw"
+        ],
+        "itemcount": "0-1"
     },
     {
         "mob": "betteranimalsplus:pheasant",
@@ -209,76 +165,22 @@
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:hen_rhode_island_red",
-        "removeall": true
-    },
-    {
-        "mob": "animania:hen_rhode_island_red",
-        "item": [
-            "minecraft:chicken"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:hen_rhode_island_red",
+        "mob": "betteranimalsplus:pheasant",
         "item": [
             "minecraft:feather"
         ],
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:hen_rhode_island_red",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:sow_large_white",
-        "removeall": true
-    },
-    {
-        "mob": "animania:sow_large_white",
-        "item": [
-            "minecraft:porkchop"
-        ],
-        "itemcount": "1-2"
-    },
-    {
         "mob": "betteranimalsplus:badger",
         "removeall": true
     },
     {
         "mob": "betteranimalsplus:badger",
         "item": [
-            "animania:raw_chevon"
+            "minecraft:rabbit_hide"
         ],
         "itemcount": "1"
-    },
-    {
-        "mob": "animania:cow_hereford",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_hereford",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_hereford",
-        "item": [
-            "minecraft:leather"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_hereford",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "1-2"
     },
     {
         "mob": "betteranimalsplus:blackbear",
@@ -324,222 +226,49 @@
         "itemcount": "1"
     },
     {
-        "mob": "animania:hen_orpington",
+        "mob": "minecraft:chicken",
         "removeall": true
     },
     {
-        "mob": "animania:hen_orpington",
+        "mob": "minecraft:chicken",
         "item": [
             "minecraft:chicken"
         ],
-        "itemcount": "1-2"
+        "itemcount": "1"
     },
     {
-        "mob": "animania:hen_orpington",
+        "mob": "minecraft:chicken",
         "item": [
             "minecraft:feather"
         ],
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:hen_orpington",
+        "mob": "minecraft:chicken",
         "item": [
             "minecraft:bone"
         ],
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:sow_duroc",
+        "mob": "betteranimalsplus:squirrel",
         "removeall": true
     },
     {
-        "mob": "animania:sow_duroc",
+        "mob": "betteranimalsplus:squirrel",
         "item": [
-            "minecraft:porkchop"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_opal",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_opal",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_purple",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_purple",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_blue",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_blue",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_peach",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_peach",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:dartfrog",
-        "removeall": true
-    },
-    {
-        "mob": "animania:dartfrog",
-        "item": [
-            "animania:raw_frog_legs"
+            "minecraft:rabbit_hide"
         ],
         "itemcount": "1"
     },
     {
-        "mob": "animania:hen_wyandotte",
+        "mob": "betteranimalsplus:songbird",
         "removeall": true
     },
     {
-        "mob": "animania:hen_wyandotte",
-        "item": [
-            "minecraft:chicken"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:hen_wyandotte",
+        "mob": "betteranimalsplus:songbird",
         "item": [
             "minecraft:feather"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:hen_wyandotte",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:ewe_jacob",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_jacob",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_jacob",
-        "item": [
-            "minecraft:wool"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_holstein",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_holstein",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_holstein",
-        "item": [
-            "minecraft:leather"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_holstein",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_cottontail",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_cottontail",
-        "item": [
-            "minecraft:rabbit"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_cottontail",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_cottontail",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_pygmy",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_pygmy",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_pygmy",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:ewe_suffolk",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_suffolk",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_suffolk",
-        "item": [
-            "minecraft:wool"
         ],
         "itemcount": "1-2"
     },
@@ -562,24 +291,6 @@
         "itemcount": "1"
     },
     {
-        "mob": "animania:doe_alpine",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_alpine",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_alpine",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
         "mob": "minecraft:llama",
         "removeall": true
     },
@@ -593,138 +304,16 @@
     {
         "mob": "minecraft:llama",
         "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_chinchilla",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_chinchilla",
-        "item": [
-            "minecraft:rabbit"
+            "harvestcraft:venisonrawitem"
         ],
         "itemcount": "1"
     },
     {
-        "mob": "animania:doe_chinchilla",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_chinchilla",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:hen_plymouth_rock",
-        "removeall": true
-    },
-    {
-        "mob": "animania:hen_plymouth_rock",
-        "item": [
-            "minecraft:chicken"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:hen_plymouth_rock",
-        "item": [
-            "minecraft:feather"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:hen_plymouth_rock",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_kiko",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_kiko",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_kiko",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:sow_hampshire",
-        "removeall": true
-    },
-    {
-        "mob": "animania:sow_hampshire",
-        "item": [
-            "minecraft:porkchop"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_highland",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_highland",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_highland",
-        "item": [
-            "minecraft:leather"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_highland",
+        "mob": "minecraft:llama",
         "item": [
             "minecraft:bone"
         ],
         "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_mooshroom",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_mooshroom",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:cow_mooshroom",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:cow_mooshroom",
-        "item": [
-            "minecraft:red_mushroom"
-        ],
-        "itemcount": "0-1"
     },
     {
         "mob": "minecraft:squid",
@@ -760,144 +349,79 @@
         "removeall": true
     },
     {
-        "mob": "animania:hen_leghorn",
+        "mob": "betteranimalsplus:whale",
         "removeall": true
     },
     {
-        "mob": "animania:hen_leghorn",
+        "mob": "betteranimalsplus:whale",
         "item": [
-            "minecraft:chicken"
+            "betteranimalsplus:blubber"
         ],
-        "itemcount": "1-2"
+        "itemcount": "5-7"
     },
     {
-        "mob": "animania:hen_leghorn",
-        "item": [
-            "minecraft:feather"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:hen_leghorn",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:ewe_dorper",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_dorper",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_dorper",
-        "item": [
-            "minecraft:wool"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_angora",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_angora",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_angora",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:cow_friesian",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_friesian",
+        "mob": "betteranimalsplus:whale",
         "item": [
             "minecraft:beef"
         ],
+        "itemcount": "4-6"
+    },
+    {
+        "mob": "betteranimalsplus:whale",
+        "item": [
+            "minecraft:bone"
+        ],
+        "itemcount": "3-5"
+    },
+    {
+        "mob": "betteranimalsplus:whale",
+        "item": [
+            "minecraft:leather"
+        ],
+        "itemcount": "2-3"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "removeall": true
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "item": [
+            "minecraft:bone"
+        ],
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:cow_friesian",
+        "mob": "minecraft:skeleton",
+        "item": [
+            "minecraft:arrow"
+        ],
+        "itemcount": "0-4"
+    },
+    {
+        "mob": "minecraft:cow",
+        "removeall": true
+    },
+    {
+        "mob": "minecraft:cow",
+        "item": [
+            "minecraft:beef"
+        ],
+        "itemcount": "3-4"
+    },
+    {
+        "mob": "minecraft:cow",
         "item": [
             "minecraft:leather"
         ],
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:cow_friesian",
+        "mob": "minecraft:cow",
         "item": [
             "minecraft:bone"
         ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:mare_draft",
-        "removeall": true
-    },
-    {
-        "mob": "animania:mare_draft",
-        "item": [
-            "animania:raw_horse"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:mare_draft",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:ferret_grey",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ferret_grey",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_dutch",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_dutch",
-        "item": [
-            "minecraft:rabbit"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_dutch",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_dutch",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
+        "itemcount": "2-3"
     },
     {
         "mob": "betteranimalsplus:eel_freshwater",
@@ -911,87 +435,22 @@
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:toad",
+        "mob": "horse_colors:horse_felinoid",
         "removeall": true
     },
     {
-        "mob": "animania:toad",
-        "item": [
-            "animania:raw_frog_legs"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_kinder",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_kinder",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_kinder",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:ewe_merino",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_merino",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_merino",
-        "item": [
-            "minecraft:wool"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_longhorn",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_longhorn",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_longhorn",
+        "mob": "horse_colors:horse_felinoid",
         "item": [
             "minecraft:leather"
         ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_longhorn",
-        "item": [
-            "minecraft:bone"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "horse_colors:horse_felinoid",
-        "removeall": true
-    },
-    {
-        "mob": "horse_colors:horse_felinoid",
-        "item": [
-            "animania:raw_horse"
-        ],
         "itemcount": "1"
+    },
+    {
+        "mob": "horse_colors:horse_felinoid",
+        "item": [
+            "harvestcraft:venisonrawitem"
+        ],
+        "itemcount": "1-2"
     },
     {
         "mob": "horse_colors:horse_felinoid",
@@ -1001,107 +460,38 @@
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:doe_rex",
+        "mob": "betteranimalsplus:goose",
         "removeall": true
     },
     {
-        "mob": "animania:doe_rex",
+        "mob": "betteranimalsplus:goose",
         "item": [
-            "minecraft:rabbit"
+            "minecraft:chicken"
         ],
         "itemcount": "1"
     },
     {
-        "mob": "animania:doe_rex",
+        "mob": "betteranimalsplus:goose",
         "item": [
-            "minecraft:rabbit_foot"
+            "minecraft:feather"
         ],
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:doe_rex",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:frog",
-        "removeall": true
-    },
-    {
-        "mob": "animania:frog",
-        "item": [
-            "animania:raw_frog_legs"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:sow_yorkshire",
-        "removeall": true
-    },
-    {
-        "mob": "animania:sow_yorkshire",
-        "item": [
-            "minecraft:porkchop"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_taupe",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_taupe",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_charcoal",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_charcoal",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:peahen_white",
-        "removeall": true
-    },
-    {
-        "mob": "animania:peahen_white",
-        "item": [
-            "animania:raw_peacock"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_jersey",
-        "removeall": true
-    },
-    {
-        "mob": "animania:cow_jersey",
-        "item": [
-            "minecraft:beef"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_jersey",
-        "item": [
-            "minecraft:leather"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:cow_jersey",
+        "mob": "betteranimalsplus:goose",
         "item": [
             "minecraft:bone"
+        ],
+        "itemcount": "0-1"
+    },
+    {
+        "mob": "minecraft:slime",
+        "removeall": true
+    },
+    {
+        "mob": "minecraft:slime",
+        "item": [
+            "minecraft:slime_ball"
         ],
         "itemcount": "1-2"
     },
@@ -1112,7 +502,7 @@
     {
         "mob": "betteranimalsplus:turkey",
         "item": [
-            "harvestcraft:turkeyrawitem"
+            "betteranimalsplus:turkey_raw"
         ],
         "itemcount": "1"
     },
@@ -1121,7 +511,7 @@
         "item": [
             "betteranimalsplus:turkey_leg_raw"
         ],
-        "itemcount": "1-2"
+        "itemcount": "0-2"
     },
     {
         "mob": "betteranimalsplus:turkey",
@@ -1161,67 +551,6 @@
             "betteranimalsplus:bearhead_2"
         ],
         "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_havana",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_havana",
-        "item": [
-            "minecraft:rabbit"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_havana",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_havana",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:ewe_dorset",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ewe_dorset",
-        "item": [
-            "minecraft:mutton"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:ewe_dorset",
-        "item": [
-            "minecraft:wool"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_fainting",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_fainting",
-        "item": [
-            "animania:raw_chevon"
-        ],
-        "itemcount": "1-2"
-    },
-    {
-        "mob": "animania:doe_fainting",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
     },
     {
         "mob": "betteranimalsplus:reindeer",
@@ -1271,17 +600,6 @@
         "itemcount": "1-2"
     },
     {
-        "mob": "animania:ferret_white",
-        "removeall": true
-    },
-    {
-        "mob": "animania:ferret_white",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "1"
-    },
-    {
         "mob": "minecraft:polar_bear",
         "removeall": true
     },
@@ -1314,31 +632,6 @@
         "itemcount": "0-1"
     },
     {
-        "mob": "animania:doe_new_zealand",
-        "removeall": true
-    },
-    {
-        "mob": "animania:doe_new_zealand",
-        "item": [
-            "minecraft:rabbit"
-        ],
-        "itemcount": "1"
-    },
-    {
-        "mob": "animania:doe_new_zealand",
-        "item": [
-            "minecraft:rabbit_foot"
-        ],
-        "itemcount": "0-1"
-    },
-    {
-        "mob": "animania:doe_new_zealand",
-        "item": [
-            "minecraft:rabbit_hide"
-        ],
-        "itemcount": "0-1"
-    },
-    {
         "mob": "minecraft:cave_spider",
         "removeall": true
     },
@@ -1348,5 +641,23 @@
             "minecraft:spider_eye"
         ],
         "itemcount": "1-4"
+    },
+    {
+        "mob": "minecraft:cave_spider",
+        "item": [
+            "betteranimalsplus:crab_meat_raw"
+        ],
+        "itemcount": "0-1"
+    },
+    {
+        "mob": "betteranimalsplus:zotzpyre",
+        "removeall": true
+    },
+    {
+        "mob": "betteranimalsplus:zotzpyre",
+        "item": [
+            "minecraft:rabbit_hide"
+        ],
+        "itemcount": "2-3"
     }
 ]
