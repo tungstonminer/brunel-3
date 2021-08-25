@@ -5,6 +5,7 @@
 
 ====== [ SETTINGS ] ======
 
+A1-C9 stuff
 D LOCKED
 
 ======== [ GETTING STARTED ] ========
